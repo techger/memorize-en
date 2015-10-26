@@ -18,6 +18,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 import programmer.laboratore_6.Database.MyDbHandler;
 import programmer.laboratore_6.Model.Word;
@@ -25,7 +26,7 @@ import programmer.laboratore_6.Model.Word;
 
 public class MainFragment extends Fragment {
 
-    private static final String TAG = "MainFragment";
+    private static final String TAG = "===MainFragment===";
     ListView wordList;
     MyDbHandler myDbHandler;
     private static View rootView;
@@ -49,12 +50,6 @@ public class MainFragment extends Fragment {
 
         Log.d(TAG, "Inserting words...");
 
-        myDbHandler.addWord(new Word("Adware", "Adware"));
-        myDbHandler.addWord(new Word("Adware1", "Adware"));
-        myDbHandler.addWord(new Word("Adware2", "Adware"));
-        myDbHandler.addWord(new Word("Adware3", "Adware"));
-        myDbHandler.addWord(new Word("Adware4", "Adware"));
-
         final ArrayList<String> wordListItems = new ArrayList<String>();
         final ArrayAdapter<String> myArrayAdapter;
         myArrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,wordListItems);
@@ -62,15 +57,27 @@ public class MainFragment extends Fragment {
 
         List<Word> words = myDbHandler.getAllWords();
 
-        for (Word word : words){
-            String wordAdd = word.getWord();
-            Log.d(TAG,wordAdd);
-            wordListItems.add(0,  wordAdd);
+        try {
+            for (Word word : words){
+                String wordAdd = word.getEnglish();
+                Log.d(TAG,wordAdd);
+                wordListItems.add(0,  wordAdd);
+            }
+        }catch (NullPointerException npe){
+            Log.d(TAG,"Алдаа : "+npe);
+        }catch (Exception e){
+            Log.d(TAG,"Алдаа : "+e);
+
         }
 
         wordList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Object o = parent.getItemAtPosition(position);
+                String english = o.toString();
+
+                Log.d(TAG,"Дарагдсан лист дээрх үг"+english);
                 Fragment wordLookFragment = new WordLookFragment();
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();

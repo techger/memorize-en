@@ -4,28 +4,37 @@ package programmer.laboratore_6.Model;
  * Created by Byambaa on 10/26/2015.
  */
 public class Word {
-     private String word;
-    private String description;
+    private String english;
+    private String type;
+    private String mongolia;
 
-    public Word(String _word, String _description) {
-        this.word = _word;
-        this.description = _description;
+    public Word(String english, String type, String mongolia) {
+        this.english = english;
+        this.type = type;
+        this.mongolia = mongolia;
     }
 
-    public String getWord() {
-        return word;
+    public String getEnglish() {
+        return english;
     }
 
-    public void setWord(String word) {
-        this.word = word;
+    public void setEnglish(String english) {
+        this.english = english;
     }
 
-    public String getDescription() {
-        return description;
+    public String getType() {
+        return type;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setType(String type) {
+        this.type = type;
     }
 
+    public String getMongolia() {
+        return mongolia;
+    }
+
+    public void setMongolia(String mongolia) {
+        this.mongolia = mongolia;
+    }
 }

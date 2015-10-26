@@ -5,40 +5,54 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
+import android.util.Log;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+import android.content.res.Resources;
+import android.content.res.XmlResourceParser;
 import programmer.laboratore_6.Model.User;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import programmer.laboratore_6.Model.User;
 import programmer.laboratore_6.Model.Word;
+import programmer.laboratore_6.R;
 
 /**
  * Created by Byambaa on 10/25/2015.
  */
 public class MyDbHandler extends SQLiteOpenHelper {
-    private static final String TAG = "Database Handler";
-    private static final int    DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME    = "myapp2.db";
 
-    public static final String TABLE_USERS = "users";
-    public static final String USER_ID         = "id";
-    public static final String USER_NAME       = "name";
-    public static final String USER_EMAIL   = "email";
+    private Context myContext;
+
+    private static final String TAG = "===DatabaseHandler===";
+    private static final int    DATABASE_VERSION = 1;
+    private static final String DATABASE_NAME    = "dictionary.db";
+
+    public static final String TABLE_USERS   = "users";
+    public static final String USER_ID       = "id";
+    public static final String USER_NAME     = "name";
+    public static final String USER_EMAIL    = "email";
     public static final String USER_PASSWORD = "password";
 
     public static final String TABLE_WORDS = "words";
-    public static final String WORD_WORD       = "word";
-    public static final String WORD_DESCRIPTION   = "description";
+    public static final String WORD_ENG    = "word";
+    public static final String WORD_TYPE   = "type";
+    public static final String WORD_MON    = "description";
 
     private static final String[] PROJECTIONS_USERS = {USER_ID, USER_NAME, USER_EMAIL,USER_PASSWORD};
-    private static final String[] PROJECTIONS_WORDS = {WORD_WORD, WORD_DESCRIPTION};
+    private static final String[] PROJECTIONS_WORDS = {WORD_ENG, WORD_TYPE, WORD_MON};
 
     private static final int USER_ID_INDEX       = 0;
     private static final int USER_NAME_INDEX     = 1;
     private static final int USER_EMAIL_INDEX    = 2;
     private static final int USER_PASSWORD_INDEX = 3;
 
-    private static final int WORD_WORD_INDEX     = 0;
-    private static final int WORD_DESCRIPTION_INDEX    = 1;
+    private static final int WORD_ENG_INDEX     = 0;
+    private static final int WORD_TYPE_INDEX    = 1;
+    private static final int WORD_MON_INDEX     = 2;
 
     private static final String CREATE_TABLE_USERS = "CREATE TABLE users (" +
             USER_ID + " INTEGER PRIMARY KEY," +
@@ -47,11 +61,13 @@ public class MyDbHandler extends SQLiteOpenHelper {
             USER_PASSWORD + " TEXT)";
 
     private static final String CREATE_TABLE_WORDS = "CREATE TABLE words (" +
-            WORD_WORD + " TEXT PRIMARY KEY," +
-            WORD_DESCRIPTION + " TEXT)";
+            WORD_ENG + " TEXT PRIMARY KEY," +
+            WORD_TYPE + " TEXT," +
+            WORD_MON + " TEXT)";
 
     public MyDbHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        myContext = context;
     }
 
     @Override
@@ -59,6 +75,46 @@ public class MyDbHandler extends SQLiteOpenHelper {
     {
         db.execSQL(CREATE_TABLE_USERS);
         db.execSQL(CREATE_TABLE_WORDS);
+
+        ContentValues contentValues = new ContentValues();
+        Resources resources = myContext.getResources();
+
+        XmlResourceParser _xml = resources.getXml(R.xml.word_list);
+        try
+        {
+            //Check for end of document
+            int eventType = _xml.getEventType();
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                //Search for record tags
+                if ((eventType == XmlPullParser.START_TAG) &&(_xml.getName().equals("word"))){
+                    //Record tag found, now get values and insert record
+                    String word_eng = _xml.getAttributeValue(null, WORD_ENG);
+                    String word_type =  _xml.getAttributeValue(null, WORD_TYPE);
+                    String word_mon = _xml.getAttributeValue(null, WORD_MON);
+                    contentValues.put(WORD_ENG, word_eng);
+                    contentValues.put(WORD_TYPE, word_type);
+                    contentValues.put(WORD_MON, word_mon);
+                    db.insert(TABLE_WORDS, null, contentValues);
+                    Log.d(TAG,"XML-ээс амжилттай уншлаа...");
+                }
+                eventType = _xml.next();
+            }
+        }
+        //Catch errors
+        catch (XmlPullParserException e)
+        {
+            Log.d(TAG, e.getMessage(), e);
+        }
+        catch (IOException e)
+        {
+            Log.d(TAG, e.getMessage(), e);
+
+        }
+        finally
+        {
+            //Close the xml file
+            _xml.close();
+        }
     }
 
     @Override
@@ -94,8 +150,9 @@ public class MyDbHandler extends SQLiteOpenHelper {
             return;
         }
         ContentValues cv = new ContentValues();
-        cv.put(WORD_WORD, word.getWord());
-        cv.put(WORD_DESCRIPTION, word.getDescription());
+        cv.put(WORD_ENG, word.getEnglish());
+        cv.put(WORD_TYPE, word.getType());
+        cv.put(WORD_MON, word.getMongolia());
         // Inserting Row
         db.insert(TABLE_WORDS, null, cv);
         db.close();
@@ -122,13 +179,14 @@ public class MyDbHandler extends SQLiteOpenHelper {
         if (db == null) {
             return null;
         }
-        Cursor cursor = db.query(TABLE_WORDS, PROJECTIONS_WORDS, WORD_WORD + "=?",
+        Cursor cursor = db.query(TABLE_WORDS, PROJECTIONS_WORDS, WORD_ENG + "=?",
                 new String[]{String.valueOf(id)}, null, null, null, null);
         if (!cursor.moveToFirst()) {
             return null;
         }
-        Word word = new Word(cursor.getString(WORD_WORD_INDEX),
-                cursor.getString(WORD_DESCRIPTION_INDEX));
+        Word word = new Word(cursor.getString(WORD_ENG_INDEX),
+                cursor.getString(WORD_TYPE_INDEX),
+                cursor.getString(WORD_MON_INDEX));
         cursor.close();
         return word;
     }
@@ -146,11 +204,11 @@ public class MyDbHandler extends SQLiteOpenHelper {
         return cursor;
     }
 
-    public Cursor checkWord(String word,String description){
+    public Cursor checkWord(String eng,String mon){
         SQLiteDatabase db = getReadableDatabase();
-        Cursor cursor = db.query(TABLE_WORDS,new String[]{WORD_WORD,WORD_DESCRIPTION},
-                WORD_WORD +    "='" +word + "' AND " +
-                        WORD_DESCRIPTION + "='"+WORD_DESCRIPTION+"'",null,null,null,null);
+        Cursor cursor = db.query(TABLE_WORDS,new String[]{WORD_ENG,WORD_TYPE,WORD_MON},
+                        WORD_ENG +    "='" +eng + "' AND " +
+                        WORD_MON + "='"+mon+"'",null,null,null,null);
         if (cursor != null){
             cursor.moveToFirst();
         }
@@ -182,9 +240,10 @@ public class MyDbHandler extends SQLiteOpenHelper {
         Cursor cursor = db.rawQuery(selectQuery, null);
         if (cursor.moveToFirst()) {
             do {
-                String word = cursor.getString(WORD_WORD_INDEX);
-                String description = cursor.getString(WORD_DESCRIPTION_INDEX);
-                Word word1 = new Word(word,description);
+                String eng = cursor.getString(WORD_ENG_INDEX);
+                String type = cursor.getString(WORD_TYPE_INDEX);
+                String mon = cursor.getString(WORD_MON_INDEX);
+                Word word1 = new Word(eng,type,mon);
                 words.add(word1);
             } while (cursor.moveToNext());
         }

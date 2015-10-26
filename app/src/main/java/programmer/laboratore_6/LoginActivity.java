@@ -25,11 +25,16 @@ import java.security.NoSuchAlgorithmException;
 import programmer.laboratore_6.Database.MyDbHandler;
 
 public class LoginActivity extends ActionBarActivity {
+
     private static final String TAG = "LoginActivity";
+
     private static final int REQUEST_SIGNUP = 0;
     public static final String PREFER_NAME = "UserInfo";
+
     AlertDialogManager alert = new AlertDialogManager();
+
     private SharedPreferences sharedPreferences;
+
     Editor editor;
     EditText nameText;
     EditText passwordText;
@@ -40,11 +45,11 @@ public class LoginActivity extends ActionBarActivity {
     Animation shake;
     Animation myshake;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         nameText = (EditText)findViewById(R.id.username);
         passwordText = (EditText)findViewById(R.id.password);
         loginButton = (Button)findViewById(R.id.login);

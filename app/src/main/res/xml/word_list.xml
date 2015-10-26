@@ -1,19 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <words>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
-    <record word="" description=""/>
+    <word eng="a, an" abb ="ind. art" mon="нэг, хэн нэг, аль нэг">
+    </word><word eng="able" abb ="adj." mon="чадах, чадварлаг, авьяаслаг">
+    </word><word eng="ability" abb ="n." mon="чадвар, авъяас билэг">
+</word><word eng="about" abb ="adv." mon="орчим, дэргэд, хэртэй, бараг">
+</word><word eng="above" abb ="adv." mon="(юмны) дээд талд, дээр нь, дээш">
+</word><word eng="abroad" abb ="adv." mon="гадаад, гадаад руу, гадаадад, хилийн чанадад">
+</word><word eng="absent" abb ="adj." mon="байхгvй, эзгvй">
+</word><word eng="academic" abb ="adj." mon="эрдмийн, хичээлийн">
+</word><word eng="academic year" abb ="" mon="хичээлийн жил">
+</word><word eng="accommodation" abb ="n." mon="сууц">
+</word><word eng="acquaint" abb ="v." mon="танилцах, таньдаг болох">
+</word><word eng="across" abb ="adv." mon="тулгарах, дайралдах, хøндлøн, нøгøø тал, цаад тал">
+</word><word eng="active" abb ="adj." mon="идэвхи, идэвхитэй">
+</word><word eng="activity" abb ="n." mon="ажиллагаа, vйл ажиллагаа">
+</word><word eng="actually" abb ="adv." mon="шvv дээ, vнэхээр, чухал">
+</word><word eng="add" abb ="v." mon="нэмэх">
+</word><word eng="addition" abb ="n" mon="нэмэх, нэмэлт">
+</word><word eng="additional" abb ="adj." mon="нэмэлт, нэмэгдэл, нэмэгдсэн, тус">
+</word><word eng="adoption" abb ="v." mon="авах, авч хэрэглэх">
+</word><word eng="adore" abb ="v." mon="бишрэх, дээдлэх, эрхэмлэх">
+</word><word eng="advice" abb ="n." mon="зøвлøгøø, мэдэгдэл, ятгалга">
+</word><word eng="advisable" abb ="adj" mon="тэгмээр, ингэмээр, тэгvvштэй, ингvvштэй">
+</word><word eng="aeroplane" abb ="n." mon="нисэх онгоц">
+</word><word eng="affair" abb ="n." mon="явдал, хэрэг">
+</word><word eng="afford" abb ="v." mon="-тай байх, боломжтой байх">
+</word><word eng="Afghanistan" abb ="n." mon="Афганистан улс">
+</word><word eng="afraid" abb ="adj." mon="санаа зовох, айх">
+</word><word eng="Africa" abb ="n" mon="Африк тив">
+</word><word eng="after" abb ="prep." mon="сvvлээр, дараа, -аад4">
+</word><word eng="afternoon" abb ="n." mon="vдээс хойш, vдийн хойно">
+</word><word eng="again" abb ="adv." mon="дахин, ахин">
+</word><word eng="against" abb ="prep." mon="øøд, сøрøг, эсрэг, -руу, -рvv">
+</word><word eng="age" abb ="n." mon="нас, vе">
+</word><word eng="ago" abb ="adv." mon="-аас урьд, øмнø">
+</word><word eng="agree" abb ="v." mon="таарах, тогтох, нийлэх, зохицох, хvлээн зøвшøøрøх, зøвшøøрøх, санал нэг байх">
+</word><word eng="agricultural" abb ="adj." mon="хøдøø аж ахуйн, газар тариалангийн">
+</word><word eng="agriculture" abb ="n." mon="хøдøø аж ахуй, тариалан">
+</word><word eng="ahead" abb ="adv." mon="урьд, øмнø, наана">
+</word><word eng="ahead of schedule" abb ="" mon="хугацаанаас øмнø">
+</word><word eng="aimak" abb ="n." mon="аймаг">
+</word><word eng="air" abb ="n." mon="агаар, агаар мандал, хий, тэнгэр">
+</word><word eng="airport" abb ="n." mon="нисэх буудал, онгоцны буудал">
+</word><word eng="album" abb ="n." mon="зургийн цомог, альбом">
+</word><word eng="algebra" abb ="n." mon="томъёо зvй, алгебр">
+</word><word eng="alien" abb ="n." mon="харь улс, гадаад, харийн, харь гаригийн">
+</word><word eng="alive" abb ="adj." mon="амьд, амьд байх">
+</word><word eng="all" abb ="adj." mon="хамаг, бvгд, бvх, цøм">
+</word><word eng="all right" abb ="" mon="тэг тэг, болно, зøв">
+</word><word eng="all over" abb ="" mon="даяар, даян">
+</word><word eng="alloy" abb ="n." mon="хайлш">
+</word><word eng="almost" abb ="adv." mon="бараг, тøлøв, арай, завдах">
+</word><word eng="alone" abb ="adj." mon="ганцаар, онцгой">
+</word><word eng="along" abb ="prep." mon="-аар4, дагуу">
+</word><word eng="alphabet" abb ="n." mon="цагаан толгой">
+</word><word eng="also" abb ="adv." mon="бас, мøн, мøн л">
+</word><word eng="Altaic" abb ="n." mon="Алтайн, Алтай овгийн">
+</word><word eng="Altaic language" abb ="" mon="Алтай овгийн хэл">
+</word><word eng="altough" abb ="conj." mon="боловч, хэдийгээр">
+</word><word eng="always" abb ="adv." mon="vргэлж, ашид, ямагт">
+</word><word eng="am" abb ="v." mon="(би) мøн, юм">
+</word><word eng="among" abb ="prep." mon="дотор, дунд, хооронд">
+</word><word eng="amount" abb ="n." mon="тоо, хэмжээ, тооцоо, дvн">
+</word><word eng="an air taxi" abb ="" mon="хøлсний онгоц">
+</word><word eng="ancient" abb ="adj." mon="эртний">
+</word><word eng="and" abb ="conj." mon="болоод, бøгøøд, хоёр">
+</word><word eng="and so on" abb ="" mon="гэх мэт (хураангуй нь: гм.)">
+</word><word eng="and then" abb ="" mon="тэгээд, чингээд, тэгтлээ">
+</word><word eng="angel" abb ="n." mon="сахиусан тэнгэр">
+</word><word eng="anger" abb ="n." mon="уур хилэн, бухимдал">
+</word><word eng="angry" abb ="adj." mon="уурлах, хилэгнэх">
+</word><word eng="animal" abb ="n." mon="амьтан, мал, адгуус">
+</word><word eng="anniversary" abb ="n." mon="ой, ойн баяр, ... жилийн ой">
+</word><word eng="announcer" abb ="n." mon="зарлагч, зарын нэвтрvvлэгч">
+</word><word eng="annual" abb ="adj." mon="жилд, жилдээ, нэг жилд">
+</word><word eng="another" abb ="pron." mon="дахиад, øøр, нøгøø, бие биетэйгээ, нэг нэгтэйгээ">
+</word><word eng="answer" abb ="n. v." mon="хариу, хариулах, øчих, хариу øгøх">
+</word><word eng="ant" abb ="n." mon="шоргоолж">
+</word><word eng="antonym" abb ="n." mon="эсрэг утгатай vг">
+</word><word eng="any" abb ="pron." mon="аль нэгэн, хэн нэгэн">
+</word><word eng="any more" abb ="" mon="цаашид, ... (vгvй) болох">
+</word><word eng="appear" abb ="v." mon="илрэх, ил гарах, шиг байх, байдалтай">
+</word><word eng="apple" abb ="n." mon="алим">
+</word><word eng="apple tree" abb ="n." mon="алимны мод">
+</word><word eng="apply" abb ="v." mon="хэрэглэх, øгøх, наах, боох, тогтоох, øргøдøл/хvсэлт гаргах">
+</word><word eng="approach" abb ="v." mon="ойртох, айсуй, халах, хандах, санал тавих">
+</word><word eng="April" abb ="n." mon="дøрøвдvгээр сар">
+</word><word eng="archery" abb ="n." mon="сур харвах">
+</word><word eng="are" abb ="v." mon="бол, мøн, бай, юм">
+</word><word eng="area" abb ="n." mon="(хэсэг) газар, нутаг, бvс нутаг, орон">
+</word><word eng="arm" abb ="n." mon="(суганаас бугуй хvртэл) гар">
+</word><word eng="arm" abb ="v." mon="зэвсэглэх">
+</word><word eng="armchair" abb ="n." mon="тохойвчтой сандал">
+</word><word eng="arms" abb ="n." mon="зэр зэвсэг">
+</word><word eng="around" abb ="adv." mon="эргэн тойрон">
+</word><word eng="arrival" abb ="n." mon="хvрч ирсэн, хvрч очсон">
+</word><word eng="arrive" abb ="v." mon="хvрэх, хvрч ирэх, хvрч очих">
+</word><word eng="article" abb ="n." mon="ялгац гишvvн, øгvvлэл">
+</word><word eng="as" abb ="pron." mon="-тай, -тэй, той">
+</word><word eng="as" abb ="pron." mon="тøдий, мэт, аар4">
+</word><word eng="as well as" abb ="" mon="тvvнчлэн, басхvv, бас">
+</word><word eng="ask" abb ="v." mon="асуух, лавлах, шаардах, гуйх">
+</word><word eng="asleep" abb ="adj." mon="нойрсох, унтах">
+</word><word eng="aspect" abb ="n." mon="тал, зvйл vзэгдэл">
+</word><word eng="assotiation" abb ="n." mon="холбоо, хоршоо, нэгдэл">
+</word><word eng="assure" abb ="v." mon="лавтай хэлэх, итгэлтэй хэлэх, ам øгøх, батлан хэлэх, хангах, бvрдvvлэх">
+</word><word eng="at" abb ="prep." mon="-д, -т">
+</word><word eng="at home" abb ="" mon="гэртээ">
+</word><word eng="at last" abb ="" mon="эцэстээ, адагтаа, явж явж">
+</word><word eng="at once" abb ="" mon="даруй, тэр дорхноо">
+</word><word eng="at present" abb ="" mon="одоо, øдгøø">
+</word><word eng="at the same time" abb ="" mon="мøн, бас, тvvнчлэн">
+</word><word eng="atmosphere" abb ="n." mon="хий мандал, агаар мандал">
+</word><word eng="attack" abb ="v." mon="довтлох, халдах, ноцох, уулгалан дайрах">
+</word><word eng="attend" abb ="v." mon="байлцах, оролцох, (хичээлд) суух">
+</word><word eng="attention" abb ="n." mon="анхааралтай, анхаарагтун, анхаарал">
+</word><word eng="attentive" abb ="adj." mon="болгоомжтой, анхааралтай, хянуур">
+</word><word eng="audience" abb ="n." mon="vзэгчид, оролцогчид, наадамчид, олон ард">
+</word><word eng="August" abb ="n." mon="наймдугаар сар">
+</word><word eng="aunt" abb ="n." mon="нагац эгч, авга эгч">
+</word><word eng="autumn" abb ="n." mon="намар, намрын, намар цаг">
+</word><word eng="avenue" abb ="n." mon="øргøн чøлøø, цэцэрлэгт гудамж">
+</word><word eng="aviator" abb ="n." mon="нисгэгч">
+</word><word eng="away" abb ="adv." mon="холдох, зайлах, одох, алдуурах">
+</word>
 </words>

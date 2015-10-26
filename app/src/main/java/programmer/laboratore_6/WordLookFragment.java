@@ -9,9 +9,16 @@ import android.support.v4.widget.DrawerLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 public class WordLookFragment extends Fragment {
+
+    private static final String TAG = "===WordLookFragment===";
+
+    public static View rootView;
+    public TextView english;
+    public TextView mongolia;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -22,7 +29,13 @@ public class WordLookFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_word_look, container, false);
+        rootView =  inflater.inflate(R.layout.fragment_word_look, container, false);
+        return rootView;
+    }
+    public void init(){
+        english = (TextView)rootView.findViewById(R.id.englishText);
+        mongolia= (TextView)rootView.findViewById(R.id.mongolianText);
+
     }
 
 }
