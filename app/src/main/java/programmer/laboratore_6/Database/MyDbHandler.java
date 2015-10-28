@@ -29,7 +29,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
 
     private static final String TAG = "===DatabaseHandler===";
     private static final int    DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME    = "dictionary.db";
+    private static final String DATABASE_NAME    = "dictionary4.db";
 
     public static final String TABLE_USERS   = "users";
     public static final String USER_ID       = "id";
@@ -38,9 +38,9 @@ public class MyDbHandler extends SQLiteOpenHelper {
     public static final String USER_PASSWORD = "password";
 
     public static final String TABLE_WORDS = "words";
-    public static final String WORD_ENG    = "word";
+    public static final String WORD_ENG    = "english";
     public static final String WORD_TYPE   = "type";
-    public static final String WORD_MON    = "description";
+    public static final String WORD_MON    = "mongolia";
 
     private static final String[] PROJECTIONS_USERS = {USER_ID, USER_NAME, USER_EMAIL,USER_PASSWORD};
     private static final String[] PROJECTIONS_WORDS = {WORD_ENG, WORD_TYPE, WORD_MON};
@@ -197,7 +197,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
 
         Cursor cursor = db.query(TABLE_USERS,new String[]{USER_ID,USER_NAME,USER_EMAIL,USER_PASSWORD},
                 USER_NAME +    "='" +username + "' AND " +
-                USER_PASSWORD + "='"+password+"'",null,null,null,null);
+                        USER_PASSWORD + "='"+password+"'",null,null,null,null);
         if (cursor != null){
             cursor.moveToFirst();
         }
@@ -207,7 +207,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
     public Cursor checkWord(String eng,String mon){
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.query(TABLE_WORDS,new String[]{WORD_ENG,WORD_TYPE,WORD_MON},
-                        WORD_ENG +    "='" +eng + "' AND " +
+                WORD_ENG +    "='" +eng + "' AND " +
                         WORD_MON + "='"+mon+"'",null,null,null,null);
         if (cursor != null){
             cursor.moveToFirst();
@@ -247,6 +247,8 @@ public class MyDbHandler extends SQLiteOpenHelper {
                 words.add(word1);
             } while (cursor.moveToNext());
         }
+
+        Log.d(TAG,""+words);
         cursor.close();
         return words;
     }
@@ -279,11 +281,9 @@ public class MyDbHandler extends SQLiteOpenHelper {
         }
 
         SQLiteDatabase db = getWritableDatabase();
-
         if (db == null) {
             return;
         }
-
         db.delete(TABLE_USERS, USER_ID + "=?", new String[]{String.valueOf(user.getUserId())});
         db.close();
     }

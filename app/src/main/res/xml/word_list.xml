@@ -1,127 +1,2149 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <words>
-    <word eng="a, an" abb ="ind. art" mon="нэг, хэн нэг, аль нэг">
-    </word><word eng="able" abb ="adj." mon="чадах, чадварлаг, авьяаслаг">
-    </word><word eng="ability" abb ="n." mon="чадвар, авъяас билэг">
-</word><word eng="about" abb ="adv." mon="орчим, дэргэд, хэртэй, бараг">
-</word><word eng="above" abb ="adv." mon="(юмны) дээд талд, дээр нь, дээш">
-</word><word eng="abroad" abb ="adv." mon="гадаад, гадаад руу, гадаадад, хилийн чанадад">
-</word><word eng="absent" abb ="adj." mon="байхгvй, эзгvй">
-</word><word eng="academic" abb ="adj." mon="эрдмийн, хичээлийн">
-</word><word eng="academic year" abb ="" mon="хичээлийн жил">
-</word><word eng="accommodation" abb ="n." mon="сууц">
-</word><word eng="acquaint" abb ="v." mon="танилцах, таньдаг болох">
-</word><word eng="across" abb ="adv." mon="тулгарах, дайралдах, хøндлøн, нøгøø тал, цаад тал">
-</word><word eng="active" abb ="adj." mon="идэвхи, идэвхитэй">
-</word><word eng="activity" abb ="n." mon="ажиллагаа, vйл ажиллагаа">
-</word><word eng="actually" abb ="adv." mon="шvv дээ, vнэхээр, чухал">
-</word><word eng="add" abb ="v." mon="нэмэх">
-</word><word eng="addition" abb ="n" mon="нэмэх, нэмэлт">
-</word><word eng="additional" abb ="adj." mon="нэмэлт, нэмэгдэл, нэмэгдсэн, тус">
-</word><word eng="adoption" abb ="v." mon="авах, авч хэрэглэх">
-</word><word eng="adore" abb ="v." mon="бишрэх, дээдлэх, эрхэмлэх">
-</word><word eng="advice" abb ="n." mon="зøвлøгøø, мэдэгдэл, ятгалга">
-</word><word eng="advisable" abb ="adj" mon="тэгмээр, ингэмээр, тэгvvштэй, ингvvштэй">
-</word><word eng="aeroplane" abb ="n." mon="нисэх онгоц">
-</word><word eng="affair" abb ="n." mon="явдал, хэрэг">
-</word><word eng="afford" abb ="v." mon="-тай байх, боломжтой байх">
-</word><word eng="Afghanistan" abb ="n." mon="Афганистан улс">
-</word><word eng="afraid" abb ="adj." mon="санаа зовох, айх">
-</word><word eng="Africa" abb ="n" mon="Африк тив">
-</word><word eng="after" abb ="prep." mon="сvvлээр, дараа, -аад4">
-</word><word eng="afternoon" abb ="n." mon="vдээс хойш, vдийн хойно">
-</word><word eng="again" abb ="adv." mon="дахин, ахин">
-</word><word eng="against" abb ="prep." mon="øøд, сøрøг, эсрэг, -руу, -рvv">
-</word><word eng="age" abb ="n." mon="нас, vе">
-</word><word eng="ago" abb ="adv." mon="-аас урьд, øмнø">
-</word><word eng="agree" abb ="v." mon="таарах, тогтох, нийлэх, зохицох, хvлээн зøвшøøрøх, зøвшøøрøх, санал нэг байх">
-</word><word eng="agricultural" abb ="adj." mon="хøдøø аж ахуйн, газар тариалангийн">
-</word><word eng="agriculture" abb ="n." mon="хøдøø аж ахуй, тариалан">
-</word><word eng="ahead" abb ="adv." mon="урьд, øмнø, наана">
-</word><word eng="ahead of schedule" abb ="" mon="хугацаанаас øмнø">
-</word><word eng="aimak" abb ="n." mon="аймаг">
-</word><word eng="air" abb ="n." mon="агаар, агаар мандал, хий, тэнгэр">
-</word><word eng="airport" abb ="n." mon="нисэх буудал, онгоцны буудал">
-</word><word eng="album" abb ="n." mon="зургийн цомог, альбом">
-</word><word eng="algebra" abb ="n." mon="томъёо зvй, алгебр">
-</word><word eng="alien" abb ="n." mon="харь улс, гадаад, харийн, харь гаригийн">
-</word><word eng="alive" abb ="adj." mon="амьд, амьд байх">
-</word><word eng="all" abb ="adj." mon="хамаг, бvгд, бvх, цøм">
-</word><word eng="all right" abb ="" mon="тэг тэг, болно, зøв">
-</word><word eng="all over" abb ="" mon="даяар, даян">
-</word><word eng="alloy" abb ="n." mon="хайлш">
-</word><word eng="almost" abb ="adv." mon="бараг, тøлøв, арай, завдах">
-</word><word eng="alone" abb ="adj." mon="ганцаар, онцгой">
-</word><word eng="along" abb ="prep." mon="-аар4, дагуу">
-</word><word eng="alphabet" abb ="n." mon="цагаан толгой">
-</word><word eng="also" abb ="adv." mon="бас, мøн, мøн л">
-</word><word eng="Altaic" abb ="n." mon="Алтайн, Алтай овгийн">
-</word><word eng="Altaic language" abb ="" mon="Алтай овгийн хэл">
-</word><word eng="altough" abb ="conj." mon="боловч, хэдийгээр">
-</word><word eng="always" abb ="adv." mon="vргэлж, ашид, ямагт">
-</word><word eng="am" abb ="v." mon="(би) мøн, юм">
-</word><word eng="among" abb ="prep." mon="дотор, дунд, хооронд">
-</word><word eng="amount" abb ="n." mon="тоо, хэмжээ, тооцоо, дvн">
-</word><word eng="an air taxi" abb ="" mon="хøлсний онгоц">
-</word><word eng="ancient" abb ="adj." mon="эртний">
-</word><word eng="and" abb ="conj." mon="болоод, бøгøøд, хоёр">
-</word><word eng="and so on" abb ="" mon="гэх мэт (хураангуй нь: гм.)">
-</word><word eng="and then" abb ="" mon="тэгээд, чингээд, тэгтлээ">
-</word><word eng="angel" abb ="n." mon="сахиусан тэнгэр">
-</word><word eng="anger" abb ="n." mon="уур хилэн, бухимдал">
-</word><word eng="angry" abb ="adj." mon="уурлах, хилэгнэх">
-</word><word eng="animal" abb ="n." mon="амьтан, мал, адгуус">
-</word><word eng="anniversary" abb ="n." mon="ой, ойн баяр, ... жилийн ой">
-</word><word eng="announcer" abb ="n." mon="зарлагч, зарын нэвтрvvлэгч">
-</word><word eng="annual" abb ="adj." mon="жилд, жилдээ, нэг жилд">
-</word><word eng="another" abb ="pron." mon="дахиад, øøр, нøгøø, бие биетэйгээ, нэг нэгтэйгээ">
-</word><word eng="answer" abb ="n. v." mon="хариу, хариулах, øчих, хариу øгøх">
-</word><word eng="ant" abb ="n." mon="шоргоолж">
-</word><word eng="antonym" abb ="n." mon="эсрэг утгатай vг">
-</word><word eng="any" abb ="pron." mon="аль нэгэн, хэн нэгэн">
-</word><word eng="any more" abb ="" mon="цаашид, ... (vгvй) болох">
-</word><word eng="appear" abb ="v." mon="илрэх, ил гарах, шиг байх, байдалтай">
-</word><word eng="apple" abb ="n." mon="алим">
-</word><word eng="apple tree" abb ="n." mon="алимны мод">
-</word><word eng="apply" abb ="v." mon="хэрэглэх, øгøх, наах, боох, тогтоох, øргøдøл/хvсэлт гаргах">
-</word><word eng="approach" abb ="v." mon="ойртох, айсуй, халах, хандах, санал тавих">
-</word><word eng="April" abb ="n." mon="дøрøвдvгээр сар">
-</word><word eng="archery" abb ="n." mon="сур харвах">
-</word><word eng="are" abb ="v." mon="бол, мøн, бай, юм">
-</word><word eng="area" abb ="n." mon="(хэсэг) газар, нутаг, бvс нутаг, орон">
-</word><word eng="arm" abb ="n." mon="(суганаас бугуй хvртэл) гар">
-</word><word eng="arm" abb ="v." mon="зэвсэглэх">
-</word><word eng="armchair" abb ="n." mon="тохойвчтой сандал">
-</word><word eng="arms" abb ="n." mon="зэр зэвсэг">
-</word><word eng="around" abb ="adv." mon="эргэн тойрон">
-</word><word eng="arrival" abb ="n." mon="хvрч ирсэн, хvрч очсон">
-</word><word eng="arrive" abb ="v." mon="хvрэх, хvрч ирэх, хvрч очих">
-</word><word eng="article" abb ="n." mon="ялгац гишvvн, øгvvлэл">
-</word><word eng="as" abb ="pron." mon="-тай, -тэй, той">
-</word><word eng="as" abb ="pron." mon="тøдий, мэт, аар4">
-</word><word eng="as well as" abb ="" mon="тvvнчлэн, басхvv, бас">
-</word><word eng="ask" abb ="v." mon="асуух, лавлах, шаардах, гуйх">
-</word><word eng="asleep" abb ="adj." mon="нойрсох, унтах">
-</word><word eng="aspect" abb ="n." mon="тал, зvйл vзэгдэл">
-</word><word eng="assotiation" abb ="n." mon="холбоо, хоршоо, нэгдэл">
-</word><word eng="assure" abb ="v." mon="лавтай хэлэх, итгэлтэй хэлэх, ам øгøх, батлан хэлэх, хангах, бvрдvvлэх">
-</word><word eng="at" abb ="prep." mon="-д, -т">
-</word><word eng="at home" abb ="" mon="гэртээ">
-</word><word eng="at last" abb ="" mon="эцэстээ, адагтаа, явж явж">
-</word><word eng="at once" abb ="" mon="даруй, тэр дорхноо">
-</word><word eng="at present" abb ="" mon="одоо, øдгøø">
-</word><word eng="at the same time" abb ="" mon="мøн, бас, тvvнчлэн">
-</word><word eng="atmosphere" abb ="n." mon="хий мандал, агаар мандал">
-</word><word eng="attack" abb ="v." mon="довтлох, халдах, ноцох, уулгалан дайрах">
-</word><word eng="attend" abb ="v." mon="байлцах, оролцох, (хичээлд) суух">
-</word><word eng="attention" abb ="n." mon="анхааралтай, анхаарагтун, анхаарал">
-</word><word eng="attentive" abb ="adj." mon="болгоомжтой, анхааралтай, хянуур">
-</word><word eng="audience" abb ="n." mon="vзэгчид, оролцогчид, наадамчид, олон ард">
-</word><word eng="August" abb ="n." mon="наймдугаар сар">
-</word><word eng="aunt" abb ="n." mon="нагац эгч, авга эгч">
-</word><word eng="autumn" abb ="n." mon="намар, намрын, намар цаг">
-</word><word eng="avenue" abb ="n." mon="øргøн чøлøø, цэцэрлэгт гудамж">
-</word><word eng="aviator" abb ="n." mon="нисгэгч">
-</word><word eng="away" abb ="adv." mon="холдох, зайлах, одох, алдуурах">
-</word>
+    <word english="a, an" type="ind. art" mongolia="нэг, хэн нэг, аль нэг"/>
+    <word english="able" type="adj." mongolia="чадах, чадварлаг, авьяаслаг"/>
+    <word english="ability" type="n." mongolia="чадвар, авъяас билэг"/>
+    <word english="about" type="adv." mongolia="орчим, дэргэд, хэртэй, бараг"/>
+    <word english="above" type="adv." mongolia="(юмны) дээд талд, дээр нь, дээш"/>
+    <word english="abroad" type="adv." mongolia="гадаад, гадаад руу, гадаадад, хилийн чанадад"/>
+    <word english="absent" type="adj." mongolia="байхгvй, эзгvй"/>
+    <word english="academic" type="adj." mongolia="эрдмийн, хичээлийн"/>
+    <word english="academic year" type="" mongolia="хичээлийн жил"/>
+    <word english="accommodation" type="n." mongolia="сууц"/>
+    <word english="acquaint" type="v." mongolia="танилцах, таньдаг болох"/>
+    <word english="across" type="adv." mongolia="тулгарах, дайралдах, хøндлøн, нøгøø тал, цаад тал"/>
+    <word english="active" type="adj." mongolia="идэвхи, идэвхитэй"/>
+    <word english="activity" type="n." mongolia="ажиллагаа, vйл ажиллагаа"/>
+    <word english="actually" type="adv." mongolia="шvv дээ, vнэхээр, чухал"/>
+    <word english="add" type="v." mongolia="нэмэх"/>
+    <word english="addition" type="n" mongolia="нэмэх, нэмэлт"/>
+    <word english="additional" type="adj." mongolia="нэмэлт, нэмэгдэл, нэмэгдсэн, тус"/>
+    <word english="adoption" type="v." mongolia="авах, авч хэрэглэх"/>
+    <word english="adore" type="v." mongolia="бишрэх, дээдлэх, эрхэмлэх"/>
+    <word english="advice" type="n." mongolia="зøвлøгøø, мэдэгдэл, ятгалга"/>
+    <word english="advisable" type="adj" mongolia="тэгмээр, ингэмээр, тэгvvштэй, ингvvштэй"/>
+    <word english="aeroplane" type="n." mongolia="нисэх онгоц"/>
+    <word english="affair" type="n." mongolia="явдал, хэрэг"/>
+    <word english="afford" type="v." mongolia="-тай байх, боломжтой байх"/>
+    <word english="Afghanistan" type="n." mongolia="Афганистан улс"/>
+    <word english="afraid" type="adj." mongolia="санаа зовох, айх"/>
+    <word english="Africa" type="n" mongolia="Африк тив"/>
+    <word english="after" type="prep." mongolia="сvvлээр, дараа, -аад4"/>
+    <word english="afternoon" type="n." mongolia="vдээс хойш, vдийн хойно"/>
+    <word english="again" type="adv." mongolia="дахин, ахин"/>
+    <word english="against" type="prep." mongolia="øøд, сøрøг, эсрэг, -руу, -рvv"/>
+    <word english="age" type="n." mongolia="нас, vе"/>
+    <word english="ago" type="adv." mongolia="-аас урьд, øмнø"/>
+    <word english="agree" type="v." mongolia="таарах, тогтох, нийлэх, зохицох, хvлээн зøвшøøрøх, зøвшøøрøх, санал нэг байх"/>
+    <word english="agricultural" type="adj." mongolia="хøдøø аж ахуйн, газар тариалангийн"/>
+    <word english="agriculture" type="n." mongolia="хøдøø аж ахуй, тариалан"/>
+    <word english="ahead" type="adv." mongolia="урьд, øмнø, наана"/>
+    <word english="ahead of schedule" type="" mongolia="хугацаанаас øмнø"/>
+    <word english="aimak" type="n." mongolia="аймаг"/>
+    <word english="air" type="n." mongolia="агаар, агаар мандал, хий, тэнгэр"/>
+    <word english="airport" type="n." mongolia="нисэх буудал, онгоцны буудал"/>
+    <word english="album" type="n." mongolia="зургийн цомог, альбом"/>
+    <word english="algebra" type="n." mongolia="томъёо зvй, алгебр"/>
+    <word english="alien" type="n." mongolia="харь улс, гадаад, харийн, харь гаригийн"/>
+    <word english="alive" type="adj." mongolia="амьд, амьд байх"/>
+    <word english="all" type="adj." mongolia="хамаг, бvгд, бvх, цøм"/>
+    <word english="all right" type="" mongolia="тэг тэг, болно, зøв"/>
+    <word english="all over" type="" mongolia="даяар, даян"/>
+    <word english="alloy" type="n." mongolia="хайлш"/>
+    <word english="almost" type="adv." mongolia="бараг, тøлøв, арай, завдах"/>
+    <word english="alone" type="adj." mongolia="ганцаар, онцгой"/>
+    <word english="along" type="prep." mongolia="-аар4, дагуу"/>
+    <word english="alphabet" type="n." mongolia="цагаан толгой"/>
+    <word english="also" type="adv." mongolia="бас, мøн, мøн л"/>
+    <word english="Altaic" type="n." mongolia="Алтайн, Алтай овгийн"/>
+    <word english="Altaic language" type="" mongolia="Алтай овгийн хэл"/>
+    <word english="altough" type="conj." mongolia="боловч, хэдийгээр"/>
+    <word english="always" type="adv." mongolia="vргэлж, ашид, ямагт"/>
+    <word english="am" type="v." mongolia="(би) мøн, юм"/>
+    <word english="amongoliag" type="prep." mongolia="дотор, дунд, хооронд"/>
+    <word english="amount" type="n." mongolia="тоо, хэмжээ, тооцоо, дvн"/>
+    <word english="an air taxi" type="" mongolia="хøлсний онгоц"/>
+    <word english="ancient" type="adj." mongolia="эртний"/>
+    <word english="and" type="conj." mongolia="болоод, бøгøøд, хоёр"/>
+    <word english="and so on" type="" mongolia="гэх мэт (хураангуй нь: гм.)"/>
+    <word english="and then" type="" mongolia="тэгээд, чингээд, тэгтлээ"/>
+    <word english="angel" type="n." mongolia="сахиусан тэнгэр"/>
+    <word english="anger" type="n." mongolia="уур хилэн, бухимдал"/>
+    <word english="angry" type="adj." mongolia="уурлах, хилэгнэх"/>
+    <word english="animal" type="n." mongolia="амьтан, мал, адгуус"/>
+    <word english="anniversary" type="n." mongolia="ой, ойн баяр, ... жилийн ой"/>
+    <word english="announcer" type="n." mongolia="зарлагч, зарын нэвтрvvлэгч"/>
+    <word english="annual" type="adj." mongolia="жилд, жилдээ, нэг жилд"/>
+    <word english="another" type="pron." mongolia="дахиад, øøр, нøгøø, бие биетэйгээ, нэг нэгтэйгээ"/>
+    <word english="answer" type="n. v." mongolia="хариу, хариулах, øчих, хариу øгøх"/>
+    <word english="ant" type="n." mongolia="шоргоолж"/>
+    <word english="antonym" type="n." mongolia="эсрэг утгатай vг"/>
+    <word english="any" type="pron." mongolia="аль нэгэн, хэн нэгэн"/>
+    <word english="any more" type="" mongolia="цаашид, ... (vгvй) болох"/>
+    <word english="appear" type="v." mongolia="илрэх, ил гарах, шиг байх, байдалтай"/>
+    <word english="apple" type="n." mongolia="алим"/>
+    <word english="apple tree" type="n." mongolia="алимны мод"/>
+    <word english="apply" type="v." mongolia="хэрэглэх, øгøх, наах, боох, тогтоох, øргøдøл/хvсэлт гаргах"/>
+    <word english="approach" type="v." mongolia="ойртох, айсуй, халах, хандах, санал тавих"/>
+    <word english="April" type="n." mongolia="дøрøвдvгээр сар"/>
+    <word english="archery" type="n." mongolia="сур харвах"/>
+    <word english="are" type="v." mongolia="бол, мøн, бай, юм"/>
+    <word english="area" type="n." mongolia="(хэсэг) газар, нутаг, бvс нутаг, орон"/>
+    <word english="arm" type="n." mongolia="(суганаас бугуй хvртэл) гар"/>
+    <word english="arm" type="v." mongolia="зэвсэглэх"/>
+    <word english="armchair" type="n." mongolia="тохойвчтой сандал"/>
+    <word english="arms" type="n." mongolia="зэр зэвсэг"/>
+    <word english="around" type="adv." mongolia="эргэн тойрон"/>
+    <word english="arrival" type="n." mongolia="хvрч ирсэн, хvрч очсон"/>
+    <word english="arrive" type="v." mongolia="хvрэх, хvрч ирэх, хvрч очих"/>
+    <word english="article" type="n." mongolia="ялгац гишvvн, øгvvлэл"/>
+    <word english="as" type="pron." mongolia="-тай, -тэй, той"/>
+    <word english="as" type="pron." mongolia="тøдий, мэт, аар4"/>
+    <word english="as well as" type="" mongolia="тvvнчлэн, басхvv, бас"/>
+    <word english="ask" type="v." mongolia="асуух, лавлах, шаардах, гуйх"/>
+    <word english="asleep" type="adj." mongolia="нойрсох, унтах"/>
+    <word english="aspect" type="n." mongolia="тал, зvйл vзэгдэл"/>
+    <word english="assotiation" type="n." mongolia="холбоо, хоршоо, нэгдэл"/>
+    <word english="assure" type="v." mongolia="лавтай хэлэх, итгэлтэй хэлэх, ам øгøх, батлан хэлэх, хангах, бvрдvvлэх"/>
+    <word english="at" type="prep." mongolia="-д, -т"/>
+    <word english="at home" type="" mongolia="гэртээ"/>
+    <word english="at last" type="" mongolia="эцэстээ, адагтаа, явж явж"/>
+    <word english="at once" type="" mongolia="даруй, тэр дорхноо"/>
+    <word english="at present" type="" mongolia="одоо, øдгøø"/>
+    <word english="at the same time" type="" mongolia="мøн, бас, тvvнчлэн"/>
+    <word english="atmosphere" type="n." mongolia="хий мандал, агаар мандал"/>
+    <word english="attack" type="v." mongolia="довтлох, халдах, ноцох, уулгалан дайрах"/>
+    <word english="attend" type="v." mongolia="байлцах, оролцох, (хичээлд) суух"/>
+    <word english="attention" type="n." mongolia="анхааралтай, анхаарагтун, анхаарал"/>
+    <word english="attentive" type="adj." mongolia="болгоомжтой, анхааралтай, хянуур"/>
+    <word english="audience" type="n." mongolia="vзэгчид, оролцогчид, наадамчид, олон ард"/>
+    <word english="August" type="n." mongolia="наймдугаар сар"/>
+    <word english="aunt" type="n." mongolia="нагац эгч, авга эгч"/>
+    <word english="autumn" type="n." mongolia="намар, намрын, намар цаг"/>
+    <word english="avenue" type="n." mongolia="øргøн чøлøø, цэцэрлэгт гудамж"/>
+    <word english="aviator" type="n." mongolia="нисгэгч"/>
+    <word english="away" type="adv." mongolia="холдох, зайлах, одох, алдуурах"/>
+    <word english="baby" type="n." mongolia="нялх хvvхэд"/>
+    <word english="back" type="n. v." mongolia="ар зоо, нуруу, буцах, эргэх"/>
+    <word english="backpack" type="n." mongolia="vvргэвч"/>
+    <word english="backwards" type="adv." mongolia="гэдэргээ, хойшоо, хоцрогдонгуй"/>
+    <word english="bad" type="adj." mongolia="муу, барагтай, øøдгvй"/>
+    <word english="badly" type="adv." mongolia="муухай, сvрхий, айхавтар"/>
+    <word english="badge" type="n." mongolia="таних тэмдэг"/>
+    <word english="bag" type="n." mongolia="цvнх, бичгийн сав, сав, уут, богц"/>
+    <word english="ball" type="n." mongolia="бøмбøг"/>
+    <word english="bank" type="n." mongolia="банк, (гол усны) эрэг"/>
+    <word english="bar" type="n." mongolia="баар"/>
+    <word english="bare" type="v." mongolia="шvдээ ярзайлгах"/>
+    <word english="bare" type="adj." mongolia="нvцгэн, шалдан"/>
+    <word english="barely" type="adv." mongolia="арай хэмээн, дøнгøн данган, чуу чай"/>
+    <word english="bath" type="n." mongolia="банн, усанд орох онгоц"/>
+    <word english="bathroom" type="n." mongolia="халуун усны øрøø, угаалгын øрøø, банны øрøø"/>
+    <word english="be" type="v." mongolia="байх, бол"/>
+    <word english="bear" type="v." mongolia="vр, vржил, тэжээх"/>
+    <word english="bear" type="n." mongolia="баавгай, øтøг"/>
+    <word english="beautiful" type="adj." mongolia="гоо, сайхан, гоолиг, vзэсгэлэнтэй"/>
+    <word english="became" type="v." mongolia="болов, болсон"/>
+    <word english="because" type="conj." mongolia="-ийн учир, ... учраас ..., учир нь, яагаад гэвэл"/>
+    <word english="become" type="v." mongolia="(нэг юм) болох"/>
+    <word english="become weak" type="" mongolia="тамир буурах, сульдах"/>
+    <word english="bed" type="n." mongolia="ор, хэвтэр"/>
+    <word english="bedroom" type="n." mongolia="унтлагын øрøø"/>
+    <word english="bee" type="n." mongolia="зøгий"/>
+    <word english="been" type="v." mongolia="be-гийн øнгøрсøн цаг"/>
+    <word english="beer" type="n." mongolia="шар айраг"/>
+    <word english="before" type="adv." mongolia="øмнø, урьд, урагш"/>
+    <word english="beg" type="v." mongolia="гуйх"/>
+    <word english="begin" type="v." mongolia="эхлэх, vvсэх, гарах"/>
+    <word english="beginning" type="n." mongolia="эхэн"/>
+    <word english="being" type="pres. p" mongolia="... байгаа"/>
+    <word english="being" type="pres. p" mongolia="амьд юм, юм, агч"/>
+    <word english="believe" type="v." mongolia="итгэх, найдах"/>
+    <word english="bell" type="n." mongolia="хонх"/>
+    <word english="belong" type="v." mongolia="(минийх, чинийх ... гэх мэтийн) -х, хамаарагдах, харъяаны"/>
+    <word english="beloved" type="adj." mongolia="энхрий, хайрт, энхэр"/>
+    <word english="benefit" type="n." mongolia="ашиг, ашигтай, тустай"/>
+    <word english="benevolent" type="adj." mongolia="ачтай"/>
+    <word english="beside" type="prep." mongolia="хажуу, дэргэд, бøøрøнд"/>
+    <word english="besides" type="adv." mongolia="-ийн гадна, -аас гадна"/>
+    <word english="best" type="adj." mongolia="хамгийн сайн"/>
+    <word english="better" type="adj." mongolia="(тийм юмнаас, тэгсэн ингэснээс) дээр, арай дээр, илvv"/>
+    <word english="between" type="prep." mongolia="-ын хооронд"/>
+    <word english="beyond" type="prep." mongolia="чанад, хэтэрсэн, давсан, -шгvй"/>
+    <word english="bicycle" type="n." mongolia="унадаг дугуй"/>
+    <word english="big" type="adj." mongolia="том, их, нvсэр, ханхар"/>
+    <word english="biggest" type="adj." mongolia="хамгийн том"/>
+    <word english="bike" type="n." mongolia="унадаг дугуй"/>
+    <word english="bin" type="n." mongolia="хогийн сав/тантан, авдар, хайрцаг"/>
+    <word english="biography" type="n." mongolia="намтар, цадиг, тvvх"/>
+    <word english="bird" type="n." mongolia="шувуу, шувуухай"/>
+    <word english="biscuit" type="n. " mongolia="жигнэмэг"/>
+    <word english="bit" type="n." mongolia="хэсэг, хэлтэрхий, жаахан, бичил"/>
+    <word english="bitter" type="n." mongolia="гашуун"/>
+    <word english="black" type="adj." mongolia="хар"/>
+    <word english="blackboard" type="n." mongolia="самбар"/>
+    <word english="blanket" type="n." mongolia="орны бvтээлэг, хøнжил, хучлага"/>
+    <word english="bless" type="v." mongolia="ерøøх, адислах, øршøøх"/>
+    <word english="bloom" type="v." mongolia="цэцэглэх, цэцэг дэлгэрэх"/>
+    <word english="blow" type="v." mongolia="vлээх, салхилах"/>
+    <word english="blue" type="adj." mongolia="номин, хøх, цэнхэр"/>
+    <word english="board" type="n." mongolia="банз"/>
+    <word english="body" type="n." mongolia="бие, лагшин (хvндэтгэл)"/>
+    <word english="bone" type="n." mongolia="яс"/>
+    <word english="book" type="n." mongolia="ном, дэвтэр, бичиг"/>
+    <word english="book" type="v." mongolia="захиалга, захиалах"/>
+    <word english="bookcase" type="n." mongolia="номын шvvгээ"/>
+    <word english="boot" type="n." mongolia="(øрøøсøн) гутал"/>
+    <word english="boots" type="n." mongolia="гутал, тvрийтэй гутал"/>
+    <word english="born" type="v." mongolia="тøрøх, мэндлэх, гарах"/>
+    <word english="both" type="adj." mongolia="хоёул, аль аль нь, хоёр"/>
+    <word english="bottle" type="n." mongolia="лонх, шил, бортого, угж"/>
+    <word english="bough" type="n." mongolia="гишvv, мøчир"/>
+    <word english="bought" type="v." mongolia="(buy-ийн øнгøрсøн цаг) худалдан авав"/>
+    <word english="box" type="n." mongolia="хайрцаг, авдар"/>
+    <word english="boy" type="n." mongolia="жаалхvv, хøвvvн, эрэгтэй хvvхэд"/>
+    <word english="brain" type="n." mongolia="тархи"/>
+    <word english="branch" type="n." mongolia="салбар, модны мøчир"/>
+    <word english="bread" type="n." mongolia="талх"/>
+    <word english="break" type="v." mongolia="эвдрэх, хэмхрэх, хугарах"/>
+    <word english="break out" type="" mongolia="(дайн) гарах, (шуурга) дэгдэх, туурах"/>
+    <word english="breakfast" type="n. v." mongolia="øглøøний цай/унд; øглøøний цай/унд уух"/>
+    <word english="breath" type="n." mongolia="амьсгаа, амьсгал"/>
+    <word english="breathe" type="v." mongolia="амьсгаадах, аахилах"/>
+    <word english="breathe heavely" type="" mongolia="аахилах, уушиг зvрх нь амаараа гарах шахах"/>
+    <word english="breed" type="n." mongolia="vvлдэр, маяг, тøрøл"/>
+    <word english="breeze" type="n." mongolia="салхи, сэнгэнэсэн салхи"/>
+    <word english="brick" type="n." mongolia="тоосго, туйпуу"/>
+    <word english="bride" type="n." mongolia="сvйт бvсгvй, шинэ бэр"/>
+    <word english="bridegroom" type="n." mongolia="сvйт залуу, шинэ хvргэн"/>
+    <word english="bridge" type="n." mongolia="гvvр, холбоос, шилжилтийн vе"/>
+    <word english="briefs" type="n." mongolia="шуудаг"/>
+    <word english="bright (ly)" type="adj." mongolia="хурц øнгøтэй, гэрэлтэй"/>
+    <word english="bring" type="v." mongolia="авч ирэх"/>
+    <word english="bring up" type="v." mongolia="øсгøх, тэжээх, хvн болгох, хvмvvжvvлэх"/>
+    <word english="British" type="adj." mongolia="Британийн, Английн"/>
+    <word english="broad" type="adj." mongolia="øргøн, уудам, ерøнхий"/>
+    <word english="broke" type="v." mongolia="(break-ийн øнгøрсøн цаг) эвдрэв"/>
+    <word english="bronze" type="adj." mongolia="хvрэл"/>
+    <word english="brother" type="n." mongolia="ах дvv"/>
+    <word english="brother-in-law" type="n." mongolia="хадам ах, хvргэн ах, хvр дvv"/>
+    <word english="brought" type="v." mongolia="(bring-ийн øнгøрсøн цаг) авчрав"/>
+    <word english="brown" type="adj." mongolia="бор øнгø"/>
+    <word english="brush" type="n." mongolia="сам, сойз"/>
+    <word english="build" type="v." mongolia="барих, байгуулах, босгох"/>
+    <word english="building" type="n." mongolia="барилга, байшин, байр"/>
+    <word english="built" type="v." mongolia="(build-ийн øнгøрсøн цаг) барив, байгуулав, босгов"/>
+    <word english="bull" type="n." mongolia="бух"/>
+    <word english="bun" type="n." mongolia="жижиг дугуй талх, жижиг дугуй бялуу"/>
+    <word english="burden" type="n." mongolia="vvрэг, дарамт, лай"/>
+    <word english="burn" type="v." mongolia="шатах, ноцох, тvлэх"/>
+    <word english="bus" type="n." mongolia="автобус"/>
+    <word english="busiest" type="adj." mongolia="завгvй, их ажилсаг (хvн)"/>
+    <word english="but" type="adv." mongolia="гэвч, харин, гэхдээ"/>
+    <word english="butter" type="n." mongolia="тос, шар тос, цøцгийн тос"/>
+    <word english="butterfly" type="n." mongolia="эрвээхэй"/>
+    <word english="buy" type="v." mongolia="худалдан авах"/>
+    <word english="by" type="prep." mongolia="-аар4, дэргэд, хажууд"/>
+    <word english="by air" type="" mongolia="агаараар, онгоцоор, тэнгэрээр, дээгvvр"/>
+    <word english="by nature" type="" mongolia="тøрøлхийн"/>
+    <word english="cafe" type="n." mongolia="кафе, цайны газар"/>
+    <word english="calculator" type="n." mongolia="тооны машин"/>
+    <word english="call" type="v." mongolia="дуудах, дуудан ирvvлэх, нэрлэх, ... гэдэг, утасдах"/>
+    <word english="call on" type="" mongolia="очих, бараалхах"/>
+    <word english="calm" type="n." mongolia="тогтуун байдал, амгалан тайван байдал"/>
+    <word english="camel" type="n." mongolia="тэмээ"/>
+    <word english="can" type="v." mongolia="болох, чадах, дøнгøх"/>
+    <word english="canal" type="n." mongolia="суваг"/>
+    <word english="cap" type="n." mongolia="малгай (саравчтай малгай)"/>
+    <word english="capital" type="n." mongolia="нийслэл хот"/>
+    <word english="capitalize" type="v." mongolia="том болгох, том vсэг болгох"/>
+    <word english="car" type="n." mongolia="машин, суудлын тэрэг, хøнгøн тэрэг"/>
+    <word english="careful (ly)" type="adj." mongolia="нягт, болгоомжтой, хэрсvv, буйртай"/>
+    <word english="carpenter" type="n." mongolia="мужаан, модчин"/>
+    <word english="carpet" type="n." mongolia="хивс, хивсэнцэр, дэвсгэр, дэвжээ"/>
+    <word english="carry" type="v." mongolia="авч явах, øмсøх, байлгах"/>
+    <word english="carry on" type="" mongolia="(эрдэм шинжилгээний ажил) хийх"/>
+    <word english="carry out" type="" mongolia="биелvvлэх, гvйцээх"/>
+    <word english="case" type="n." mongolia="тохиолдол, явдал, жишээ, байдал, нøхцøл байдал, тøлøв байдал; чемодан, цvнх, хайрцаг, авдар, сав"/>
+    <word english="case" type="v." mongolia="тохиолдох, ... vед, учир"/>
+    <word english="in case of" type="" mongolia="тохиолдох"/>
+    <word english="cash" type="n. v." mongolia="мøнгø, бэлнээр тооцоо хийх; бэлэн мøнгø болгох"/>
+    <word english="cashier" type="n." mongolia="касс, мøнгøний нярав"/>
+    <word english="cat" type="n." mongolia="муур"/>
+    <word english="catch" type="v." mongolia="барих, тосох, хураах, хøøж барих, хамах, амжиж суух, амжиж vзэх"/>
+    <word english="category" type="n." mongolia="ай, зэрэглэл, ангилал"/>
+    <word english="cattle" type="n." mongolia="мал, vхэр мал"/>
+    <word english="caught" type="v." mongolia="(catch-ийн øнгøрсøн цаг)"/>
+    <word english="cave" type="n." mongolia="агуй"/>
+    <word english="cedar" type="n." mongolia="гуш"/>
+    <word english="ceiling" type="n." mongolia="адар, тааз"/>
+    <word english="celebrate" type="v." mongolia="баяр хийх, баярлах, баяр тэмдэглэх"/>
+    <word english="celebration meeting" type="" mongolia="баярын хурал"/>
+    <word english="central" type="adj." mongolia="тøв"/>
+    <word english="centre" type="n." mongolia="тøв, тøвд, тэг дунд, голд"/>
+    <word english="century" type="n." mongolia="зуун, зуун жил"/>
+    <word english="certainly" type="adv." mongolia="vнэхээр, нээрэн, яг, чухам"/>
+    <word english="certificate" type="n." mongolia="гэрчилгээ, диплом, vнэмлэх, сайшаалын vнэмлэх, сертификат"/>
+    <word english="chair" type="n." mongolia="сандал"/>
+    <word english="chairman" type="n." mongolia="дарга, тэргvvлэгч"/>
+    <word english="chalk" type="n." mongolia="цэрд, шохой"/>
+    <word english="championship" type="n." mongolia="аварга, аварга шалгаруулах тэмцээн"/>
+    <word english="change" type="v." mongolia="хувилах, хувирах, øøр болгох, øøрчлøх"/>
+    <word english="character" type="n." mongolia="араншин, зан авир, зан ааш, нэр хvнд, хувь хvн; тэмдэгт"/>
+    <word english="charge" type="v." mongolia="тøлбøр/vнэ/хøлс авах, дайрах, довтлох, ухасхийх, цэнэглэх"/>
+    <word english="cheap" type="adj." mongolia="хямд, хямдхан"/>
+    <word english="check" type="v." mongolia="шалгах, vзлэг хийх, хянан зохицуулах, асуух, нягтлах"/>
+    <word english="cheer" type="n." mongolia="уухайлах, уриа хашгиралдах, хурайлах"/>
+    <word english="cheerful" type="adj." mongolia="зоримог, урамтай, баяртай, сэргэлэн"/>
+    <word english="chemist" type="n." mongolia="химич, хувилалзvйч"/>
+    <word english="chemist's shop" type="" mongolia="эмийн сан, эмийн дэлгvvр"/>
+    <word english="chemistry" type="n." mongolia="химийн шинжлэх ухаан, хувилалзvй"/>
+    <word english="chess" type="n." mongolia="шатар"/>
+    <word english="chest" type="n." mongolia="цээж"/>
+    <word english="chew" type="n." mongolia="зажлах, хазах, мэрэх"/>
+    <word english="chicken" type="n." mongolia="тахиа, тахианы мах, цорвоо"/>
+    <word english="child" type="n." mongolia="хvvхэд, жаал"/>
+    <word english="childhood" type="n." mongolia="хvvхэд ахуй vе, хvvхэд нас, хvvхэд байхдаа"/>
+    <word english="children" type="n." mongolia="олон хvvхэд, хvvхдvvд"/>
+    <word english="Chinggis" type="" mongolia="Чингис"/>
+    <word english="chocolate" type="n." mongolia="шоколад"/>
+    <word english="choice" type="n." mongolia="шилэх, сонгох, шилэлт, сонголт"/>
+    <word english="choose" type="v." mongolia="шилэх, сонгох, оноох, амлах"/>
+    <word english="chosen" type="v." mongolia="(chose-ийн p. p) сонгуулсан, шилvvлсэн, оноосон"/>
+    <word english="chosen by lot" type="" mongolia="аз vзэх, заяа мэдэх, сугалаагаар"/>
+    <word english="cider" type="n." mongolia="алимны  дарс"/>
+    <word english="cigarette" type="n." mongolia="тамхи, янжуур"/>
+    <word english="cinema" type="n." mongolia="кино театр"/>
+    <word english="city" type="n." mongolia="хот"/>
+    <word english="claim" type="v." mongolia="нэхэх, шаардах, зарлах, тунхаглах"/>
+    <word english="class" type="n. v." mongolia="анги, зиндаа, дэв, зэрэг, зэрэглэл; ангилах, зэрэглэх"/>
+    <word english="class meeting" type="" mongolia="ангийн хурал"/>
+    <word english="classify" type="v." mongolia="ангилах"/>
+    <word english="classroom" type="n." mongolia="анги, танхим"/>
+    <word english="clean" type="adj." mongolia="цэвэр, ариун"/>
+    <word english="clear" type="adj." mongolia="цэлмэг, тунгалаг, тод, ойлгомжтой, цэвэрхэн"/>
+    <word english="clear up" type="" mongolia="цэлмэх, манан будан хøøрøх, тэнгэр онгойх, хураах, цэвэрлэх, эдгэх"/>
+    <word english="clever" type="adj." mongolia="авхаалж самбаатай, сэргэлэн, ухаантай, дадамгай, сурамгай, дvйтэй"/>
+    <word english="climate" type="n." mongolia="уур амьсгал"/>
+    <word english="climb" type="v." mongolia="авирах, асах, цоройх"/>
+    <word english="clock" type="n." mongolia="(ханын буюу ширээний) цаг"/>
+    <word english="close" type="adj." mongolia="ойрын, тøстэй, дотны, бараг тэнцvv, ойролцоо, нарийн нягт"/>
+    <word english="close" type="v." mongolia="хаах, хамхих, бøглøх, дуусгах"/>
+    <word english="clothe" type="v." mongolia="хувцаслах"/>
+    <word english="clothes" type="n." mongolia="хувцас, хувцас хунар"/>
+    <word english="cloud" type="n." mongolia="vvл"/>
+    <word english="cloudy" type="adj." mongolia="vvлэрхэг, бvрхэг"/>
+    <word english="coal" type="n." mongolia="чулуун нvvрс"/>
+    <word english="coast" type="n." mongolia="(далай тэнгисийн) эрэг"/>
+    <word english="coat" type="n." mongolia="хvрэм, дээл, цув, пиджак"/>
+    <word english="cold" type="adj." mongolia="хvйтэн, жихvvн"/>
+    <word english="collect" type="v." mongolia="цуглуулах, хураах, тvvх, эмхэтгэх"/>
+    <word english="colourful" type="adj." mongolia="øнгø тøгøлдøр, øнгø сайтай, øнгø алагласан, øнгøлøг, сонирхолтой"/>
+    <word english="comb" type="n. v." mongolia="сам, сойз; самнах, сойздох"/>
+    <word english="combination" type="n." mongolia="нийлэмж, хослол, нэгдэл, нэгдэх, нийлэх"/>
+    <word english="come" type="v." mongolia="ирэх, болох, дэгдэх, ойртох, очих, оролцох"/>
+    <word english="comma" type="n." mongolia="таслал"/>
+    <word english="comment" type="n." mongolia="шvvмж, санал, тайлбар"/>
+    <word english="commongolia" type="adj." mongolia="ерийн, жирийн, энгийн, нийтийн, нийтлэг"/>
+    <word english="companion" type="n." mongolia="нøхøр сvvдэр, найз нøхøр"/>
+    <word english="company" type="n." mongolia="компани, пvvс, найз, нøхøр"/>
+    <word english="compass" type="n." mongolia="гортиг, луужин"/>
+    <word english="competition" type="n." mongolia="тэмцээн"/>
+    <word english="competitor" type="n." mongolia="øрсøлдøгч"/>
+    <word english="completion" type="n." mongolia="дуусгавар, тøгсгøл"/>
+    <word english="composition" type="n." mongolia="тогтоц, найрлага, бvтэц, бvтээл, зохиомж"/>
+    <word english="compound" type="n." mongolia="нийлмэл, холимог, нэгдэл, холбоо vг"/>
+    <word english="comprehensive" type="adj." mongolia="дэлгэрэнгvй, ерøнхий, нэгд нэгэнгvй, бvрэн, бvх зvйлийг, бvх талын"/>
+    <word english="comrade" type="n." mongolia="нøхøр"/>
+    <word english="compulsory" type="adj." mongolia="заавал vзэх, албан журмын"/>
+    <word english="computer" type="n." mongolia="компьютер"/>
+    <word english="conduce" type="adj." mongolia="тустай, ...-д сайн, ашигтай"/>
+    <word english="conduct" type="v." mongolia="удирдах, чиглvvлэх"/>
+    <word english="cone" type="n." mongolia="конус"/>
+    <word english="confirm" type="n." mongolia="нотлох, тогтооох, баттлах, (цол, одон) хvртээх, хайрлах, шагнах"/>
+    <word english="confuse" type="v." mongolia="андуурах, самуурах, будлих, хутгах, учир нь олдохгvй байх"/>
+    <word english="connect" type="v." mongolia="холбоотой, холбох, залгах, уях"/>
+    <word english="consider" type="v." mongolia="санах, бодох, гэх, харгалзан vзэх, vзэх, тøсøøлøх, барагцаалах"/>
+    <word english="considerably" type="adv." mongolia="vзэгдэхvйц, мэдэгдэхvйц, харваас ил"/>
+    <word english="consist" type="v." mongolia="бvрдэх, бvрэлдэх"/>
+    <word english="consonant" type="n." mongolia="гийгvvлэгч"/>
+    <word english="constantly" type="adv." mongolia="vргэлжид, байнга, дандаа"/>
+    <word english="construct" type="v." mongolia="барих, босгох, бvтээх"/>
+    <word english="consul" type="n." mongolia="зøвлøл, консул"/>
+    <word english="consult" type="v." mongolia="зøвлøгøø авах, асуух, зøвлøх, зøвших, ярьж vзэх"/>
+    <word english="contemporary" type="n." mongolia="нэг vеийн, нэг насны, vе чацуутан, øнøøгийн, орчин vеийн"/>
+    <word english="content" type="v." mongolia="багтах, агуулах, гvйцэх, хvрэх"/>
+    <word english="contest" type="n." mongolia="тэмцээн"/>
+    <word english="continue" type="v." mongolia="vргэлжлэх, vргэлжлvvлэх, сэргээх"/>
+    <word english="continuous" type="adj." mongolia="vргэлжлэх, vргэлжилсэн"/>
+    <word english="contrary" type="adv." mongolia="эсрэг, сøрøг, эсрэг тэсрэг"/>
+    <word english="on the contrary" type="" mongolia="нь байтугай"/>
+    <word english="control" type="v." mongolia="хянах, захирах, цагдах, эзэмших"/>
+    <word english="controller" type="n." mongolia="хянагч"/>
+    <word english="conversation" type="n." mongolia="яриа, ярилцаа"/>
+    <word english="cook" type="v." mongolia="чанах, (хоол) болгох, хоол хийх"/>
+    <word english="cool" type="adj." mongolia="сэрvvн, сэрvvхэн, хvйтэн, тайван, хэнэггvй, чамин, маягтай"/>
+    <word english="cool" type="adv." mongolia="сэрvvн, сэвшээ"/>
+    <word english="cooling breeze" type="" mongolia="сэрvvн салхи"/>
+    <word english="cooperative" type="adj." mongolia="хоршоо, нэгдэл, хамтарсан, хамтын"/>
+    <word english="copy" type="v. n." mongolia="(ном) хувь; хувилах, хуулах"/>
+    <word english="corner" type="n." mongolia="øнцøг, булан, хязгаар нутаг, алс бøглvv газар"/>
+    <word english="correct (ly)" type="adv." mongolia="зøв, зvй ёсоор, зохих ёсоор, засах, залруулах"/>
+    <word english="corridor" type="n." mongolia="хонгил, гудам"/>
+    <word english="cost" type="n. v." mongolia="vнэ, øртøг, зарлага, зардал, vнэ, vнэ цэнэ; vнэтэй байх, vнэлэгдэх"/>
+    <word english="costume" type="n." mongolia="дээл, хувцас, øмсгøл, костюм"/>
+    <word english="cot" type="n." mongolia="хvvхдийн ор, эвхдэг ор"/>
+    <word english="cotton" type="n." mongolia="хøвøн"/>
+    <word english="cough" type="n. v." mongolia="ханиалга; ханиах"/>
+    <word english="could" type="v." mongolia="(can-ийн øнгøрсøн цаг) болов, боллоо, чадав"/>
+    <word english="count" type="v." mongolia="тоо тоолох"/>
+    <word english="count on" type="" mongolia="бодох, тогтох, найдах"/>
+    <word english="country" type="n." mongolia="улс, орон, хøдøø, хøдøø газар"/>
+    <word english="countryside" type="n." mongolia="хøдøø газар, хøдøø нутаг"/>
+    <word english="cousin" type="n." mongolia="бøл (эгч дvvгийн хvvхэд), vеэл (ах дvvгийн хvvхэд)"/>
+    <word english="cover" type="v." mongolia="бvрхэх, бvтээх, хучих, vзэж øнгøрøøх"/>
+    <word english="cow" type="n." mongolia="vнээ"/>
+    <word english="coward" type="n." mongolia="аймхай хvн, хулчгар хvн"/>
+    <word english="creature" type="n." mongolia="амьтан, амьд биет"/>
+    <word english="criticize" type="v." mongolia="шvvмжлэх"/>
+    <word english="crocodile" type="n." mongolia="матар"/>
+    <word english="crop" type="n." mongolia="тариа, таримал ургамал, тариалан, ургац, хøеø"/>
+    <word english="cross" type="n. v." mongolia="хэрээс, чагт; гатлах, гарах, хøндлøн гарах, туулах, давах, дамнах, солбилцох, огтлолцох"/>
+    <word english="crossing" type="n." mongolia="гарц"/>
+    <word english="cross-road" type="n." mongolia="замын уулзвар"/>
+    <word english="crowd" type="n." mongolia="багширах, бøøгнøрøх, бøøн хvн, бøøн"/>
+    <word english="cruel" type="adj." mongolia="хэрцгий, догшин"/>
+    <word english="cruel (ly)" type="adv." mongolia="харгисаар, хэрцгийлэн"/>
+    <word english="cry" type="v." mongolia="уйлах, орилох, орь дуу болох"/>
+    <word english="cultural" type="adj." mongolia="соёл, соёлын"/>
+    <word english="culture" type="n." mongolia="соёл"/>
+    <word english="cunning" type="adj." mongolia="аргат, заль, мэх, зальтай, башир, овжин арга"/>
+    <word english="cup" type="n." mongolia="аяга"/>
+    <word english="curly" type="adj." mongolia="буржгар, долгионтой"/>
+    <word english="current" type="n." mongolia="хариг, урсгал, гvйдэл, хандлага, чиглэл"/>
+    <word english="curtain" type="n." mongolia="хøшиг"/>
+    <word english="customer" type="n." mongolia="худалдан авагч, vйлчлvvлэгч"/>
+    <word english="customs" type="n." mongolia="гааль"/>
+    <word english="cut" type="v." mongolia="зvсэх, хайчлах, огтлох, эсгэх, тайрах, хяргах"/>
+    <word english="cutlery" type="n." mongolia="мэс, хутга, шøвøг"/>
+    <word english="damp" type="adj." mongolia="чийгтэй"/>
+    <word english="dance" type="n. v." mongolia="бvжиг; бvжиглэх"/>
+    <word english="danger" type="n." mongolia="аюул, хал"/>
+    <word english="dark" type="adj." mongolia="харанхуй"/>
+    <word english="darkest" type="adj." mongolia="тvнэр харанхуй"/>
+    <word english="data" type="n." mongolia="хэрэглэгдэхvvн, баримт сэлт, мэдээ, тоо баримт, øгøгдøл"/>
+    <word english="date" type="n." mongolia="огноо, он сар øдøр, øдøр, болзоо"/>
+    <word english="daughter" type="n." mongolia="охин, хvvхэн"/>
+    <word english="day" type="n." mongolia="øдøр, хоног"/>
+    <word english="the other day" type="" mongolia="ойрмогхон, саяхан, øчигдøр уржигдархан"/>
+    <word english="the day after tomorrow" type="" mongolia="нøгøøдøр"/>
+    <word english="the day before yesterday" type="" mongolia="уржигдар"/>
+    <word english="day-time" type="n." mongolia="øдøр нь, øдøр, øдрийн цаг"/>
+    <word english="daybreak" type="n." mongolia="vvр цайх, vvрийн гэгээ"/>
+    <word english="dead" type="adj." mongolia="vхсэн"/>
+    <word english="deal with" type="" mongolia="мэдvvлж øгøх, таниулж øгøх, барагдуулах, хариуцах, шийдвэрлэх, хэлэлцэх"/>
+    <word english="dear" type="adj" mongolia="эрхэм, хvндэт, хайрт"/>
+    <word english="death" type="v." mongolia="vхэх, vхсэн"/>
+    <word english="decay" type="v." mongolia="буурах, ялзрах, øгøрøх"/>
+    <word english="December" type="n." mongolia="арванхоёрдугаар сар"/>
+    <word english="decide" type="v." mongolia="шийдэх, тогтох, санаа тøвдøх"/>
+    <word english="decision" type="n." mongolia="шийд, шийдвэр"/>
+    <word english="declaration" type="n." mongolia="мэдvvлэг хуудас"/>
+    <word english="decorate" type="v." mongolia="гоёх, чимэх"/>
+    <word english="decoy" type="n. v." mongolia="øøш, занга, урхи; занганд оруулах, урхидах"/>
+    <word english="deep (ly)" type="" mongolia="гvн, гvнзгий, (мэдлэг) зузаан"/>
+    <word english="deer" type="n." mongolia="буга"/>
+    <word english="degree" type="n." mongolia="хэм, градус, их сургуулийн диплом, боловсролын зэрэг"/>
+    <word english="defeat" type="v." mongolia="дийлэх, ялах, унагах, давах, хаях"/>
+    <word english="delightful" type="adj." mongolia="бахтай, тансаг, цэцэн цэлмэг, цэцэн"/>
+    <word english="demongoliastration" type="n." mongolia="жагсаал, цуглаан, илэрхийлэх, илтгэн харуулах, vзvvлэх"/>
+    <word english="department" type="n." mongolia="тасаг, салбар"/>
+    <word english="department store" type="" mongolia="их дэлгvvр"/>
+    <word english="dependable" type="adj." mongolia="шударга, бvтэлтэй, итгэлтэй, найдвартай, баттай"/>
+    <word english="describe" type="v." mongolia="товчоолох, тодорхойлох"/>
+    <word english="desert" type="v." mongolia="орхих, оргох"/>
+    <word english="design" type="n." mongolia="зураг тэмдэг, тøсøл, зураглал, загвар"/>
+    <word english="desire" type="n." mongolia="хvсэл, дуршил, хvсэх, горидох"/>
+    <word english="desk" type="n." mongolia="ширээ, (сургуулийн) ширээ сандал"/>
+    <word english="destitute" type="adj." mongolia="ядуу, vгээгvй"/>
+    <word english="develop" type="v." mongolia="хøгжих, дэгжих, øøдлøх, боловсруулах, тøгøлдøржvvлэх, бий болгох, хøгжvvлэх"/>
+    <word english="dictation" type="n." mongolia="цээж бичиг"/>
+    <word english="dictionary" type="n." mongolia="толь бичиг"/>
+    <word english="die" type="v." mongolia="vхэх, нас барах, øøд болох"/>
+    <word english="difference" type="n." mongolia="ялгаа, ялгавар"/>
+    <word english="different" type="adj." mongolia="элдэв, øøр øøр, тус тус"/>
+    <word english="difficult" type="adj." mongolia="бэрх, хэцvv, саад, тотгор"/>
+    <word english="difficulty" type="n." mongolia="бэрх, хэцvv, саад тøвøг, ярвигтай, хvндрэл, бэрхшээл, зовлон"/>
+    <word english="dig" type="v." mongolia="малтах, ухах"/>
+    <word english="dine" type="v." mongolia="vдийн зоог барих, vдийн хоол идэх"/>
+    <word english="dining hall" type="n." mongolia="зоогийн газар"/>
+    <word english="dinner" type="n." mongolia="оройн хоол, оройн зоог"/>
+    <word english="dinosaur" type="n." mongolia="vлэг гvрвэл, динозавр"/>
+    <word english="direction" type="n." mongolia="зvг чиг, чиглэл"/>
+    <word english="dirt" type="n." mongolia="хир, тоос шороо, бохир"/>
+    <word english="disappoint" type="v." mongolia="урам хугарах, гонсойх, хøсøрдvvлэх"/>
+    <word english="discover" type="v." mongolia="нээх, илрvvлэх"/>
+    <word english="discuss" type="v." mongolia="хэлэлцэх, ярилцах"/>
+    <word english="discussion" type="n." mongolia="хэлэлцээ, яриа, зøвлøгøøн"/>
+    <word english="disease" type="n." mongolia="øвчин, эмгэг"/>
+    <word english="disgraceful" type="adj." mongolia="шившигт, булай"/>
+    <word english="display" type="n." mongolia="vзмэр, vзvvлэн, vзэсгэлэн, дэлгэц"/>
+    <word english="dissertation" type="n." mongolia="зэрэг горилох зохиол, дипломын ажил"/>
+    <word english="distance" type="n." mongolia="хол, зайдуу, тøсøр"/>
+    <word english="disturb" type="v." mongolia="vймvvлэх, санаа зовоох, саад болох"/>
+    <word english="divan" type="n." mongolia="буйдан"/>
+    <word english="divide" type="v." mongolia="хуваах, хуваарилах, хэсэгчлэх"/>
+    <word english="divide into" type="" mongolia="-д хуваах"/>
+    <word english="do" type="v." mongolia="хийх, vйлдэх, бvтээх"/>
+    <word english="doctor" type="n." mongolia="(эрдмийн зэргийн) доктор, эмч, оточ (Dr гэж хураангуйлан бичдэг)"/>
+    <word english="document" type="n." mongolia="баримт бичиг, баримт"/>
+    <word english="does" type="v." mongolia="утга нь do-тэй адил, гагцхvv he, she-ийн ар øвøрт буюу 3-р биед хэрэглэдэг"/>
+    <word english="dog" type="n." mongolia="нохой"/>
+    <word english="dome" type="n." mongolia="бøмбøгøр/дуулган орой"/>
+    <word english="donkey" type="n." mongolia="илжиг"/>
+    <word english="door" type="n." mongolia="хаалга, vvд"/>
+    <word english="doorknob" type="n." mongolia="хаалганы бариул"/>
+    <word english="doubtless" type="adj." mongolia="сэжиггvй, эргэлзээгvй, дамжиггvй, мадаггvй"/>
+    <word english="dough" type="n." mongolia="зуурсан гурил"/>
+    <word english="dove" type="n." mongolia="тагтаа"/>
+    <word english="down" type="adv." mongolia="буух, доошлох, -руу, -рvv, буурах, багасах"/>
+    <word english="downstairs" type="n." mongolia="доод давхар, доор, доошоо, уруугаа"/>
+    <word english="dozen" type="n." mongolia="арван хоёр ширхэг (юм)"/>
+    <word english="draft" type="n." mongolia="тøсøл, ноорог, бvдvvвч"/>
+    <word english="drag" type="v." mongolia="чирэх"/>
+    <word english="dragon" type="n." mongolia="луу"/>
+    <word english="drama" type="n." mongolia="яриан жvжиг"/>
+    <word english="draw" type="v." mongolia="зурах, дvрслэх, хøтлøх, чирэх, аваачих"/>
+    <word english="drawing" type="n." mongolia="зураг"/>
+    <word english="dress" type="n. v." mongolia="даашинз, хувцас; хувцаслах"/>
+    <word english="drink" type="n. v." mongolia="ундаа, согтууруулах ундаа, уух, зооглох, барих"/>
+    <word english="drinking water" type="" mongolia="уудаг ус, амны ус"/>
+    <word english="drive" type="v." mongolia="(тэрэг) жолоодох, барих, давхих"/>
+    <word english="drove" type="v." mongolia="(drive-ийн p. p) жолоодов, давхив"/>
+    <word english="dry" type="adj." mongolia="хуурай, эврvvн, хатсан"/>
+    <word english="duck" type="n." mongolia="нугас (амьтан)"/>
+    <word english="dug (up)" type="v." mongolia="(dig-ийн øнгøрсøн цаг) малтсан, ухсан"/>
+    <word english="dupe" type="v." mongolia="мэхлэх, залилах, хуурах"/>
+    <word english="during" type="prep." mongolia="туршид, турш ... явцад"/>
+    <word english="duty" type="n." mongolia="vvрэг алба"/>
+    <word english="dwelling" type="n." mongolia="орон гэр, орон байр, орон сууц, сууцны"/>
+    <word english="dwelling house" type="" mongolia="сууцны байшин, сууц, байшин, оромж"/>
+    <word english="each" type="pron." mongolia="бvр, тус бvр, тутам"/>
+    <word english="each other" type="" mongolia="бие биенээ, нэг нэгтэйгээ"/>
+    <word english="eagerly" type="adj." mongolia="тэсгэлгvй хvсэх, хvсэн хvлээх"/>
+    <word english="ear" type="n." mongolia="(øрøøсøн) чих"/>
+    <word english="earn" type="v." mongolia="ажиллаж олох, авах, ашиг олох"/>
+    <word english="earlier" type="adj." mongolia="арай эрт, эртхэн"/>
+    <word english="early" type="adv." mongolia="(эрт оройн) эрт"/>
+    <word english="earth" type="n." mongolia="газар, дэлхий"/>
+    <word english="easy (ly)" type="adj." mongolia="амар, хялбар"/>
+    <word english="east" type="n." mongolia="дорно, дорнод, зvvн"/>
+    <word english="eat" type="v." mongolia="идэх, зооглох, хvртэх"/>
+    <word english="eaten" type="v." mongolia="(eat-ийн p. p) идсэн"/>
+    <word english="economic" type="adj." mongolia="эдийн засгийн"/>
+    <word english="economist" type="n." mongolia="эдийн засагч"/>
+    <word english="educate" type="v." mongolia="хvмvvжvvлэх, хvн болгох, боловсрол олгох, боловсруулах"/>
+    <word english="educated man" type="" mongolia="боловсролтой хvн"/>
+    <word english="education" type="n." mongolia="сургалт, боловсрол, боловсролын тогтолцоо"/>
+    <word english="effect" type="n." mongolia="vр нøлøø, vр ашиг"/>
+    <word english="effort" type="n." mongolia="зvтгэл, хичээх"/>
+    <word english="egg" type="n." mongolia="øндøг"/>
+    <word english="eighty" type="num." mongolia="ная, наян"/>
+    <word english="either ... or ..." type="conj." mongolia="... ч ... ч, аль аль нь, хоёул"/>
+    <word english="elbow" type="n." mongolia="тохой"/>
+    <word english="elder" type="n." mongolia="ах, ахмад"/>
+    <word english="elder brother" type="n." mongolia="ах"/>
+    <word english="eldest" type="adj." mongolia="ууган, ахмад, эгчмэд"/>
+    <word english="eldest brother" type="" mongolia="ууган ах, их ах"/>
+    <word english="elect" type="v." mongolia="сонгох"/>
+    <word english="electric" type="adj." mongolia="цахилгаан, цахилгааны"/>
+    <word english="electricity" type="n." mongolia="цахилгаан"/>
+    <word english="electronics" type="adj." mongolia="цахим зvй, цахим техник, электроник"/>
+    <word english="element" type="n." mongolia="vндэс, суурь, хvчин зvйл, хэсэг, бvрэлдэхvvн хэсэг, махбод"/>
+    <word english="elephant" type="n." mongolia="заан"/>
+    <word english="eleven" type="num." mongolia="арван нэг, арван нэгэн"/>
+    <word english="empire" type="n." mongolia="гvрэн, эзэнт улс"/>
+    <word english="end" type="n." mongolia="адаг, эцэс, тøгсгøл, шувтарга, эцэслэх, тøгсøх"/>
+    <word english="endure" type="v." mongolia="эдлэх, тэсэх, тэвчих"/>
+    <word english="enemy" type="n." mongolia="дайсан, атаатан, тэрсvvд"/>
+    <word english="englishineer" type="n." mongolia="инженер"/>
+    <word english="englishineering" type="adj." mongolia="инженерийн, инженерчлэл"/>
+    <word english="englishland" type="n." mongolia="Англи орон"/>
+    <word english="englishlish" type="n." mongolia="англи хэл, английн"/>
+    <word english="englishlish speaking countries" type="" mongolia="Англиар ярьдаг орнууд"/>
+    <word english="enjoy" type="v." mongolia="эдлэх, байх, -тай байх, таашаал авах"/>
+    <word english="enjoyable" type="adj." mongolia="зугаатай, урамтай"/>
+    <word english="enough" type="adj." mongolia="болох, хvрэлцэхvйц, боломжийн, хvрэх, гvйцэх"/>
+    <word english="enslave" type="v." mongolia="боолчлох"/>
+    <word english="enslavement" type="n." mongolia="боолчлол"/>
+    <word english="enslaver" type="n." mongolia="боолчлогч"/>
+    <word english="enter" type="v." mongolia="орох, элсэх, нэвтрэх, бvртгэх"/>
+    <word english="entrance" type="n." mongolia="vvд, хаалга, орц, орох, элсэх"/>
+    <word english="envy" type="v." mongolia="атаархуулах, хорхой хvргэх"/>
+    <word english="Equus taki" type="n." mongolia="(Equus адуу гэсэн латин vг) тахь"/>
+    <word english="erest" type="v." mongolia="(хøшøø) босгох, барих"/>
+    <word english="err" type="n." mongolia="андуу, ташаа, гэм, гэм хийх"/>
+    <word english="especially" type="adv." mongolia="ялангуяа, тэр дундаа"/>
+    <word english="essential" type="adj." mongolia="vндсэн, гол, дэвсгэр, ноён нуруу"/>
+    <word english="establish" type="v." mongolia="байгуулах"/>
+    <word english="etc" type="" mongolia="гэх мэт, тэргvvтэн"/>
+    <word english="ethnographical" type="adj." mongolia="угсаатны зvйн"/>
+    <word english="ethnography" type="n." mongolia="угсаатны зvй"/>
+    <word english="Europe" type="n." mongolia="Европ тив"/>
+    <word english="European" type="n." mongolia="европ хvн, европ, европийн "/>
+    <word english="eve (of ...)" type="n." mongolia="битvvн, урьд øдøр, øмнøхøн, босгон дээр, даваан дээр"/>
+    <word english="even" type="adv." mongolia="...ч хvртэл, ... боловч, гэсэн ч"/>
+    <word english="evening" type="n." mongolia="vдэш, орой"/>
+    <word english="ever" type="adv." mongolia="ердøø, ер, vргэлж, хэзээд, байнга"/>
+    <word english="every" type="pron." mongolia="бvр, болгон, тутам"/>
+    <word english="everybody" type="pron." mongolia="хvн болгон, хvн бvр"/>
+    <word english="everyday" type="adj." mongolia="øдøр бvр, øдøр болгон, øдøр øнжилгvй"/>
+    <word english="everyone" type="pron." mongolia="хvн бvр, хvн болгон"/>
+    <word english="everything" type="n." mongolia="хамаг юм, юм болгон"/>
+    <word english="everytime" type="adv." mongolia="цаг vргэлж, байнга"/>
+    <word english="everywhere" type="adv." mongolia="газар сайгvй, энд тэндгvй, хаана ч"/>
+    <word english="ewe" type="n." mongolia="эм хонь"/>
+    <word english="ex" type="n." mongolia="хуучин, тvрvvчийн"/>
+    <word english="exact" type="adj." mongolia="яг таг, яг товтой, нарийн, оновчтой"/>
+    <word english="exam" type="n." mongolia="шалгалт"/>
+    <word english="examination" type="n." mongolia="шалгалт, шалгах"/>
+    <word english="examine" type="v." mongolia="шалгах"/>
+    <word english="example" type="n." mongolia="жишээ, vлгэр"/>
+    <word english="except" type="conj." mongolia="-аас гадна, -аас бусад, ... л биш бол, оруулахгvй/хамруулахгvй/тооцохгvй байх, тайлагдал болох"/>
+    <word english="exception" type="n." mongolia="тайлагдал, тайлагдал болох, ерийн байдлаас ангид, онцгой тохиолдол"/>
+    <word english="exceptionaly" type="adv." mongolia="онцгой, цоорсон"/>
+    <word english="excite" type="v." mongolia="тэвдvv, хøхvvн, сандруу"/>
+    <word english="excuse" type="v." mongolia="уучлах, øршøøх"/>
+    <word english="exercise" type="n." mongolia="дасгал"/>
+    <word english="exhaust" type="v." mongolia="нэрвэх, чилэх, ядрах, сульдах, шавхах, дуусгах, барах"/>
+    <word english="exhibit" type="n." mongolia="vзмэр, vзэсгэлэн"/>
+    <word english="existense" type="n." mongolia="ахуй vе, оршин байхуй, орших, байх"/>
+    <word english="expect" type="v." mongolia="санаатай, бодолтой"/>
+    <word english="expensive" type="adj." mongolia="vнэтэй"/>
+    <word english="experience" type="n." mongolia="туршлага, юм vзэх, хашир, явдал, тохиолдол"/>
+    <word english="experienced" type="adj." mongolia="хашир, туршлагатай"/>
+    <word english="experiment" type="n." mongolia="туршлага, туршилт, туршиж vзэх"/>
+    <word english="expert" type="n." mongolia="мэргэжилтэн, шинжээч"/>
+    <word english="explain" type="v." mongolia="тайлбарлах, тайлах, ярьж øгøх, хэлж øгøх"/>
+    <word english="explanation" type="n." mongolia="тайлбарлах, тайллага, тайлах, тайлбар"/>
+    <word english="express" type="v." mongolia="илтгэх, илэрхийлэх, гаргах"/>
+    <word english="expression" type="n." mongolia="хэллэг"/>
+    <word english="extent" type="v." mongolia="хамрах, эзлэх, vргэлжлэх"/>
+    <word english="exterminate" type="v." mongolia="доромжлох"/>
+    <word english="extinct" type="adj." mongolia="сøнøсøн, сøнøмøл"/>
+    <word english="extra circular" type="adj." mongolia="хичээлээс гадуур"/>
+    <word english="eye" type="n." mongolia="(øрøøсøн) нvд"/>
+    <word english="face" type="n. v." mongolia="нvvр, царай; -руу харах, тулгарах, хvлээх"/>
+    <word english="factory" type="n." mongolia="vйлдвэр"/>
+    <word english="faculty" type="n." mongolia="салбар, дацан, тэнхим, чадвар"/>
+    <word english="fail" type="v." mongolia="алдах, осолдох, унах, алдагдах, сvйрэх"/>
+    <word english="failure" type="n." mongolia="эс бvтэх, алдах, бvтэлгvйтэл, дампуурал"/>
+    <word english="fair" type="n.adj." mongolia="яармаг худалдаа; зøв зvйтэй, зvйд нийцсэн, шударга, тохирсон, таарсан, зøв"/>
+    <word english="fairy land" type="n." mongolia="vлгэрийн орон"/>
+    <word english="falcon" type="n." mongolia="начин"/>
+    <word english="fall" type="v." mongolia="унах"/>
+    <word english="fall in" type="v." mongolia="дайралдах"/>
+    <word english="family" type="n." mongolia="бvл, гэр бvл, айл, овог"/>
+    <word english="famous" type="adj." mongolia="алдар цуутай, алдарт"/>
+    <word english="fan" type="n." mongolia="сэнс, фен, нэг юманд дуртай хvн, шvтэн бишрэгч"/>
+    <word english="far" type="adv." mongolia="хол, алс, зайтай"/>
+    <word english="fare" type="n." mongolia="тийзний vнэ, зорчигч"/>
+    <word english="farm" type="n." mongolia="тариалан, тариа, аж ахуй"/>
+    <word english="farmer" type="n." mongolia="тариачин, аж ахуйн ажилчин"/>
+    <word english="farthest" type="adj." mongolia="тэртээ, алс, холын хол"/>
+    <word english="fast" type="adj." mongolia="хурдан, тvргэн, хурдлах"/>
+    <word english="fate" type="n." mongolia="заяа, учрал"/>
+    <word english="father" type="n." mongolia="аав, эцэг"/>
+    <word english="father-in-law" type="n." mongolia="хадам аав, хадам эцэг"/>
+    <word english="fault" type="n." mongolia="гэм, буруу"/>
+    <word english="fauna" type="n." mongolia="амьтан"/>
+    <word english="fear" type="v." mongolia="айх, эмээх, санаа зовох"/>
+    <word english="February" type="n." mongolia="хоёрдугаар сар"/>
+    <word english="fed" type="v." mongolia="(feed-ийн øнгøрсøн цаг) тэжээв"/>
+    <word english="fee" type="n." mongolia="хøлс, тøлбøр, хураамж"/>
+    <word english="feed" type="v." mongolia="тэжээх, хооллох, ундлах"/>
+    <word english="feel" type="v." mongolia="мэдрэх, санагдах"/>
+    <word english="feet" type="n." mongolia="хоёр хøл, олон хøл"/>
+    <word english="feign" type="adj." mongolia="-сэн юм шиг, -сэн болоод, хуурмагаар"/>
+    <word english="fell" type="v." mongolia="(fall-ийн øнгøрсøн цаг) унав, ойчив"/>
+    <word english="fell asleep" type="" mongolia="унтав (vгчилбэл: унтан ойчив)"/>
+    <word english="fell in" type="v." mongolia="дайралдав, дайралджээ"/>
+    <word english="felt" type="v." mongolia="(feel-ийн øнгøрсøн цаг) санагдав, санагджээ"/>
+    <word english="female" type="n.adj." mongolia="эмэгтэй/бvсгvй хvн, эмэгтэй амьтан; эм, эмэгтэйчvvдийн, эмэгтэй хvний"/>
+    <word english="festival" type="n." mongolia="баяр, наадам"/>
+    <word english="feudal" type="adj." mongolia="хамжлага, феодал"/>
+    <word english="few" type="adj." mongolia="цøøхøн, хэдхэн, бараг vгvй"/>
+    <word english="fierce" type="adj." mongolia="харгис, аюулт"/>
+    <word english="fifteen" type="num." mongolia="арван тав, арван таван"/>
+    <word english="fifty" type="num." mongolia="тавь, тавин"/>
+    <word english="fight" type="n." mongolia="тэмцэл, зодоон, нvдээн, ноцолдоон, (бøхийн) даваа"/>
+    <word english="fill" type="v." mongolia="бøглøх, нøхøж бичих"/>
+    <word english="film" type="n." mongolia="сvvдэр ший, кино"/>
+    <word english="find" type="v." mongolia="олох, олж авах"/>
+    <word english="fine" type="adj." mongolia="сайхан, таатай"/>
+    <word english="finger" type="n." mongolia="хуруу"/>
+    <word english="finish" type="v." mongolia="тøгсøх, дуусах, барах, гvйцэх"/>
+    <word english="fire" type="n." mongolia="гал"/>
+    <word english="first" type="num." mongolia="анхдугаар, анхны, нэгдvгээр, тэргvvн, эхлээд"/>
+    <word english="first ... then ..." type="" mongolia="эхлээд ... дараа нь ..., урьдаар ... сvvлээр нь ..., ...-ийн øмнø ... тэг, тэг ингэ"/>
+    <word english="first half" type="n." mongolia="тэргvvн хагас, эхэн, эхний хагас, цээж"/>
+    <word english="first of all" type="" mongolia="эн тvрvvнд, юун тvрvvн, юуны øмнø, давын øмнø"/>
+    <word english="fish" type="n." mongolia="загас"/>
+    <word english="five" type="num." mongolia="тав, таван, тавдугаар, тав дахь"/>
+    <word english="flag" type="n." mongolia="туг, далбаа, хийр"/>
+    <word english="flat" type="n." mongolia="сууц, орон сууц, хавтгай, тэгш"/>
+    <word english="flat" type="n." mongolia="хавтгай, (fell-ийн хамт): энд сунан ойчоод øгøв, гулдайн хэвтэж орхив"/>
+    <word english="flew" type="v." mongolia="(fly-ийн øнгøрсøн цаг) нисэв"/>
+    <word english="flight" type="n." mongolia="нислэг, нислэгийн онгоц"/>
+    <word english="fling" type="n. v." mongolia="зугаа цэнгэл; шидэх, хаях"/>
+    <word english="flip" type="v." mongolia="шидэх, эргvvлэх"/>
+    <word english="flock" type="n." mongolia="сvрэг, ижил сvрэг"/>
+    <word english="floor" type="n." mongolia="шал, газар, давхар"/>
+    <word english="flora" type="n." mongolia="ургамал"/>
+    <word english="flour" type="n." mongolia="гурил"/>
+    <word english="flour mill" type="" mongolia="гурилын vйлдвэр"/>
+    <word english="flow" type="v." mongolia="урсах, эргэх, гvйх, тvрэх"/>
+    <word english="flower" type="n." mongolia="цэцэг"/>
+    <word english="fluent (ly)" type="adj." mongolia="сайн, тvгдрэлгvй, торохгvй (ярих), чøлøøтэй ярих"/>
+    <word english="fly" type="v. n." mongolia="нисэх, халих; ялаа"/>
+    <word english="foil" type="n." mongolia="тугалган цаас, туялзуур жад"/>
+    <word english="foul" type="n. v." mongolia="зøрчил, алдаа, муухай, бохир, бvдvvлэг, шударга биш; бохирдуулах, завааруулах, алдаа гаргах, дvрэм зøрчих"/>
+    <word english="following" type="adj." mongolia="дараах, дор дурьдсан"/>
+    <word english="folly" type="n." mongolia="тэнэг, мунхаг"/>
+    <word english="fond" type="adj." mongolia="дуртай, хорхойтой, шохоорхуу"/>
+    <word english="food" type="n." mongolia="хоол, хvнс, идэш"/>
+    <word english="fool" type="n." mongolia="тэнэг, зøнøг"/>
+    <word english="foot" type="n." mongolia="(øрøøсøн) хøл, фийт (=0,3048 м)"/>
+    <word english="football" type="n." mongolia="хøлбøмбøг"/>
+    <word english="for" type="prep." mongolia="тул, -д, -т"/>
+    <word english="for example" type="" mongolia="жишээ нь, жишээлбэл, vлгэрлэвээс"/>
+    <word english="foreign" type="adj." mongolia="харь, гадаад"/>
+    <word english="foreigner" type="" mongolia="гадаадын хvн, харийн хvн"/>
+    <word english="forest" type="n." mongolia="ой (мод) хøвч"/>
+    <word english="forget" type="v." mongolia="мартах"/>
+    <word english="forgot" type="v." mongolia="(forget-ийн øнгøрсøн цаг) мартав"/>
+    <word english="fork" type="n." mongolia="сэрээ"/>
+    <word english="form" type="v." mongolia="бvтээх, зохиох, хэлбэржvvлэх"/>
+    <word english="formula" type="n." mongolia="томъёо"/>
+    <word english="forty" type="num." mongolia="дøч, дøчин"/>
+    <word english="forward" type="adv." mongolia="урагш, тийш"/>
+    <word english="found" type="v." mongolia="vндэслэх, байгуулах"/>
+    <word english="found" type="v." mongolia="(find-ийн øнгøрсøн цаг) олов"/>
+    <word english="fourteen" type="num." mongolia="арван дøрøв, арван дøрвøн"/>
+    <word english="fox" type="n." mongolia="vнэг"/>
+    <word english="frank" type="adj." mongolia="vнэндээ, шулуун"/>
+    <word english="free" type="adj." mongolia="эрх, сул, зvгээр, завтай, чøлøøтэй"/>
+    <word english="free-style wrestling" type="" mongolia="чøлøøт бøх, бух ноололдоон"/>
+    <word english="freedom" type="n." mongolia="эрх, эрх чøлøø, чøлøø"/>
+    <word english="freeze" type="v." mongolia="хøлдøøх"/>
+    <word english="French" type="n." mongolia="Франц хэл, франц хvн, франц улсын"/>
+    <word english="Friday" type="n." mongolia="Баасан гараг, Сугар гараг, тав дахь øдøр"/>
+    <word english="friend" type="n." mongolia="найз, нøхøр"/>
+    <word english="friendship" type="n." mongolia="найрамдал"/>
+    <word english="frighten" type="v." mongolia="айх, айлгах"/>
+    <word english="frog" type="n." mongolia="мэлхий"/>
+    <word english="from" type="prep." mongolia="-аас4, -ыг, -г, -ийг"/>
+    <word english="from ... to ..." type="" mongolia="... -аас ... хvртэл, ...-аас4, ...-тал4"/>
+    <word english="from immemorial time" type="" mongolia="тэргvvлшгvй (øнø эртний/балар эртний/элэнц хуланцын) цагаас аваад"/>
+    <word english="front" type="n." mongolia="øвøр, øмнø, урд нvvр"/>
+    <word english="fruit" type="n." mongolia="жимс"/>
+    <word english="fruit-bearing" type="n." mongolia="жимс vржvvлэх, жимслэг"/>
+    <word english="fruit-garden" type="n." mongolia="жимслэг цэцэрлэг"/>
+    <word english="fulfil" type="v." mongolia="биелvvлэх, гvйцэлдvvлэх"/>
+    <word english="full" type="adj." mongolia="дvvрэн, тøгøлдøр, бvрэн"/>
+    <word english="full wrestling costume" type="" mongolia="зодог шуудаг, далбаа шуудаг"/>
+    <word english="full member" type="" mongolia="жинхэнэ гишvvн"/>
+    <word english="fun" type="n." mongolia="зугаа, наргиа, тоглоом"/>
+    <word english="funnel" type="n." mongolia="юvлvvр, яндан"/>
+    <word english="fur" type="n." mongolia="vс, ангийн vс, ангийн арьс"/>
+    <word english="gain" type="n. v." mongolia="øсøлт, ахиц, ашиг, олз, давуу тал; нэр хvнд олох, ашиг олох"/>
+    <word english="game" type="n." mongolia="тоглоом, тэмцээн"/>
+    <word english="garden" type="n." mongolia="цэцэрлэг"/>
+    <word english="gas" type="n." mongolia="хий, газ, хор хий, шатахуун"/>
+    <word english="gather" type="v." mongolia="хураах, цуглуулах, чуулах"/>
+    <word english="gather crops" type="" mongolia="тариа хураах"/>
+    <word english="gem" type="n." mongolia="засмал эрдэнийн чулуу, алт шиг хvн"/>
+    <word english="generally" type="adv." mongolia="ерøнхийдøø, ерøнхий"/>
+    <word english="generation" type="n." mongolia="vе, (vе удмын) vе, vе шат"/>
+    <word english="geographically" type="adv." mongolia="газар зvйгээр, газар зvйн байдлаар"/>
+    <word english="geography" type="n." mongolia="газар зvй"/>
+    <word english="geology" type="n." mongolia="геологи, газар судлал"/>
+    <word english="get" type="v." mongolia="болох, хvрэх, олох"/>
+    <word english="get up" type="v." mongolia="øглøø босох, босох"/>
+    <word english="gin" type="n." mongolia="жинн (архи)"/>
+    <word english="girrafe" type="n." mongolia="анааш"/>
+    <word english="girl" type="n." mongolia="охин, бvсгvй"/>
+    <word english="give" type="v." mongolia="øгøх"/>
+    <word english="glad" type="v." mongolia="баяртай байх, сэтгэлд таатай байх, баясах"/>
+    <word english="glasses" type="n." mongolia="нvдний шил"/>
+    <word english="glorious" type="adj." mongolia="нэртэй, тvртэй, алдартай"/>
+    <word english="glove" type="n." mongolia="бээлий"/>
+    <word english="glue" type="n." mongolia="цавуу"/>
+    <word english="go" type="v." mongolia="явах, одох"/>
+    <word english="goal" type="n. v." mongolia="зорилго; хаалганд бøмбøг оруулах"/>
+    <word english="goat" type="n." mongolia="ямаа"/>
+    <word english="Gobi" type="n." mongolia="говь"/>
+    <word english="golden" type="adj." mongolia="алтан, алтадсан"/>
+    <word english="gone" type="v." mongolia="(go -ийн øнгøрсøн цаг) яваад øгсøн, явсан"/>
+    <word english="good" type="adj." mongolia="сайн, амар, зvгээр"/>
+    <word english="goods" type="n." mongolia="эд агуурс, бараа, таваар"/>
+    <word english="goose" type="n." mongolia="галуу"/>
+    <word english="got" type="v." mongolia="(get-ийн øнгøрсøн цаг)"/>
+    <word english="government" type="n." mongolia="засаг, засгийн газар"/>
+    <word english="gown" type="n." mongolia="гоёлын даашинз, ёслолын øмсгøл, дээл, халаад, эмнэлгийн хувцас"/>
+    <word english="grade" type="n." mongolia="зэрэг, зэрэглэл, цол, анги, чанар, дvн"/>
+    <word english="gradual(ly)" type="adv." mongolia="аажим, улмаар, дам дамаар"/>
+    <word english="graduate" type="v." mongolia="дvvргэх, тøгсøх"/>
+    <word english="grandfather" type="n." mongolia="øвøг эцэг, øвøг аав, øвøø"/>
+    <word english="grandmother" type="n." mongolia="эмэг эх, эмэг ээж, эмээ"/>
+    <word english="grant" type="n." mongolia="тэтгэвэр, сул цалин, тэтгэмж"/>
+    <word english="grave(ly)" type="adv." mongolia="ягхийтэл, ултай, егøøтэй"/>
+    <word english="great" type="adj." mongolia="их, vлэмж, агуу"/>
+    <word english="Great National Khural" type="" mongolia="Улсын Их Хурал"/>
+    <word english="greatest" type="adj." mongolia="ихийн их, хамгийн их, их"/>
+    <word english="greatly" type="adv." mongolia="их, ихээр, ихээхэн"/>
+    <word english="Greece" type="n." mongolia="Грек улс"/>
+    <word english="green" type="adj." mongolia="ногоон"/>
+    <word english="grey" type="adj." mongolia="саарал, буурал, орог"/>
+    <word english="grief" type="n." mongolia="ханиад"/>
+    <word english="ground" type="n." mongolia="газар, хøрс, шал"/>
+    <word english="group" type="n." mongolia="бvлэг, хэсэг, баг"/>
+    <word english="grow" type="v." mongolia="ургах, øсøх, болох"/>
+    <word english="grown" type="v." mongolia="(grow-ийн øнгøрсøн цаг) ургав, øсøв"/>
+    <word english="guest" type="n." mongolia="зочин, гийчин, айлчин"/>
+    <word english="guide" type="n." mongolia="тайлбарлагч, хøтøч"/>
+    <word english="gulf" type="n." mongolia="далайн булан"/>
+    <word english="gun" type="n." mongolia="галт зэвсэг, гар буу"/>
+    <word english="gym" type="n." mongolia="биеийн тамирын заал"/>
+    <word english="habit" type="n." mongolia="заншил, зан, дадал"/>
+    <word english="had" type="v." mongolia="(have-ийн øнгøрсøн цаг)"/>
+    <word english="hair" type="n." mongolia="vс"/>
+    <word english="half" type="n." mongolia="хагас, тэн хагас, тал"/>
+    <word english="hall" type="n." mongolia="танхим, øрøø"/>
+    <word english="hammock" type="n." mongolia="дvvжин ор"/>
+    <word english="hand" type="n." mongolia="гар (бугуйнаас хурууны vзvvр хvртэлх)"/>
+    <word english="hand-bag" type="n." mongolia="гар цvнх, богц"/>
+    <word english="hang" type="v." mongolia="дvvжлэх, унжуулах, øлгøх"/>
+    <word english="hanger" type="n." mongolia="øлгvvр, дэгээ"/>
+    <word english="happiness" type="n." mongolia="амгалан, жаргалан"/>
+    <word english="happy" type="adj." mongolia="жаргалтай, баяртай, сайхан"/>
+    <word english="hard" type="adj." mongolia="шаргуу, бэрх, хатуу"/>
+    <word english="harder" type="adj." mongolia="арай хэцvv, баахан хvчир"/>
+    <word english="hardest" type="adj." mongolia="их хатуу, бэрх хэцvv"/>
+    <word english="hardly" type="adv." mongolia="бараг тэгчихсэн/ингэчихсэн, арай"/>
+    <word english="hardship" type="n." mongolia="зовлон, тøвøг"/>
+    <word english="hare" type="n." mongolia="туулай"/>
+    <word english="harmongoliay" type="n." mongolia="зохицол, зохирох ёс, нийцэл"/>
+    <word english="harvest" type="n." mongolia="ургац, хадлан, тариа хураах"/>
+    <word english="harvest season" type="" mongolia="ургац, тариа хураах цаг"/>
+    <word english="has" type="v." mongolia="утга нь have-тайгаа ижил"/>
+    <word english="hat" type="n." mongolia="малгай, бvрх"/>
+    <word english="haughty" type="adj." mongolia="ихэмсэг, дээрэлхvv"/>
+    <word english="have" type="v." mongolia="-тай3, байх, бий, идэх, зооглох, уух"/>
+    <word english="he" type="pron." mongolia="тэр (энэ) эрэгтэй, эр, эрэгчин"/>
+    <word english="he-goat" type="n." mongolia="сэрх, ухна"/>
+    <word english="he-wolf" type="n." mongolia="азарган чоно"/>
+    <word english="head" type="n." mongolia="толгой, тэргvvн"/>
+    <word english="headmaster" type="n." mongolia="захирал"/>
+    <word english="health" type="n." mongolia="эрvvл мэнд"/>
+    <word english="hear" type="v." mongolia="сонсох, дуулах, чагнах"/>
+    <word english="heart" type="n." mongolia="зvрх, сэтгэл"/>
+    <word english="hearth-place" type="n." mongolia="буурь, голомт"/>
+    <word english="heaviest" type="adj" mongolia="их хvнд"/>
+    <word english="heavily" type="adv." mongolia="хvнд, булиа, нvсэр"/>
+    <word english="heel" type="n." mongolia="øсгий"/>
+    <word english="height" type="n." mongolia="øндøр нам, øндøр"/>
+    <word english="heir" type="n." mongolia="øв залгамжлагч"/>
+    <word english="held" type="v." mongolia="(hold-ийн øнгøрсøн цаг) болов, болсон"/>
+    <word english="helicopter" type="n." mongolia="нисдэг тэрэг"/>
+    <word english="Hello" type="int." mongolia="Сайн байна уу, Сайн уу"/>
+    <word english="help" type="v." mongolia="туслах, тус болох, хамжих, хавсрах"/>
+    <word english="helpful" type="adj." mongolia="тустай, нэмэртэй"/>
+    <word english="her" type="pron." mongolia="энэ (тэр) эмэгтэйн, тvvний"/>
+    <word english="heritage" type="n." mongolia="øв, øв соёл"/>
+    <word english="hers" type="pron." mongolia="тэр эмэгтэйнх, тvvнийх, тэрнийх"/>
+    <word english="herself" type="pron." mongolia="(тэр, энэ эмэгтэй) øøрøø"/>
+    <word english="hid" type="v." mongolia="(hide-ийн øнгøрсøн цаг) нуув"/>
+    <word english="hide" type="v." mongolia="нуух, амь хоргодох"/>
+    <word english="high" type="adj." mongolia="øндøр, дээд"/>
+    <word english="higher" type="adj." mongolia="арай øндøр, дээгvvр"/>
+    <word english="highly" type="adv." mongolia="øндøр дээд"/>
+    <word english="hill" type="n." mongolia="дэнж, толгой"/>
+    <word english="himself" type="pron." mongolia="(тэр, энэ эрэгтэй) øøрøø"/>
+    <word english="hind" type="adj." mongolia="хойд"/>
+    <word english="hind legs" type="" mongolia="хойд хоёр хøл"/>
+    <word english="hinge" type="n." mongolia="(хаалганы) нугас"/>
+    <word english="hire" type="v." mongolia="хøлслøх"/>
+    <word english="his" type="pron." mongolia="энэ (тэр) эрэгтэйн, тvvний"/>
+    <word english="historical" type="adj." mongolia="тvvхэн, тvvхийн"/>
+    <word english="historical remains" type="" mongolia="тvvхийн дурсгал"/>
+    <word english="history" type="n." mongolia="тvvх"/>
+    <word english="hit" type="n. v." mongolia="цохилт, амжилт, хит; цохих, онох, хvрэх"/>
+    <word english="hobby" type="n." mongolia="дуртай юм, хобби"/>
+    <word english="hockey" type="n." mongolia="хоккей"/>
+    <word english="hold" type="v." mongolia="атгах, барих, (хурал) зохион байгуулах, болох, хийх"/>
+    <word english="holiday" type="n." mongolia="баяр, амралт, чøлøø"/>
+    <word english="home" type="n." mongolia="гэр, суудаг орон"/>
+    <word english="home policy" type="" mongolia="дотоод бодлого"/>
+    <word english="home production" type="" mongolia="дотоодын бvтээгдэхvvн"/>
+    <word english="homework" type="n." mongolia="гэрийн даалгавар"/>
+    <word english="hone" type="v." mongolia="боловсронгуй болгох, дээшлvvлэх, чангалах, хурцлах, гоё болгох"/>
+    <word english="honey" type="n." mongolia="зøгийн бал"/>
+    <word english="hope" type="v." mongolia="найдах, -аасай, -ээсэй"/>
+    <word english="horse" type="n." mongolia="морь"/>
+    <word english="horse racing" type="n." mongolia="морь уралдах, морины уралдаан"/>
+    <word english="horseman" type="n." mongolia="морьтон, адуучин"/>
+    <word english="hospitable" type="adj." mongolia="ундтай устай, зочломтгой"/>
+    <word english="hot" type="adj." mongolia="халуун, дулаан"/>
+    <word english="hot-spring" type="n." mongolia="халуун рашаан"/>
+    <word english="hotel" type="n." mongolia="зочид буудал, буурчийн газар"/>
+    <word english="hour" type="n." mongolia="(60 секунд нэг цаг болдгийн) цаг"/>
+    <word english="house" type="n." mongolia="гэр, байшин"/>
+    <word english="household" type="n." mongolia="гэр бvл, айл, øрх, ам бvл"/>
+    <word english="housewife" type="n." mongolia="гэрийн эзэгтэй"/>
+    <word english="how" type="adv." mongolia="хэрхэн, яаж, ямар, юутай"/>
+    <word english="how long" type="" mongolia="хэр удаан, хэдий хэр удаан болох"/>
+    <word english="how many" type="adj." mongolia="хэдэн, хичнээн, хэдий чинээ"/>
+    <word english="huge" type="adj." mongolia="аварга, мундаг, лут"/>
+    <word english="human" type="n." mongolia="хvн, хvмvvн"/>
+    <word english="humanity" type="n." mongolia="хvмvvнлэгийн ухаан"/>
+    <word english="hundred" type="num." mongolia="зуу, зуун"/>
+    <word english="hunger" type="v." mongolia="øлсøх"/>
+    <word english="hungry" type="adj." mongolia="øлøн, øлсгøлøн"/>
+    <word english="hunter" type="n." mongolia="анчин, ангууч, гøрøøч, -чин"/>
+    <word english="hurry" type="v." mongolia="яарах, тvргэлэх"/>
+    <word english="hurry up" type="" mongolia="хурдал!, тvргэл!, шалавла!"/>
+    <word english="hurt" type="v" mongolia="гэмтээх, бэртээх"/>
+    <word english="husband" type="n." mongolia="эр нøхøр"/>
+    <word english="hydraulic" type="adj." mongolia="усан цахилгаан станц"/>
+    <word english="hydrogen" type="n." mongolia="устøрøгч"/>
+    <word english="I" type="pron" mongolia="би, миний бие"/>
+    <word english="i.e." type="" mongolia="øøрøøр хэлбэл, тэр нь "/>
+    <word english="ice" type="n." mongolia="мøс, мøхøøлдøс"/>
+    <word english="ice-cream" type="n." mongolia="мøхøøлдøс"/>
+    <word english="Iceland" type="n." mongolia="Исланд улс"/>
+    <word english="idea" type="n." mongolia="санаа, бодол, ухаан"/>
+    <word english="idle" type="adj." mongolia="залхуу"/>
+    <word english="idleness" type="n." mongolia="залхуу"/>
+    <word english="if" type="conj." mongolia="хэрэв, -бал2"/>
+    <word english="ill" type="adj." mongolia="øвчтэй, эмгэгтэй, øвдсøн"/>
+    <word english="immediately" type="adv." mongolia="даруй, дороо"/>
+    <word english="immemorial" type="" mongolia="øнø эртний, элэнц хуланцын, балар эртний"/>
+    <word english="immigration" type="n." mongolia="шалган øнгøрvvлэх, цагаачлах"/>
+    <word english="important" type="adj." mongolia="чухал, чухаг, эрхэм"/>
+    <word english="impossible" type="adj." mongolia="боломжгvй, чадахгvй, бололцоогvй"/>
+    <word english="impoverish" type="v." mongolia="vгvйрэх"/>
+    <word english="impoverished" type="adj." mongolia="зvдvv, ядуу"/>
+    <word english="improve" type="v." mongolia="сайжрах"/>
+    <word english="in" type="prep." mongolia="дотор, дотогшоо, дунд, -д, -т"/>
+    <word english="in a high voice" type="" mongolia="øндøр дуугаар"/>
+    <word english="in bloom" type="" mongolia="цэцэглэх"/>
+    <word english="in case of" type="" mongolia="тохиолдол"/>
+    <word english="in front of" type="" mongolia="... нvvр талд, øмнø, øвøрт, эсрэг талд"/>
+    <word english="in honour" type="" mongolia="дурсгалд зориулан, хvндэтгэн, гавъяаг тэмдэглэх"/>
+    <word english="in order to" type="" mongolia="-ийн тулд, -хад, -хэд"/>
+    <word english="in peace" type="" mongolia="амар жимэр, энх амгалан, энх"/>
+    <word english="in spite of" type="" mongolia="хэдийгээр, боловч, ... ч гэсэн"/>
+    <word english="in spring" type="" mongolia="хавар, хавар цагт"/>
+    <word english="in succession" type="" mongolia="дараалан, толгой дараалан, ар араасаа"/>
+    <word english="in terror" type="" mongolia="айсандаа"/>
+    <word english="in the distance" type="" mongolia="холын, алсад, тээр тэнд"/>
+    <word english="in the east" type="" mongolia="зvvнтээ, дорнод"/>
+    <word english="in time" type="" mongolia="цагтаа, хугацаандаа"/>
+    <word english="inch" type="n." mongolia="инч (2,54 см)"/>
+    <word english="include" type="v." mongolia="орох, багтах"/>
+    <word english="including" type="v." mongolia="багтаан, оруулан"/>
+    <word english="increase" type="v." mongolia="нэмэх, нэмэгдэх, øсøх, бадрах"/>
+    <word english="indeed" type="adv." mongolia="нээрэн, чухам, vнэхээр"/>
+    <word english="independence" type="n." mongolia="тусгаар тогтнол, тусгаар"/>
+    <word english="independent" type="adj." mongolia="тусгаар тогтносон, тусгаар тогтнох, тусгаар, тус тус"/>
+    <word english="indoor" type="adj." mongolia="дотор, байшин дотор"/>
+    <word english="industrial" type="adj." mongolia="vйлдвэрийн, vйлдвэр"/>
+    <word english="industrious" type="adj." mongolia="ажилсаг, махруу"/>
+    <word english="industry" type="n." mongolia="vйлдвэр"/>
+    <word english="inhabitant" type="n." mongolia="суугч, нутаглагч"/>
+    <word english="inquire" type="v." mongolia="асуух, шалах, шалгаах"/>
+    <word english="inscription" type="n." mongolia="бичээс"/>
+    <word english="insist" type="v." mongolia="завдах, зорих, санаатай"/>
+    <word english="institute" type="n." mongolia="дээд сургууль, хvрээлэн"/>
+    <word english="insular" type="adj." mongolia="арлын"/>
+    <word english="intelligent" type="adj." mongolia="цэцэн, сэхээтэй, ухаантай"/>
+    <word english="intend" type="v." mongolia="бодох, тøлøвлøх, завдах, санаатай"/>
+    <word english="interest" type="v." mongolia="сонирхох, сонирхолтой"/>
+    <word english="interesting" type="adj." mongolia="сонин, сонирхолтой"/>
+    <word english="international" type="n." mongolia="олон улсын"/>
+    <word english="interpreter" type="n." mongolia="хэлмэрч"/>
+    <word english="interview" type="n. v." mongolia="ярилцлага; ярилцлага авах, ярилцлаганд дуудах, ярилцлага øгøх, байцаах"/>
+    <word english="into" type="prep." mongolia="дотогш, -руу, -рvv, -луу, -лvv"/>
+    <word english="invader" type="n." mongolia="тvрэмгийлэгч"/>
+    <word english="invite" type="v." mongolia="урих, залах"/>
+    <word english="inwards" type="adv." mongolia="дотогшоо"/>
+    <word english="Ireland" type="n." mongolia="Ирланд улс"/>
+    <word english="Irish" type="adj." mongolia="Ирландын"/>
+    <word english="is" type="v." mongolia="бол, мøн, юм, байна"/>
+    <word english="island" type="n." mongolia="арал"/>
+    <word english="isle" type="n." mongolia="арал"/>
+    <word english="it" type="pron." mongolia="тэр (энэ) юм, тэр (энэ) адгуус"/>
+    <word english="its" type="pron." mongolia="тэр (энэ) юмны, тэр (энэ) адгуусны"/>
+    <word english="itself" type="pron." mongolia="(тэр, энэ юм) øøрøø"/>
+    <word english="jacket" type="n." mongolia="хvрэм, пиджак"/>
+    <word english="jail" type="n. v." mongolia="шорон, гяндан, шоронд орох; шоронд хорих, баривчилж хорих"/>
+    <word english="January" type="n." mongolia="нэгдvгээр сар"/>
+    <word english="Japan" type="n." mongolia="Япон улс"/>
+    <word english="Japanese" type="adj." mongolia="япон, японы, япон хэл, япон хэл"/>
+    <word english="jar" type="n. v." mongolia="бортого, хøнøг, вааран бортого; доргиох, цочирдуулах, хавирах, хахитнах, зохицохгvй байх, нийцэхгvй байх"/>
+    <word english=" jeans" type="n." mongolia="жийнсэн øмд"/>
+    <word english="job" type="n." mongolia="ажил, албан тушаал, vvрэг, даалгавар"/>
+    <word english="jog" type="n. v." mongolia="нудрах, ёврох, донсолгоо; тvлхэх, нудрах, шогших"/>
+    <word english="join" type="v." mongolia="орох, нийлэх, элсэх, нøхцøх"/>
+    <word english="joke" type="n." mongolia="хошин, шог яриа, инээдэм, наргиа"/>
+    <word english="journey" type="n." mongolia="аян, аялал, аян зам"/>
+    <word english="joy" type="n." mongolia="баяр, цэнгэл, хøøр"/>
+    <word english="juice" type="n." mongolia="шvvс"/>
+    <word english="July" type="n." mongolia="долоодугаар сар"/>
+    <word english="jump" type="v." mongolia="vсрэх, дvvлэх, булгих, харайх"/>
+    <word english="June" type="n." mongolia="зургаадугаар сар"/>
+    <word english="just" type="adv." mongolia="саяхан, сая, яг, дøнгøж, дøнгøж сая"/>
+    <word english="justice" type="n." mongolia="гол ёс, ёс мэдэх, чигч, шударга ёс"/>
+    <word english="kangaroo" type="n." mongolia="уутат имж"/>
+    <word english="karate" type="n." mongolia="каратэ"/>
+    <word english="keen" type="adj." mongolia="улаан, улайрсан, шаргуу, цогтой, аатай"/>
+    <word english="keep" type="v." mongolia="байх, сахих, барих, хадгалах"/>
+    <word english="kilo" type="n." mongolia="кило"/>
+    <word english="kilometre" type="n." mongolia="километр"/>
+    <word english="kind" type="n." mongolia="тøрøл, зvйл"/>
+    <word english="kindergarten" type="n." mongolia="хvvхдийн цэцэрлэг"/>
+    <word english="king" type="n." mongolia="хаан"/>
+    <word english="knee" type="n. v." mongolia="øвдøг; øвдøглøх"/>
+    <word english="knife" type="n." mongolia="хутга"/>
+    <word english="knight" type="n." mongolia="хøлøг баатар"/>
+    <word english="knock" type="v." mongolia="тогших, цохих, дэлдэх, балбах"/>
+    <word english="know" type="v." mongolia="мэдэх, ухаарах, таних"/>
+    <word english="knowledge" type="n." mongolia="мэдлэг, эрдэм, ухаан"/>
+    <word english="known" type="v." mongolia="(know-ийн øнгøрсøн цагт нøхцøл vйл vг) мэдэ-"/>
+    <word english="kurdish" type="n.adj." mongolia="кvрд хэл; кvрд, кvрдийн"/>
+    <word english="laboratory" type="n." mongolia="лаборатори"/>
+    <word english="lack" type="n. v." mongolia="хомсдол; дутагдах"/>
+    <word english="lady" type="n." mongolia="хатагтай, авгай, эмэгтэй"/>
+    <word english="lake" type="n." mongolia="нуур"/>
+    <word english="lamb" type="n." mongolia="хурга"/>
+    <word english="land" type="n. v." mongolia="газар, орон, нутаг; газардах, буух"/>
+    <word english="landlord" type="n." mongolia="газрын эзэн"/>
+    <word english="language" type="n." mongolia="хэл"/>
+    <word english="large" type="adj." mongolia="их, том, олон, уужим, дийлэнх, бøøн"/>
+    <word english="large number of" type="" mongolia="олон, øдий тøдий, их хэмжээний"/>
+    <word english="largest" type="adj." mongolia="хамгийн том, хамгаас их"/>
+    <word english="last" type="adj." mongolia="сvvлийн, эцсийн, øнгøрсøн, тvрvvчийн"/>
+    <word english="late" type="adj." mongolia="оройтох, хоцрох"/>
+    <word english="later" type="adj." mongolia="сvvлээр, дараа"/>
+    <word english="laugh" type="v." mongolia="инээх, хøхрøх"/>
+    <word english="law" type="n." mongolia="хууль, хууль зvй, тогтоол"/>
+    <word english="lax" type="adj." mongolia="сул дорой, найдваргvй, сул"/>
+    <word english="lay" type="v." mongolia="тавих, дэлгэх, øрøх, хэвтэх, хажуулах"/>
+    <word english="lay on" type="" mongolia="хажуулах, хэвтэх"/>
+    <word english="lead" type="v." mongolia="хøтлøх, дагуулах, аваачих, хvргэх, удирдах, тэргvvлэх, хошуучлах"/>
+    <word english="leader" type="n." mongolia="удирдагч, тэргvvлэгч, хøтлøгч, лидер"/>
+    <word english="leading" type="adj." mongolia="гарамгай сайн, тэргvvний"/>
+    <word english="leaf" type="n." mongolia="навч, хуудас"/>
+    <word english="learn" type="v." mongolia="эрдэм сурах, юм сурах, юм мэдэх"/>
+    <word english="leave" type="v." mongolia="vлдээх, орхих, явах"/>
+    <word english="lecture" type="n." mongolia="илтгэл, лекц"/>
+    <word english="lecturer" type="n." mongolia="илтгэгч, дээд сургуулийн багш"/>
+    <word english="led" type="v." mongolia="(lead-ийн øнгøрсøн цаг) удирдав"/>
+    <word english="left" type="adj." mongolia="зvvн, зvvн талын, зvvн тийшээ, солгой"/>
+    <word english="left" type="v." mongolia="(leave-ийн øнгøрсøн цагт хэлбэр) явав, орхив, мордов"/>
+    <word english="leg" type="n." mongolia="(øрøøсøн) хøл"/>
+    <word english="leisure" type="n." mongolia="зав чøлøø, сул, зvгээр"/>
+    <word english="lend" type="v." mongolia="тvр хэрэглvvлэх, зээлдvvлэх, зээл олгох"/>
+    <word english="lenglishht" type="n." mongolia="урт богино, урт"/>
+    <word english="lenglishhty" type="adj." mongolia="урт, чилийсэн, сунагар"/>
+    <word english="lesson" type="n." mongolia="хичээл"/>
+    <word english="let" type="v." mongolia="-я, -е, -уул, -vvл"/>
+    <word english="letter" type="n." mongolia="vсэг, бичиг, албан бичиг, захидал"/>
+    <word english="level" type="n." mongolia="тvвшин"/>
+    <word english="lexocological" type="adj." mongolia="vгсийн сангийн"/>
+    <word english="library" type="" mongolia="номын сан"/>
+    <word english="lick" type="v." mongolia="долоох"/>
+    <word english="lie" type="v." mongolia="хэвтэж байх, орших, байх"/>
+    <word english="life" type="n." mongolia="амьдрал"/>
+    <word english="lift" type="v." mongolia="øргøх, дээш нь авах"/>
+    <word english="light" type="n. v." mongolia="гэрэл, гэгээ; асах, гэгээ орох, vvр цайх"/>
+    <word english="like" type="v." mongolia="хайртай, дуртай, хайрлах"/>
+    <word english="like" type="adj." mongolia="шиг мэт, -рхуу, -рхvv, -чилан, -чилэн"/>
+    <word english="limp" type="v." mongolia="доголох, хазганах"/>
+    <word english="line" type="v. n." mongolia="шугамдах, шугам татах, зурах; шугам"/>
+    <word english="linguistic" type="n." mongolia="хэл шинжлэл"/>
+    <word english="lion" type="n." mongolia="арслан"/>
+    <word english="lips" type="n." mongolia="уруул"/>
+    <word english="list" type="n. v." mongolia="жагсаалт, нэрийн хэлхээ, цэс; жагсаалт гаргах, дараалуулах, жагсаах"/>
+    <word english="listen" type="v." mongolia="сонсох"/>
+    <word english="literature" type="n." mongolia="уран зохиол, утга зохиол"/>
+    <word english="litter-bin" type="n." mongolia="хогийн сав"/>
+    <word english="little" type="adj." mongolia="жаахан, жижиг, бага, бяцхан, бичил"/>
+    <word english="live" type="v. n." mongolia="суух, аж тøрøх, амь зуух, амьдрах, нутаглах; амь, нас, амьд"/>
+    <word english="livelihood" type="n." mongolia="аж ахуй, амьжиргаа"/>
+    <word english="living being" type="" mongolia="амьтан, амьд юм"/>
+    <word english="load" type="n. v." mongolia="ачаа, ачаа тээш; ачаалах, ачих"/>
+    <word english="local" type="adj." mongolia="нутгийн, хøдøøгийн, хøдøøний"/>
+    <word english="lock" type="v. n." mongolia="цоожлох, цуургалах"/>
+    <word english="logic" type="n." mongolia="учир шалтгаан, логик, уялдаа"/>
+    <word english="long" type="adj." mongolia="урт, удаан"/>
+    <word english="look" type="v." mongolia="харах, vзэх"/>
+    <word english="look after" type="" mongolia="(хvvхэд, настай хvн зэргийг) харах"/>
+    <word english="look at" type="" mongolia="харах, ширтэх, гøлрøх, ажих"/>
+    <word english="look back" type="" mongolia="гэдэргээ харах"/>
+    <word english="look for" type="" mongolia="эрэх, хайх"/>
+    <word english="looking forward" type="" mongolia="ширтэн хvлээх, тэсгэлгvй хvлээх"/>
+    <word english="lost" type="v." mongolia="хаях, vрэх, гээх"/>
+    <word english="lot" type="n." mongolia="хувь заяа; хэсэг газар"/>
+    <word english="love" type="v." mongolia="хайртай, хайрлах, дурлах"/>
+    <word english="lovely" type="adv." mongolia="vзэсгэлэнтэй, сайхан (царай), цэвэрхэн, зугаатай (цаг)"/>
+    <word english="low" type="adv." mongolia="намхан"/>
+    <word english="lunch" type="n." mongolia="vдийн хоол, vдийн зоог"/>
+    <word english="luxury" type="n." mongolia="гоёл чимгийн, тансаг"/>
+    <word english="machine" type="n." mongolia="машин"/>
+    <word english="machine-tool" type="n." mongolia="суурь машин, суурин машин"/>
+    <word english="mad" type="adj." mongolia="галзуу, солиотой, галзуурсан, солиорсон"/>
+    <word english="made" type="v." mongolia="(make-ийн øнгøрсøн цаг) хийв, хийсэн"/>
+    <word english="magazine" type="n." mongolia="сэтгvvл"/>
+    <word english="magic" type="n." mongolia="ид шид, увидас, гайхамшиг"/>
+    <word english="mail" type="n. v." mongolia="шуудан, захиа, захидал; шуудангаар явуулах/илгээх"/>
+    <word english="main" type="adj." mongolia="гол, тøлøв, чухал"/>
+    <word english="mainland" type="n." mongolia="эх газар"/>
+    <word english="major" type="adj." mongolia="гол, ихэнх"/>
+    <word english="majority" type="n." mongolia="олонх, ихэнх"/>
+    <word english="make" type="v." mongolia="хийх, vйлдэх, болох, -уул, -vvл"/>
+    <word english="make brick" type="" mongolia="тоосго цохих, тоосго хийх"/>
+    <word english="make up one's mind" type="" mongolia="тогтох, шийдэх"/>
+    <word english="male" type="n.adj." mongolia="эрэгтэй хvн, эрэгтэй амьтан; эрэгчин, эрэгтэйчvvдийн, эрэгтэй хvний"/>
+    <word english="mall" type="n." mongolia="худалдаа, vйлчилгээний тøв, худалдааны тøв"/>
+    <word english="mammoth" type="n." mongolia="арслан заан"/>
+    <word english="man" type="n." mongolia="эр, эр хvн, залуу"/>
+    <word english="manage" type="v." mongolia="оролдох, эрхлэх, зохион байгуулах, удирдах, зохицуулах, тэгж/ингэж дøнгøх, амжих"/>
+    <word english="manager" type="n." mongolia="эрхлэгч, удирдагч, зохион байгуулагч, менежер"/>
+    <word english="Manchu" type="n." mongolia="Манж"/>
+    <word english="manhood" type="n." mongolia="идэр нас, эрийн цээнд хvрэх"/>
+    <word english="manly" type="adj." mongolia="эрийн, эр хvний"/>
+    <word english="manner" type="n." mongolia="зан байдал, явдал ёс"/>
+    <word english="many" type="adj." mongolia="олон, их, vлэмж, øдий тøдий"/>
+    <word english="map" type="n." mongolia="газрын зураг"/>
+    <word english="marble" type="n." mongolia="гантиг"/>
+    <word english="March" type="n." mongolia="гуравдугаар сар"/>
+    <word english="march" type="v." mongolia="явах, алхах, явж øнгøрøх"/>
+    <word english="marmalade" type="n." mongolia="бvржмэл, мармелад"/>
+    <word english="marmot" type="n." mongolia="тарвага"/>
+    <word english="marmot hunter" type="" mongolia="тарвагачин"/>
+    <word english="mass" type="n." mongolia="цул, бøøн, бøøн хvн, олон тvмэн"/>
+    <word english="master" type="n." mongolia="эзэн, ахлагч, мастер, сургуулийн багш, магистр (эрдмийн зэрэг)"/>
+    <word english="mate" type="n." mongolia="анд, найз, нøхøр"/>
+    <word english="mathematics" type="n." mongolia="тоо зvй, математик"/>
+    <word english="matter" type="n." mongolia="хэрэг явдал"/>
+    <word english="mature" type="adj." mongolia="ухаан суусан, буурь суурьтай, боловсон, боловсорсон"/>
+    <word english="mausoleum" type="n." mongolia="бунхан"/>
+    <word english="May" type="n." mongolia="тавдугаар сар"/>
+    <word english="may" type="v." mongolia="болзошгvй, магадгvй"/>
+    <word english="me" type=" pron." mongolia="намайг, надад"/>
+    <word english="meal" type="n." mongolia="хоол, зоог, хоол унд, хоол цай"/>
+    <word english="mean" type="v." mongolia="гэсэн vг, утгатай байх, заах, гэсэн байх"/>
+    <word english="meaning" type="n." mongolia="утга, утга учир, ач холбогдол "/>
+    <word english="meat" type="n." mongolia="мах"/>
+    <word english="medicine" type="n." mongolia="анагаах ухаан, эм, эмнэлэг"/>
+    <word english="meet" type="v." mongolia="уулзах, тааралдах, учрах, хуралдах, танилцах"/>
+    <word english="meeting" type="n." mongolia="цуглаан, хурал, уулзах"/>
+    <word english="melon" type="n." mongolia="амтат гуа"/>
+    <word english="member" type="n." mongolia="гишvvн"/>
+    <word english="men" type="n." mongolia="(man-ийн олон тоо) эрэгтэйчvvд, эрчvvд"/>
+    <word english="merchant" type="n." mongolia="худалдаачин"/>
+    <word english="merit" type="n. v." mongolia="хvртэх; гавъяа, зvтгэл"/>
+    <word english="mess" type="n." mongolia="эмх цэгцгvй/ замбараагvй байдал"/>
+    <word english="met" type="v." mongolia="(meet-ийн øнгøрсøн цаг) уулзав"/>
+    <word english="metal" type="n." mongolia="тøмøрлøг, металл"/>
+    <word english="method" type="n." mongolia="арга, барил"/>
+    <word english="metre" type="n." mongolia="метр"/>
+    <word english="Mexico" type="n." mongolia="Мексик улс"/>
+    <word english="mice" type="n." mongolia="(mouse-ийн олон тоо) хулганууд"/>
+    <word english="microscope" type="n." mongolia="микроскоп"/>
+    <word english="middle" type="" mongolia="дундад, дунд, дунд хэсэг"/>
+    <word english="midnight" type="n." mongolia="шøнø дунд"/>
+    <word english="might" type="v." mongolia="(may-ийн øнгøрсøн цагт хэлбэр) болох байв, болохсон"/>
+    <word english="mighty" type="adj." mongolia="эрхт, эрх тøгøлдøр"/>
+    <word english="mile" type="n." mongolia="бээр, миль (=1609 метр)"/>
+    <word english="mill" type="n." mongolia="vйлдвэр, тээрэм"/>
+    <word english="million" type="num." mongolia="сая (тоо)"/>
+    <word english="mime" type="n." mongolia="vггvй жvжиглэх урлаг, vггvй жvжиг"/>
+    <word english="mind" type="n." mongolia="сэтгэл санаа, бодол"/>
+    <word english="mine" type="pron." mongolia="минийх"/>
+    <word english="mineral" type="adj." mongolia="уурхайн, эрдсийн, эрдэс"/>
+    <word english="ministry" type="n." mongolia="яам"/>
+    <word english="minor" type="adj." mongolia="ялигvй, бага сага, цøøн, минор"/>
+    <word english="minute" type="n." mongolia="минут"/>
+    <word english="mirror" type="n." mongolia="толь"/>
+    <word english="Miss" type="n." mongolia="ноёхон, хатагтай (насанд хvрсэн авч хvнтэй суугаагvй эмэгтэй хvнийг хэлнэ)"/>
+    <word english="mix" type="n. v." mongolia="холимог; холих, найруулах, хослуулах"/>
+    <word english="moat" type="n." mongolia="устай суваг/шуудуу/гуу"/>
+    <word english="moderate" type="" mongolia="жигд, тогтуун, нэг янзын"/>
+    <word english="modern" type="adj." mongolia="орчин vеийн"/>
+    <word english="modest" type="adj." mongolia="номхон, даруу, тvвшин"/>
+    <word english="moment" type="n." mongolia="агшин, тэрхэн хором"/>
+    <word english="Mongoliaday" type="n." mongolia="Даваа гараг, Сумъяа гараг, нэг дэх øдøр"/>
+    <word english="mongoliaey" type="n." mongolia="мøнгø, зоос"/>
+    <word english="Mongoliagol" type="n." mongolia="монгол хvн"/>
+    <word english="Mongoliagolia" type="n." mongolia="Монгол улс, монгол орон, монгол газар"/>
+    <word english="Mongoliagolian" type="adj." mongolia="Монгол хэл (хэл, хvн), монголын"/>
+    <word english="mongoliaitor" type="n." mongolia="хянагч/хэмжигч тøхøøрøмж, хянах дэлгэц, дэлгэц"/>
+    <word english="mongoliakey" type="n." mongolia="сармагчин, мич, бич"/>
+    <word english="mongoliath" type="n." mongolia="(жил сарын) сар"/>
+    <word english="mongoliathly" type="adj." mongolia="сар тутмын"/>
+    <word english="mongoliaument" type="n." mongolia="хøшøø дурсгал, бичгийн дурсгал"/>
+    <word english="mood" type="n." mongolia="байдал, амьсгал"/>
+    <word english="moon" type="n." mongolia="(нар сарны) сар, саран"/>
+    <word english="moose" type="n." mongolia="хандгай"/>
+    <word english="more" type="adj." mongolia="илvv, арай ... (тийм, ийм)"/>
+    <word english="morning" type="n." mongolia="øглøø"/>
+    <word english="most" type="adj." mongolia="хамгийн"/>
+    <word english="mostly" type="adv." mongolia="олонх, голдуу"/>
+    <word english="mother" type="n." mongolia="эх, ээж, ижий"/>
+    <word english="mother-in-law" type="n." mongolia="хадам эх, хадам ээж"/>
+    <word english="motherland" type="n." mongolia="эх орон, эх нутаг, тøрсøн газар"/>
+    <word english="motor" type="n." mongolia="хøдøлгvvр"/>
+    <word english="mountain" type="n." mongolia="уул, уул нуруу"/>
+    <word english="mouse" type="n." mongolia="хулгана, маус"/>
+    <word english="mouth" type="n." mongolia="(ам хамрын) ам"/>
+    <word english="move" type="v." mongolia="хøдлøх, нvvх, шилжих, зайлах"/>
+    <word english="Mr." type="n." mongolia="ноён, гуай (эрэгтэй хvнийг хvндэтгэн нэрнийх нь øмнø оруулж дуудах vг)"/>
+    <word english="Mrs" type="n." mongolia="ноёгтой, хатагтай (эрд очсон буюу, эрд очоод бэлэвсэрсэн ч гэсэн эмэгтэй хvнийг хvндэтгэн нэрнийх нь øмнø оруулж дууддаг vг)"/>
+    <word english="much" type="adj." mongolia="их, олон"/>
+    <word english="muddy" type="adj." mongolia="шавартай, шавхайтай"/>
+    <word english="museum" type="n." mongolia="музей"/>
+    <word english="music" type="n." mongolia="хøгжим, хøгжмийн урлаг, хøгжмийн зохиомж"/>
+    <word english="musician" type="n." mongolia="хøгжимчин"/>
+    <word english="must" type="v." mongolia="ёстой, хэрэгтэй, шаардлагатай, -ууштай, -vvштэй, магадгvй, болзошгvй"/>
+    <word english="my" type="pron." mongolia="миний, минь, маань"/>
+    <word english="myself" type="pron." mongolia="(би) øøрøø, øøрийгøø, øøртøø"/>
+    <word english="name" type="n. v." mongolia="нэр, нэр алдар; нэрлэх, нэртэй, гэдэг"/>
+    <word english="nap" type="v." mongolia="дугхийх, хажуулах"/>
+    <word english="nation" type="n." mongolia="vндэстэн, ард тvмэн"/>
+    <word english="national" type="n." mongolia="vндэстэн, vндэсний, улсан"/>
+    <word english="natural" type="adj" mongolia="байгалийн"/>
+    <word english="natural science" type="" mongolia="байгалийн шинжлэх ухаан"/>
+    <word english="nature" type="n." mongolia="байгаль"/>
+    <word english="near" type="adj." mongolia="орчим, хавьд, ойр, шахуу, шадар"/>
+    <word english="nearly" type="adv." mongolia="бараг, шахуу, шахам"/>
+    <word english="necessary" type="adj." mongolia="хэрэгтэй, чухал, чухаг"/>
+    <word english="neck" type="n." mongolia="хvзvv"/>
+    <word english="need" type="adj." mongolia="хэрэгтэй, хэрэгцээтэй"/>
+    <word english="negative" type="adj." mongolia="vгvйсгэсэн, няцаасан, таагvй, дургvй, сонирхолгvй"/>
+    <word english="neighbour" type="n." mongolia="хøрш айл, хøрш"/>
+    <word english="neither ... nor ..." type="conj." mongolia="... ч vгvй ... ч vгvй, ... ч биш ... ч биш"/>
+    <word english="nephew" type="n." mongolia="(ахын хvv) ач дvv (эрэгтэй), (эгчийн хvv) зээ дvv (эрэгтэй)"/>
+    <word english="never" type="adv." mongolia="огт vгvй, ердøø vгvй, хэзээ ч тэгж байгаагvй"/>
+    <word english="nevertheless" type="adv." mongolia="гэлээ ч гэсэн, тэглээ ч гэсэн, чингэвч, тэгэвч, ингэвч"/>
+    <word english="new" type="adj." mongolia="шинэ"/>
+    <word english="newly" type="adv." mongolia="шинэ"/>
+    <word english="newspaper" type="n." mongolia="сонин"/>
+    <word english="next" type="adj." mongolia="дараа, дараагийн, дараа нь"/>
+    <word english="nice" type="adj." mongolia="сайхан, таатай"/>
+    <word english="nicknamed" type="adj." mongolia="цолтой, хочтой"/>
+    <word english="niece" type="n." mongolia="(ахын охин) ач дvv (эмэгтэй), (эгчийн охин) зээ дvv (эмэгтэй)"/>
+    <word english="night" type="n." mongolia="шøнø, орой"/>
+    <word english="nine" type="num." mongolia="ес, есøн"/>
+    <word english="nineteen" type="num." mongolia="арван ес, арван есøн"/>
+    <word english="ninety" type="num." mongolia="ер, ерэн"/>
+    <word english="nitrogen" type="n." mongolia="азот"/>
+    <word english="no" type="adv." mongolia="vгvй, биш"/>
+    <word english="noble" type="n." mongolia="язгууртан"/>
+    <word english="nobody" type="n." mongolia="хэн ч vгvй, хvнгvй"/>
+    <word english="noise" type="n." mongolia="чимээ, шуугиан"/>
+    <word english="nomadic" type="n." mongolia="нvvдэл, нvvдлийн"/>
+    <word english="none" type="pron." mongolia="хэн ч vгvй, юу ч vгvй"/>
+    <word english="north" type="n." mongolia="умар, хойд"/>
+    <word english="northern" type="adj." mongolia="умарт, хойт"/>
+    <word english="nose" type="n." mongolia="хамар, хоншоор"/>
+    <word english="not" type="adv." mongolia="эс, vгvй, vл, биш"/>
+    <word english="note" type="n." mongolia="тэмдэглэл"/>
+    <word english="notebook" type="n." mongolia="дэвтэр, тэмдэглэлийн дэвтэр"/>
+    <word english="nothing" type="adv." mongolia="юу ч vгvй, юмгvй, оргvй"/>
+    <word english="notice" type="v." mongolia="ажих, анзаарах"/>
+    <word english="November" type="n." mongolia="арваннэгдvгээр сар"/>
+    <word english="now" type="adv." mongolia="одоо, øдгøø"/>
+    <word english="nowhere" type="adv." mongolia="хаа ч байхгvй, байх газаргvй, хаашаа"/>
+    <word english="number" type="n." mongolia="тоо, дугаар, тоот"/>
+    <word english="nurse" type="n." mongolia="сувилагч"/>
+    <word english="o'clock" type="" mongolia="(яг тэдэн цаг гэдгийн) цаг"/>
+    <word english="objection" type="n." mongolia="цааргалах, дургvйцэх"/>
+    <word english="oblige" type="v." mongolia="баярлах"/>
+    <word english="obvious" type="adj." mongolia="тодорхой, илэрхий"/>
+    <word english="occupy" type="v." mongolia="эзлэх"/>
+    <word english="October" type="n." mongolia="аравдугаар сар"/>
+    <word english="of" type="prep" mongolia="-ын, -ийн"/>
+    <word english="off" type="adv." mongolia="явах, салах, алслах, хагацах, салан одох"/>
+    <word english="offer" type="v." mongolia="санал болгох, санал тавих, амлах, дэвшvvлэх, илэрхийлэх, хангах, гаргах"/>
+    <word english="office" type="n." mongolia="албан газар, ажлын øрøø, албан тасалгаа"/>
+    <word english="officer" type="n." mongolia="тvшмэл, байцаагч, албан тушаалтан, ажилтан, гишvvн офицер, цагдаа"/>
+    <word english="often" type="adj." mongolia="vргэлж, дандаа"/>
+    <word english="oh" type="int." mongolia="за, øø, хøøх"/>
+    <word english="old" type="adj." mongolia="хøгшин, хуучин, настай"/>
+    <word english="old man" type="n." mongolia="хøгшин хvн, настай хvн, øвгøн"/>
+    <word english="older generation" type="" mongolia="ахмад vе, øвгøдийн vе"/>
+    <word english="on" type="prep." mongolia="(юман) дээр"/>
+    <word english="on page" type="" mongolia="талд, нvvрт, хуудсанд"/>
+    <word english="on schedule" type="" mongolia="цагтаа, хугацаандаа, хуваарийн дагуу, тøлøвлøсний дагуу"/>
+    <word english="on the contrary" type="" mongolia="... нь байтугай, харин ч эсрэгээр"/>
+    <word english="once" type="adv." mongolia="удаа, нэг удаа, нэгэн цагт"/>
+    <word english="once upon a time ..." type="" mongolia="эрт урьдын цагт"/>
+    <word english="one" type="num." mongolia="нэг, нэгэн"/>
+    <word english="oneself" type="pron." mongolia="øøрøø, (хэн нэг хvн) øøрøø"/>
+    <word english="onion" type="n." mongolia="сонгино"/>
+    <word english="only" type="adv." mongolia="гагцхvv, зøвхøн, -хан4"/>
+    <word english="onwards" type="adv." mongolia="...-аас хойш"/>
+    <word english="open" type="v." mongolia="нээх, онгойх, ангайх, (ном) дэлгэх"/>
+    <word english="open" type="adj." mongolia="ил задгай, уудам тэнvvн"/>
+    <word english="open letter" type="n." mongolia="ил захидал"/>
+    <word english="open steppe" type="" mongolia="уудам хээр, хøдøø, хøдøøгийн уудам"/>
+    <word english="operate" type="v." mongolia="ажиллуулах, хøдøлгøх, мэс засал хийх"/>
+    <word english="opponent" type="n." mongolia="øрсøлдøгч, эсэргvvцэгч"/>
+    <word english="opposite" type="adj." mongolia="эсрэг, нøгøø тал, øøдøøс харсан"/>
+    <word english="oppress" type="v." mongolia="дарлах"/>
+    <word english="optional" type="adj." mongolia="сайн дурын, сонгон суралцах, сонгох, шилэх"/>
+    <word english="or" type="conj." mongolia="буюу, эсвэл, нэг бол, vгvй бол"/>
+    <word english="orchard" type="n." mongolia="жимслэг (жимсний цэцэрлэг)"/>
+    <word english="order" type="n. v." mongolia="дэс дараа, зэрэг, зарлиг; захиалах, зарлиг буулгах"/>
+    <word english="organise" type="v." mongolia="зохион байгуулах, хийх"/>
+    <word english="original" type="n." mongolia="уугуул, уг, эх"/>
+    <word english="orthography" type="n." mongolia="зøв бичихзvй"/>
+    <word english="other" type="adj." mongolia="бусад, øøр, нøгøø, ондоо"/>
+    <word english="other than" type="" mongolia="...-аас бусад"/>
+    <word english="ought (to)" type="v." mongolia="зохилтой, зохистой"/>
+    <word english="our" type="pron." mongolia="бидний, манай"/>
+    <word english="ours" type="pron." mongolia="бидний, манайх"/>
+    <word english="ourselves" type="pron." mongolia="(бид) øøрсдøø"/>
+    <word english="out" type="adv." mongolia="гадагшаа гарах"/>
+    <word english="outside" type="adj." mongolia="гадаа, гадна, гадагш"/>
+    <word english="outskirts" type="" mongolia="хотын зах"/>
+    <word english="over" type="prep." mongolia="гаруй, илvv, -аас цааш, дуусах, тарах, гvйцэх"/>
+    <word english="overcome" type="v." mongolia="давах, дийлэх"/>
+    <word english="overfulfil" type="v." mongolia="давуулан биелvvлэх"/>
+    <word english="overwhelming" type="pres. p" mongolia="дийлэнх, зонхилох"/>
+    <word english="overwhelming majority" type="" mongolia="гол олонх, дийлэнх"/>
+    <word english="own" type="adj." mongolia="øøрийн"/>
+    <word english="oxygen" type="n." mongolia="хvчилтøрøгч"/>
+    <word english="pack" type="v." mongolia="савлах, багцлах, боох"/>
+    <word english="page" type="n." mongolia="хуудас, тал (хуудас), нvvр (хуудас)"/>
+    <word english="palace" type="n." mongolia="ордон"/>
+    <word english="pale" type="adj." mongolia="цанхигар, vнсэн хøх"/>
+    <word english="panda" type="n." mongolia="хулсны баавгай, панда"/>
+    <word english="paper" type="n." mongolia="цаас"/>
+    <word english="parent" type="n." mongolia="эцэг эх, эх vvсвэр, эх сурвалж"/>
+    <word english="parents" type="n." mongolia="эцэг эх, аав ээж"/>
+    <word english="park" type="n." mongolia="цэцэрлэг, цэнгэлдэх хvрээлэн"/>
+    <word english="part" type="n." mongolia="хэсэг, бvлэг, анги, хувь"/>
+    <word english="parts of speech" type="" mongolia="vгийн аймаг"/>
+    <word english="party" type="n." mongolia="vдэшлэг, бvлгэм, цуглах; нам"/>
+    <word english="pass" type="v." mongolia="øнгøрøх, дамжих, гатлах, туулах"/>
+    <word english="pass a resolution" type="" mongolia="тогтоол батлах"/>
+    <word english="pass down" type="" mongolia="уламжлах, дамжих, øвлøх"/>
+    <word english="passenglisher" type="n." mongolia="зорчигч"/>
+    <word english="passport" type="n." mongolia="паспорт, vнэмлэх"/>
+    <word english="past" type="n. v." mongolia="øнгøрсøн; øнгøрøх, гэтлэх, гатлах, давах"/>
+    <word english="pasture" type="n." mongolia="бэлчээр, бэлчээх"/>
+    <word english="path" type="n." mongolia="зам, мøр"/>
+    <word english="patience" type="n." mongolia="тэвчээр, хvлцэл, хvлцэнгvй"/>
+    <word english="pavement" type="n." mongolia="явган хvний зам, засмал зам"/>
+    <word english="paw" type="n." mongolia="сарвуу, савар"/>
+    <word english="pay" type="v." mongolia="тøлøх"/>
+    <word english="peace" type="n." mongolia="энх, энх тайван"/>
+    <word english="pear" type="n." mongolia="лийр, лийрийн мод"/>
+    <word english="pen" type="n." mongolia="vзэг, бэхт vзэг"/>
+    <word english="pencil" type="n." mongolia="харандаа"/>
+    <word english="penny" type="n." mongolia="хэд гурван тøгрøг, пэнни"/>
+    <word english="people" type="n." mongolia="улс vндэстэн, хvмvvс, ард тvмэн, зон олон"/>
+    <word english="percent" type="n." mongolia="(зууны тэдэн) хувь"/>
+    <word english="perhaps" type="adv." mongolia="магадгvй, (тийм, ийм) байхаа, болов уу"/>
+    <word english="period" type="n." mongolia="vе, vе шат, хугацаа"/>
+    <word english="person" type="n." mongolia="хvн"/>
+    <word english="personal" type="adj." mongolia="хувийн, хувь хvний, ганцаарчилсан"/>
+    <word english="personality" type="n." mongolia="бие/хувь хvн, хvн"/>
+    <word english="personally" type="adv." mongolia="øøрийн биеэр, биечлэн"/>
+    <word english="pet" type="n." mongolia="гэрийн тэжээмэл амьтан"/>
+    <word english="pharmacy" type="n." mongolia="эмийн сан"/>
+    <word english="phase" type="n." mongolia="vе, шат"/>
+    <word english="philology" type="n." mongolia="хэлбичиг, утга судлал"/>
+    <word english="philosopher" type="n." mongolia="гvн ухаантан, философич"/>
+    <word english="philosophy" type="n." mongolia="философи, гvн ухаан"/>
+    <word english="phone" type="v." mongolia="утасдах, утсаар ярих"/>
+    <word english="phonetic writing" type="" mongolia="авиа зvйн бичиг"/>
+    <word english="photo" type="n." mongolia="фото зураг, гэрэл зураг"/>
+    <word english="photography" type="n." mongolia="гэрэл зураг"/>
+    <word english="physical" type="adj." mongolia="биеийн; физикийн"/>
+    <word english="physical work" type="" mongolia="биеийн хøдøлмøр, хар ажил"/>
+    <word english="physician" type="n." mongolia="их эмч, нарийн мэргэжлийн эмч"/>
+    <word english="physics" type="n." mongolia="физик, бодис зvй"/>
+    <word english="piano" type="n." mongolia="тøгøлдøр хуур"/>
+    <word english="pick" type="v." mongolia="шилэх, сонгох, тvvх, хуулах"/>
+    <word english="picture" type="n." mongolia="хøрøг, зураг"/>
+    <word english="piece" type="n." mongolia="хэсэг, хэрчим, тайрдас"/>
+    <word english="pig" type="n." mongolia="гахай"/>
+    <word english="pill" type="n." mongolia="vрэл, vрэл эм, шахмал эм"/>
+    <word english="pillow" type="n." mongolia="дэр"/>
+    <word english="pity" type="v." mongolia="øрøвдøх, хøøрхийлøх, хар буух"/>
+    <word english="place" type="n." mongolia="газар, зай, орон"/>
+    <word english="plan" type="n. v." mongolia="тøлøвлøгøø, санаа, бодол"/>
+    <word english="plane" type="n." mongolia="тøлøвлøх, бодох, санах"/>
+    <word english="plant" type="n." mongolia="vйлдвэр"/>
+    <word english="plate" type="n." mongolia="таваг"/>
+    <word english="play" type="n. v." mongolia="жvжиг, жvжгийн зохиол"/>
+    <word english="play a trick" type="" mongolia="тоглоом хийх, цаашлуулах"/>
+    <word english="play a hockey" type="" mongolia="хоккей тоглох"/>
+    <word english="play-ground" type="n." mongolia="биеийн тамирын талбай, хvvхэд наадах талбай"/>
+    <word english="playhouse" type="n." mongolia="жvжгийн хvрээлэн, театр"/>
+    <word english="pleasant" type="adj." mongolia="таатай, аятайхан, сайхан"/>
+    <word english="please" type="v." mongolia="ажаамуу, тэгнэ vv"/>
+    <word english="plot" type="n. v." mongolia="хуйвалдаан, хуйвалдах, сvлбэлдэх, зураг дээр тэмдэглэх"/>
+    <word english="plough" type="v." mongolia="газар хагалах, газар эргvvлэх"/>
+    <word english="plunder" type="v." mongolia="мøлжих, тонох"/>
+    <word english="pocket" type="n." mongolia="халаас"/>
+    <word english="poem" type="n." mongolia="шvлэг, яруу найраг"/>
+    <word english="poetry" type="n." mongolia="яруу найраг"/>
+    <word english="point" type="n. v." mongolia="vзvvр, цэг, газар, хэмжээ, vе шат, учир утга, санаа, гол асуудал, цэг, таслал; заах, харуулах"/>
+    <word english="poise" type="n." mongolia="дøлгøøн зан"/>
+    <word english="policy" type="n." mongolia="улс тøрийн бодлого"/>
+    <word english="politic" type="adj." mongolia="улс тøр, тøрийн бодлого"/>
+    <word english="political" type="adj." mongolia="улс тøрийн, тøрийн"/>
+    <word english="poor" type="adj." mongolia="хоосон, ядуу"/>
+    <word english="popular" type="adj." mongolia="нэрд гарсан, алдартай, тvгээмэл, нийтийн, олон тvмний"/>
+    <word english="population" type="n." mongolia="хvн ам"/>
+    <word english="porter" type="n." mongolia="хаалгач, ачаа зøøгч, ачигч"/>
+    <word english="possibility" type="n." mongolia="боломж, бололцоо"/>
+    <word english="possible" type="adj." mongolia="боломжтой"/>
+    <word english="post" type="v." mongolia="илгээх, явуулах"/>
+    <word english="postage" type="n." mongolia="шуудангийн тøлбøр"/>
+    <word english="postage stamp" type="" mongolia="шуудангийн тэмдэгт"/>
+    <word english="poster" type="n." mongolia="зарлал, зурагт хуудас"/>
+    <word english="postphone" type="v." mongolia="хойшлох, хугацааг сунгах"/>
+    <word english="potato" type="n." mongolia="тøмс"/>
+    <word english="pour" type="v." mongolia="гоожуулах, асгарах, гоожих, асгах, (утаа) баагих, юvлэх"/>
+    <word english="power" type="n." mongolia="хvч, хvчний"/>
+    <word english="praise" type="v." mongolia="магтах, сайшаах"/>
+    <word english="prefer" type="v." mongolia="илvvд vзэх, дээр гэж vзэх, тушаал ахиулах/дэвшvvлэх"/>
+    <word english="prepare" type="v." mongolia="бэлтгэх, тøхøøрøх, зэхэх"/>
+    <word english="present" type="n. v." mongolia="одоо, øдгøø; ирэх, байлцах, байх"/>
+    <word english="president" type="n." mongolia="захирал, ерøнхийлøгч"/>
+    <word english="pretty" type="adj." mongolia="хøøрхøн, сайхан, гоолиг"/>
+    <word english="previously" type="adv." mongolia="урьд øмнø, хэдийнэ, аль хэдийнэ"/>
+    <word english="price" type="n." mongolia="vнэ, vнэ цэнэ, vнэлэмж"/>
+    <word english="primary" type="n." mongolia="анхан шатны, бага (primary school – бага сургууль)"/>
+    <word english="printing" type="n." mongolia="хэвлэл, хэвлэсэн тоо/хувь"/>
+    <word english="printing plant" type="" mongolia="хэвлэх vйлдвэр"/>
+    <word english="private" type="adj." mongolia="хувийн"/>
+    <word english="prize" type="n." mongolia="шан, шагнал, бай"/>
+    <word english="problem" type="n." mongolia="асуудал, хэрэг, явдал"/>
+    <word english="produce" type="v." mongolia="vйлдвэрлэх, гаргах, бvтээх"/>
+    <word english="product" type="n." mongolia="бvтээгдэхvvн"/>
+    <word english="production" type="n." mongolia="бvтээгдэхvvн, vйлдвэрлэл"/>
+    <word english="production association" type="" mongolia="нэгдэл"/>
+    <word english="productivity" type="n." mongolia="бvтээмж"/>
+    <word english="professor" type="n." mongolia="профессор"/>
+    <word english="programme" type="n." mongolia="хøтøлбøр"/>
+    <word english="progress" type="n." mongolia="дэвшил, дэвшил хøгжил, ахиц, явц, øрнøл"/>
+    <word english="project" type="n." mongolia="тøсøл"/>
+    <word english="prominent" type="adj." mongolia="гарамгай, зартай, цуутай, цоорсон"/>
+    <word english="promise" type="v." mongolia="амлах, ам øгøх"/>
+    <word english="pronunciation" type="n." mongolia="дуудлага"/>
+    <word english="proud" type="adj." mongolia="бахархах, бардах, бахдах"/>
+    <word english="prove" type="v." mongolia="батлах, гэрчлэх"/>
+    <word english="proverb" type="n." mongolia="цэцэн vг, зvйр vг"/>
+    <word english="provide" type="v." mongolia="хангах, øгøх"/>
+    <word english="psyche" type="v." mongolia="(хvнийг) улангасуулах/уур унтууг нь хøдøлгøх, тааж/тааварлаж мэдэх"/>
+    <word english="psychiatrist" type="n." mongolia="сэтгэцийн эмч"/>
+    <word english="psychic" type="n." mongolia="тøлøгч, удган"/>
+    <word english="psychologist" type="n." mongolia="сэтгэл зvйч"/>
+    <word english="psychology" type="n." mongolia="сэтгэл судлал"/>
+    <word english="publish" type="v." mongolia="нийтлэх, хэвлэх"/>
+    <word english="pull" type="v." mongolia="татах, суга татах, сугалж гаргах"/>
+    <word english="punitive" type="adj." mongolia="залхаан цээрлvvлэх, хэт øндøр"/>
+    <word english="pupil" type="n." mongolia="шавь, сурагч"/>
+    <word english="push" type="v." mongolia="тvлхэх"/>
+    <word english="put" type="v." mongolia="тавих, байрлуулах, (юм руу) хийх"/>
+    <word english="qualification" type="n." mongolia="диплом, гэрчилгээ, мэргэжлийн зэрэг/цол"/>
+    <word english="quality" type="n." mongolia="чанар"/>
+    <word english="quarter" type="n." mongolia="мøч, дøрøвний нэг"/>
+    <word english="queen" type="n." mongolia="хатан хаан, хатан"/>
+    <word english="quest" type="n." mongolia="эрэл, эрэлхийлэл, хайлт"/>
+    <word english="question" type="n." mongolia="асуулга, асуулт"/>
+    <word english="queue" type="n." mongolia="дараалал, оочер"/>
+    <word english="quickly" type="adv." mongolia="хурдан, тvргэн, удалгvй, тøдхøн, мøдхøн, хурдхан"/>
+    <word english="quit" type="v." mongolia="гарах, зогсоох, дуусгавар болгох, болих"/>
+    <word english="quite" type="adv." mongolia="огт, бvр, тун"/>
+    <word english="quota" type="n." mongolia="тоо хэмжээ, норм, орон тоо, ноогдол, хувь"/>
+    <word english="rtypet" type="n." mongolia="туулай"/>
+    <word english="radio" type="n." mongolia="радио"/>
+    <word english="radioset" type="n." mongolia="радио, хvлээн авагч"/>
+    <word english="railing" type="n." mongolia="торон хашаа, хаалт, хашлага"/>
+    <word english="railway" type="n." mongolia="тøмøр зам"/>
+    <word english="rain" type="n." mongolia="хур бороо, бороо орох, хур буух"/>
+    <word english="rainbow" type="n." mongolia="солонго"/>
+    <word english="rainy" type="adj." mongolia="бороорхог, хуртай, бороо ихтэй"/>
+    <word english="raise" type="v." mongolia="øргøх, гозойлгох, øндийлгøх"/>
+    <word english="ram" type="n." mongolia="хуц"/>
+    <word english="range" type="n." mongolia="сонголт, цар, хvрээ, ялгаа, цар хvрээ, хамрах хvрээ"/>
+    <word english="rank" type="n." mongolia="зэрэг, хэмжээ"/>
+    <word english="rapidly" type="adv." mongolia="хурдан, тvргэн"/>
+    <word english="rarity" type="n." mongolia="ховор, ховор юм"/>
+    <word english="razor" type="n." mongolia="тонгорог, ир"/>
+    <word english="rate" type="n." mongolia="хурд, хурдан"/>
+    <word english="rather" type="adv." mongolia="нилээд, баахан, -втар"/>
+    <word english="rawboned" type="adj." mongolia="янхигар"/>
+    <word english="reach" type="v." mongolia="хvрэх"/>
+    <word english="read" type="v." mongolia="унших"/>
+    <word english="ready" type="adj." mongolia="бэлэн, бэлхэн"/>
+    <word english="realize" type="v." mongolia="гvйцэтгэх, хэрэгжvvлэх"/>
+    <word english="really" type="adv." mongolia="vнэхээр, чухам, нээрээ, яг"/>
+    <word english="reason" type="n." mongolia="шалтгаан, учир"/>
+    <word english="receive" type="v." mongolia="хvлээн авах, авах, олох, уулзах"/>
+    <word english="receive grant" type="" mongolia="тэтгэвэр авах, соёрхол хvртэх"/>
+    <word english="recently" type="adv." mongolia="саявтар, саяхан, ойрмог"/>
+    <word english="recognition" type="n." mongolia="таних, танигдах"/>
+    <word english="recover" type="v." mongolia="эргvvлэн олох/авах, буцаан авах, бие эдгэрэх, илаарших, сэргэх"/>
+    <word english="rector" type="n." mongolia="(их сургуулийн) захирал, ректор"/>
+    <word english="red" type="adj." mongolia="улаан"/>
+    <word english="refer" type="v." mongolia="дамжуулах, шилжvvлэх, илтгэх, онцлох, -мтгай"/>
+    <word english="reference" type="n." mongolia="дурдах, лавлах"/>
+    <word english="reference books" type="" mongolia="лавлах ном/толь бичиг"/>
+    <word english="reflect" type="v." mongolia="тусгах, харуулах"/>
+    <word english="regarding" type="prep." mongolia="...-тай холбоотой, талаар, тухайд"/>
+    <word english="regret" type="v." mongolia="гэмшил, харуусал, харамсал, хайран"/>
+    <word english="regularly" type="adv." mongolia="байнга, тогтмол"/>
+    <word english="relative" type="n." mongolia="тøрøл, садан"/>
+    <word english="remain" type="v." mongolia="vлдэх, хоцрох, vлдсэн юм, дурсгал"/>
+    <word english="remember" type="v." mongolia="санах, сануулах"/>
+    <word english="remotest" type="adj." mongolia="бvр эртний"/>
+    <word english="render" type="v." mongolia="тус болох, хамжих, тойлох, ...-г vйлчлэх"/>
+    <word english="rent" type="v." mongolia="тvрээслэх, тvрээслvvлэх"/>
+    <word english="repair" type="v." mongolia="засах, сэлбэх"/>
+    <word english="reply" type="v." mongolia="хариу хэлэх, øчих"/>
+    <word english="report" type="n." mongolia="илтгэл, тайлан, мэдээ, мэдээлэл"/>
+    <word english="represent" type="v." mongolia="тøлøøлøх, орлох"/>
+    <word english="representative" type="n." mongolia="тøлøøлøгч"/>
+    <word english="rescue" type="v." mongolia="аврах"/>
+    <word english="research" type="n." mongolia="шинжилгээ, судалгаа"/>
+    <word english="reserve" type="v." mongolia="зэхэх, бэлтгэх, базаах"/>
+    <word english="residence" type="n." mongolia="øргøø, байр, орон гэр"/>
+    <word english="resolution" type="n." mongolia="тогтоол, шийдвэр, шийдэмгий зан, санаа шулуудах, нягт"/>
+    <word english="resource" type="n." mongolia="баялаг, нøøц"/>
+    <word english="rest" type="v. n." mongolia="завсарлах, амрах, санаа амрах; vлдэгдэл, vлдсэн хугацаа, vлдсэн хэсэг, амралт, бусад"/>
+    <word english="retaliate" type="v." mongolia="цээрлvvлэх, залхаах, гэсгээх"/>
+    <word english="return" type="v." mongolia="эргэж ирэх, буцах, харих"/>
+    <word english="review" type="n." mongolia="хичээл давтах, давтлага, хянаж vзэх, хяналт, мэдээ"/>
+    <word english="revolution" type="n." mongolia="хувьсгал"/>
+    <word english="rhinoceros" type="n." mongolia="хирс"/>
+    <word english="rich" type="adj." mongolia="баян, чинээлэг"/>
+    <word english="richest" type="adj." mongolia="их баян, хамгийн баян"/>
+    <word english="ride" type="v." mongolia="морь унах, давхих"/>
+    <word english="right" type="n. adj." mongolia="эрх, эрх дур; зøв, тийм, зøв гар тал, баруун гар тал"/>
+    <word english="ring" type="v." mongolia="дуугарах, хангинах, жингэнэх"/>
+    <word english="ring up" type="v." mongolia="утасдах, утсаар ярих"/>
+    <word english="rise" type="v." mongolia="босох, дэгжих, øøдлøх, мандах, øсøх"/>
+    <word english="rising sun" type="n." mongolia="мандах нар, мандаж байгаа нар"/>
+    <word english="river" type="n." mongolia="гол, мøрøн"/>
+    <word english="road" type="n." mongolia="зам"/>
+    <word english="roar" type="v." mongolia="хvрхрэх"/>
+    <word english="robber" type="n." mongolia="дээрэмчин, тонуулчин, хулгайч"/>
+    <word english="rode" type="v." mongolia="(ride-ийн øнгøрсøн цаг) морь унав"/>
+    <word english="room" type="n." mongolia="øрøø, тасалгаа"/>
+    <word english="rooster" type="n." mongolia="азарган тахиа"/>
+    <word english="rot" type="v." mongolia="муудах, ялзрах"/>
+    <word english="rough" type="adj." mongolia="ширvvн, барзгар, арзгар, танхай, балмад, тойм, бvдvvвч"/>
+    <word english="round" type="adj. n." mongolia="тойрон, тойрог, эргэлдэн; шат, vе, мøчлøг, орчил, нэг vе тоглолт, ээлж"/>
+    <word english="rude" type="adj." mongolia="эелдэг бус, бvдvvлэг, шалиг, заваан"/>
+    <word english="ruin" type="v." mongolia="балрах, сvйрэх, уруудах"/>
+    <word english="ruler" type="n." mongolia="шугам"/>
+    <word english="run" type="v." mongolia="гvйх, харайх, давхих, зугатах, ажиллах, vргэлжлэх, тоглох"/>
+    <word english="run away" type="" mongolia="буруулах, оргон босох"/>
+    <word english="Russia" type="n." mongolia="Орос улс, Орос орон"/>
+    <word english="Russian" type="n." mongolia="орос хэл, орос хvн, орос"/>
+    <word english="rye" type="n." mongolia="хøх тариа"/>
+    <word english="sad" type="adj." mongolia="гунигтай, гансарсан, уйтгартай"/>
+    <word english="said" type="v." mongolia="(say-ийн øнгøрсøн цаг) хэлэв, øгvvлэв"/>
+    <word english="sail" type="v." mongolia="усчлах, хøвøх, залуурдах, гатлах, дарвуулт завиар аялах"/>
+    <word english="sailor" type="n." mongolia="усчин, далайчин"/>
+    <word english="salary" type="n." mongolia="цалин"/>
+    <word english="salt" type="n." mongolia="давс"/>
+    <word english="same" type="adj." mongolia="адил, ижил, нэг, чацуу"/>
+    <word english="sang" type="v." mongolia="(sing-ийн øнгøрсøн цагт хэлбэр) дуулав"/>
+    <word english="sat" type="v." mongolia="(sit-ийн øнгøрсøн цаг) суув"/>
+    <word english="satisfy" type="v." mongolia="цадах, ханах, болих, мэдэх"/>
+    <word english="Saturday" type="n." mongolia="Бямба гараг, Санчир гараг, зургаа дахь øдøр"/>
+    <word english="saw" type="v." mongolia="(see-ийн øнгøрсøн цаг) vзэв, харав"/>
+    <word english="say" type="v." mongolia="хэлэх, øгvvлэх"/>
+    <word english="saying" type="v." mongolia="... гэсэн, гэдэг, хэмээн"/>
+    <word english="scant" type="adj." mongolia="ялигvй, шалихгvй, vл ялиг"/>
+    <word english="scarcely" type="adv." mongolia="бараг, бараг ...гvй, хариугvй, энд тэнд"/>
+    <word english="scare" type="n." mongolia="айдас, тvгшvvр"/>
+    <word english="scene" type="n." mongolia="vзэгдэл, vйл явдал, тайзны засал, талбар, хvрээ"/>
+    <word english="scenery" type="n." mongolia="байдал, байгалийн байдал, ерøнхий байдал, тайзны засал"/>
+    <word english="scent" type="n." mongolia="vнэр, анхилга"/>
+    <word english="scepter" type="n." mongolia="vл итгэгч"/>
+    <word english="schedule" type="n." mongolia="хугацаа, болзоо, хуваарь, тøлøвлøгøø"/>
+    <word english="scholar" type="n." mongolia="эрдэмтэн"/>
+    <word english="school" type="n." mongolia="сургууль"/>
+    <word english="school mistress" type="" mongolia="эмэгтэй багш"/>
+    <word english="schooldays" type="n." mongolia="сургуулийн жилvvд"/>
+    <word english="science" type="n." mongolia="шинжлэх ухаан"/>
+    <word english="scientific" type="adj." mongolia="шинжлэх ухааны, эрдмийн"/>
+    <word english="scientist" type="n." mongolia="эрдэмтэн"/>
+    <word english="scissors" type="n." mongolia="хайч"/>
+    <word english="scoop" type="n." mongolia="шанаган хvрз, хутгуур, халбага"/>
+    <word english="score" type="n." mongolia="оноо, тоо, дvн, хøтøлбøр, шалтгаан, vндэс"/>
+    <word english="Scotland" type="n." mongolia="Шотланд улс"/>
+    <word english="script" type="n." mongolia="бичиг, vсэг"/>
+    <word english="sculpture" type="n." mongolia="цоолборлол, баримал"/>
+    <word english="scum" type="n." mongolia="øрøм, нитгэл, хир буртаг"/>
+    <word english="sea" type="n." mongolia="далай, тэнгис"/>
+    <word english="search" type="v." mongolia="эрэх, хайх"/>
+    <word english="season" type="n. v." mongolia="улирал, цаг; амтлах, хачирлах"/>
+    <word english="seat" type="n." mongolia="суудал"/>
+    <word english="second" type="num. n." mongolia="дэд, хоёрдугаар, удаах; секунд"/>
+    <word english="second half" type="n." mongolia="сvvлийн хагас"/>
+    <word english="secondary" type="adj." mongolia="дунд, дэд, дэс; хоёрдогч"/>
+    <word english="secretary" type="n." mongolia="нарийн бичгийн дарга"/>
+    <word english="section" type="n." mongolia="хэсэг, зvсэм, хэрчим, тасаг, хэсэг, бvлэг"/>
+    <word english="see" type="v." mongolia="vзэх, уулзах, харах"/>
+    <word english="seek" type="v." mongolia="эрэх, эрэлхийлэх"/>
+    <word english="seem" type="adj." mongolia="... янзтай, мэт, шиг, шиг байх"/>
+    <word english="seen" type="v." mongolia="(see-гийн øнгøрсøн цагт нøхцøл vг) vзсэн, уулзсан"/>
+    <word english="seldom" type="adj." mongolia="хааяа, хаа нэг, ховорхон"/>
+    <word english="self" type="n." mongolia="øøрøø, аминдаа"/>
+    <word english="self-control" type="n." mongolia="биеэ мэдэх, биеэ барих, тэвчих"/>
+    <word english="sell" type="v." mongolia="худалдах, зарах, борлуулах"/>
+    <word english="semester" type="n." mongolia="хичээлийн улирал"/>
+    <word english="sent" type="v." mongolia="(send-ийн øнгøрсøн цаг) илгээв, явуулав"/>
+    <word english="separate" type="v." mongolia="тасрах, хоцрох"/>
+    <word english="September" type="n." mongolia="есдvгээр сар"/>
+    <word english="serve" type="v." mongolia="vйлчлэх, хэрэглэх, хангах, нийцvvлэх"/>
+    <word english="set" type="v." mongolia="нар орох, нар шингэх, нар жаргах; байлгах, зэрэглэх, øрøх, тохируулах"/>
+    <word english="settle on" type="" mongolia="суух, суурьших"/>
+    <word english="seven" type="num." mongolia="долоо, долоон"/>
+    <word english="seventeen" type="num." mongolia="арвандолоо, арвандолоон"/>
+    <word english="seventy" type="num." mongolia="дал, далан"/>
+    <word english="several" type="pron." mongolia="хэдэн, нилээд"/>
+    <word english="sew" type="v." mongolia="юм оёх, vйл хийх"/>
+    <word english="sex" type="n." mongolia="эр эм, хvйс"/>
+    <word english="shade" type="n." mongolia="сvvдэр"/>
+    <word english="shake" type="v." mongolia="гар барих, сэгсрэх, гvвэх, зайлах"/>
+    <word english="shall" type="v." mongolia="тэгэх vv, ингэх vv"/>
+    <word english="shampoo" type="n." mongolia="шампунь"/>
+    <word english="share" type="n. v." mongolia="хувь, хэсэг, хувьцаа; хуваалцах, хувааж хийх"/>
+    <word english="shavings" type="n." mongolia="зомгол, залтас"/>
+    <word english="she" type="pron." mongolia="тэр (энэ) эмэгтэй"/>
+    <word english="shear" type="n." mongolia="хусуур, хянгар, хяргуур"/>
+    <word english="sheep" type="n." mongolia="хонь"/>
+    <word english="sheepskin" type="" mongolia="хøдсøн нэхий"/>
+    <word english="sheet" type="n." mongolia="хуудас, орны даавуу"/>
+    <word english="shelf" type="n." mongolia="тавиур"/>
+    <word english="shelter" type="n. v." mongolia="хоргодох байр, хоргодох газар, нøмøр; нøмøрлøх, хамгаалах, далдлах, нуух, орогнуулах"/>
+    <word english="shine" type="v." mongolia="гэрэлтэх, бадрах, гийгvvлэх"/>
+    <word english="ship" type="n." mongolia="онгоц, галт онгоц, хøлøг онгоц"/>
+    <word english="shirt" type="n." mongolia="цамц"/>
+    <word english="shoe" type="n." mongolia="(øрøøсøн) гутал, шаахай"/>
+    <word english="shook" type="v." mongolia="(shake-ийн øнгøрсøн цаг) барив, сэгсрэв"/>
+    <word english="shop" type="n." mongolia="дэлгvvр"/>
+    <word english="shore" type="n." mongolia="эрэг, хøвøø, зах"/>
+    <word english="short" type="adj." mongolia="богино, ахар, охор, нам, намхан"/>
+    <word english="shorter" type="adj." mongolia="...-аас богино, ...-аас ахар, ...-аас намхан"/>
+    <word english="should" type="v." mongolia="(shall-ийн øнгøрсøн цаг) тэгэх/ингэх байв"/>
+    <word english="shoulder" type="n." mongolia="мøр"/>
+    <word english="shout" type="v." mongolia="хашгирах, бахирах, цуурайтуулах"/>
+    <word english="show" type="v. n." mongolia="vзvvлэх, харуулах; vзвэр"/>
+    <word english="showing" type="v. n." mongolia="vзvvлж øгøх, харуулах; vзvvлбэр, тоглолт"/>
+    <word english="shut" type="adj." mongolia="хаалттай, хаагдсан, хамхисан"/>
+    <word english="side" type="v." mongolia="гатлах, гарах"/>
+    <word english="sign" type="v." mongolia="гарын vсэг зурах"/>
+    <word english="signify" type="v." mongolia="утгатай, санаа илтгэх"/>
+    <word english="silk" type="n." mongolia="торго, торгон утас, торгон хувцас, аалзны шvлс"/>
+    <word english="silver" type="n." mongolia="мøнгø, мøнгøн"/>
+    <word english="simple" type="adj." mongolia="жирийн, ерийн"/>
+    <word english="simplest" type="adj." mongolia="хамгаас жирийн, энгийн"/>
+    <word english="simply" type="adv." mongolia="зvгээр"/>
+    <word english="sing" type="v." mongolia="дуу дуулах, аялах, ая барих"/>
+    <word english="sink" type="v." mongolia="живэх, цøмрøх"/>
+    <word english="sir" type="n." mongolia="эрхэм, ноён"/>
+    <word english="sister" type="n." mongolia="эгч, эмэгтэй дvv"/>
+    <word english="sister-in-law" type="n." mongolia="хадам эгч, бэргэн, бэр"/>
+    <word english="sit" type="v." mongolia="суух"/>
+    <word english="situate" type="v." mongolia="байх, орших, байрлах"/>
+    <word english="six" type="num." mongolia="зургаа, зургаан"/>
+    <word english="sixteen" type="num." mongolia="арван зургаа, арван зургаан"/>
+    <word english="sixth" type=" num." mongolia="зургаадугаарт, зургаан, зургааны øдøр, зургааны нэг"/>
+    <word english="sixty" type="num" mongolia="жар, жаран"/>
+    <word english="skating" type="n." mongolia="тэших, гулгах"/>
+    <word english="skeleton" type="n." mongolia="хэлхээ яс, араг яс"/>
+    <word english="skill" type="n." mongolia="ур, чадвар, самбаа"/>
+    <word english="skin" type="n." mongolia="арьс, нэхий"/>
+    <word english="sky" type="n." mongolia="тэнгэр, огторгуй"/>
+    <word english="slaughter" type="v." mongolia="нядлах, хядах, бут ниргэх, vнсэн товрог болгох"/>
+    <word english="slave" type="n." mongolia="боол"/>
+    <word english="sleep" type="v." mongolia="нойрсох, унтах"/>
+    <word english="sleeping pill" type="" mongolia="нойрны эм"/>
+    <word english="slept" type="v." mongolia="(sleep-ийн øнгøрсøн цаг) нойрсов, унтав"/>
+    <word english="slim" type="adj." mongolia="гоолиг, нимгэн, нимгэхэн, жаахан, øчvvхэн"/>
+    <word english="slippery" type="adj." mongolia="халтиргаа, халтиргаатай"/>
+    <word english="slogan" type="n." mongolia="уриа"/>
+    <word english="slow" type="adj." mongolia="удаан, хойрго, зогсонги, удаашралтай"/>
+    <word english="slowly" type="adv." mongolia="аяар, аяархан, аажуу, алгуур, удаан"/>
+    <word english="small" type="adj." mongolia="бага, жижиг, бичил, бяцхан"/>
+    <word english="smell" type="v." mongolia="vнэрлэх, vнэртэх"/>
+    <word english="smoke" type="n. v." mongolia="тамхи, утаа; тамхи татах"/>
+    <word english="snake" type="n." mongolia="могой"/>
+    <word english="snow" type="n. v." mongolia="цас; цас орох"/>
+    <word english="so" type="adv." mongolia="тэгэхээр, тэгвэл, тэгэж, ингэж, ийм тийм"/>
+    <word english="so that" type="conj." mongolia="тэгээд, чингээд, ...-аад"/>
+    <word english="sociable" type="adj." mongolia="эвлэг, аялаг, нийцтэй, нøхøрсøг, нийтлэг, нийгэмч"/>
+    <word english="socialism" type="n." mongolia="социализм"/>
+    <word english="society" type="n." mongolia="нийгэм, нийгэмлэг"/>
+    <word english="sofa" type="n." mongolia="буйдан"/>
+    <word english="soil" type="n." mongolia="хøрс, газар шороо"/>
+    <word english="sold" type="v." mongolia="(sell-ийн øнгøрсøн цаг)"/>
+    <word english="soldier" type="n." mongolia="цэрэг, байлдагч"/>
+    <word english="sole" type="n." mongolia="далайн хэл, ул загас"/>
+    <word english="some" type="pron." mongolia="зарим, хэдэн, зарим нь"/>
+    <word english="some one" type="pron." mongolia="зарим хvн, хэн нэгэн"/>
+    <word english="somebody" type="pron." mongolia="зарим хvн, хэн нэгэн"/>
+    <word english="something" type="pron." mongolia="нэг юм, юм, юм хум"/>
+    <word english="sometime" type="adv." mongolia="хэзээ нэг цагт, хэдvйн, урьдын"/>
+    <word english="sometimes" type="adj." mongolia="заримдаа, vе vе, хааяа"/>
+    <word english="somewhat" type="pron." mongolia="шиг, мэт, -хан, -втар"/>
+    <word english="somewhere" type="adv." mongolia="хаа нэг газар, хаана ч юм"/>
+    <word english="son" type="n." mongolia="хvv, нуган vр"/>
+    <word english="song" type="n." mongolia="дуу"/>
+    <word english="soon" type="adv." mongolia="удахгvй, мøд"/>
+    <word english="sorry" type="adj." mongolia="харамсал, гэмшил, харамсах"/>
+    <word english="sort" type="n." mongolia="зvйл, -рхvv юм"/>
+    <word english="sour" type="adj." mongolia="исгэлэн, муухай ааштай, хэдэр"/>
+    <word english="south" type="n." mongolia="øмнøд, урд"/>
+    <word english="southwards" type="n." mongolia="урагшаа, урд зvг рvv"/>
+    <word english="southwest" type="n." mongolia="баруун øмнø"/>
+    <word english="speak" type="v." mongolia="ярих, хэлэх, øгvvлэх"/>
+    <word english="speaker" type="n." mongolia="vг хэлэх хvн, øгvvлэгч, илтгэгч, уран илтгэгч, их хурлын дарга"/>
+    <word english="spear" type="n." mongolia="жад"/>
+    <word english="special" type="adj. " mongolia="тусгай, øвøрмøц, онцгой, онцлог"/>
+    <word english="specialist" type="n." mongolia="мэргэжилтэн"/>
+    <word english="specific" type="adj." mongolia="øвøрмøц"/>
+    <word english="spectacles" type="n." mongolia="нvдний шил"/>
+    <word english="speech" type="n." mongolia="хэлэх vг, яриа, vг хэл"/>
+    <word english="speed" type="n." mongolia="хурд"/>
+    <word english="spend" type="v." mongolia="зарах, vрэх, сvйтгэх, (цаг хугацаа) øнгøрøøх, байх, "/>
+    <word english="spent" type="v." mongolia="(spend-ийн øнгøрсøн цаг) зарав, vрэв, øнгøрøøв, байв"/>
+    <word english="spent out" type="" mongolia="øнгøрøøв, нøхцøøв"/>
+    <word english="spider" type="n." mongolia="аалз"/>
+    <word english="spill" type="v." mongolia="асгах, цутгах, сагах"/>
+    <word english="spilt" type="v." mongolia="сагаж асгасан, асгасан"/>
+    <word english="spiltmilk" type="n." mongolia="асгачихсан сvv, øнгøрсøн юм"/>
+    <word english="spite" type="n." mongolia="муу санаа, муу санах, хорлох"/>
+    <word english="spoon" type="n." mongolia="халбага"/>
+    <word english="sport" type="n." mongolia="спорт"/>
+    <word english="sportsman" type="n." mongolia="тамирчин"/>
+    <word english="spread" type="n." mongolia="дэлгэрэх, тvгэх, сацрах"/>
+    <word english="spring" type="n. v." mongolia="хавар, хаврын, хавар цаг; булаг; босох, ухасхийн босох"/>
+    <word english="spring mongoliaths" type="n." mongolia="хаврын сар"/>
+    <word english="square" type="n." mongolia="талбай"/>
+    <word english="stab" type="v." mongolia="хага зvсэх, жадлах"/>
+    <word english="stadium" type="n." mongolia="стадион, цэнгэлдэх хvрээлэн"/>
+    <word english="staff" type="n." mongolia="таяг, бороохой, шийдэм; ажилтан, албан хаагч, багш"/>
+    <word english="stamp" type="n." mongolia="тэмдэгт, тэмдэг"/>
+    <word english="stand" type="v." mongolia="босох, зогсох, байх"/>
+    <word english="stand up" type="v." mongolia="босох"/>
+    <word english="star" type="n." mongolia="одон, од"/>
+    <word english="start" type="v." mongolia="эхлэх, онгойлгох, задлах, vvсгэх, эхлvvлэх, асаах, ажиллуулах"/>
+    <word english="state" type="n." mongolia="улс, улсын"/>
+    <word english="state farm" type="n." mongolia="сангийн аж ахуй"/>
+    <word english="station" type="n." mongolia="øртøø, буудал"/>
+    <word english="stay" type="v." mongolia="байх, байлцах, vлдэх, хоцрох, орших"/>
+    <word english="steal" type="v." mongolia="хулгайлах, хумслах"/>
+    <word english="steel" type="n." mongolia="ган, хутга ирлэгч"/>
+    <word english="step" type="v." mongolia="алхаа, алхах"/>
+    <word english="steppe" type="n." mongolia="хээр, хøдøø"/>
+    <word english="still" type="adv." mongolia="бас л, -саар4 л, аанай л, мøн л, -сээр байгаа"/>
+    <word english="stolid" type="adj." mongolia="гvдэс, хøшvvн"/>
+    <word english="stomach" type="n." mongolia="гэдэс, ходоод, гvзээ"/>
+    <word english="stone" type="n." mongolia="чулуу, чулуун"/>
+    <word english="stool" type="n." mongolia="мухар сандал"/>
+    <word english="stop" type="v." mongolia="зогсох, зогсоох"/>
+    <word english="store" type="n." mongolia="дэлгvvр"/>
+    <word english="storey" type="n." mongolia="давхар"/>
+    <word english="story" type="n." mongolia="vлгэр, домог"/>
+    <word english="straight" type="adv." mongolia="эгцлэн, шулуухан, шууд, илэн далангvй"/>
+    <word english="strange" type="adj." mongolia="сонин, этгээд, хачин"/>
+    <word english="stream" type="n." mongolia="урсгал, гол, горхи"/>
+    <word english="street" type="n." mongolia="гадаа, гудамж, гадна"/>
+    <word english="strenth" type="n." mongolia="хvчирхэг, чадалтай, бяртай"/>
+    <word english="strict" type="adj." mongolia="чанд, хатуу"/>
+    <word english="strong(ly)" type="adj." mongolia="чийрэг, чанга, сvрхий"/>
+    <word english="strongest" type="v." mongolia="их хvчтэй, хvчирхэг"/>
+    <word english="structure" type="n." mongolia="бvтэц"/>
+    <word english="struggle" type="n." mongolia="тэмцэл, тулаан"/>
+    <word english="stud" type="v." mongolia="(од) тvгэх"/>
+    <word english="student" type="n." mongolia="оюутан"/>
+    <word english="Student's Union" type="n." mongolia="Оюутны Холбоо"/>
+    <word english="study" type="v." mongolia="сурах, судлах"/>
+    <word english="stuff" type="v." mongolia="чихэх"/>
+    <word english="stuffed animal" type="" mongolia="амьтны чихмэл"/>
+    <word english="style" type="n." mongolia="загвар, хэв маяг, хэв шинж, найруулга"/>
+    <word english="subject" type="n." mongolia="сэдэв, хичээл, судлагдахуун, øгvvлэгдэхvvн, vйлийн эзэн, субьект"/>
+    <word english="submit" type="v." mongolia="øгøх, явуулах, øргøн мэдvvлэх"/>
+    <word english="subsequent" type="adj." mongolia="дараах, удаах"/>
+    <word english="succeed" type="v." mongolia="бvтэх, биелэх, амжилт олох/гаргах, залгамжлах, халааг нь авах"/>
+    <word english="success" type="n." mongolia="амжилт, vр бvтээл, бvтэл, бvтэмж"/>
+    <word english="succession" type="n." mongolia="дараалал, дараалан, дараа дараагаар, ар араасаа, залгамжлах, залгамжлан, залгамжлагч"/>
+    <word english="such" type="adj." mongolia="ийм, тийм"/>
+    <word english="such as" type="" mongolia="гэх зэрэг, гэх зэргийн"/>
+    <word english="suddenly" type="adv." mongolia="гэнэт"/>
+    <word english="suffer" type="v." mongolia="зовох, энэлэх, шаналах, зvдрэх"/>
+    <word english="suggest" type="v." mongolia="дэвшvvлэх, гаргаж ирэх, санал тавих, зøвлøх"/>
+    <word english="suggestion" type="n." mongolia="санал, санаа"/>
+    <word english="summer" type="n." mongolia="зун, зуны, зун цаг"/>
+    <word english="sun" type="n." mongolia="нар, наран"/>
+    <word english="Sunday" type="n." mongolia="Ням гараг, Адъяа гараг, бvтэн сайн øдøр"/>
+    <word english="sunflower" type="n." mongolia="наранцэцэг"/>
+    <word english="sung" type="v." mongolia="(sing-ийн p.p) дуу дуулав"/>
+    <word english="sunny" type="adj" mongolia="нарлаг, нартай"/>
+    <word english="sunshine" type="n." mongolia="нарны туяа"/>
+    <word english="supermarket" type="n." mongolia="супермаркет"/>
+    <word english="supper" type="n." mongolia="оройн хоол"/>
+    <word english="support" type="v." mongolia="тус øгøх, дэмжих, тvших, туслах, тусламж vзvvлэх, тулах, батлах, нотлох, хангах, нийлvvлэх"/>
+    <word english="suppose" type="v." mongolia="бодох, санах, vзэх"/>
+    <word english="surprise" type="v." mongolia="гайхуулах, алмайруулах, гэнэдvvлж барих"/>
+    <word english="surrender" type="v." mongolia="бууж øгøх, дагах"/>
+    <word english="surround" type="v." mongolia="тойрох, хvрээлэх, бvслэх, хомрох"/>
+    <word english="sweat" type="n." mongolia="хøлс"/>
+    <word english="sweater" type="n." mongolia="битvv захтай (ноосон) цамц, свитер"/>
+    <word english="sweet" type="adj." mongolia="чихэр, амттан"/>
+    <word english="swim" type="v." mongolia="усчлах, шумбах, усанд сэлэх"/>
+    <word english="switch" type="n." mongolia="унтраалга"/>
+    <word english="sword" type="n." mongolia="илд, сэлэм"/>
+    <word english="syllable" type="n." mongolia="vгийн vе"/>
+    <word english="symbol" type="n." mongolia="бэлгэ тэмдэг"/>
+    <word english="system" type="n." mongolia="тогтолцоо"/>
+    <word english="systematically" type="adv." mongolia="тогтолцоотой, эрэмбэ дараатай"/>
+    <word english="table" type="n." mongolia="ширээ"/>
+    <word english="tail" type="n." mongolia="сvvл"/>
+    <word english="take" type="v." mongolia="авах, барих, орох, гаргах, аваачих, авах"/>
+    <word english="take a nap" type="" mongolia="дугхийгээд авах"/>
+    <word english="take examination" type="" mongolia="шалгуулах"/>
+    <word english="take note" type="" mongolia="тэмдэглэх, тэмдэглэл хийх"/>
+    <word english="take off" type="v." mongolia="газраас хøøрøх, гvйлгээ эрс øсøх, эрс нэмэгдэх, яаран ухасхийх, (малгай/хувцас) тайлах"/>
+    <word english="talk" type="v." mongolia="ярих, хvvрнэх, яриа"/>
+    <word english="talkative" type="adj." mongolia="яриатай, хøøрøøтэй"/>
+    <word english="tall" type="adj." mongolia="øндøр, чацтай"/>
+    <word english="taller" type="adj." mongolia="арай øндøр, -аас øндøр"/>
+    <word english="tallest" type="adj." mongolia="хамгийн øндøр"/>
+    <word english="tan" type="adj. v." mongolia="хvрэн бор; наранд борлуулах/шарах"/>
+    <word english="tanned" type="v." mongolia="элдсэн"/>
+    <word english="tanned sheepskin" type="" mongolia="илэг, хøдсøн"/>
+    <word english="tannery" type="n." mongolia="арьс ширний vйлдвэр"/>
+    <word english="tape" type="n." mongolia="хуурцаг"/>
+    <word english="target" type="n." mongolia="бай, шав, зорилт"/>
+    <word english="task" type="n." mongolia="зорилт, хийх юм, хийх ажил"/>
+    <word english="tattered" type="adj." mongolia="салбархай, ноорхой"/>
+    <word english="taught" type="v." mongolia="(teach-ийн øнгøрсøн цаг) сургав"/>
+    <word english="taxi" type="n." mongolia="такси"/>
+    <word english="tea" type="n." mongolia="цай"/>
+    <word english="teach" type="v." mongolia="заах, сургах"/>
+    <word english="teacher" type="n." mongolia="багш, сургагч"/>
+    <word english="teaching" type="v." mongolia="заах, сургаал, сургах"/>
+    <word english="team" type="n." mongolia="баг"/>
+    <word english="teeth" type="n." mongolia="(tooth-ийн олон тоо) шvд"/>
+    <word english="telegram" type="n." mongolia="цахилгаан утас"/>
+    <word english="telephone" type="n." mongolia="телефон утас"/>
+    <word english="television" type="n." mongolia="зурагт, телевизор"/>
+    <word english="tell" type="v." mongolia="хэлж øгøх, ярих, хэлэх, залгуулах"/>
+    <word english="temperature" type="n." mongolia="хэм, температур, халуун хvйтэн"/>
+    <word english="temple" type="n." mongolia="сvм"/>
+    <word english="ten" type="num." mongolia="арав, арван"/>
+    <word english="tense" type="n." mongolia="(vйл vгийн) цаг"/>
+    <word english="tent" type="n." mongolia="майхан, асар"/>
+    <word english="term" type="n." mongolia="(хичээлийн жилийн) улирал"/>
+    <word english="terrible" type="adj." mongolia="аймшигт, аймаар, сvрдэм"/>
+    <word english="territory" type="n." mongolia="нутаг, дэвсгэр, газар нутаг"/>
+    <word english="terror" type="n." mongolia="аймшиг, айдас"/>
+    <word english="text" type="n." mongolia="бичвэр, (дууны) vг, (дууны) шvлэг"/>
+    <word english="than" type="adv." mongolia="-аас4"/>
+    <word english="thank" type="n." mongolia="баярласнаа илэрхийлэх, талархах"/>
+    <word english="that" type="pron." mongolia="тэр (энэ)"/>
+    <word english="the" type="def. art." mongolia="тус, энэ, нøгøø, мøнхvv"/>
+    <word english="the same" type="" mongolia="чацуу, адил, ижил, нэг"/>
+    <word english="theatre" type="n." mongolia="жvжгийн хvрээлэн, театр"/>
+    <word english="their" type="pron." mongolia="тэдний, øøрсдийн, -аа4"/>
+    <word english="theirs" type="pron." mongolia="тэднийх, тэд нарынх"/>
+    <word english="them" type="pron." mongolia="тэднийг, тэдэнд, эдний, эднийг, эдэнд"/>
+    <word english="tent" type="n." mongolia="майхан, асар"/>
+    <word english="themselves" type="pron." mongolia="(тэд) øøрсдøø"/>
+    <word english="then" type="adv." mongolia="тэгээд, дараа нь, залгуулаад"/>
+    <word english="theory" type="n." mongolia="онол"/>
+    <word english="there" type="adv." mongolia="тэнд, тэр лvv, тийшээ"/>
+    <word english="therefore" type="adv." mongolia="учир, иймд, иймээс, тийнхvv"/>
+    <word english="these" type="pron." mongolia="эдгээр"/>
+    <word english="they" type="pron." mongolia="тэд, эд, тэд нар, эд нар"/>
+    <word english="thief" type="n." mongolia="хулгайч"/>
+    <word english="thieve" type="v." mongolia="хулгайлах"/>
+    <word english="thin" type="adj." mongolia="нарийн, нарийхан, нимгэн, шингэн, туранхай, сийрэг"/>
+    <word english="thing" type="n." mongolia="юм"/>
+    <word english="think" type="v." mongolia="бодох, санах"/>
+    <word english="thinking" type="n." mongolia="ухаан, бодол"/>
+    <word english="thirteen" type="num." mongolia="арван гурав, арван гурван"/>
+    <word english="thirty" type="num." mongolia="гуч, гучин"/>
+    <word english="this" type="pron." mongolia="энэ"/>
+    <word english="this year" type="" mongolia="энэ жил, øнøø жил"/>
+    <word english="thorn" type="n." mongolia="øргøс, сондуу"/>
+    <word english="those" type="n." mongolia="тэдгээр, эдгээр"/>
+    <word english="though" type="conj." mongolia="боловч, хэдийгээр"/>
+    <word english="thought" type="v. n." mongolia="(think-ийн øнгøрсøн цаг) бодов, санав; бодол, санаа, сэтгэхvй"/>
+    <word english="thousand" type="num." mongolia="мянга, мянган"/>
+    <word english="thousands of" type="" mongolia="олон мянган, мянга мянган"/>
+    <word english="three" type="num." mongolia="гурав, гурван"/>
+    <word english="through" type="adv." mongolia="цоо, нэвт, шувт"/>
+    <word english="throughout" type="adv." mongolia="даяар (дэлхий, дахинд)"/>
+    <word english="throw" type="n." mongolia="мэх; бvтээлэг, хивс, дэвсгэр"/>
+    <word english="thumb" type="n. v." mongolia="эрхий хуруу; эргvvлэх"/>
+    <word english="Thursday" type="n." mongolia="Пvрэв гараг, Бархасвадь гараг, дøрøвдэх øдøр"/>
+    <word english="ticket" type="n." mongolia="тасалбар"/>
+    <word english="tidy" type="adj." mongolia="цэвэрч, цэмцгэр, эмх цэгцтэй, цэвэр нямбай"/>
+    <word english="tie" type="n. v." mongolia="зангиа, бvч; зангилах, уях"/>
+    <word english="tiger" type="num." mongolia="бар"/>
+    <word english="tight" type="adj." mongolia="бариу, чанга"/>
+    <word english="tile" type="n." mongolia="вааран хавтан, хавтан, хавтанцар"/>
+    <word english="till" type="prep." mongolia="хvртэл, болтол"/>
+    <word english="time" type="n." mongolia="цаг, зав, хугацаа"/>
+    <word english="time table" type="n." mongolia="цагийн хуваарь"/>
+    <word english="tin" type="n. v." mongolia="цагаан тугалга, лааз, тøмøр хайрцаг; лаазлах, лаазанд дарах"/>
+    <word english="tire" type="n. v." mongolia="алжаах, ядрах, эцэх, чилэх"/>
+    <word english="titan" type="n." mongolia="аварга"/>
+    <word english="title" type="n." mongolia="цол, дэв, гарчиг"/>
+    <word english="title-holder" type="" mongolia="цолтон"/>
+    <word english="to" type="prep." mongolia="-ийн, -д, -т,  -тай, -руу, тул, тулд, тøлøø, гэж, хvртэл"/>
+    <word english="today" type="n." mongolia="øнøø, øнøøдøр"/>
+    <word english="together" type="adv." mongolia="хам, хамт, цуг"/>
+    <word english="toil" type="v." mongolia="махран зvтгэх"/>
+    <word english="toilet" type="n." mongolia="бие засах газар/жорлон"/>
+    <word english="told" type="v." mongolia="(tell-ийн øнгøрсøн цаг) хэлэв, ярив"/>
+    <word english="tongue" type="n." mongolia="1. (махан) хэл 2. (эх хэл гэдгийн) хэл"/>
+    <word english="tonight" type="adv." mongolia="øнøø орой"/>
+    <word english="too" type="adv." mongolia="бас, мøн; хэтэрхий, даанч, арай, дэндvv"/>
+    <word english="tool" type="n." mongolia="зэвсэг, багаж"/>
+    <word english="tooth" type="n." mongolia="шvд"/>
+    <word english="top" type="n." mongolia="орой, vзvvр, дээд тал"/>
+    <word english="total" type="n." mongolia="бvх, нийт"/>
+    <word english="touch" type="v." mongolia="хvрэх, шvргэх"/>
+    <word english="tough" type="adj." mongolia="гуйвшгvй, ужиг, ужгирсан, танхай, балмад, хатуу, хvнд, хэцvv, чийрэг, чанга, тэсвэртэй, бøх"/>
+    <word english="tour" type="n." mongolia="тойрон аялал, аялал"/>
+    <word english="tourist" type="n." mongolia="жуулчин"/>
+    <word english="toward(s)" type="prep." mongolia="тийм, øøд, руу"/>
+    <word english="town" type="n." mongolia="хот (бага хотыг town, том хотыг city)"/>
+    <word english="toy" type="n." mongolia="тоглоом"/>
+    <word english="tractor" type="n." mongolia="трактор, чирэгч"/>
+    <word english="traffic" type="n." mongolia="замын хøдøлгøøн"/>
+    <word english="train" type="n." mongolia="галт тэрэг"/>
+    <word english="tram" type="n." mongolia="цахилгаан тэрэг"/>
+    <word english="transforming" type="v." mongolia="øøрчлøх, хувиргах"/>
+    <word english="translate" type="v." mongolia="орчуулах, хøрвvvлэх, ... рvv буулгах"/>
+    <word english="translator" type="n." mongolia="орчуулагч"/>
+    <word english="travel" type="v." mongolia="аялах, аян хийх"/>
+    <word english="traveller" type="n." mongolia="аялагч, аяны хvн, явуулын хvн"/>
+    <word english="transverse" type="v." mongolia="туулах, хøндлøн гарах"/>
+    <word english="treasure" type="n. v." mongolia="эрдэнэс; нандигнан хадгалах, эрхэмлэх"/>
+    <word english="treat" type="n. v." mongolia="таашаал; харьцах, хандах, анагаах, эмчлэх, боловсруулах"/>
+    <word english="tree" type="n." mongolia="мод, модон"/>
+    <word english="tribesmen" type="n." mongolia="омгийнхон"/>
+    <word english="trick" type="n. v." mongolia="арга, башир, мэх; хуурах, мэхлэх, аргалах"/>
+    <word english="triumph" type="v." mongolia="ялгуулсан, ялах, мандах"/>
+    <word english="trouble" type="n." mongolia="тøвøг, зовлон"/>
+    <word english="trousers" type="n." mongolia="øмд"/>
+    <word english="true" type="adj." mongolia="vнэн, vнэнч"/>
+    <word english="true friends" type="" mongolia="vнэнч нøхøд, vнэн хань, журмын нøхøд"/>
+    <word english="try" type="v." mongolia="сорих, тэнсэх, оролдоод vзэх, хичээх"/>
+    <word english="t-shirt" type="n." mongolia="ханцуйгvй цамц, подволк"/>
+    <word english="Tuesday" type="n." mongolia="Мягмар гараг, Ангараг гараг, хоёр дахь øдøр"/>
+    <word english="tune" type="n. v." mongolia="ая, хøглøх, тохируулах"/>
+    <word english="turn" type="v." mongolia="асаах, эргvvлэх"/>
+    <word english="turn off" type="v." mongolia="унтраах, эргvvлэх"/>
+    <word english="turn on" type="v." mongolia="эргvvлэх, тойруулах, асаах"/>
+    <word english="turn out" type="v." mongolia="дуусах, тøгсøх, ирэх, цугларах, сурган гаргах, тøгсгøх"/>
+    <word english="turtle" type="n." mongolia="яст мэлхий"/>
+    <word english="tusk" type="n." mongolia="соёо"/>
+    <word english="tutor" type="n." mongolia="гэрийн багш, хувийн багш"/>
+    <word english="twelfth" type="num." mongolia="арван хоёрдугаар"/>
+    <word english="twelve" type="num." mongolia="арван хоёр"/>
+    <word english="twenty" type="num." mongolia="хорь, хорин"/>
+    <word english="twice" type="adv." mongolia="хоёронтаа, хоёр удаа, хоёр"/>
+    <word english="twist" type="v." mongolia="эргvvлэх, эргvvлж онгойлгох/хаах, мушгих"/>
+    <word english="twitch" type="v." mongolia="татвалзах, татвас хийх, анивчих, чичигнэх, татах/угзрах"/>
+    <word english="two" type="num." mongolia="хоёр"/>
+    <word english="type" type="v. n." mongolia="бичиг цохих, шивэх; хэв шинж, маяг"/>
+    <word english="umbrella" type="n." mongolia="шvхэр"/>
+    <word english="unable" type="adj." mongolia="...-гvй, ...-даггvй, боломжгvй"/>
+    <word english="unbearably" type="adv." mongolia="тэсэхийн аргагvй, байж ядам"/>
+    <word english="uncle" type="n." mongolia="авга ах, авга, нагац ах, нагац"/>
+    <word english="undefeated" type="adj." mongolia="унаагvй, ялагдаагvй"/>
+    <word english="understand" type="v." mongolia="ойлгох, мэдэх, ухаарах"/>
+    <word english="underwear" type="n." mongolia="дотуур хувцас"/>
+    <word english="unexpected" type="adj." mongolia="огт (тэгнэ гэж) бодоогvй, санаандгvй"/>
+    <word english="union" type="n." mongolia="холбоо, нэгдэл, эвсэл"/>
+    <word english="uniqie" type="adj." mongolia="ижилгvй, газар дээр ганц"/>
+    <word english="university" type="n." mongolia="их сургууль"/>
+    <word english="unknown" type="adj." mongolia="мэдээгvй, мэдэгдээгvй, мэдэхгvй, vл мэдэгдэгч"/>
+    <word english="unspeakable" type="adj." mongolia="øгvvлшгvй"/>
+    <word english="until" type="prep." mongolia="-тал4, хvртэл, болтол"/>
+    <word english="untiring (ly)" type="adj." mongolia="цуцалтгvй, уйгагvй, ядрахыг мэдэхгvй"/>
+    <word english="up" type="adv." mongolia="дээшээ, дээр, øмнø, давуу, тvрvvнд нь"/>
+    <word english="upon" type="adv." mongolia="дээр (найруулаад ирэхэд олон утгатай)"/>
+    <word english="upstairs" type="adv." mongolia="дээд давхар, дээр, дээшээ, øøдøø"/>
+    <word english="urgent (ly)" type="adj." mongolia="хойшлуулшгvй, даруй, яаралтай"/>
+    <word english="us" type="pron." mongolia="бид, биднийг"/>
+    <word english="use" type="v." mongolia="хэрэглэх, ашиглах"/>
+    <word english="useful" type="adj." mongolia="хэрэгтэй хэрэг болох, ашигтай"/>
+    <word english="usual" type="adj." mongolia="жир, хэвийн, жирийн"/>
+    <word english="usually" type="adv." mongolia="байнга, vргэлж, голдуу, дандаа, -даг4"/>
+    <word english="vacant" type="adj." mongolia="хøндий, ханхай, задгай"/>
+    <word english="valley" type="n." mongolia="(гол мøрний) сав, хøндий, хоолой"/>
+    <word english="valuable" type="adj." mongolia="vнэтэй, цэнэтэй"/>
+    <word english="variety" type="n." mongolia="элдэв, олон янз, тøрøл"/>
+    <word english="various" type="adj." mongolia="элдэв олон, янз бvрэн, øøр øøр"/>
+    <word english="vase" type="n." mongolia="ваар"/>
+    <word english="vast" type="adj." mongolia="ихээхэн, томоохон, том, их, vй олон, øргøн хvрээтэй"/>
+    <word english="vastness" type="adj." mongolia="уудам, цэлгэр"/>
+    <word english="venture" type="v." mongolia="зvрхлэх, зориглох, азаа vзэх, vзээд алдах"/>
+    <word english="verb" type="n." mongolia="vйл vг"/>
+    <word english="verse" type="n." mongolia="шvлэг"/>
+    <word english="very" type="adj." mongolia="нэн, асар, тун, маш"/>
+    <word english="vice" type="n." mongolia="гэмт хэрэг, гутамшиг, булай шившиг, дутагдал, муу зан, сул тал; дэд"/>
+    <word english="victory" type="n." mongolia="ялалт, давах, ялах"/>
+    <word english="village" type="n." mongolia="тосгон"/>
+    <word english="violent" type="adj." mongolia="хvчирхэг, ширvvн, догшин"/>
+    <word english="visit" type="v." mongolia="зочлох, айлчлах, гийчлэх"/>
+    <word english="visitor" type="n." mongolia="зочин, гийчин, vзэгч, аялагч"/>
+    <word english="vocalic" type="adj." mongolia="эгшиг, эгшгийн"/>
+    <word english="voice" type="n." mongolia="дуу хоолой"/>
+    <word english="volleyball" type="n." mongolia="гар бøмбøг, волейбол"/>
+    <word english="voluble" type="adj." mongolia="хэлэмгий"/>
+    <word english="vowel" type="n." mongolia="эгшиг"/>
+    <word english="waffle" type="n. v." mongolia="øрмøнцøр; нурших"/>
+    <word english="wage" type="v." mongolia="øрнvvлэх, хийх, øдøøх"/>
+    <word english="waist" type="n." mongolia="бэлхvvс"/>
+    <word english="wait" type="v." mongolia="хvлээх, азнах, байх"/>
+    <word english="waiter" type="n." mongolia="vйлчлэгч, хоол зøøгч"/>
+    <word english="wake" type="v." mongolia="нойрноос сэрэх"/>
+    <word english="walk" type="v." mongolia="явах, алхах, зугаалах"/>
+    <word english="wall" type="n." mongolia="туурга, хана"/>
+    <word english="wallet" type="n." mongolia="хэтэвч, тvрийвч"/>
+    <word english="want" type="v." mongolia="хvсэх, -маар байх, хэрэгтэй; дутагдах, гачигдах"/>
+    <word english="war" type="n." mongolia="дайн, тулаан"/>
+    <word english="wardrope" type="n." mongolia="хувцасны шvvгээ"/>
+    <word english="ware" type="v." mongolia="халдах, айлгах, мэгдvvлэх"/>
+    <word english="warehouse" type="n." mongolia="агуулах газар, агуулах"/>
+    <word english="warm" type="adj." mongolia="бvлээн, дулаан, урьхан"/>
+    <word english="was" type="v." mongolia="(to be-ийн past) бøлгøø, билээ, байсан, байв"/>
+    <word english="wash-basin" type="n." mongolia="нvvр гарын угаалтуур"/>
+    <word english="waste" type="v." mongolia="дэмий vрэх, хамаагvй хаях, гарздах, дэмий øнгøрøøх, эцэх, сульдах"/>
+    <word english="watch" type="n. v." mongolia="бугуйн цаг; ширтэх, vзэх, харах"/>
+    <word english="water" type="n." mongolia="ус"/>
+    <word english="waterfall" type="n." mongolia="хvрхрээ"/>
+    <word english="way" type="n." mongolia="зам, арга, -ж, -ч"/>
+    <word english="we" type="pron." mongolia="бид, бид нар"/>
+    <word english="weak" type="adj." mongolia="тамиргvй, сул биетэй, дорой, ядруухан, муу, тааруухан, vнэмшил муутай"/>
+    <word english="weakening" type="v." mongolia="доройтох, тамир тэнхээ муудах, сулрах"/>
+    <word english="wear" type="v." mongolia="øмсøх, элээх, зvvх, хадах"/>
+    <word english="weather" type="n." mongolia="тэнгэр, цаг агаарын байдал"/>
+    <word english="Wednesday" type="n." mongolia="Лхагва гараг, Буд гараг, гурав дахь øдøр"/>
+    <word english="week" type="n." mongolia="долоо хоног"/>
+    <word english="weekly" type="adj." mongolia="долоо хоног тутмын, долоо хоног бvр"/>
+    <word english="weep" type="v." mongolia="уйлах, орилох"/>
+    <word english="weight" type="n." mongolia="хvнд хøнгøн, жин"/>
+    <word english="welcome" type="int." mongolia="тавтай морилогтун, саатан морилогтун"/>
+    <word english="welder" type="n." mongolia="гагнуурчин"/>
+    <word english="well" type="adv." mongolia="сайн, зvгээр, заа, уухай, мøн"/>
+    <word english="well-known" type="adj." mongolia="цуутай, алдартай"/>
+    <word english="went" type="v." mongolia="(go-ийн øнгøрсøн цаг) очив, явав"/>
+    <word english="were" type="v." mongolia="бøлгøø, билээ"/>
+    <word english="west" type="n." mongolia="øрнøд, øрнø, баруун"/>
+    <word english="western" type="adj." mongolia="баруун зvгийн, øрнøдийн"/>
+    <word english="wet" type="adj." mongolia="нойтон"/>
+    <word english="what" type="pron." mongolia="юу, юун, ямар"/>
+    <word english="wheat" type="n." mongolia="буудай"/>
+    <word english="when" type="adv." mongolia="хэзээ, хэдийд"/>
+    <word english="where" type="adv." mongolia="хаа, хаана"/>
+    <word english="whether" type="conj." mongolia="... (тэх) vv ... (ингэх) vv"/>
+    <word english="whether ... or ..." type="" mongolia="... тэх vv ... ингэх vv, гэж"/>
+    <word english="which" type="pron." mongolia="аль, ямар"/>
+    <word english="while" type="conj." mongolia="тэгэх vед, цагт, ...-ын хувьд бол"/>
+    <word english="whisper" type="v." mongolia="шивнэх, чихэнд vг хэлэх"/>
+    <word english="white" type="adj." mongolia="цагаан"/>
+    <word english="who" type="pron." mongolia="хэн, хэн бэ"/>
+    <word english="whole" type="adj." mongolia="бvх, нэгэн, бvрэн"/>
+    <word english="whom" type="n." mongolia="хэнийг, хэнд"/>
+    <word english="why" type="adv." mongolia="яагаад, юунд, хэрхэн, яалаа гэж"/>
+    <word english="wife" type="n." mongolia="эхнэр, гэргий"/>
+    <word english="wild" type="adj." mongolia="зэрлэг, хээрийн"/>
+    <word english="will" type="v." mongolia="тэгэх/ингэх болно, хvсэх"/>
+    <word english="win" type="v." mongolia="олж авах, давах, дийлэх"/>
+    <word english="wind" type="n. v." mongolia="салхи, амьсгал, амьсгаа; ороох, эргvvлэх, тэврэх"/>
+    <word english="window" type="n." mongolia="цонх, гэгээвч"/>
+    <word english="windy" type="adj." mongolia="хавсаргатай, салхитай, салхи ихтэй"/>
+    <word english="wine" type="n." mongolia="дарс"/>
+    <word english="winter" type="n." mongolia="øвøл, øвлийн, øвøл цаг"/>
+    <word english="wisdom" type="n." mongolia="билиг, ухаан"/>
+    <word english="wise" type="adj." mongolia="мэргэн ухаантай, билигтэй"/>
+    <word english="wish" type="v." mongolia="санаатай, -маар4, юмсан"/>
+    <word english="with" type="prep." mongolia="-тай4, -аар4, хамт, -лугаа, -лvгээ"/>
+    <word english="within" type="adv." mongolia="дунд, завсар, хооронд, дотор"/>
+    <word english="without" type="prep." mongolia="vгvй, -гvй"/>
+    <word english="woke" type="v." mongolia="(wake-ийн øнгøрсøн цагт хэлбэр) сэрэв"/>
+    <word english="wolf" type="n." mongolia="чоно"/>
+    <word english="woman" type="n." mongolia="эмэгтэй хvн, бvсгvй"/>
+    <word english="won" type="v." mongolia="(win-ийн past) олж авав, давав, дийлэв"/>
+    <word english="wonder" type="v." mongolia="гайхах, алмайрах"/>
+    <word english="wonderful" type="adj." mongolia="гайхалтай, гайхам, сайхан"/>
+    <word english="woo" type="v." mongolia="жаргал, цэнгэл, хøгжилдøøн"/>
+    <word english="wood" type="n." mongolia="мод, модон"/>
+    <word english="wool" type="n." mongolia="цэвэр ноос"/>
+    <word english="word" type="n." mongolia="vг"/>
+    <word english="work" type="n. v." mongolia="ажил, ажиллах"/>
+    <word english="worker" type="n." mongolia="ажилчин, ажилтан"/>
+    <word english="world" type="n." mongolia="дэлхий, ертøнц"/>
+    <word english="world map" type="" mongolia="дэлхийн газрын зураг"/>
+    <word english="worth" type="v." mongolia="-ууштай2"/>
+    <word english="would" type="v." mongolia="(will-ийн øнгøрсøн цаг) тэгэх байв"/>
+    <word english="wound" type="v." mongolia="шарх, шархдах, шарх авах"/>
+    <word english="wreck" type="n." mongolia="сэг, шатсан сэг, ямбий машин, живсэн онгоц, сvйрэл, осол"/>
+    <word english="wrestle" type="v." mongolia="бøх барилдах"/>
+    <word english="wrestler" type="n." mongolia="бøх"/>
+    <word english="wrestling" type="n. v." mongolia="бøх барилдах"/>
+    <word english="wretched" type="adj." mongolia="хøøрхий, øøдгvй"/>
+    <word english="wrist" type="n." mongolia="бугуй"/>
+    <word english="wrist watch" type="" mongolia="бугуйн цаг"/>
+    <word english="write" type="v." mongolia="бичих"/>
+    <word english="writer" type="n." mongolia="зохиолч, бичигч"/>
+    <word english="writing" type="n." mongolia="бичих"/>
+    <word english="written" type="n." mongolia="бичгийн"/>
+    <word english="written language" type="" mongolia="бичгийн хэл"/>
+    <word english="wrong" type="adj." mongolia="буруу, алдаатай, зохисгvй"/>
+    <word english="yam" type="n." mongolia="ямс, чихэрлэг тøмс"/>
+    <word english="year" type="n." mongolia="жил, он, нас"/>
+    <word english="yell" type="v." mongolia="шуугилдах"/>
+    <word english="yellow" type="adj." mongolia="шар"/>
+    <word english="yes" type="adv." mongolia="тийм, за"/>
+    <word english="yesterday" type="adv." mongolia="øчигдøр"/>
+    <word english="yet" type="adv." mongolia="хараахан vгvй, -гvй"/>
+    <word english="yield" type="v." mongolia="найр тавих, тавьж øгøх, гаргаж øгøх"/>
+    <word english="you" type="pron." mongolia="та, та нар, чи"/>
+    <word english="young" type="adj." mongolia="залуу(хан)"/>
+    <word english="youngster" type="n." mongolia="багачууд"/>
+    <word english="your" type="pron." mongolia="таны, та нарын, тань, чиний, чинь"/>
+    <word english="yours" type="pron." mongolia="та нарынх, танайх, чинийх"/>
+    <word english="yourself" type="pron." mongolia="(та, чи) øøрøø"/>
+    <word english="yourselves" type="pron." mongolia="(та нар) øøрсдøø"/>
+    <word english="youth" type="n." mongolia="бага, залуу, бага нас"/>
+    <word english="zeal" type="adj." mongolia="халуун сэтгэл, хøøрøлхøх"/>
+    <word english="zebra" type="n." mongolia="эрээн тахь"/>
+    <word english="zero" type="n." mongolia="(тооны) тэг"/>
+    <word english="zone" type="n. v." mongolia="бvс; бvсчлэн/дvvрэгт хуваах, зориулж гаргах"/>
+    <word english="zoo" type="n." mongolia="амьтны хvрээлэн"/>
 </words>

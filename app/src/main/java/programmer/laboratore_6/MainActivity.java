@@ -1,5 +1,4 @@
 package programmer.laboratore_6;
-
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -28,18 +27,14 @@ import java.util.List;
 import programmer.laboratore_6.Database.MyDbHandler;
 import programmer.laboratore_6.Model.User;
 import programmer.laboratore_6.Model.Word;
-
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
     private static final String TAG = "MainActivity";
-
     MyDbHandler myDbHandler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -67,9 +62,7 @@ public class MainActivity extends AppCompatActivity
         FragmentTransaction fragmentTransaction= fm.beginTransaction();
         fragmentTransaction.replace(R.id.container, MainFragment);
         fragmentTransaction.commit();
-
     }
-
     @Override
     public void onBackPressed() {
         new AlertDialog.Builder(this,R.style.AlertDialog)
@@ -93,19 +86,16 @@ public class MainActivity extends AppCompatActivity
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 

@@ -47,37 +47,34 @@ public class MainFragment extends Fragment {
 
         wordList = (ListView)rootView.findViewById(R.id.wordListView);
         myDbHandler = new MyDbHandler(getActivity());
-
-        Log.d(TAG, "Inserting words...");
-
         final ArrayList<String> wordListItems = new ArrayList<String>();
         final ArrayAdapter<String> myArrayAdapter;
         myArrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,wordListItems);
         wordList.setAdapter(myArrayAdapter);
 
         List<Word> words = myDbHandler.getAllWords();
-
+        for (Word word : words){
+            String wordAdd = "Англи үг: "+word.getEnglish() +"Төрөл: "+word.getType()+"Монгол үг: "+word.getMongolia();
+            Log.d(TAG,wordAdd);
+        }
         try {
             for (Word word : words){
+                Log.d(TAG, "Inserting words...");
                 String wordAdd = word.getEnglish();
                 Log.d(TAG,wordAdd);
-                wordListItems.add(0,  wordAdd);
+                wordListItems.add(0, wordAdd);
             }
         }catch (NullPointerException npe){
             Log.d(TAG,"Алдаа : "+npe);
         }catch (Exception e){
             Log.d(TAG,"Алдаа : "+e);
-
         }
-
         wordList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
                 Object o = parent.getItemAtPosition(position);
                 String english = o.toString();
-
-                Log.d(TAG,"Дарагдсан лист дээрх үг"+english);
+                Log.d(TAG,"Дарагдсан лист дээрх үг : "+english);
                 Fragment wordLookFragment = new WordLookFragment();
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
@@ -85,8 +82,6 @@ public class MainFragment extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-
-
         myArrayAdapter.notifyDataSetChanged();
     }
     public void onBackPressed() {

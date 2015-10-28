@@ -19,6 +19,7 @@ public class WordLookFragment extends Fragment {
     public static View rootView;
     public TextView english;
     public TextView mongolia;
+    MainFragment mainFragment;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -35,7 +36,6 @@ public class WordLookFragment extends Fragment {
     public void init(){
         english = (TextView)rootView.findViewById(R.id.englishText);
         mongolia= (TextView)rootView.findViewById(R.id.mongolianText);
-
     }
 
 }

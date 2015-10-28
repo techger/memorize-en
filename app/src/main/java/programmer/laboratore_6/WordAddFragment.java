@@ -82,12 +82,7 @@ public class WordAddFragment extends Fragment {
         });
     }
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout)getActivity().findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.getActivity().onBackPressed();
-        }
+
     }
 
 }
