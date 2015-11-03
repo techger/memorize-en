@@ -121,10 +121,8 @@ public class MyDbHandler extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         dropTable(TABLE_USERS);
         dropTable(TABLE_WORDS);
-
         onCreate(db);
     }
-
     public void addUser(User user) {
         if (user == null) {
             return;

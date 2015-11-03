@@ -118,7 +118,11 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.container, wordAddFragment);
             fragmentTransaction.commit();
         } else if (id == R.id.settings) {
-
+            Fragment blogFragment = new BlogFragment();
+            FragmentManager fm = getFragmentManager();
+            FragmentTransaction fragmentTransaction= fm.beginTransaction();
+            fragmentTransaction.replace(R.id.container, blogFragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.map) {
 
         }

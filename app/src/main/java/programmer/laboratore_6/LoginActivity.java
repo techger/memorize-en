@@ -234,7 +234,6 @@ public class LoginActivity extends ActionBarActivity {
         }
     return valid;
     }
-
     private void saveLoggedInUser(long id, String username, String password) {
         SharedPreferences settings = getSharedPreferences(PREFER_NAME, 0);
         editor = settings.edit();
