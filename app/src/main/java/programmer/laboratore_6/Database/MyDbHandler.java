@@ -243,18 +243,14 @@ public class MyDbHandler extends SQLiteOpenHelper {
         if (user == null) {
             return -1;
         }
-
         SQLiteDatabase db = getWritableDatabase();
-
         if (db == null) {
             return -1;
         }
-
         ContentValues cv = new ContentValues();
         cv.put(USER_NAME, user.getUserName());
         cv.put(USER_EMAIL, user.getUserEmail());
         cv.put(USER_PASSWORD,user.getUserPassword());
-
         // Upating the row
         int rowCount = db.update(TABLE_USERS, cv, USER_ID + "=?",
                 new String[]{String.valueOf(user.getUserId())});

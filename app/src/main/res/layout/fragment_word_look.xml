@@ -4,13 +4,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="programmer.laboratore_6.WordLookFragment">
+    <android.support.design.widget.NavigationView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/editFButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/deleteFButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_input_delete" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/listWordButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_input_get" />
+        </LinearLayout>
+
+    </android.support.design.widget.NavigationView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="20dp"
+        android:text="Large Text"
+        android:id="@+id/englishText"
+        android:autoText="false" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/englishText" />
+        android:id="@+id/typeText" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,4 +56,5 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
         android:id="@+id/mongolianText" />
+
 </LinearLayout>

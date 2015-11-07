@@ -2,18 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_height="match_parent" tools:context="programmer.laboratore_6.WordAddFragment"
+    android:layout_height="match_parent" tools:context="programmer.laboratore_6.WordEditFragment"
     android:weightSum="1">
     <android.support.design.widget.NavigationView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/newWordSave"
+            android:id="@+id/editedWordSave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|end"
-            android:layout_margin="@dimen/fab_margin"
             android:src="@drawable/add" />
+
     </android.support.design.widget.NavigationView>
 
     <android.support.design.widget.TextInputLayout
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp">
-        <EditText android:id="@+id/englishWordInput"
+        <EditText android:id="@+id/englishWordInputE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textCapWords"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp">
-        <EditText android:id="@+id/wordTypeInput"
+        <EditText android:id="@+id/wordTypeInputE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textCapWords"
@@ -46,13 +46,11 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:layout_weight="0.40">
-        <EditText android:id="@+id/mongolianWordInput"
+        <EditText android:id="@+id/mongolianWordInputE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textCapWords"
             android:hint="Монгол үг"
             android:paddingBottom="250dp" />
-
     </android.support.design.widget.TextInputLayout>
-
 </LinearLayout>
