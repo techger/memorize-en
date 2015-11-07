@@ -64,23 +64,6 @@ public class MainActivity extends AppCompatActivity
         fragmentTransaction.commit();
     }
     @Override
-    public void onBackPressed() {
-        new AlertDialog.Builder(this,R.style.AlertDialog)
-                .setIcon(R.drawable.exit)
-                .setTitle("Лаборатори 6")
-                .setMessage("Та програмаас гарах уу?")
-                .setPositiveButton("Тийм", new DialogInterface.OnClickListener()
-                {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("Үгүй", null)
-                .show();
-    }
-
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
@@ -114,12 +97,14 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.add) {
             Fragment wordAddFragment = new WordAddFragment();
             FragmentManager fm = getFragmentManager();
+            fm.popBackStack("test",0);
             FragmentTransaction fragmentTransaction= fm.beginTransaction();
             fragmentTransaction.replace(R.id.container, wordAddFragment);
-            fragmentTransaction.commit();
+            fragmentTransaction.addToBackStack("Add").commit();
         } else if (id == R.id.settings) {
             Fragment blogFragment = new BlogFragment();
             FragmentManager fm = getFragmentManager();
+            fm.popBackStack("test",0);
             FragmentTransaction fragmentTransaction= fm.beginTransaction();
             fragmentTransaction.replace(R.id.container, blogFragment);
             fragmentTransaction.commit();
@@ -131,5 +116,30 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    @Override
+    public void onBackPressed() {
+        if(getFragmentManager().getBackStackEntryCount() > 0){
+            getFragmentManager().popBackStack();
+            Log.d(TAG,"Back pressed");
+        }
+        else{
+            new AlertDialog.Builder(this,R.style.AlertDialog)
+                    .setIcon(R.drawable.exit)
+                    .setTitle("Толь бичиг")
+                    .setMessage("Та програмаас гарах уу?")
+                    .setPositiveButton("Тийм", new DialogInterface.OnClickListener()
+                    {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("Үгүй", null)
+                    .show();
+        }
+
+    }
+
+
 
 }

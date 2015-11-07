@@ -108,19 +108,11 @@ public class MainFragment extends Fragment {
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
                 fragmentTransaction.replace(R.id.container, wordLookFragment);
-                fragmentTransaction.commit();
+                fragmentTransaction.addToBackStack("Word view").commit();
             }
         });
         myArrayAdapter.notifyDataSetChanged();
 
     }
 
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout)getActivity().findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.getActivity().onBackPressed();
-        }
-    }
 }
