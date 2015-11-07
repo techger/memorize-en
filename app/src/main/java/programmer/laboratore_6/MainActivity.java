@@ -28,9 +28,10 @@ import programmer.laboratore_6.Database.MyDbHandler;
 import programmer.laboratore_6.Model.User;
 import programmer.laboratore_6.Model.Word;
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
     private static final String TAG = "MainActivity";
     MyDbHandler myDbHandler;
+    private ShakeEventManager shakeEventManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +49,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        shakeEventManager = new ShakeEventManager();
+        shakeEventManager.setListener(this);
+        shakeEventManager.init(this);
 
         Fragment MainFragment = new MainFragment();
         FragmentManager fm = getFragmentManager();
@@ -133,5 +138,19 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+    @Override
+    public void onShake() {
+        Log.d(TAG,"Shake shake shake shake shake");
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        shakeEventManager.register();
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        shakeEventManager.deregister();
+    }
 
 }
