@@ -2,7 +2,6 @@ package programmer.laboratore_6;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -28,9 +27,7 @@ import programmer.laboratore_6.Model.Word;
 public class MainFragment extends Fragment {
 
     private static final String TAG = "===MainFragment===";
-    public static final String PREFER_NAME = "SearchedWord";
-    private SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
+
     EditText searchEditText;
     ListView wordList;
     MyDbHandler myDbHandler;
@@ -53,8 +50,6 @@ public class MainFragment extends Fragment {
         searchEditText = (EditText)rootView.findViewById(R.id.searchEditText);
 
         myDbHandler = new MyDbHandler(getActivity());
-        sharedPreferences = getActivity().getApplicationContext().getSharedPreferences(PREFER_NAME, 0);
-        editor = sharedPreferences.edit();
 
         final ArrayList<String> wordListItems = new ArrayList<String>();
         final ArrayAdapter<String> myArrayAdapter;
@@ -65,7 +60,6 @@ public class MainFragment extends Fragment {
             String wordAdd = "Англи үг: "+word.getEnglish() +"Төрөл: "+word.getType()+"Монгол үг: "+word.getMongolia();
             Log.d(TAG,wordAdd);
         }
-
         try {
             for (Word word : words){
                 Log.d(TAG, "Inserting words...");
@@ -84,6 +78,7 @@ public class MainFragment extends Fragment {
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
             }
+
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 myArrayAdapter.getFilter().filter(s);
@@ -100,10 +95,8 @@ public class MainFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Object o = parent.getItemAtPosition(position);
-                final String english = o.toString();
+                String english = o.toString();
                 Log.d(TAG,"Дарагдсан лист дээрх үг : "+english);
-                editor.putString("SearchedWord", english);
-                editor.commit();
                 Fragment wordLookFragment = new WordLookFragment();
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
@@ -112,9 +105,7 @@ public class MainFragment extends Fragment {
             }
         });
         myArrayAdapter.notifyDataSetChanged();
-
     }
-
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout)getActivity().findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
