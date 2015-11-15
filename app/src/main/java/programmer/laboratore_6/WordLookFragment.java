@@ -1,4 +1,5 @@
 package programmer.laboratore_6;
+
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -21,6 +22,8 @@ import java.util.List;
 
 import programmer.laboratore_6.Database.MyDbHandler;
 import programmer.laboratore_6.Model.Word;
+
+
 public class WordLookFragment extends Fragment {
 
     private static final String TAG = "===WordLookFragment===";
@@ -90,13 +93,15 @@ public class WordLookFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 myDbHandler.deleteWord(new Word(eng, type, mon));
-                MainFragment mainFragment = new MainFragment();
-                Log.d(TAG, "Амжилттай устгалаа..." + eng);
+                Log.d(TAG, "Амжилттай устгалаа..."+eng);
                 Snackbar.make(v, "Амжилттай устгалаа...", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
                 getActivity().getFragmentManager().popBackStack();
             }
         });
+
+
+
     }
 
 }

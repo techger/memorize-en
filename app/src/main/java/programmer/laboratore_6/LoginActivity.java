@@ -131,7 +131,7 @@ public class LoginActivity extends ActionBarActivity {
     public void onBackPressed() {
         new AlertDialog.Builder(this,R.style.AlertDialog)
                 .setIcon(R.drawable.exit)
-                .setTitle("Лаборатори 6")
+                .setTitle("Лаборатори 5")
                 .setMessage("Та програмаас гарах уу?")
                 .setPositiveButton("Тийм", new DialogInterface.OnClickListener()
                 {

@@ -49,7 +49,7 @@ public class ShakeEventManager implements SensorEventListener {
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         float maxAcc = calcMaxAcceleration(sensorEvent);
-        Log.d(TAG, "Max ["+maxAcc+"]");
+        //Log.d(TAG, "Max ["+maxAcc+"]");
         if (maxAcc >= MOV_THRESHOLD) {
             if (counter == 0) {
                 counter++;

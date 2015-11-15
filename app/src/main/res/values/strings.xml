@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">Толь бичиг</string>
+    <string name="app_name">Programming</string>
     <string name="title_activity_login">Нэвтрэх</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="title_activity_email_send">Мэйл илгээх</string>
+    <string name="title_activity_send_mail">Мэйл илгээх</string>
+    <string name="title_activity_call">Залгах</string>
+    <string name="title_activity_web">Вэб</string>
+    <string name="title_activity_camera">Камер</string>
+    <string name="title_activity_message">Мессеж</string>
+    <string name="title_activity_maps">Map</string>
     <string name="title_activity_splash_screen">Лаб-6</string>
     <string name="title_activity_tweened_animation">TweenedAnimation</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

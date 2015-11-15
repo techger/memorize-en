@@ -116,7 +116,6 @@ public class MyDbHandler extends SQLiteOpenHelper {
             _xml.close();
         }
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         dropTable(TABLE_USERS);
@@ -172,7 +171,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
         cursor.close();
         return user;
     }
-    public Word getWord(int id) {
+    public Word getWord(String id) {
         SQLiteDatabase db = getReadableDatabase();
         if (db == null) {
             return null;
@@ -202,16 +201,6 @@ public class MyDbHandler extends SQLiteOpenHelper {
         return cursor;
     }
 
-    public Cursor checkWord(String eng,String mon){
-        SQLiteDatabase db = getReadableDatabase();
-        Cursor cursor = db.query(TABLE_WORDS,new String[]{WORD_ENG,WORD_TYPE,WORD_MON},
-                WORD_ENG +    "='" +eng + "' AND " +
-                        WORD_MON + "='"+mon+"'",null,null,null,null);
-        if (cursor != null){
-            cursor.moveToFirst();
-        }
-        return cursor;
-    }
     public List<User> getAllUsers() {
         List<User> users = new ArrayList<>();
         String selectQuery = "SELECT * FROM " + TABLE_USERS;
@@ -233,7 +222,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
 
     public List<Word> getAllWords() {
         List<Word> words = new ArrayList<>();
-        String selectQuery = "SELECT * FROM " + TABLE_WORDS;
+        String selectQuery = "SELECT * FROM " + TABLE_WORDS +" ORDER BY " +WORD_ENG+" DESC";
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
         if (cursor.moveToFirst()) {
@@ -254,21 +243,37 @@ public class MyDbHandler extends SQLiteOpenHelper {
         if (user == null) {
             return -1;
         }
-
         SQLiteDatabase db = getWritableDatabase();
-
         if (db == null) {
             return -1;
         }
-
         ContentValues cv = new ContentValues();
         cv.put(USER_NAME, user.getUserName());
         cv.put(USER_EMAIL, user.getUserEmail());
         cv.put(USER_PASSWORD,user.getUserPassword());
-
         // Upating the row
         int rowCount = db.update(TABLE_USERS, cv, USER_ID + "=?",
                 new String[]{String.valueOf(user.getUserId())});
+        db.close();
+        return rowCount;
+    }
+
+    public int updateWord(Word word) {
+        if (word == null) {
+            return -1;
+        }
+        SQLiteDatabase db = getWritableDatabase();
+        if (db == null) {
+            return -1;
+        }
+        ContentValues cv = new ContentValues();
+        cv.put(WORD_ENG, word.getEnglish());
+        cv.put(WORD_TYPE, word.getType());
+        cv.put(WORD_MON, word.getMongolia());
+
+        // Upating the row
+        int rowCount = db.update(TABLE_WORDS, cv, WORD_ENG + "=?",
+                new String[]{String.valueOf(word.getEnglish())});
         db.close();
         return rowCount;
     }
@@ -277,12 +282,23 @@ public class MyDbHandler extends SQLiteOpenHelper {
         if (user == null) {
             return;
         }
-
         SQLiteDatabase db = getWritableDatabase();
         if (db == null) {
             return;
         }
         db.delete(TABLE_USERS, USER_ID + "=?", new String[]{String.valueOf(user.getUserId())});
+        db.close();
+    }
+
+    public void deleteWord(Word word) {
+        if (word == null) {
+            return;
+        }
+        SQLiteDatabase db = getWritableDatabase();
+        if (db == null) {
+            return;
+        }
+        db.delete(TABLE_WORDS, WORD_ENG + "=?", new String[]{String.valueOf(word.getEnglish())});
         db.close();
     }
     public int getUserCount() {
@@ -295,11 +311,9 @@ public class MyDbHandler extends SQLiteOpenHelper {
     }
     public void dropTable(String tableName) {
         SQLiteDatabase db = getWritableDatabase();
-
         if (db == null || TextUtils.isEmpty(tableName)) {
             return;
         }
-
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
     }
 }
