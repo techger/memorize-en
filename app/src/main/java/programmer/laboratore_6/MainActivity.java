@@ -1,32 +1,26 @@
 package programmer.laboratore_6;
-import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.util.Log;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.content.Intent;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import programmer.laboratore_6.Database.MyDbHandler;
-import programmer.laboratore_6.Model.User;
-import programmer.laboratore_6.Model.Word;
+import programmer.laboratore_6.Model.RememberWord;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
     private static final String TAG = "MainActivity";
@@ -39,6 +33,8 @@ public class MainActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        myDbHandler = new MyDbHandler(getApplicationContext());
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -148,6 +144,31 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onShake() {
         Log.d(TAG,"Shake shake shake shake shake");
+        List<String> remember = new ArrayList<String>();
+        //qList.add("");
+        List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
+        for (RememberWord rememberWord : rememberWords){
+            String listWord = ""+rememberWord.getRememberEnglish() +
+                    " - "+rememberWord.getRememberType()+
+                    " "+rememberWord.getRememberMongolia()+"\n";
+            remember.add(listWord);
+        }
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setTitle("Цээжлэх үгийн жагсаалт");
+        builder.setMessage(remember.toString());
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                onResume();
+                // Do something
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                // User cancelled the dialog
+            }
+        });
+        builder.show();
+        onPause();
     }
     @Override
     protected void onResume() {
@@ -159,5 +180,4 @@ public class MainActivity extends AppCompatActivity
         super.onPause();
         shakeEventManager.deregister();
     }
-
 }
