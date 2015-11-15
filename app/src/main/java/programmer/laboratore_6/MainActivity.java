@@ -97,9 +97,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.rememberWord){
             Fragment rememberWordFragment = new RememberWordFragment();
             FragmentManager fm = getFragmentManager();
-            fm.popBackStack("test",0);
+            fm.popBackStack("test", 0);
             FragmentTransaction fragmentTransaction= fm.beginTransaction();
             fragmentTransaction.replace(R.id.container, rememberWordFragment);
+            fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
         } else if (id == R.id.settings) {
             Fragment blogFragment = new BlogFragment();
@@ -107,6 +108,7 @@ public class MainActivity extends AppCompatActivity
             fm.popBackStack("test",0);
             FragmentTransaction fragmentTransaction= fm.beginTransaction();
             fragmentTransaction.replace(R.id.container, blogFragment);
+            fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
         } else if (id == R.id.map) {
 
@@ -146,23 +148,19 @@ public class MainActivity extends AppCompatActivity
         //qList.add("");
         List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
         for (RememberWord rememberWord : rememberWords){
-            String listWord = ""+rememberWord.getRememberEnglish() +
+            String listWord = "\n"+rememberWord.getRememberEnglish() +
                     " - "+rememberWord.getRememberType()+
-                    " "+rememberWord.getRememberMongolia()+"\n";
+                    " "+rememberWord.getRememberMongolia()+"";
             remember.add(listWord);
         }
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setTitle("Цээжлэх үгийн жагсаалт");
+        builder.setIcon(R.drawable.task);
         builder.setMessage(remember.toString());
-        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Хаах", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
                 onResume();
                 // Do something
-            }
-        });
-        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-                // User cancelled the dialog
             }
         });
         builder.show();

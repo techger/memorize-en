@@ -5,7 +5,7 @@
             android:title="Хайх" />
         <item android:id="@+id/add" android:icon="@drawable/add"
             android:title="Нэмэх" />
-        <item android:id="@+id/rememberWord"
+        <item android:id="@+id/rememberWord" android:icon="@drawable/list"
             android:title="Цээжлэх үгс" />
         <item android:id="@+id/settings" android:icon="@drawable/settings"
             android:title="Тохиргоо" />

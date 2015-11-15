@@ -34,6 +34,7 @@ public class RememberWordFragment extends Fragment {
     private static final String TAG = "===RememberFragment===";
     ListView wordList;
     MyDbHandler myDbHandler;
+    AlertDialogManager alertDialogManager;
     private static View rootView;
     @Override
     public void onCreate(Bundle savedInstanceState) {

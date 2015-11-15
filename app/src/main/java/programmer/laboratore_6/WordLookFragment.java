@@ -87,7 +87,8 @@ public class WordLookFragment extends Fragment {
                 fragmentTransaction.replace(R.id.container, editFragment);
                 fragmentTransaction.addToBackStack("Edit").commit();
                 Snackbar.make(v, "Үг засах хэсэг", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                        .setAction("Action", null)
+                        .show();
             }
         });
 

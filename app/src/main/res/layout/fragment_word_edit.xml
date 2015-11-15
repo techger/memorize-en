@@ -17,7 +17,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|end"
-                android:src="@drawable/add" />
+                android:src="@drawable/save" />
 
         </android.support.design.widget.NavigationView>
 

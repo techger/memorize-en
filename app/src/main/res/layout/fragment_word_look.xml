@@ -17,19 +17,19 @@
                 android:id="@+id/editFButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/add" />
+                android:src="@drawable/save" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/deleteFButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@android:drawable/ic_input_delete" />
+                android:src="@drawable/delete" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/listWordButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@android:drawable/ic_input_get" />
+                android:src="@drawable/list" />
         </LinearLayout>
 
     </android.support.design.widget.NavigationView>
