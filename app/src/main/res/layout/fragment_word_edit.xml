@@ -1,56 +1,62 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent" tools:context="programmer.laboratore_6.WordEditFragment"
-    android:weightSum="1">
-    <android.support.design.widget.NavigationView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/editedWordSave"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top|end"
-            android:src="@drawable/add" />
-
-    </android.support.design.widget.NavigationView>
-
-    <android.support.design.widget.TextInputLayout
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp">
-        <EditText android:id="@+id/englishWordInputE"
+        android:orientation="vertical"
+        android:layout_height="match_parent" tools:context="programmer.laboratore_6.WordEditFragment"
+        android:weightSum="1">
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/editedWordSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:src="@drawable/add" />
+
+        </android.support.design.widget.NavigationView>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapWords"
-            android:hint="Англи үг"/>
-    </android.support.design.widget.TextInputLayout>
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/englishWordInputE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Англи үг"/>
+        </android.support.design.widget.TextInputLayout>
 
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp">
-        <EditText android:id="@+id/wordTypeInputE"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapWords"
-            android:hint="Negative"/>
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="301dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_weight="0.40">
-        <EditText android:id="@+id/mongolianWordInputE"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/wordTypeInputE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Negative"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textCapWords"
-            android:hint="Монгол үг"
-            android:paddingBottom="250dp" />
-    </android.support.design.widget.TextInputLayout>
-</LinearLayout>
+            android:layout_height="301dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.40">
+            <EditText android:id="@+id/mongolianWordInputE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Монгол үг"
+                android:paddingBottom="250dp" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

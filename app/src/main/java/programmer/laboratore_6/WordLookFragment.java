@@ -17,10 +17,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
 import programmer.laboratore_6.Database.MyDbHandler;
+import programmer.laboratore_6.Model.RememberWord;
 import programmer.laboratore_6.Model.Word;
 
 
@@ -93,15 +95,42 @@ public class WordLookFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 myDbHandler.deleteWord(new Word(eng, type, mon));
-                Log.d(TAG, "Амжилттай устгалаа..."+eng);
+                Log.d(TAG, "Амжилттай устгалаа..." + eng);
                 Snackbar.make(v, "Амжилттай устгалаа...", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
                 getActivity().getFragmentManager().popBackStack();
             }
         });
+        wordListFButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String eng = english.getText().toString();
+                String type = wordtype.getText().toString();
+                String mon = mongolia.getText().toString();
+                Cursor words = myDbHandler.checkRememberWord(eng);
+                if (words == null) {
+                    Snackbar.make(v, "Өгөгдлийн сангийн query алдаатай байна...", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                    Log.d(TAG,"Өгөгдлийн сангийн query алдаатай байна");
+                } else {
+                    getActivity().startManagingCursor(words);
+                    if (words.getCount() > 0) {
+                        Snackbar.make(v, "Бүртгэлтэй үг байна...", Snackbar.LENGTH_LONG)
+                                .setAction("Action", null).show();
+                        Log.d(TAG,"Бүртгэлтэй үг байна");
+                        getActivity().stopManagingCursor(words);
+                        words.close();
+                    } else {
+                        myDbHandler.addRememberWord(new RememberWord(eng, type, mon));
+                        Toast.makeText(getActivity(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
+                        Log.d(TAG, "Амжилттай нэмлээ");
+                        Snackbar.make(v, "Шинэ үг амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)
+                                .setAction("Action", null).show();
+                    }
+                }
 
-
-
+            }
+        });
     }
 
 }

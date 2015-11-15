@@ -55,7 +55,7 @@ public class WordAddFragment extends Fragment {
                 String eng = englishWordInput.getText().toString();
                 String type = wordTypeInput.getText().toString();
                 String mon = mongolianWordInput.getText().toString();
-                Cursor words = myDbHandler.checkUser(eng, mon);
+                Cursor words = myDbHandler.checkWord(eng);
                 if (words == null) {
                     alert.showAlertDialog(getActivity(), "Error", "Database query error", false);
                     Log.d(TAG,"Өгөгдлийн сангийн query алдаатай байна");

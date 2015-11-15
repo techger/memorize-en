@@ -11,6 +11,8 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
+
+import programmer.laboratore_6.Model.RememberWord;
 import programmer.laboratore_6.Model.User;
 
 import java.io.IOException;
@@ -29,7 +31,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
 
     private static final String TAG = "===DatabaseHandler===";
     private static final int    DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME    = "dictionary4.db";
+    private static final String DATABASE_NAME    = "dictionary5.db";
 
     public static final String TABLE_USERS   = "users";
     public static final String USER_ID       = "id";
@@ -42,8 +44,14 @@ public class MyDbHandler extends SQLiteOpenHelper {
     public static final String WORD_TYPE   = "type";
     public static final String WORD_MON    = "mongolia";
 
+    public static final String TABLE_REMEMBER_WORDS = "remember_words";
+    public static final String REMEMBER_WORD_ENG = "remember_word_english";
+    public static final String REMEMBER_WORD_TYPE = "remember_word_type";
+    public static final String REMEMBER_WORD_MON = "remember_word_mongolia";
+
     private static final String[] PROJECTIONS_USERS = {USER_ID, USER_NAME, USER_EMAIL,USER_PASSWORD};
     private static final String[] PROJECTIONS_WORDS = {WORD_ENG, WORD_TYPE, WORD_MON};
+    private static final String[] PROJECTIONS_REMEMBER_WORDS = {REMEMBER_WORD_ENG, REMEMBER_WORD_TYPE, REMEMBER_WORD_MON};
 
     private static final int USER_ID_INDEX       = 0;
     private static final int USER_NAME_INDEX     = 1;
@@ -53,6 +61,10 @@ public class MyDbHandler extends SQLiteOpenHelper {
     private static final int WORD_ENG_INDEX     = 0;
     private static final int WORD_TYPE_INDEX    = 1;
     private static final int WORD_MON_INDEX     = 2;
+
+    private static final int REMEMBER_WORD_ENG_INDEX = 0;
+    private static final int REMEMBER_WORD_TYPE_INDEX = 1;
+    private static final int REMEMBER_WORD_MON_INDEX= 2;
 
     private static final String CREATE_TABLE_USERS = "CREATE TABLE users (" +
             USER_ID + " INTEGER PRIMARY KEY," +
@@ -65,6 +77,11 @@ public class MyDbHandler extends SQLiteOpenHelper {
             WORD_TYPE + " TEXT," +
             WORD_MON + " TEXT)";
 
+    private static final String CREATE_TABLE_REMEMBER_WORDS = "CREATE TABLE remember_words ("+
+            REMEMBER_WORD_ENG + " TEXT PRIMARY KEY,"+
+            REMEMBER_WORD_TYPE + " TEXT,"+
+            REMEMBER_WORD_MON + " TEXT)";
+
     public MyDbHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         myContext = context;
@@ -75,6 +92,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
     {
         db.execSQL(CREATE_TABLE_USERS);
         db.execSQL(CREATE_TABLE_WORDS);
+        db.execSQL(CREATE_TABLE_REMEMBER_WORDS);
 
         ContentValues contentValues = new ContentValues();
         Resources resources = myContext.getResources();
@@ -120,6 +138,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         dropTable(TABLE_USERS);
         dropTable(TABLE_WORDS);
+        dropTable(TABLE_REMEMBER_WORDS);
         onCreate(db);
     }
     public void addUser(User user) {
@@ -152,6 +171,21 @@ public class MyDbHandler extends SQLiteOpenHelper {
         cv.put(WORD_MON, word.getMongolia());
         // Inserting Row
         db.insert(TABLE_WORDS, null, cv);
+        db.close();
+    }
+    public void addRememberWord(RememberWord rememberWord) {
+        if (rememberWord == null) {
+            return;
+        }
+        SQLiteDatabase db = getWritableDatabase();
+        if (db == null) {
+            return;
+        }
+        ContentValues cv = new ContentValues();
+        cv.put(REMEMBER_WORD_ENG, rememberWord.getRememberEnglish());
+        cv.put(REMEMBER_WORD_TYPE, rememberWord.getRememberType());
+        cv.put(REMEMBER_WORD_MON, rememberWord.getRememberMongolia());
+        db.insert(TABLE_REMEMBER_WORDS, null, cv);
         db.close();
     }
     public User getUser(int id) {
@@ -187,6 +221,22 @@ public class MyDbHandler extends SQLiteOpenHelper {
         cursor.close();
         return word;
     }
+    public RememberWord getRememberWord(String id) {
+        SQLiteDatabase db = getReadableDatabase();
+        if (db == null) {
+            return null;
+        }
+        Cursor cursor = db.query(TABLE_REMEMBER_WORDS, PROJECTIONS_REMEMBER_WORDS, REMEMBER_WORD_ENG + "=?",
+                new String[]{String.valueOf(id)}, null, null, null, null);
+        if (!cursor.moveToFirst()) {
+            return null;
+        }
+        RememberWord rememberWord = new RememberWord(cursor.getString(REMEMBER_WORD_ENG_INDEX),
+                cursor.getString(REMEMBER_WORD_TYPE_INDEX),
+                cursor.getString(REMEMBER_WORD_MON_INDEX));
+        cursor.close();
+        return rememberWord;
+    }
 
     public Cursor checkUser(String username,String password){
 
@@ -200,7 +250,29 @@ public class MyDbHandler extends SQLiteOpenHelper {
         }
         return cursor;
     }
+    public Cursor checkWord(String english){
 
+        SQLiteDatabase db = getReadableDatabase();
+
+        Cursor cursor = db.query(TABLE_WORDS,new String[]{WORD_ENG,WORD_TYPE,WORD_MON},
+                WORD_ENG +    "='" +english +"'",null,null,null,null);
+        if (cursor != null){
+            cursor.moveToFirst();
+        }
+        return cursor;
+    }
+
+    public Cursor checkRememberWord(String english){
+
+        SQLiteDatabase db = getReadableDatabase();
+
+        Cursor cursor = db.query(TABLE_REMEMBER_WORDS,new String[]{REMEMBER_WORD_ENG,REMEMBER_WORD_TYPE,REMEMBER_WORD_MON},
+                REMEMBER_WORD_ENG +    "='" +english +"'",null,null,null,null);
+        if (cursor != null){
+            cursor.moveToFirst();
+        }
+        return cursor;
+    }
     public List<User> getAllUsers() {
         List<User> users = new ArrayList<>();
         String selectQuery = "SELECT * FROM " + TABLE_USERS;
@@ -238,6 +310,25 @@ public class MyDbHandler extends SQLiteOpenHelper {
         Log.d(TAG,""+words);
         cursor.close();
         return words;
+    }
+    public List<RememberWord> getAllRememberWords() {
+        List<RememberWord> rwords = new ArrayList<>();
+        String selectQuery = "SELECT * FROM " + TABLE_REMEMBER_WORDS +" ORDER BY " +REMEMBER_WORD_ENG+" DESC";
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+        if (cursor.moveToFirst()) {
+            do {
+                String eng = cursor.getString(REMEMBER_WORD_ENG_INDEX);
+                String type = cursor.getString(REMEMBER_WORD_TYPE_INDEX);
+                String mon = cursor.getString(REMEMBER_WORD_MON_INDEX);
+                RememberWord rememberWord = new RememberWord(eng,type,mon);
+                rwords.add(rememberWord);
+            } while (cursor.moveToNext());
+        }
+
+        Log.d(TAG,""+rwords);
+        cursor.close();
+        return rwords;
     }
     public int updateUser(User user) {
         if (user == null) {
@@ -299,6 +390,17 @@ public class MyDbHandler extends SQLiteOpenHelper {
             return;
         }
         db.delete(TABLE_WORDS, WORD_ENG + "=?", new String[]{String.valueOf(word.getEnglish())});
+        db.close();
+    }
+    public void deleteRememberWord(RememberWord rememberWord) {
+        if (rememberWord == null) {
+            return;
+        }
+        SQLiteDatabase db = getWritableDatabase();
+        if (db == null) {
+            return;
+        }
+        db.delete(TABLE_REMEMBER_WORDS, WORD_ENG + "=?", new String[]{String.valueOf(rememberWord.getRememberEnglish())});
         db.close();
     }
     public int getUserCount() {
