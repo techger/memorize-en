@@ -124,7 +124,7 @@ public class WordLookFragment extends Fragment {
                         myDbHandler.addRememberWord(new RememberWord(eng, type, mon));
                         Toast.makeText(getActivity(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
-                        Snackbar.make(v, "Шинэ үг амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)
+                        Snackbar.make(v, "Цээжлэх үгийн жагсаалтанд амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)
                                 .setAction("Action", null).show();
                     }
                 }
@@ -132,5 +132,4 @@ public class WordLookFragment extends Fragment {
             }
         });
     }
-
 }

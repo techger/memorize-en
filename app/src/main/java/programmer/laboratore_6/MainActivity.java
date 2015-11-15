@@ -139,8 +139,6 @@ public class MainActivity extends AppCompatActivity
         }
 
     }
-
-
     @Override
     public void onShake() {
         Log.d(TAG,"Shake shake shake shake shake");
