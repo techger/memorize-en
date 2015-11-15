@@ -94,10 +94,17 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.add) {
             Fragment wordAddFragment = new WordAddFragment();
             FragmentManager fm = getFragmentManager();
-            fm.popBackStack("test",0);
-            FragmentTransaction fragmentTransaction= fm.beginTransaction();
+            fm.popBackStack("test", 0);
+            FragmentTransaction fragmentTransaction = fm.beginTransaction();
             fragmentTransaction.replace(R.id.container, wordAddFragment);
             fragmentTransaction.addToBackStack("Add").commit();
+        } else if (id == R.id.rememberWord){
+            Fragment rememberWordFragment = new RememberWordFragment();
+            FragmentManager fm = getFragmentManager();
+            fm.popBackStack("test",0);
+            FragmentTransaction fragmentTransaction= fm.beginTransaction();
+            fragmentTransaction.replace(R.id.container, rememberWordFragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.settings) {
             Fragment blogFragment = new BlogFragment();
             FragmentManager fm = getFragmentManager();

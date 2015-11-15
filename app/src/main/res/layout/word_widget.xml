@@ -15,7 +15,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:padding="10dip"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:background="@color/white"
         android:textColor="@android:color/black"/>
 

@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <group android:checkableBehavior="single">
         <item android:id="@+id/search" android:icon="@drawable/search"
             android:title="Хайх" />
         <item android:id="@+id/add" android:icon="@drawable/add"
             android:title="Нэмэх" />
+        <item android:id="@+id/rememberWord"
+            android:title="Цээжлэх үгс" />
         <item android:id="@+id/settings" android:icon="@drawable/settings"
             android:title="Тохиргоо" />
         <item android:id="@+id/map" android:icon="@drawable/map"
             android:title="Газрын зураг" />
     </group>
-
-
 </menu>

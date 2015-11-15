@@ -53,10 +53,10 @@ public class UpdateWidgetService extends Service {
 
     public List<String> getWidgetRememberWords(){
         List<String> qList = new ArrayList<String>();
-        qList.add("");
+        //qList.add("");
         List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
         for (RememberWord rememberWord : rememberWords){
-            String listWord = "Англи үг: "+rememberWord.getRememberEnglish() +"\n Төрөл: "+rememberWord.getRememberType()+"\n Монгол үг: "+rememberWord.getRememberMongolia();
+            String listWord = ""+rememberWord.getRememberEnglish() +" - "+rememberWord.getRememberType()+" "+rememberWord.getRememberMongolia();
             qList.add(listWord);
         }
         return qList;
