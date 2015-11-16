@@ -56,7 +56,8 @@ public class UpdateWidgetService extends Service {
         //qList.add("");
         List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
         for (RememberWord rememberWord : rememberWords){
-            String listWord = ""+rememberWord.getRememberEnglish() +" - "+rememberWord.getRememberType()+" "+rememberWord.getRememberMongolia();
+            String listWord = ""+rememberWord.getRememberEnglish() +
+                    " - "+rememberWord.getRememberType()+" "+rememberWord.getRememberMongolia();
             qList.add(listWord);
         }
         return qList;

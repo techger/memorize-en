@@ -60,7 +60,7 @@ public class RememberWordFragment extends Fragment {
         List<RememberWord> words = myDbHandler.getAllRememberWords();
         try {
             for (RememberWord rememberWord : words){
-                String wordAdd = ""+rememberWord.getRememberEnglish() +" - "+rememberWord.getRememberType()+
+                String wordAdd = "\n"+rememberWord.getRememberEnglish() +" - "+rememberWord.getRememberType()+
                         " ,"+rememberWord.getRememberMongolia();
                 Log.d(TAG, wordAdd);
                 wordListItems.add(0, wordAdd);
