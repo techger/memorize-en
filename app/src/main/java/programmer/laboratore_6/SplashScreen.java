@@ -16,28 +16,6 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
         imageView = (ImageView) findViewById(R.id.imageView2);
         try {
-            BitmapDrawable frame1 = (BitmapDrawable) getResources().getDrawable(R.drawable.loading1);
-            BitmapDrawable frame2 = (BitmapDrawable) getResources().getDrawable(R.drawable.loading2);
-            BitmapDrawable frame3 = (BitmapDrawable) getResources().getDrawable(R.drawable.loading3);
-            BitmapDrawable frame4 = (BitmapDrawable) getResources().getDrawable(R.drawable.loading4);
-            BitmapDrawable frame5 = (BitmapDrawable) getResources().getDrawable(R.drawable.loading5);
-            animationDrawable = new AnimationDrawable();
-            animationDrawable.addFrame(frame1, 100);
-            animationDrawable.addFrame(frame2, 100);
-            animationDrawable.addFrame(frame3, 100);
-            animationDrawable.addFrame(frame4, 100);
-            animationDrawable.addFrame(frame5, 100);
-            animationDrawable.setOneShot(false);
-            imageView.setBackgroundDrawable(animationDrawable);
-            animationDrawable.start();
-            /*new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    Intent intent = new Intent(SplashScreen.this, LoginActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
-            }, 5 * 1000);*/
             Thread timerThread = new Thread(){
                 public void run(){
                     try{
