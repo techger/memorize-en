@@ -3,6 +3,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -20,6 +21,7 @@ import java.util.List;
 
 import programmer.laboratore_6.Database.MyDbHandler;
 import programmer.laboratore_6.Model.RememberWord;
+import programmer.laboratore_6.Service.LockService;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
@@ -110,8 +112,8 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.container, blogFragment);
             fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
-        } else if (id == R.id.map) {
-
+        } else if (id == R.id.lock) {
+            startService(new Intent(this, LockService.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

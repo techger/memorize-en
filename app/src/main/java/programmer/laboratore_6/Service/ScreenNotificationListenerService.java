@@ -1,4 +1,4 @@
-package programmer.laboratore_6;
+package programmer.laboratore_6.Service;
 
 /**
  * Created by Byambaa on 11/15/2015.

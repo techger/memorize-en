@@ -64,16 +64,12 @@ public class MainFragment extends Fragment {
         myArrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,wordListItems);
         wordList.setAdapter(myArrayAdapter);
         List<Word> words = myDbHandler.getAllWords();
-        for (Word word : words){
-            String wordAdd = "Англи үг: "+word.getEnglish() +"Төрөл: "+word.getType()+"Монгол үг: "+word.getMongolia();
-            Log.d(TAG,wordAdd);
-        }
 
         try {
+            Log.d(TAG, "Inserting words...");
             for (Word word : words){
-                Log.d(TAG, "Inserting words...");
                 String wordAdd = word.getEnglish();
-                Log.d(TAG,wordAdd);
+              //  Log.d(TAG,wordAdd);
                 wordListItems.add(0, wordAdd);
             }
         }catch (NullPointerException npe){

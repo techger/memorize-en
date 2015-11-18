@@ -11,5 +11,7 @@
             android:title="Тохиргоо" />
         <item android:id="@+id/map" android:icon="@drawable/map"
             android:title="Газрын зураг" />
+        <item android:id="@+id/lock"
+            android:title="Lock Screen"/>
     </group>
 </menu>

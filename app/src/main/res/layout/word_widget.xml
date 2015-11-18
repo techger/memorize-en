@@ -16,6 +16,6 @@
         android:padding="10dip"
         android:textSize="20dp"
         android:background="@color/tra"
-        android:textColor="@android:color/black"/>
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>

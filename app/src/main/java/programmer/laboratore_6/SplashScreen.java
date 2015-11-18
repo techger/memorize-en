@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
+import programmer.laboratore_6.Service.LockService;
+
 public class SplashScreen extends AppCompatActivity {
     ImageView imageView;
     AnimationDrawable animationDrawable;

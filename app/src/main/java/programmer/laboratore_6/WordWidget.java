@@ -10,6 +10,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
 
+import programmer.laboratore_6.Service.UpdateWidgetService;
+
 public class WordWidget extends AppWidgetProvider {
 
     @Override

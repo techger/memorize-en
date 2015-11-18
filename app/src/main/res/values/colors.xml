@@ -14,5 +14,5 @@
     <color name="base">#AAAAAA</color>
     <color name="iron">#CCCCCC</color>
     <color name="white">#FFFFFF</color>
-    <color name="tra">#CFD8DC</color>
+    <color name="tra">#4D000000</color>
 </resources>

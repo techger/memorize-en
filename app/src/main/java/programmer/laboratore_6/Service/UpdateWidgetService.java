@@ -1,4 +1,4 @@
-package programmer.laboratore_6;
+package programmer.laboratore_6.Service;
 
 /**
  * Created by Byambaa on 11/15/2015.
@@ -16,6 +16,7 @@ import android.widget.RemoteViews;
 
 import programmer.laboratore_6.Database.MyDbHandler;
 import programmer.laboratore_6.Model.RememberWord;
+import programmer.laboratore_6.R;
 
 public class UpdateWidgetService extends Service {
     private static final String TAG = UpdateWidgetService.class.getSimpleName();
