@@ -15,7 +15,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import java.util.concurrent.TimeoutException;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.net.URISyntaxException;
+
+import io.socket.client.IO;
+import io.socket.client.Socket;
 import programmer.laboratore_6.Database.MyDbHandler;
 import programmer.laboratore_6.Model.Word;
 
@@ -29,10 +36,20 @@ public class WordAddFragment extends Fragment {
     FloatingActionButton saveButton;
     MyDbHandler myDbHandler;
     AlertDialogManager alert;
+    Socket socket;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        try {
+            socket = IO.socket("http://localhost:8000");
+            socket.connect();
+            Log.d(TAG,"Socket server connected !");
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -56,6 +73,19 @@ public class WordAddFragment extends Fragment {
                 String type = wordTypeInput.getText().toString();
                 String mon = mongolianWordInput.getText().toString();
                 Cursor words = myDbHandler.checkWord(eng);
+
+                JSONObject obj = new JSONObject();
+
+                try {
+                    obj.put("english", eng);
+                    obj.put("type",type);
+                    obj.put("mongolia",mon);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                socket.emit("NewWord", obj);
+
                 if (words == null) {
                     alert.showAlertDialog(getActivity(), "Error", "Database query error", false);
                     Log.d(TAG,"Өгөгдлийн сангийн query алдаатай байна");

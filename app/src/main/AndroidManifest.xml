@@ -79,7 +79,7 @@
         <activity
             android:name=".LockScreen"
             android:showOnLockScreen="true"
-            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.FullScreen"
             android:label="@string/title_activity_lock_screen">
         </activity>
     </application>

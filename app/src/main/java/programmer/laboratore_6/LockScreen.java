@@ -36,11 +36,12 @@ public class LockScreen extends AppCompatActivity{
                 finish();
             }
         });
+
     }
     private BroadcastReceiver mReceiver = new BroadcastReceiver(){
         @Override
         public void onReceive(Context context, Intent intent) {
-            
+
             Random random = new Random();
             List<String> wordList = getLockerRememberWords();
             int nextInt = random.nextInt(wordList.size());
@@ -48,7 +49,6 @@ public class LockScreen extends AppCompatActivity{
             Toast.makeText(context, "Word: "+wordList.get(nextInt), Toast.LENGTH_LONG).show();
             String action = intent.getAction();
             if(action.equals("android.intent.action.SCREEN_OFF")){
-
             }
         }
     };
@@ -61,6 +61,12 @@ public class LockScreen extends AppCompatActivity{
                     " - "+rememberWord.getRememberType()+" "+rememberWord.getRememberMongolia();
             wordList.add(listWord);
         }
+        words.setText(wordList.toString());
         return wordList;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
