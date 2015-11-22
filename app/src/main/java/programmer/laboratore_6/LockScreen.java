@@ -20,6 +20,8 @@ import programmer.laboratore_6.Model.RememberWord;
 
 public class LockScreen extends AppCompatActivity{
 
+    private static final String TAG = "===LockScreenAc===";
+
     MyDbHandler myDbHandler;
     private TextView words;
     private Button exit;

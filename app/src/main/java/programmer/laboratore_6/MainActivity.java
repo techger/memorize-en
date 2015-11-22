@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity
 
         myDbHandler = new MyDbHandler(getApplicationContext());
 
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -105,13 +104,8 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
         } else if (id == R.id.settings) {
-            Fragment blogFragment = new BlogFragment();
-            FragmentManager fm = getFragmentManager();
-            fm.popBackStack("test",0);
-            FragmentTransaction fragmentTransaction= fm.beginTransaction();
-            fragmentTransaction.replace(R.id.container, blogFragment);
-            fragmentTransaction.addToBackStack("Text");
-            fragmentTransaction.commit();
+            Intent i = new Intent(MainActivity.this,Settings.class);
+            startActivity(i);
         } else if (id == R.id.lock) {
             startService(new Intent(this, LockService.class));
         }

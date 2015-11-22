@@ -3,5 +3,5 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:minWidth="320dp"
     android:minHeight="72dp"
-    android:updatePeriodMillis="180000"
+    android:updatePeriodMillis="5000"
     android:initialLayout="@layout/word_widget" />

@@ -13,9 +13,11 @@ import android.widget.Toast;
 import programmer.laboratore_6.LockScreen;
 
 /**
- * Created by Byambaa on 11/19/2015.
+ * Created by Toroo on 11/19/2015.
  */
 public class LockService extends Service {
+
+    private static final String TAG = "===LockService===";
     private KeyguardManager km = null;
     @SuppressWarnings("deprecation")
     private KeyguardManager.KeyguardLock keylock = null;
@@ -25,13 +27,9 @@ public class LockService extends Service {
             Toast.makeText(context, "onReceive!", Toast.LENGTH_LONG).show();
             String action = intent.getAction();
             if(action.equals("android.intent.action.SCREEN_OFF")){
-
                 Intent i = new Intent(context, LockScreen.class);
-
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-
                 context.startActivity(i);
-
             }
         }
     };
@@ -53,7 +51,6 @@ public class LockService extends Service {
         }
 
     }
-
     @Override
     public int onStartCommand(Intent intent, int flags, int startId){
         Toast.makeText(this, "onStartCommand!", Toast.LENGTH_LONG).show();
@@ -62,13 +59,11 @@ public class LockService extends Service {
         registerReceiver(mReceiver, filter);
         return Service.START_NOT_STICKY;
     }
-
     @Override
     public void onDestroy(){
         if(keylock!=null){
             keylock.reenableKeyguard();
         }
-
         if(mReceiver != null)
             unregisterReceiver(mReceiver);
         Toast.makeText(this, "onDestroy!", Toast.LENGTH_LONG).show();

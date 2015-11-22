@@ -1,7 +1,6 @@
 package programmer.laboratore_6.Service;
-
 /**
- * Created by Byambaa on 11/15/2015.
+ * Created by Toroo on 11/15/2015.
  */
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +18,8 @@ import programmer.laboratore_6.Model.RememberWord;
 import programmer.laboratore_6.R;
 
 public class UpdateWidgetService extends Service {
-    private static final String TAG = UpdateWidgetService.class.getSimpleName();
+
+    private static final String TAG = "===WordWidgetUpdate===";
     MyDbHandler myDbHandler;
     @Override
     public IBinder onBind(Intent arg0) {
@@ -39,7 +39,6 @@ public class UpdateWidgetService extends Service {
         int[] appWidgetIds = intent.getIntArrayExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS);
         myDbHandler = new MyDbHandler(getApplicationContext());
         if (appWidgetIds.length > 0) {
-
             for (int widgetId : appWidgetIds) {
                 List<String> qList = getWidgetRememberWords();
                 int nextInt = random.nextInt(qList.size());
@@ -54,7 +53,7 @@ public class UpdateWidgetService extends Service {
 
     public List<String> getWidgetRememberWords(){
         List<String> qList = new ArrayList<String>();
-        //qList.add("");
+        qList.add("dictionary - noun. толь бичиг");
         List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
         for (RememberWord rememberWord : rememberWords){
             String listWord = ""+rememberWord.getRememberEnglish() +

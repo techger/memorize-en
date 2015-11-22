@@ -25,9 +25,7 @@
     <word english="aeroplane" type="noun." mongolia="нисэх онгоц"/>
     <word english="affair" type="noun." mongolia="явдал, хэрэг"/>
     <word english="afford" type="verb." mongolia="-тай байх, боломжтой байх"/>
-    <word english="Afghanistan" type="noun." mongolia="Афганистан улс"/>
     <word english="afraid" type="adjective." mongolia="санаа зовох, айх"/>
-    <word english="Africa" type="n" mongolia="Африк тив"/>
     <word english="after" type="prep." mongolia="сvvлээр, дараа, -аад4"/>
     <word english="afternoon" type="noun." mongolia="vдээс хойш, vдийн хойно"/>
     <word english="again" type="adverb." mongolia="дахин, ахин"/>
@@ -55,8 +53,6 @@
     <word english="along" type="prep." mongolia="-аар4, дагуу"/>
     <word english="alphabet" type="noun." mongolia="цагаан толгой"/>
     <word english="also" type="adverb." mongolia="бас, мøн, мøн л"/>
-    <word english="Altaic" type="noun." mongolia="Алтайн, Алтай овгийн"/>
-    <word english="Altaic language" type="" mongolia="Алтай овгийн хэл"/>
     <word english="altough" type="conj." mongolia="боловч, хэдийгээр"/>
     <word english="always" type="adverb." mongolia="vргэлж, ашид, ямагт"/>
     <word english="am" type="verb." mongolia="(би) мøн, юм"/>
@@ -85,7 +81,6 @@
     <word english="apple tree" type="noun." mongolia="алимны мод"/>
     <word english="apply" type="verb." mongolia="хэрэглэх, øгøх, наах, боох, тогтоох, øргøдøл/хvсэлт гаргах"/>
     <word english="approach" type="verb." mongolia="ойртох, айсуй, халах, хандах, санал тавих"/>
-    <word english="April" type="noun." mongolia="дøрøвдvгээр сар"/>
     <word english="archery" type="noun." mongolia="сур харвах"/>
     <word english="are" type="verb." mongolia="бол, мøн, бай, юм"/>
     <word english="area" type="noun." mongolia="(хэсэг) газар, нутаг, бvс нутаг, орон"/>
@@ -117,7 +112,6 @@
     <word english="attention" type="noun." mongolia="анхааралтай, анхаарагтун, анхаарал"/>
     <word english="attentive" type="adjective." mongolia="болгоомжтой, анхааралтай, хянуур"/>
     <word english="audience" type="noun." mongolia="vзэгчид, оролцогчид, наадамчид, олон ард"/>
-    <word english="August" type="noun." mongolia="наймдугаар сар"/>
     <word english="aunt" type="noun." mongolia="нагац эгч, авга эгч"/>
     <word english="autumn" type="noun." mongolia="намар, намрын, намар цаг"/>
     <word english="avenue" type="noun." mongolia="øргøн чøлøø, цэцэрлэгт гудамж"/>
@@ -221,7 +215,6 @@
     <word english="bright (ly)" type="adjective." mongolia="хурц øнгøтэй, гэрэлтэй"/>
     <word english="bring" type="verb." mongolia="авч ирэх"/>
     <word english="bring up" type="verb." mongolia="øсгøх, тэжээх, хvн болгох, хvмvvжvvлэх"/>
-    <word english="British" type="adjective." mongolia="Британийн, Английн"/>
     <word english="broad" type="adjective." mongolia="øргøн, уудам, ерøнхий"/>
     <word english="broke" type="verb." mongolia="(break-ийн øнгøрсøн цаг) эвдрэв"/>
     <word english="bronze" type="adjective." mongolia="хvрэл"/>
@@ -305,7 +298,6 @@
     <word english="child" type="noun." mongolia="хvvхэд, жаал"/>
     <word english="childhood" type="noun." mongolia="хvvхэд ахуй vе, хvvхэд нас, хvvхэд байхдаа"/>
     <word english="children" type="noun." mongolia="олон хvvхэд, хvvхдvvд"/>
-    <word english="Chinggis" type="" mongolia="Чингис"/>
     <word english="chocolate" type="noun." mongolia="шоколад"/>
     <word english="choice" type="noun." mongolia="шилэх, сонгох, шилэлт, сонголт"/>
     <word english="choose" type="verb." mongolia="шилэх, сонгох, оноох, амлах"/>
@@ -445,7 +437,6 @@
     <word english="dear" type="adj" mongolia="эрхэм, хvндэт, хайрт"/>
     <word english="death" type="verb." mongolia="vхэх, vхсэн"/>
     <word english="decay" type="verb." mongolia="буурах, ялзрах, øгøрøх"/>
-    <word english="December" type="noun." mongolia="арванхоёрдугаар сар"/>
     <word english="decide" type="verb." mongolia="шийдэх, тогтох, санаа тøвдøх"/>
     <word english="decision" type="noun." mongolia="шийд, шийдвэр"/>
     <word english="declaration" type="noun." mongolia="мэдvvлэг хуудас"/>
@@ -580,7 +571,6 @@
     <word english="enter" type="verb." mongolia="орох, элсэх, нэвтрэх, бvртгэх"/>
     <word english="entrance" type="noun." mongolia="vvд, хаалга, орц, орох, элсэх"/>
     <word english="envy" type="verb." mongolia="атаархуулах, хорхой хvргэх"/>
-    <word english="Equus taki" type="noun." mongolia="(Equus адуу гэсэн латин vг) тахь"/>
     <word english="erest" type="verb." mongolia="(хøшøø) босгох, барих"/>
     <word english="err" type="noun." mongolia="андуу, ташаа, гэм, гэм хийх"/>
     <word english="especially" type="adverb." mongolia="ялангуяа, тэр дундаа"/>
@@ -589,8 +579,6 @@
     <word english="etc" type="" mongolia="гэх мэт, тэргvvтэн"/>
     <word english="ethnographical" type="adjective." mongolia="угсаатны зvйн"/>
     <word english="ethnography" type="noun." mongolia="угсаатны зvй"/>
-    <word english="Europe" type="noun." mongolia="Европ тив"/>
-    <word english="European" type="noun." mongolia="европ хvн, европ, европийн "/>
     <word english="eve (of ...)" type="noun." mongolia="битvvн, урьд øдøр, øмнøхøн, босгон дээр, даваан дээр"/>
     <word english="even" type="adverb." mongolia="...ч хvртэл, ... боловч, гэсэн ч"/>
     <word english="evening" type="noun." mongolia="vдэш, орой"/>
@@ -802,7 +790,6 @@
     <word english="Great National Khural" type="" mongolia="Улсын Их Хурал"/>
     <word english="greatest" type="adjective." mongolia="ихийн их, хамгийн их, их"/>
     <word english="greatly" type="adverb." mongolia="их, ихээр, ихээхэн"/>
-    <word english="Greece" type="noun." mongolia="Грек улс"/>
     <word english="green" type="adjective." mongolia="ногоон"/>
     <word english="grey" type="adjective." mongolia="саарал, буурал, орог"/>
     <word english="grief" type="noun." mongolia="ханиад"/>
@@ -917,7 +904,6 @@
     <word english="husband" type="noun." mongolia="эр нøхøр"/>
     <word english="hydraulic" type="adjective." mongolia="усан цахилгаан станц"/>
     <word english="hydrogen" type="noun." mongolia="устøрøгч"/>
-    <word english="I" type="pron" mongolia="би, миний бие"/>
     <word english="i.e." type="" mongolia="øøрøøр хэлбэл, тэр нь "/>
     <word english="ice" type="noun." mongolia="мøс, мøхøøлдøс"/>
     <word english="ice-cream" type="noun." mongolia="мøхøøлдøс"/>
@@ -988,11 +974,8 @@
     <word english="itself" type="pronoun." mongolia="(тэр, энэ юм) øøрøø"/>
     <word english="jacket" type="noun." mongolia="хvрэм, пиджак"/>
     <word english="jail" type="noun. verb." mongolia="шорон, гяндан, шоронд орох; шоронд хорих, баривчилж хорих"/>
-    <word english="January" type="noun." mongolia="нэгдvгээр сар"/>
-    <word english="Japan" type="noun." mongolia="Япон улс"/>
-    <word english="Japanese" type="adjective." mongolia="япон, японы, япон хэл, япон хэл"/>
     <word english="jar" type="noun. verb." mongolia="бортого, хøнøг, вааран бортого; доргиох, цочирдуулах, хавирах, хахитнах, зохицохгvй байх, нийцэхгvй байх"/>
-    <word english=" jeans" type="noun." mongolia="жийнсэн øмд"/>
+    <word english="jeans" type="noun." mongolia="жийнсэн øмд"/>
     <word english="job" type="noun." mongolia="ажил, албан тушаал, vvрэг, даалгавар"/>
     <word english="jog" type="noun. verb." mongolia="нудрах, ёврох, донсолгоо; тvлхэх, нудрах, шогших"/>
     <word english="join" type="verb." mongolia="орох, нийлэх, элсэх, нøхцøх"/>
@@ -1000,7 +983,7 @@
     <word english="journey" type="noun." mongolia="аян, аялал, аян зам"/>
     <word english="joy" type="noun." mongolia="баяр, цэнгэл, хøøр"/>
     <word english="juice" type="noun." mongolia="шvvс"/>
-    <word english="July" type="noun." mongolia="долоодугаар сар"/>
+    <word english="july" type="noun." mongolia="долоодугаар сар"/>
     <word english="jump" type="verb." mongolia="vсрэх, дvvлэх, булгих, харайх"/>
     <word english="June" type="noun." mongolia="зургаадугаар сар"/>
     <word english="just" type="adverb." mongolia="саяхан, сая, яг, дøнгøж, дøнгøж сая"/>
@@ -1121,7 +1104,7 @@
     <word english="man" type="noun." mongolia="эр, эр хvн, залуу"/>
     <word english="manage" type="verb." mongolia="оролдох, эрхлэх, зохион байгуулах, удирдах, зохицуулах, тэгж/ингэж дøнгøх, амжих"/>
     <word english="manager" type="noun." mongolia="эрхлэгч, удирдагч, зохион байгуулагч, менежер"/>
-    <word english="Manchu" type="noun." mongolia="Манж"/>
+    <word english="manchu" type="noun." mongolia="Манж"/>
     <word english="manhood" type="noun." mongolia="идэр нас, эрийн цээнд хvрэх"/>
     <word english="manly" type="adjective." mongolia="эрийн, эр хvний"/>
     <word english="manner" type="noun." mongolia="зан байдал, явдал ёс"/>
@@ -1140,7 +1123,7 @@
     <word english="matter" type="noun." mongolia="хэрэг явдал"/>
     <word english="mature" type="adjective." mongolia="ухаан суусан, буурь суурьтай, боловсон, боловсорсон"/>
     <word english="mausoleum" type="noun." mongolia="бунхан"/>
-    <word english="May" type="noun." mongolia="тавдугаар сар"/>
+    <word english="may" type="noun." mongolia="тавдугаар сар"/>
     <word english="may" type="verb." mongolia="болзошгvй, магадгvй"/>
     <word english="me" type=" pronoun." mongolia="намайг, надад"/>
     <word english="meal" type="noun." mongolia="хоол, зоог, хоол унд, хоол цай"/>
@@ -1185,11 +1168,11 @@
     <word english="modern" type="adjective." mongolia="орчин vеийн"/>
     <word english="modest" type="adjective." mongolia="номхон, даруу, тvвшин"/>
     <word english="moment" type="noun." mongolia="агшин, тэрхэн хором"/>
-    <word english="Mongoliaday" type="noun." mongolia="Даваа гараг, Сумъяа гараг, нэг дэх øдøр"/>
+    <word english="mongoliaday" type="noun." mongolia="Даваа гараг, Сумъяа гараг, нэг дэх øдøр"/>
     <word english="mongoliaey" type="noun." mongolia="мøнгø, зоос"/>
-    <word english="Mongoliagol" type="noun." mongolia="монгол хvн"/>
-    <word english="Mongoliagolia" type="noun." mongolia="Монгол улс, монгол орон, монгол газар"/>
-    <word english="Mongoliagolian" type="adjective." mongolia="Монгол хэл (хэл, хvн), монголын"/>
+    <word english="mongoliagol" type="noun." mongolia="монгол хvн"/>
+    <word english="mongoliagolia" type="noun." mongolia="Монгол улс, монгол орон, монгол газар"/>
+    <word english="mongoliagolian" type="adjective." mongolia="Монгол хэл (хэл, хvн), монголын"/>
     <word english="mongoliaitor" type="noun." mongolia="хянагч/хэмжигч тøхøøрøмж, хянах дэлгэц, дэлгэц"/>
     <word english="mongoliakey" type="noun." mongolia="сармагчин, мич, бич"/>
     <word english="mongoliath" type="noun." mongolia="(жил сарын) сар"/>
@@ -1210,8 +1193,8 @@
     <word english="mouse" type="noun." mongolia="хулгана, маус"/>
     <word english="mouth" type="noun." mongolia="(ам хамрын) ам"/>
     <word english="move" type="verb." mongolia="хøдлøх, нvvх, шилжих, зайлах"/>
-    <word english="Mr." type="noun." mongolia="ноён, гуай (эрэгтэй хvнийг хvндэтгэн нэрнийх нь øмнø оруулж дуудах vг)"/>
-    <word english="Mrs" type="noun." mongolia="ноёгтой, хатагтай (эрд очсон буюу, эрд очоод бэлэвсэрсэн ч гэсэн эмэгтэй хvнийг хvндэтгэн нэрнийх нь øмнø оруулж дууддаг vг)"/>
+    <word english="mr." type="noun." mongolia="ноён, гуай (эрэгтэй хvнийг хvндэтгэн нэрнийх нь øмнø оруулж дуудах vг)"/>
+    <word english="mrs" type="noun." mongolia="ноёгтой, хатагтай (эрд очсон буюу, эрд очоод бэлэвсэрсэн ч гэсэн эмэгтэй хvнийг хvндэтгэн нэрнийх нь øмнø оруулж дууддаг vг)"/>
     <word english="much" type="adjective." mongolia="их, олон"/>
     <word english="muddy" type="adjective." mongolia="шавартай, шавхайтай"/>
     <word english="museum" type="noun." mongolia="музей"/>
@@ -1264,7 +1247,7 @@
     <word english="notebook" type="noun." mongolia="дэвтэр, тэмдэглэлийн дэвтэр"/>
     <word english="nothing" type="adverb." mongolia="юу ч vгvй, юмгvй, оргvй"/>
     <word english="notice" type="verb." mongolia="ажих, анзаарах"/>
-    <word english="November" type="noun." mongolia="арваннэгдvгээр сар"/>
+    <word english="movember" type="noun." mongolia="арваннэгдvгээр сар"/>
     <word english="now" type="adverb." mongolia="одоо, øдгøø"/>
     <word english="nowhere" type="adverb." mongolia="хаа ч байхгvй, байх газаргvй, хаашаа"/>
     <word english="number" type="noun." mongolia="тоо, дугаар, тоот"/>
@@ -1559,8 +1542,8 @@
     <word english="ruler" type="noun." mongolia="шугам"/>
     <word english="run" type="verb." mongolia="гvйх, харайх, давхих, зугатах, ажиллах, vргэлжлэх, тоглох"/>
     <word english="run away" type="" mongolia="буруулах, оргон босох"/>
-    <word english="Russia" type="noun." mongolia="Орос улс, Орос орон"/>
-    <word english="Russian" type="noun." mongolia="орос хэл, орос хvн, орос"/>
+    <word english="russia" type="noun." mongolia="Орос улс, Орос орон"/>
+    <word english="russian" type="noun." mongolia="орос хэл, орос хvн, орос"/>
     <word english="rye" type="noun." mongolia="хøх тариа"/>
     <word english="sad" type="adjective." mongolia="гунигтай, гансарсан, уйтгартай"/>
     <word english="said" type="verb." mongolia="(say-ийн øнгøрсøн цаг) хэлэв, øгvvлэв"/>
@@ -1572,7 +1555,7 @@
     <word english="sang" type="verb." mongolia="(sing-ийн øнгøрсøн цагт хэлбэр) дуулав"/>
     <word english="sat" type="verb." mongolia="(sit-ийн øнгøрсøн цаг) суув"/>
     <word english="satisfy" type="verb." mongolia="цадах, ханах, болих, мэдэх"/>
-    <word english="Saturday" type="noun." mongolia="Бямба гараг, Санчир гараг, зургаа дахь øдøр"/>
+    <word english="saturday" type="noun." mongolia="Бямба гараг, Санчир гараг, зургаа дахь øдøр"/>
     <word english="saw" type="verb." mongolia="(see-ийн øнгøрсøн цаг) vзэв, харав"/>
     <word english="say" type="verb." mongolia="хэлэх, øгvvлэх"/>
     <word english="saying" type="verb." mongolia="... гэсэн, гэдэг, хэмээн"/>
@@ -1594,7 +1577,7 @@
     <word english="scissors" type="noun." mongolia="хайч"/>
     <word english="scoop" type="noun." mongolia="шанаган хvрз, хутгуур, халбага"/>
     <word english="score" type="noun." mongolia="оноо, тоо, дvн, хøтøлбøр, шалтгаан, vндэс"/>
-    <word english="Scotland" type="noun." mongolia="Шотланд улс"/>
+    <word english="scotland" type="noun." mongolia="Шотланд улс"/>
     <word english="script" type="noun." mongolia="бичиг, vсэг"/>
     <word english="sculpture" type="noun." mongolia="цоолборлол, баримал"/>
     <word english="scum" type="noun." mongolia="øрøм, нитгэл, хир буртаг"/>
@@ -1618,7 +1601,7 @@
     <word english="semester" type="noun." mongolia="хичээлийн улирал"/>
     <word english="sent" type="verb." mongolia="(send-ийн øнгøрсøн цаг) илгээв, явуулав"/>
     <word english="separate" type="verb." mongolia="тасрах, хоцрох"/>
-    <word english="September" type="noun." mongolia="есдvгээр сар"/>
+    <word english="september" type="noun." mongolia="есдvгээр сар"/>
     <word english="serve" type="verb." mongolia="vйлчлэх, хэрэглэх, хангах, нийцvvлэх"/>
     <word english="set" type="verb." mongolia="нар орох, нар шингэх, нар жаргах; байлгах, зэрэглэх, øрøх, тохируулах"/>
     <word english="settle on" type="" mongolia="суух, суурьших"/>
@@ -1802,7 +1785,7 @@
     <word english="suggestion" type="noun." mongolia="санал, санаа"/>
     <word english="summer" type="noun." mongolia="зун, зуны, зун цаг"/>
     <word english="sun" type="noun." mongolia="нар, наран"/>
-    <word english="Sunday" type="noun." mongolia="Ням гараг, Адъяа гараг, бvтэн сайн øдøр"/>
+    <word english="sunday" type="noun." mongolia="Ням гараг, Адъяа гараг, бvтэн сайн øдøр"/>
     <word english="sunflower" type="noun." mongolia="наранцэцэг"/>
     <word english="sung" type="verb." mongolia="(sing-ийн p.p) дуу дуулав"/>
     <word english="sunny" type="adj" mongolia="нарлаг, нартай"/>
@@ -1904,7 +1887,7 @@
     <word english="throughout" type="adverb." mongolia="даяар (дэлхий, дахинд)"/>
     <word english="throw" type="noun." mongolia="мэх; бvтээлэг, хивс, дэвсгэр"/>
     <word english="thumb" type="noun. verb." mongolia="эрхий хуруу; эргvvлэх"/>
-    <word english="Thursday" type="noun." mongolia="Пvрэв гараг, Бархасвадь гараг, дøрøвдэх øдøр"/>
+    <word english="thursday" type="noun." mongolia="Пvрэв гараг, Бархасвадь гараг, дøрøвдэх øдøр"/>
     <word english="ticket" type="noun." mongolia="тасалбар"/>
     <word english="tidy" type="adjective." mongolia="цэвэрч, цэмцгэр, эмх цэгцтэй, цэвэр нямбай"/>
     <word english="tie" type="noun. verb." mongolia="зангиа, бvч; зангилах, уях"/>
@@ -1961,7 +1944,7 @@
     <word english="true friends" type="" mongolia="vнэнч нøхøд, vнэн хань, журмын нøхøд"/>
     <word english="try" type="verb." mongolia="сорих, тэнсэх, оролдоод vзэх, хичээх"/>
     <word english="t-shirt" type="noun." mongolia="ханцуйгvй цамц, подволк"/>
-    <word english="Tuesday" type="noun." mongolia="Мягмар гараг, Ангараг гараг, хоёр дахь øдøр"/>
+    <word english="tuesday" type="noun." mongolia="Мягмар гараг, Ангараг гараг, хоёр дахь øдøр"/>
     <word english="tune" type="noun. verb." mongolia="ая, хøглøх, тохируулах"/>
     <word english="turn" type="verb." mongolia="асаах, эргvvлэх"/>
     <word english="turn off" type="verb." mongolia="унтраах, эргvvлэх"/>
@@ -2052,7 +2035,7 @@
     <word english="weakening" type="verb." mongolia="доройтох, тамир тэнхээ муудах, сулрах"/>
     <word english="wear" type="verb." mongolia="øмсøх, элээх, зvvх, хадах"/>
     <word english="weather" type="noun." mongolia="тэнгэр, цаг агаарын байдал"/>
-    <word english="Wednesday" type="noun." mongolia="Лхагва гараг, Буд гараг, гурав дахь øдøр"/>
+    <word english="wednesday" type="noun." mongolia="Лхагва гараг, Буд гараг, гурав дахь øдøр"/>
     <word english="week" type="noun." mongolia="долоо хоног"/>
     <word english="weekly" type="adjective." mongolia="долоо хоног тутмын, долоо хоног бvр"/>
     <word english="weep" type="verb." mongolia="уйлах, орилох"/>

@@ -7,4 +7,12 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_lock_screen">LockScreen</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="initial_message">Thank you for downloading the Floating Lock Button! To get started please enable the device administrator rights to be able to lock the screen. Once it has been activated the floating lock button can be displayed.</string>
+    <string name="admin_enabled">Great! Now turn on the switch to display the floating lock button.</string>
+    <string name="button_displayed">Awesome! You can now lock your screen by tapping the little Android button floating on the screen! If you need to move button out of the way, or just don\'t like where it is positioned on the screen, just press and hold to drag it around.</string>
+    <string name="error_message">Hmm... It appears something went wrong enabling the device administrator. Try switching it on again later.</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

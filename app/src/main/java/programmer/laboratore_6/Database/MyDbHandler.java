@@ -31,7 +31,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
 
     private static final String TAG = "===DatabaseHandler===";
     private static final int    DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME    = "dictionary5.db";
+    private static final String DATABASE_NAME    = "mydictionary.db";
 
     public static final String TABLE_USERS   = "users";
     public static final String USER_ID       = "id";
