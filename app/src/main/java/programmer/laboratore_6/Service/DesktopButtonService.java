@@ -18,7 +18,6 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 
 import programmer.laboratore_6.R;
-import programmer.laboratore_6.Settings;
 import programmer.laboratore_6.SettingsFragment;
 
 /**

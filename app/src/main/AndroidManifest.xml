@@ -91,11 +91,6 @@
             android:showOnLockScreen="true"
             android:theme="@style/AppTheme.FullScreen" >
         </activity>
-        <activity
-            android:name=".Settings"
-            android:label="@string/title_activity_settings"
-            android:theme="@style/AppTheme.Dark" >
-        </activity>
     </application>
 
 </manifest>

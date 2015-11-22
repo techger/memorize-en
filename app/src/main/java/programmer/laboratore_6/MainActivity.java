@@ -104,12 +104,15 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
         } else if (id == R.id.settings) {
-            Intent i = new Intent(MainActivity.this,Settings.class);
-            startActivity(i);
-        } else if (id == R.id.lock) {
-            startService(new Intent(this, LockService.class));
-        }
+            Fragment settingsFragment = new Fragment();
+            FragmentManager fm = getFragmentManager();
+            fm.popBackStack("bla", 0);
+            FragmentTransaction fragmentTransaction = fm.beginTransaction();
+            fragmentTransaction.replace(R.id.container, settingsFragment);
+            fragmentTransaction.addToBackStack("Text");
+            fragmentTransaction.commit();
 
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
