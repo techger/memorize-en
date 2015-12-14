@@ -38,7 +38,6 @@ public class LockScreen extends AppCompatActivity{
                 finish();
             }
         });
-
     }
     private BroadcastReceiver mReceiver = new BroadcastReceiver(){
         @Override

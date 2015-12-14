@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="programmer.laboratore_6.WordChart">
+
+    <Spinner android:id="@+id/spinner_calendar"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        />
+    <Button android:id="@+id/button_add"
+        android:layout_height="wrap_content"
+        android:layout_width="150px"
+        android:text="Add Event"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <Button android:id="@+id/button_add2"
+        android:layout_height="wrap_content"
+        android:layout_width="150px"
+        android:text="Add Event 2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <Button android:id="@+id/button_get_events"
+        android:layout_height="wrap_content"
+        android:layout_width="150px"
+        android:text="Get Events"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</FrameLayout>
