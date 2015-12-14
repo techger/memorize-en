@@ -10,14 +10,13 @@
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Админ эрх зөвшөөрөх"
-            android:layout_marginTop="10dp"
+            android:text="Administrator Enabled"
             android:id="@+id/admin_enabled_label"
             />
 
@@ -25,50 +24,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_marginTop="20dp"
-            android:text="Дэлгэц дээр товч гаргах"
+            android:text="Display Button"
             android:id="@+id/display_lock_label" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Lock Screen идэвхжүүлэх"
+            android:text="Lock Screen"
             android:id="@+id/lockscreen_label" />
 
     </LinearLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <ToggleButton
             android:layout_width="@dimen/toggle_button_size"
             android:layout_height="@dimen/toggle_button_size"
+            android:text="Administrator Enabled"
             android:id="@+id/admin_enabled"
             android:background="@drawable/toggle_check"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="50dp"
             android:textOn=""
             android:textOff=""
             android:checked="false" />
         <ToggleButton
             android:layout_width="@dimen/toggle_button_size"
             android:layout_height="@dimen/toggle_button_size"
+            android:text="Display Lock Button"
             android:id="@+id/display_lock"
             android:checked="false"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
             android:background="@drawable/toggle_check"
             android:textOn=""
             android:textOff="" />
         <ToggleButton
             android:layout_width="@dimen/toggle_button_size"
             android:layout_height="@dimen/toggle_button_size"
+            android:text="Display Lock Button"
             android:id="@+id/lockScreenEnable"
             android:checked="false"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
             android:background="@drawable/toggle_check"
             android:textOn=""
             android:textOff="" />

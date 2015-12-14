@@ -24,7 +24,7 @@ public class LockService extends Service {
     private BroadcastReceiver mReceiver = new BroadcastReceiver(){
         @Override
         public void onReceive(Context context, Intent intent) {
-            Toast.makeText(context, "Цээжлэх үгс!", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "onReceive!", Toast.LENGTH_LONG).show();
             String action = intent.getAction();
             if(action.equals("android.intent.action.SCREEN_OFF")){
                 Intent i = new Intent(context, LockScreen.class);
@@ -49,10 +49,11 @@ public class LockService extends Service {
             keylock = km.newKeyguardLock("test");
             keylock.disableKeyguard();
         }
+
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId){
-        Toast.makeText(this, "Lock Screen Enabled!", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onStartCommand!", Toast.LENGTH_LONG).show();
         IntentFilter filter = new IntentFilter("com.androidhuman.action.isAlive");
         filter.addAction(Intent.ACTION_SCREEN_OFF);
         registerReceiver(mReceiver, filter);
@@ -65,6 +66,6 @@ public class LockService extends Service {
         }
         if(mReceiver != null)
             unregisterReceiver(mReceiver);
-        Toast.makeText(this, "Lock Screen Disabled!", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onDestroy!", Toast.LENGTH_LONG).show();
     }
 }

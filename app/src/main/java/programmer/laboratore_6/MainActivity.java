@@ -83,15 +83,12 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.search) {
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             Fragment MainFragment = new MainFragment();
             FragmentManager fm = getFragmentManager();
             FragmentTransaction fragmentTransaction= fm.beginTransaction();
             fragmentTransaction.replace(R.id.container, MainFragment);
             fragmentTransaction.commit();
         } else if (id == R.id.add) {
-
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             Fragment wordAddFragment = new WordAddFragment();
             FragmentManager fm = getFragmentManager();
             fm.popBackStack("test", 0);
@@ -99,8 +96,6 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.container, wordAddFragment);
             fragmentTransaction.addToBackStack("Add").commit();
         } else if (id == R.id.rememberWord){
-
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             Fragment rememberWordFragment = new RememberWordFragment();
             FragmentManager fm = getFragmentManager();
             fm.popBackStack("test", 0);
@@ -109,8 +104,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
         } else if (id == R.id.settings) {
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
-            Fragment settingsFragment = new SettingsFragment();
+            Fragment settingsFragment = new Fragment();
             FragmentManager fm = getFragmentManager();
             fm.popBackStack("bla", 0);
             FragmentTransaction fragmentTransaction = fm.beginTransaction();

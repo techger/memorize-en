@@ -26,18 +26,18 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
-
+        <item name="android:textSize">16dp</item>
     </style>
     <style name="AppTheme.FullScreen">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
-        <item name="android:background">@color/tra</item>
     </style>
     <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
         <item name="colorAccent">@color/white</item>
         <item name="android:background">@color/primary</item>
+        <item name="android:textSize">16dp</item>
     </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
