@@ -10,23 +10,19 @@
         android:text=""
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:padding="10dip"
         android:textSize="20dp"
         android:background="@color/tra"
         android:textColor="@android:color/white"/>
-    <LinearLayout
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/success"
-            android:id="@+id/recitation"
-            android:text=" Цээжилсэн"/>
-
-    </LinearLayout>
-
+        android:id="@+id/widgetSaveButton"
+        android:drawableLeft="@drawable/success"
+        android:text="Цээжилсэн"/>
 
 </LinearLayout>

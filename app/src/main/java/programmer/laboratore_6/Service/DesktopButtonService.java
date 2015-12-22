@@ -5,18 +5,26 @@ import android.app.Service;
 import android.app.admin.DevicePolicyManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.PixelFormat;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
+import android.support.v7.app.AlertDialog;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import programmer.laboratore_6.Database.MyDbHandler;
+import programmer.laboratore_6.Model.RememberWord;
 import programmer.laboratore_6.R;
 import programmer.laboratore_6.SettingsFragment;
 
@@ -29,7 +37,8 @@ public class DesktopButtonService extends Service {
 
     WindowManager windowManager;
     ImageButton floatingButton;
-
+    MyDbHandler myDbHandler;
+    Context context;
     BroadcastReceiver receiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -69,15 +78,16 @@ public class DesktopButtonService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
 
+        windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
+        myDbHandler = new MyDbHandler(getApplicationContext());
         floatingButton = new ImageButton(this);
         floatingButton.setLayoutParams(new ViewGroup.LayoutParams(48, 48));
         floatingButton.setBackgroundResource(R.drawable.circle_button);
         floatingButton.setImageResource(R.drawable.programmer);
 
         final WindowManager.LayoutParams params = new WindowManager.LayoutParams(
-                150, 150, WindowManager.LayoutParams.TYPE_PHONE,
+                100, 100, WindowManager.LayoutParams.TYPE_PHONE,
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
                 PixelFormat.TRANSLUCENT);
 
@@ -118,10 +128,19 @@ public class DesktopButtonService extends Service {
                 return false;
             }
         });
+        final List<String> remember = new ArrayList<String>();
+        //qList.add("");
+        List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
+        for (RememberWord rememberWord : rememberWords){
+            String listWord = "\n"+rememberWord.getRememberEnglish() +
+                    " - "+rememberWord.getRememberType()+
+                    " "+rememberWord.getRememberMongolia()+"";
+            remember.add(listWord);
+        }
         floatingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                lockScreen();
+                Toast.makeText(getBaseContext(),"Цээжлэх үгийн жагсаалт"+remember.toString(),Toast.LENGTH_LONG).show();
             }
         });
     }
@@ -133,9 +152,15 @@ public class DesktopButtonService extends Service {
         if (floatingButton != null)
             windowManager.removeView(floatingButton);
     }
-
-    private void lockScreen() {
-        DevicePolicyManager devicePolicyManager = (DevicePolicyManager) getSystemService(DEVICE_POLICY_SERVICE);
-        devicePolicyManager.lockNow();
+    public List<String> getRememberWords(){
+        List<String> qList = new ArrayList<String>();
+        qList.add("dictionary - noun. толь бичиг");
+        List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
+        for (RememberWord rememberWord : rememberWords){
+            String listWord = ""+rememberWord.getRememberEnglish() +
+                    " - "+rememberWord.getRememberType()+" "+rememberWord.getRememberMongolia();
+            qList.add(listWord);
+        }
+        return qList;
     }
 }

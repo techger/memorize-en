@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,7 +36,9 @@ public class SettingsFragment extends Fragment {
     private ToggleButton enableAdmin;
     private ToggleButton displaySwitch;
     private ToggleButton lockScreenEnable;
-    private TextView textView;
+    private TextView enableAdminText;
+    private TextView displayButton;
+    private TextView lockScreen;
     private SharedPreferences preferences;
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,7 +50,7 @@ public class SettingsFragment extends Fragment {
                              Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_settings, container, false);
         preferences = getActivity().getSharedPreferences(PREF, Context.MODE_PRIVATE);
-        textView = (TextView) rootView.findViewById(R.id.textView);
+        enableAdminText = (TextView) rootView.findViewById(R.id.admin_enabled_label);
         TextView adminEnabledLabel = (TextView) rootView.findViewById(R.id.admin_enabled_label);
         TextView displayLockLabel = (TextView) rootView.findViewById(R.id.display_lock_label);
 
@@ -60,6 +63,8 @@ public class SettingsFragment extends Fragment {
                 if (isChecked) {
                     startEnableAdminIntent();
                     displaySwitch.setEnabled(true);
+                    Snackbar.make(rootView, "Админ эрх зөвшөөрлөө...", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 } else {
                     displaySwitch.setEnabled(false);
                     if (displaySwitch != null && displaySwitch.isChecked()) {
@@ -68,7 +73,7 @@ public class SettingsFragment extends Fragment {
                         preferences.edit().putBoolean(BUTTON_DISPLAYED, false).commit();
                     }
                     preferences.edit().putBoolean(ADMIN_ENABLED, false).commit();
-                    textView.setText(R.string.initial_message);
+
                 }
             }
         });

@@ -17,7 +17,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 import programmer.laboratore_6.Database.MyDbHandler;
@@ -76,19 +75,6 @@ public class MainActivity extends AppCompatActivity
         }
         return super.onOptionsItemSelected(item);
     }
-    public void addCalendarEvent(){
-
-        Calendar cal = Calendar.getInstance();
-        Intent intent = new Intent(Intent.ACTION_EDIT);
-        intent.setType("vnd.android.cursor.item/event");
-        intent.putExtra("beginTime", cal.getTimeInMillis());
-        intent.putExtra("allDay", true);
-        intent.putExtra("rrule", "FREQ=YEARLY");
-        intent.putExtra("endTime", cal.getTimeInMillis()+60*60*1000);
-        intent.putExtra("title", "Шинэ үг цээжлэх");
-        intent.putExtra("description", "Англи хэлний шинэ үг цээжлэх");
-        startActivity(intent);
-    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -97,12 +83,15 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.search) {
+            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             Fragment MainFragment = new MainFragment();
             FragmentManager fm = getFragmentManager();
             FragmentTransaction fragmentTransaction= fm.beginTransaction();
             fragmentTransaction.replace(R.id.container, MainFragment);
             fragmentTransaction.commit();
         } else if (id == R.id.add) {
+
+            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             Fragment wordAddFragment = new WordAddFragment();
             FragmentManager fm = getFragmentManager();
             fm.popBackStack("test", 0);
@@ -110,6 +99,8 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.container, wordAddFragment);
             fragmentTransaction.addToBackStack("Add").commit();
         } else if (id == R.id.rememberWord){
+
+            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             Fragment rememberWordFragment = new RememberWordFragment();
             FragmentManager fm = getFragmentManager();
             fm.popBackStack("test", 0);
@@ -118,6 +109,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
         } else if (id == R.id.settings) {
+            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             Fragment settingsFragment = new SettingsFragment();
             FragmentManager fm = getFragmentManager();
             fm.popBackStack("bla", 0);
@@ -126,8 +118,6 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
 
-        } else if (id == R.id.rememberWordEvent){
-            addCalendarEvent();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

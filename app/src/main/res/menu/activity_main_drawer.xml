@@ -7,8 +7,6 @@
             android:title="Нэмэх" />
         <item android:id="@+id/rememberWord" android:icon="@drawable/list"
             android:title="Цээжлэх үгс" />
-        <item android:id="@+id/rememberWordEvent" android:icon="@drawable/list"
-            android:title="Event үүсгэх" />
         <item android:id="@+id/settings" android:icon="@drawable/settings"
             android:title="Тохиргоо" />
     </group>
