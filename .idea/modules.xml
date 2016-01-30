@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Laboratore_6.iml" filepath="$PROJECT_DIR$/Laboratore_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartDictionary.iml" filepath="$PROJECT_DIR$/SmartDictionary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
