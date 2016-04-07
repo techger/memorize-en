@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="programmer.laboratore_6" >
+    package="com.memorize" >
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -31,11 +31,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="io.github.laboratore_6.MainActivity"
             android:theme="@style/AppTheme.Dark" >
         </activity>
         <activity
-            android:name=".SplashScreen"
+            android:name="io.github.laboratore_6.SplashScreen"
             android:label="@string/title_activity_splash_screen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Splash" >
@@ -46,15 +46,15 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".Service.LockService" />
-        <service android:name=".Service.UpdateWidgetService" />
+        <service android:name="io.github.laboratore_6.Service.LockService" />
+        <service android:name="io.github.laboratore_6.Service.UpdateWidgetService" />
 
         <service
-            android:name=".Service.DesktopButtonService"
+            android:name="io.github.laboratore_6.Service.DesktopButtonService"
             android:icon="@drawable/ic_notification_icon" />
 
         <receiver
-            android:name=".Receiver.Admin"
+            android:name="io.github.laboratore_6.Receiver.Admin"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data
                 android:name="android.app.device_admin"
@@ -64,7 +64,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".Receiver.BootReceiver"
+            android:name="io.github.laboratore_6.Receiver.BootReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -74,7 +74,7 @@
 
 
         <receiver
-            android:name=".WordWidget"
+            android:name="io.github.laboratore_6.WordWidget"
             android:label="word widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -86,7 +86,7 @@
         </receiver>
 
         <activity
-            android:name=".LockScreen"
+            android:name="io.github.laboratore_6.LockScreen"
             android:label="@string/title_activity_lock_screen"
             android:showOnLockScreen="true"
             android:theme="@style/AppTheme.FullScreen" >

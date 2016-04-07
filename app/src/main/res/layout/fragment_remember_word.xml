@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="programmer.laboratore_6.RememberWordFragment">
+    tools:context="com.memorize.RememberWordFragment">
     <!-- TODO: Update blank fragment layout -->
 
     <ListView

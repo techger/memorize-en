@@ -6,7 +6,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_height="match_parent" tools:context="programmer.laboratore_6.WordEditFragment"
+        android:layout_height="match_parent" tools:context="com.memorize.WordEditFragment"
         android:weightSum="1">
 
         <android.support.design.widget.NavigationView

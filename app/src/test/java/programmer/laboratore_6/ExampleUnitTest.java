@@ -1,4 +1,4 @@
-package programmer.laboratore_6;
+package com.memorize;
 
 import org.junit.Test;
 
