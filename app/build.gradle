@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId ""
+        applicationId "com.memorize"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1

@@ -31,11 +31,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="io.github.laboratore_6.MainActivity"
+            android:name="com.memorize.MainActivity"
             android:theme="@style/AppTheme.Dark" >
         </activity>
         <activity
-            android:name="io.github.laboratore_6.SplashScreen"
+            android:name="com.memorize.SplashScreen"
             android:label="@string/title_activity_splash_screen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Splash" >
@@ -46,15 +46,15 @@
             </intent-filter>
         </activity>
 
-        <service android:name="io.github.laboratore_6.Service.LockService" />
-        <service android:name="io.github.laboratore_6.Service.UpdateWidgetService" />
+        <service android:name="com.memorize.Service.LockService" />
+        <service android:name="com.memorize.Service.UpdateWidgetService" />
 
         <service
-            android:name="io.github.laboratore_6.Service.DesktopButtonService"
+            android:name="com.memorize.Service.DesktopButtonService"
             android:icon="@drawable/ic_notification_icon" />
 
         <receiver
-            android:name="io.github.laboratore_6.Receiver.Admin"
+            android:name="com.memorize.Receiver.Admin"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data
                 android:name="android.app.device_admin"
@@ -64,7 +64,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="io.github.laboratore_6.Receiver.BootReceiver"
+            android:name="com.memorize.Receiver.BootReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -74,7 +74,7 @@
 
 
         <receiver
-            android:name="io.github.laboratore_6.WordWidget"
+            android:name="com.memorize.WordWidget"
             android:label="word widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -86,7 +86,7 @@
         </receiver>
 
         <activity
-            android:name="io.github.laboratore_6.LockScreen"
+            android:name="com.memorize.LockScreen"
             android:label="@string/title_activity_lock_screen"
             android:showOnLockScreen="true"
             android:theme="@style/AppTheme.FullScreen" >
