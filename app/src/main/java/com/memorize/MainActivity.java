@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity
             Log.d(TAG,"Back pressed");
         }
         else{
-            new AlertDialog.Builder(this,R.style.AlertDialog)
+            new AlertDialog.Builder(this)
                     .setIcon(R.drawable.exit)
                     .setTitle("Толь бичиг")
                     .setMessage("Та програмаас гарах уу?")

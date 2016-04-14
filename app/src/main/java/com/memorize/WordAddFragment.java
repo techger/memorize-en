@@ -38,13 +38,6 @@ public class WordAddFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        try {
-            socket = IO.socket("http://localhost:8000");
-            socket.connect();
-            Log.d(TAG,"Socket server connected !");
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
