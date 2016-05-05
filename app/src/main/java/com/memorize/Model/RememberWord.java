@@ -1,7 +1,7 @@
 package com.memorize.Model;
 
 /**
- * Created by Byambaa on 11/15/2015.
+ * Created by Tortuvshin on 11/15/2015.
  */
 public class RememberWord {
     String rememberEnglish;

@@ -23,7 +23,7 @@ import com.memorize.Model.Word;
 import com.memorize.R;
 
 /**
- * Created by Byambaa on 10/25/2015.
+ * Created by Tortuvshin on 10/25/2015.
  */
 public class MyDbHandler extends SQLiteOpenHelper {
 

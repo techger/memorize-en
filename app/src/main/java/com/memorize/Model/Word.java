@@ -1,7 +1,7 @@
 package com.memorize.Model;
 
 /**
- * Created by Byambaa on 10/26/2015.
+ * Created by Tortuvshin on 10/26/2015.
  */
 public class Word {
     private String english;

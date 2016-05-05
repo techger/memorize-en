@@ -20,7 +20,9 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
     <uses-permission-sdk-m android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -31,11 +33,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.memorize.MainActivity"
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.Dark" >
         </activity>
         <activity
-            android:name="com.memorize.SplashScreen"
+            android:name=".SplashScreen"
             android:label="@string/title_activity_splash_screen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Splash" >
@@ -46,35 +48,33 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.memorize.Service.LockService" />
-        <service android:name="com.memorize.Service.UpdateWidgetService" />
-
+        <service android:name=".Service.LockService" />
+        <service android:name=".Service.UpdateWidgetService" />
         <service
-            android:name="com.memorize.Service.DesktopButtonService"
+            android:name=".Service.DesktopButtonService"
             android:icon="@drawable/ic_notification_icon" />
 
         <receiver
-            android:name="com.memorize.Receiver.Admin"
-            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            android:name=".Receiver.Admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
             <meta-data
                 android:name="android.app.device_admin"
                 android:resource="@xml/device_admin" />
+
             <intent-filter>
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.memorize.Receiver.BootReceiver"
+            android:name=".Receiver.BootReceiver"
             android:enabled="true"
-            android:exported="false">
+            android:exported="false" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
-
         <receiver
-            android:name="com.memorize.WordWidget"
+            android:name=".WordWidget"
             android:label="word widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -86,10 +86,14 @@
         </receiver>
 
         <activity
-            android:name="com.memorize.LockScreen"
+            android:name=".LockScreen"
             android:label="@string/title_activity_lock_screen"
             android:showOnLockScreen="true"
             android:theme="@style/AppTheme.FullScreen" >
+        </activity>
+        <activity
+            android:name=".WordAddActivity"
+            android:label="@string/title_activity_word_add" >
         </activity>
     </application>
 

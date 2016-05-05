@@ -3,6 +3,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -88,14 +89,9 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.container, MainFragment);
             fragmentTransaction.commit();
         } else if (id == R.id.add) {
+            Intent intent = new Intent(MainActivity.this, WordAddActivity.class);
+            startActivity(intent);
 
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
-            Fragment wordAddFragment = new WordAddFragment();
-            FragmentManager fm = getFragmentManager();
-            fm.popBackStack("test", 0);
-            FragmentTransaction fragmentTransaction = fm.beginTransaction();
-            fragmentTransaction.replace(R.id.container, wordAddFragment);
-            fragmentTransaction.addToBackStack("Add").commit();
         } else if (id == R.id.rememberWord){
 
             getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
