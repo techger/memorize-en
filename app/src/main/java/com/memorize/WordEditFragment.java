@@ -1,5 +1,6 @@
 package com.memorize;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.support.design.widget.FloatingActionButton;
@@ -61,14 +62,25 @@ public class WordEditFragment extends Fragment {
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String eng = englishWordInput.getText().toString();
-                String type = wordTypeInput.getText().toString();
-                String mon = mongolianWordInput.getText().toString();
-                myDbHandler.updateWord(new Word(eng, type, mon));
-                Toast.makeText(getActivity(), "Амжилттай заслаа", Toast.LENGTH_SHORT).show();
-                Log.d(TAG, "Амжилттай заслаа " + eng + ", " + type + ", " + mon);
-                Snackbar.make(v, "Үг амжилттай засагдлаа...", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
+                final ProgressDialog progressDialog = new ProgressDialog(getActivity());
+                progressDialog.setIndeterminate(true);
+                progressDialog.setMessage("Шинэчилж байна...");
+                progressDialog.show();
+                // TODO: Implement your own authentication logic here.
+                new android.os.Handler().postDelayed(
+                        new Runnable() {
+                            public void run() {
+                                String eng = englishWordInput.getText().toString();
+                                String type = wordTypeInput.getText().toString();
+                                String mon = mongolianWordInput.getText().toString();
+                                myDbHandler.updateWord(new Word(eng, type, mon));
+                                Log.d(TAG, "Амжилттай заслаа " + eng + ", " + type + ", " + mon);
+                                getActivity().getFragmentManager().popBackStack();
+                                Toast.makeText(getActivity(), "Амжилттай заслаа", Toast.LENGTH_SHORT).show();
+                                progressDialog.dismiss();
+                            }
+                        }, 1000);
             }
         });
     }
