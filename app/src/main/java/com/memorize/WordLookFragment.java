@@ -1,7 +1,10 @@
 package com.memorize;
 
+import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -89,11 +92,34 @@ public class WordLookFragment extends Fragment {
         deleteFButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myDbHandler.deleteWord(new Word(eng, type, mon));
-                Log.d(TAG, "Амжилттай устгалаа..." + eng);
-                Snackbar.make(v, "Амжилттай устгалаа...", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-                getActivity().getFragmentManager().popBackStack();
+                new AlertDialog.Builder(getActivity())
+                        .setIcon(R.drawable.exit)
+                        .setTitle("Устгах")
+                        .setMessage("Энэхүү үгийг устгах уу?")
+                        .setPositiveButton("Тийм", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+
+                                final ProgressDialog progressDialog = new ProgressDialog(getActivity(),
+                                        R.style.AppTheme_Dark_Dialog);
+                                progressDialog.setIndeterminate(true);
+                                progressDialog.setMessage("Устгаж байна...");
+                                progressDialog.show();
+                                // TODO: Implement your own authentication logic here.
+                                new android.os.Handler().postDelayed(
+                                        new Runnable() {
+                                            public void run() {
+                                                myDbHandler.deleteWord(new Word(eng, type, mon));
+                                                Log.d(TAG, "Амжилттай устгалаа..." + eng);
+                                                getActivity().getFragmentManager().popBackStack();
+                                                progressDialog.dismiss();
+                                            }
+                                        }, 1000);
+                            }
+                        })
+                        .setNegativeButton("Үгүй", null)
+                        .show();
             }
         });
         wordListFButton.setOnClickListener(new View.OnClickListener() {
