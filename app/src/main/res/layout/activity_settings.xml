@@ -1,77 +1,82 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
-        <TextView
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Админ эрх зөвшөөрөх"
-            android:layout_marginTop="10dp"
-            android:id="@+id/admin_enabled_label"
-            />
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Админ эрх зөвшөөрөх"
+                android:layout_marginTop="10dp"
+                android:id="@+id/admin_enabled_label"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_marginTop="20dp"
-            android:text="Дэлгэц дээр товч гаргах"
-            android:id="@+id/display_lock_label" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="20dp"
+                android:text="Дэлгэц дээр товч гаргах"
+                android:id="@+id/display_lock_label" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Lock Screen идэвхжүүлэх"
-            android:id="@+id/lockscreen_label" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lock Screen идэвхжүүлэх"
+                android:id="@+id/lockscreen_label" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <ToggleButton
+                android:layout_width="@dimen/toggle_button_size"
+                android:layout_height="@dimen/toggle_button_size"
+                android:id="@+id/admin_enabled"
+                android:background="@drawable/toggle_check"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:textOn=""
+                android:textOff=""
+                android:checked="false" />
+            <ToggleButton
+                android:layout_width="@dimen/toggle_button_size"
+                android:layout_height="@dimen/toggle_button_size"
+                android:id="@+id/display_lock"
+                android:checked="false"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/toggle_check"
+                android:textOn=""
+                android:textOff="" />
+            <ToggleButton
+                android:layout_width="@dimen/toggle_button_size"
+                android:layout_height="@dimen/toggle_button_size"
+                android:id="@+id/lockScreenEnable"
+                android:checked="false"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/toggle_check"
+                android:textOn=""
+                android:textOff="" />
+        </LinearLayout>
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
-        <ToggleButton
-            android:layout_width="@dimen/toggle_button_size"
-            android:layout_height="@dimen/toggle_button_size"
-            android:id="@+id/admin_enabled"
-            android:background="@drawable/toggle_check"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="50dp"
-            android:textOn=""
-            android:textOff=""
-            android:checked="false" />
-        <ToggleButton
-            android:layout_width="@dimen/toggle_button_size"
-            android:layout_height="@dimen/toggle_button_size"
-            android:id="@+id/display_lock"
-            android:checked="false"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
-            android:background="@drawable/toggle_check"
-            android:textOn=""
-            android:textOff="" />
-        <ToggleButton
-            android:layout_width="@dimen/toggle_button_size"
-            android:layout_height="@dimen/toggle_button_size"
-            android:id="@+id/lockScreenEnable"
-            android:checked="false"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
-            android:background="@drawable/toggle_check"
-            android:textOn=""
-            android:textOff="" />
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>
