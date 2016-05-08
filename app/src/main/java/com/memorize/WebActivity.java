@@ -1,18 +1,18 @@
 package com.memorize;
 
-import android.content.Context;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.memorize.Service.ConnectionDetector;
 
 public class WebActivity extends AppCompatActivity {
 
@@ -54,11 +54,21 @@ public class WebActivity extends AppCompatActivity {
                     //new Spawner().spawnView(WebContent.this, Offline.class); //TODO: Replace the offline-activity with an server-offline-activity
                 }
             });
-            myBlogWeb.loadUrl("http://www.tortuvshin.github.io");
+            myBlogWeb.loadUrl("http://tortuvshin.github.io");
 
         } else {
-            alert.showAlertDialog(this, "Интернэт холболтоо шалгана уу !!!",
-                    "Интернэт холболт байхгүй байна !!!", false);
+            new AlertDialog.Builder(this,R.style.AlertDialog)
+                    .setIcon(R.drawable.fail)
+                    .setTitle("Интернэт холболтоо шалгана уу !!!")
+                    .setMessage("Интернэтэд холбогдоогүй байна !!!")
+                    .setPositiveButton("Тийм", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("Үгүй", null)
+                    .show();
         }
     }
 
