@@ -92,11 +92,11 @@ public class SettingsFragment extends Fragment {
                 }
             }
         });
-        lockScreenEnable = (ToggleButton)rootView.findViewById(R.id.lockScreenEnable);
+        lockScreenEnable = (ToggleButton) rootView.findViewById(R.id.lockScreenEnable);
         lockScreenEnable.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked){
+                if (isChecked) {
                     getActivity().startService(new Intent(getActivity(), LockService.class));
                     preferences.edit().putBoolean(LOCKSCREEN_ENABLE, true).commit();
                 } else {

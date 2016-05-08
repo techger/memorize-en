@@ -19,4 +19,5 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_web">Web</string>
+    <string name="title_activity_contact">ContactActivity</string>
 </resources>

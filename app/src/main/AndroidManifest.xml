@@ -99,6 +99,10 @@
             android:name=".WebActivity"
             android:label="@string/title_activity_web" >
         </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
     </application>
 
 </manifest>
