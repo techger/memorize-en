@@ -1,7 +1,7 @@
 package com.memorize;
 
 /**
- * Created by Toroo on 10/18/2015.
+ * Created by Tortuvshin on 10/18/2015.
  */
 
 import android.app.AlertDialog;

@@ -9,7 +9,7 @@ import com.memorize.Service.DesktopButtonService;
 import com.memorize.SettingsFragment;
 
 /**
- * Created by Byambaa on 11/21/2015.
+ * Created by Tortuvshin on 11/21/2015.
  */
 public class BootReceiver extends BroadcastReceiver {
 

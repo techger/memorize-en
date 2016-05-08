@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 /**
- * Created by Byambaa on 11/21/2015.
+ * Created by Tortuvshin on 11/21/2015.
  */
 public class Admin extends DeviceAdminReceiver {
 

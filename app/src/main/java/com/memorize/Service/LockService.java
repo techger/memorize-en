@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.memorize.LockScreen;
 
 /**
- * Created by Toroo on 11/19/2015.
+ * Created by Tortuvshin on 11/19/2015.
  */
 public class LockService extends Service {
 
