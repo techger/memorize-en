@@ -18,4 +18,5 @@
     <string name="title_activity_word_add">WordAddActivity</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_web">Web</string>
 </resources>

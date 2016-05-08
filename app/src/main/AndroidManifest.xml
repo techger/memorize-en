@@ -95,6 +95,10 @@
             android:name=".WordAddActivity"
             android:label="@string/title_activity_word_add" >
         </activity>
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/title_activity_web" >
+        </activity>
     </application>
 
 </manifest>

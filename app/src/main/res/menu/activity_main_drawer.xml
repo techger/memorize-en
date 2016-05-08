@@ -9,5 +9,8 @@
             android:title="Цээжлэх үгс" />
         <item android:id="@+id/settings" android:icon="@drawable/settings"
             android:title="Тохиргоо" />
+        <item android:id="@+id/github" android:icon="@drawable/programmer"
+            android:title="github.io" />
+
     </group>
 </menu>

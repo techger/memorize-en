@@ -112,6 +112,9 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.addToBackStack("Text");
             fragmentTransaction.commit();
 
+        } else if (id == R.id.github) {
+            Intent intent = new Intent(MainActivity.this, WebActivity.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
