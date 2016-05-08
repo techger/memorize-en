@@ -24,7 +24,6 @@ public class LockService extends Service {
     private BroadcastReceiver mReceiver = new BroadcastReceiver(){
         @Override
         public void onReceive(Context context, Intent intent) {
-            Toast.makeText(context, "Цээжлэх үгс!", Toast.LENGTH_LONG).show();
             String action = intent.getAction();
             if(action.equals("android.intent.action.SCREEN_OFF")){
                 Intent i = new Intent(context, LockScreen.class);

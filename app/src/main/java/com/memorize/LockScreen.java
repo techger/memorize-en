@@ -88,21 +88,4 @@ public class LockScreen extends AppCompatActivity{
         return super.onTouchEvent(event);
     }
 
-    public List<String> getLockerRememberWords(){
-        List<String> remember = new ArrayList<String>();
-        //qList.add("");
-        List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
-        for (RememberWord rememberWord : rememberWords){
-            String listWord = "\n"+rememberWord.getRememberEnglish() +
-                    " - "+rememberWord.getRememberType()+
-                    " "+rememberWord.getRememberMongolia()+"";
-            remember.add(listWord);
-        }
-        words.setText(remember.toString());
-        return remember;
-    }
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-    }
 }

@@ -125,21 +125,6 @@ public class DesktopButtonService extends Service {
                 return false;
             }
         });
-        final List<String> remember = new ArrayList<String>();
-        //qList.add("");
-        List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
-        for (RememberWord rememberWord : rememberWords){
-            String listWord = "\n"+rememberWord.getRememberEnglish() +
-                    " - "+rememberWord.getRememberType()+
-                    " "+rememberWord.getRememberMongolia()+"";
-            remember.add(listWord);
-        }
-        floatingButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getBaseContext(),"Цээжлэх үгийн жагсаалт"+remember.toString(),Toast.LENGTH_LONG).show();
-            }
-        });
     }
 
     @Override
@@ -148,16 +133,5 @@ public class DesktopButtonService extends Service {
         unregisterReceiver(receiver);
         if (floatingButton != null)
             windowManager.removeView(floatingButton);
-    }
-    public List<String> getRememberWords(){
-        List<String> qList = new ArrayList<String>();
-        qList.add("dictionary - noun. толь бичиг");
-        List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
-        for (RememberWord rememberWord : rememberWords){
-            String listWord = ""+rememberWord.getRememberEnglish() +
-                    " - "+rememberWord.getRememberType()+" "+rememberWord.getRememberMongolia();
-            qList.add(listWord);
-        }
-        return qList;
     }
 }
