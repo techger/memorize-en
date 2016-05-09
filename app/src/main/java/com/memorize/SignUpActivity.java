@@ -19,7 +19,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
-import com.memorize.Database.MyDbHandler;
 import com.memorize.Database.UserAdapter;
 import com.memorize.Model.User;
 

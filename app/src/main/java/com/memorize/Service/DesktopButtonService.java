@@ -15,13 +15,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.memorize.Database.MyDbHandler;
-import com.memorize.Model.RememberWord;
+import com.memorize.Database.DatabaseHelper;
 import com.memorize.R;
 import com.memorize.SettingsFragment;
 
@@ -34,7 +29,7 @@ public class DesktopButtonService extends Service {
 
     WindowManager windowManager;
     ImageButton floatingButton;
-    MyDbHandler myDbHandler;
+    DatabaseHelper databaseHelper;
     Context context;
     BroadcastReceiver receiver = new BroadcastReceiver() {
         @Override
@@ -77,7 +72,7 @@ public class DesktopButtonService extends Service {
 
 
         windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
-        myDbHandler = new MyDbHandler(getApplicationContext());
+        databaseHelper = new DatabaseHelper(getApplicationContext());
         floatingButton = new ImageButton(this);
         floatingButton.setLayoutParams(new ViewGroup.LayoutParams(48, 48));
         floatingButton.setBackgroundResource(R.drawable.circle_button);

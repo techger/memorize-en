@@ -13,14 +13,14 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.RemoteViews;
 
-import com.memorize.Database.MyDbHandler;
+import com.memorize.Database.DatabaseHelper;
 import com.memorize.Model.RememberWord;
 import com.memorize.R;
 
 public class UpdateWidgetService extends Service {
 
     private static final String TAG = "===WordWidgetUpdate===";
-    MyDbHandler myDbHandler;
+    DatabaseHelper databaseHelper;
     @Override
     public IBinder onBind(Intent arg0) {
         return null;
@@ -37,7 +37,7 @@ public class UpdateWidgetService extends Service {
         AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(this.getApplicationContext());
 
         int[] appWidgetIds = intent.getIntArrayExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS);
-        myDbHandler = new MyDbHandler(getApplicationContext());
+        databaseHelper = new DatabaseHelper(getApplicationContext());
         if (appWidgetIds.length > 0) {
             for (int widgetId : appWidgetIds) {
                 List<String> qList = getWidgetRememberWords();
@@ -54,7 +54,7 @@ public class UpdateWidgetService extends Service {
     public List<String> getWidgetRememberWords(){
         List<String> qList = new ArrayList<String>();
         qList.add("dictionary - noun. толь бичиг");
-        List<RememberWord> rememberWords = myDbHandler.getAllRememberWords();
+        List<RememberWord> rememberWords = databaseHelper.getAllRememberWords();
         for (RememberWord rememberWord : rememberWords){
             String listWord = ""+rememberWord.getRememberEnglish() +
                     " - "+rememberWord.getRememberType()+" "+rememberWord.getRememberMongolia();

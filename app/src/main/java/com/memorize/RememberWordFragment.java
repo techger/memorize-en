@@ -11,14 +11,14 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.memorize.Database.MyDbHandler;
+import com.memorize.Database.DatabaseHelper;
 import com.memorize.Model.RememberWord;
 
 public class RememberWordFragment extends Fragment {
 
     private static final String TAG = "===RememberFragment===";
     ListView wordList;
-    MyDbHandler myDbHandler;
+    DatabaseHelper databaseHelper;
     AlertDialogManager alertDialogManager;
     private static View rootView;
     @Override
@@ -36,13 +36,13 @@ public class RememberWordFragment extends Fragment {
     private void init(){
 
         wordList = (ListView)rootView.findViewById(R.id.rememberWordListView);
-        myDbHandler = new MyDbHandler(getActivity());
+        databaseHelper = new DatabaseHelper(getActivity());
 
         final ArrayList<String> wordListItems = new ArrayList<String>();
         final ArrayAdapter<String> myArrayAdapter;
         myArrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,wordListItems);
         wordList.setAdapter(myArrayAdapter);
-        List<RememberWord> words = myDbHandler.getAllRememberWords();
+        List<RememberWord> words = databaseHelper.getAllRememberWords();
         try {
             for (RememberWord rememberWord : words){
                 String wordAdd = "\n"+rememberWord.getRememberEnglish() +" - "+rememberWord.getRememberType()+

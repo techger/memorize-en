@@ -22,7 +22,6 @@ import android.widget.Toast;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import com.memorize.Database.MyDbHandler;
 import com.memorize.Database.UserAdapter;
 
 public class LoginActivity extends ActionBarActivity {

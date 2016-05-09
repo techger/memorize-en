@@ -18,7 +18,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.memorize.Database.MyDbHandler;
+import com.memorize.Database.DatabaseHelper;
 import com.memorize.Model.Word;
 public class MainFragment extends Fragment {
 
@@ -28,7 +28,7 @@ public class MainFragment extends Fragment {
     SharedPreferences.Editor editor;
     EditText searchEditText;
     ListView wordList;
-    MyDbHandler myDbHandler;
+    DatabaseHelper databaseHelper;
     private static View rootView;
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,7 +47,7 @@ public class MainFragment extends Fragment {
         wordList = (ListView)rootView.findViewById(R.id.wordListView);
         searchEditText = (EditText)rootView.findViewById(R.id.searchEditText);
 
-        myDbHandler = new MyDbHandler(getActivity());
+        databaseHelper = new DatabaseHelper(getActivity());
         sharedPreferences = getActivity().getApplicationContext().getSharedPreferences(PREFER_NAME, 0);
         editor = sharedPreferences.edit();
 
@@ -55,7 +55,7 @@ public class MainFragment extends Fragment {
         final ArrayAdapter<String> myArrayAdapter;
         myArrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,wordListItems);
         wordList.setAdapter(myArrayAdapter);
-        List<Word> words = myDbHandler.getAllWords();
+        List<Word> words = databaseHelper.getAllWords();
 
         try {
             Log.d(TAG, "Inserting words...");

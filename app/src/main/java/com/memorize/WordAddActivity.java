@@ -12,11 +12,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.memorize.Database.MyDbHandler;
+import com.memorize.Database.DatabaseHelper;
 import com.memorize.Model.Word;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 public class WordAddActivity extends AppCompatActivity {
 
@@ -25,7 +22,7 @@ public class WordAddActivity extends AppCompatActivity {
     TextView wordTypeInput;
     TextView mongolianWordInput;
     FloatingActionButton saveButton;
-    MyDbHandler myDbHandler;
+    DatabaseHelper databaseHelper;
     AlertDialogManager alert;
 
     @Override
@@ -37,7 +34,7 @@ public class WordAddActivity extends AppCompatActivity {
 
     public void init(){
         alert = new AlertDialogManager();
-        myDbHandler = new MyDbHandler(this);
+        databaseHelper = new DatabaseHelper(this);
         englishWordInput = (TextView)findViewById(R.id.englishWordInput);
         wordTypeInput = (TextView)findViewById(R.id.wordTypeInput);
         mongolianWordInput = (TextView)findViewById(R.id.mongolianWordInput);
@@ -48,7 +45,7 @@ public class WordAddActivity extends AppCompatActivity {
                 String eng = englishWordInput.getText().toString();
                 String type = wordTypeInput.getText().toString();
                 String mon = mongolianWordInput.getText().toString();
-                Cursor words = myDbHandler.checkWord(eng);
+                Cursor words = databaseHelper.checkWord(eng);
 
                 if (words == null) {
                     alert.showAlertDialog(getApplicationContext(), "Error", "Database query error", false);
@@ -61,7 +58,7 @@ public class WordAddActivity extends AppCompatActivity {
                         stopManagingCursor(words);
                         words.close();
                     } else {
-                        myDbHandler.addWord(new Word(eng, type, mon));
+                        databaseHelper.addWord(new Word(eng, type, mon));
                         Toast.makeText(getApplicationContext(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
                         Snackbar.make(v, "Шинэ үг амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)
