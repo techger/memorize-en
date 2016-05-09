@@ -23,6 +23,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 import com.memorize.Database.MyDbHandler;
+import com.memorize.Database.UserAdapter;
 
 public class LoginActivity extends ActionBarActivity {
 
@@ -41,7 +42,7 @@ public class LoginActivity extends ActionBarActivity {
     Button loginButton;
     TextView signUpLink;
     CheckBox rememberDetail;
-    MyDbHandler myDbHandler;
+    UserAdapter userAdapter;
     Animation shake;
     Animation myshake;
 
@@ -58,7 +59,7 @@ public class LoginActivity extends ActionBarActivity {
         shake = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.shake);
         myshake = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.myshake);
 
-        myDbHandler = new MyDbHandler(this);
+        userAdapter = new UserAdapter(this);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -185,11 +186,11 @@ public class LoginActivity extends ActionBarActivity {
             passwordText.setError(null);
         }
         if(username.trim().length() > 0 && password.trim().length() > 0){
-            Cursor checkeduser = myDbHandler.checkUser(username,password);
+            Cursor checkeduser = userAdapter.checkUser(username,password);
             if(checkeduser != null){
                 startManagingCursor(checkeduser);
                 if (checkeduser.getCount() > 0){
-                    saveLoggedInUser(checkeduser.getLong(checkeduser.getColumnIndex(MyDbHandler.USER_ID)), username, password);
+                    saveLoggedInUser(checkeduser.getLong(checkeduser.getColumnIndex(userAdapter.USER_ID)), username, password);
                     stopManagingCursor(checkeduser);
                     checkeduser.close();
                     final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this,

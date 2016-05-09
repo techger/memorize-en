@@ -20,6 +20,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
 import com.memorize.Database.MyDbHandler;
+import com.memorize.Database.UserAdapter;
 import com.memorize.Model.User;
 
 
@@ -27,7 +28,7 @@ public class SignUpActivity extends AppCompatActivity {
 
     private static final String TAG = "SignUpActivity";
     AlertDialogManager alert = new AlertDialogManager();
-    MyDbHandler myDbHandler;
+    UserAdapter userAdapter;
     public SharedPreferences sharedPreferences;
     Editor editor;
     EditText nameEditText, emailEditText, passwordEditText, confirmPasswordEditText;
@@ -39,9 +40,7 @@ public class SignUpActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-
-        myDbHandler = new MyDbHandler(this);
-
+        userAdapter = new UserAdapter(this);
         nameEditText = (EditText)findViewById(R.id.sName);
         emailEditText = (EditText)findViewById(R.id.sEmail);
         passwordEditText = (EditText)findViewById(R.id.sPassword);
@@ -105,10 +104,10 @@ public class SignUpActivity extends AppCompatActivity {
         String name = nameEditText.getText().toString();
         String email = emailEditText.getText().toString();
         String password = passwordEditText.getText().toString();
-        myDbHandler.addUser(new User(name, email, password));
+        userAdapter.addUser(new User(name, email, password));
 
 
-        List<User> userInfo = myDbHandler.getAllUsers();
+        List<User> userInfo = userAdapter.getAllUsers();
 
         for (User users : userInfo){
             String log = "ID:"+users.getUserId() + "\nNAME:"+users.getUserName()+
@@ -168,7 +167,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         //password = PasswordHashes(password);
 
-        Cursor user = myDbHandler.checkUser(name,password);
+        Cursor user = userAdapter.checkUser(name,password);
 
         if(user == null){
             alert.showAlertDialog(SignUpActivity.this,"Error","Database query error",false);

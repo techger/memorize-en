@@ -48,6 +48,34 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".LockScreen"
+            android:label="@string/title_activity_lock_screen"
+            android:showOnLockScreen="true"
+            android:theme="@style/AppTheme.FullScreen" >
+        </activity>
+        <activity
+            android:name=".WordAddActivity"
+            android:label="@string/title_activity_word_add" >
+        </activity>
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_main">
+        </activity>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_main">
+        </activity>
+
         <service android:name=".Service.LockService" />
         <service android:name=".Service.UpdateWidgetService" />
         <service
@@ -85,24 +113,6 @@
                 android:resource="@xml/widget_word_info" />
         </receiver>
 
-        <activity
-            android:name=".LockScreen"
-            android:label="@string/title_activity_lock_screen"
-            android:showOnLockScreen="true"
-            android:theme="@style/AppTheme.FullScreen" >
-        </activity>
-        <activity
-            android:name=".WordAddActivity"
-            android:label="@string/title_activity_word_add" >
-        </activity>
-        <activity
-            android:name=".WebActivity"
-            android:label="@string/title_activity_web" >
-        </activity>
-        <activity
-            android:name=".ContactActivity"
-            android:label="@string/title_activity_contact" >
-        </activity>
     </application>
 
 </manifest>
