@@ -19,6 +19,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.memorize.Database.DatabaseHelper;
+import com.memorize.Database.RememberWordsAdapter;
+import com.memorize.Database.WordsAdapter;
 import com.memorize.Model.RememberWord;
 import com.memorize.Model.Word;
 
@@ -33,7 +35,8 @@ public class WordLookFragment extends Fragment {
     FloatingActionButton editFButton;
     FloatingActionButton deleteFButton;
     FloatingActionButton wordListFButton;
-    DatabaseHelper databaseHelper;
+    WordsAdapter wordsAdapter;
+    RememberWordsAdapter rememberWordsAdapter;
     String eng = "";
     String type = "";
     String mon = "";
@@ -54,10 +57,11 @@ public class WordLookFragment extends Fragment {
         english = (TextView)rootView.findViewById(R.id.englishText);
         wordtype = (TextView)rootView.findViewById(R.id.typeText);
         mongolia= (TextView)rootView.findViewById(R.id.mongolianText);
-        databaseHelper = new DatabaseHelper(getActivity());
+        wordsAdapter = new WordsAdapter(getActivity());
+        rememberWordsAdapter = new RememberWordsAdapter(getActivity());
         SharedPreferences prefs = getActivity().getSharedPreferences(MainFragment.PREFER_NAME, 0);
         String searchedWord = prefs.getString("SearchedWord", "");
-        Word word = databaseHelper.getWord(searchedWord);
+        Word word = wordsAdapter.getWord(searchedWord);
         eng = word.getEnglish();
         type = word.getType();
         mon = word.getMongolia();
@@ -110,7 +114,7 @@ public class WordLookFragment extends Fragment {
                                 new android.os.Handler().postDelayed(
                                         new Runnable() {
                                             public void run() {
-                                                databaseHelper.deleteWord(new Word(eng, type, mon));
+                                                wordsAdapter.deleteWord(new Word(eng, type, mon));
                                                 Log.d(TAG, "Амжилттай устгалаа..." + eng);
                                                 getActivity().getFragmentManager().popBackStack();
                                                 progressDialog.dismiss();
@@ -128,7 +132,7 @@ public class WordLookFragment extends Fragment {
                 String eng = english.getText().toString();
                 String type = wordtype.getText().toString();
                 String mon = mongolia.getText().toString();
-                Cursor words = databaseHelper.checkRememberWord(eng);
+                Cursor words = rememberWordsAdapter.checkRememberWord(eng);
                 if (words == null) {
                     Snackbar.make(v, "Өгөгдлийн сангийн query алдаатай байна...", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
@@ -142,14 +146,13 @@ public class WordLookFragment extends Fragment {
                         getActivity().stopManagingCursor(words);
                         words.close();
                     } else {
-                        databaseHelper.addRememberWord(new RememberWord(eng, type, mon));
+                        rememberWordsAdapter.addRememberWord(new RememberWord(eng, type, mon));
                         Toast.makeText(getActivity(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
                         Snackbar.make(v, "Цээжлэх үгийн жагсаалтанд амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)
                                 .setAction("Action", null).show();
                     }
                 }
-
             }
         });
     }

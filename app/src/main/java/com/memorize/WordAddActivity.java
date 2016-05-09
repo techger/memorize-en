@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.memorize.Database.DatabaseHelper;
+import com.memorize.Database.WordsAdapter;
 import com.memorize.Model.Word;
 
 public class WordAddActivity extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class WordAddActivity extends AppCompatActivity {
     TextView wordTypeInput;
     TextView mongolianWordInput;
     FloatingActionButton saveButton;
-    DatabaseHelper databaseHelper;
+    WordsAdapter wordsAdapter;
     AlertDialogManager alert;
 
     @Override
@@ -34,7 +35,7 @@ public class WordAddActivity extends AppCompatActivity {
 
     public void init(){
         alert = new AlertDialogManager();
-        databaseHelper = new DatabaseHelper(this);
+        wordsAdapter = new WordsAdapter(this);
         englishWordInput = (TextView)findViewById(R.id.englishWordInput);
         wordTypeInput = (TextView)findViewById(R.id.wordTypeInput);
         mongolianWordInput = (TextView)findViewById(R.id.mongolianWordInput);
@@ -45,20 +46,20 @@ public class WordAddActivity extends AppCompatActivity {
                 String eng = englishWordInput.getText().toString();
                 String type = wordTypeInput.getText().toString();
                 String mon = mongolianWordInput.getText().toString();
-                Cursor words = databaseHelper.checkWord(eng);
+                Cursor words = wordsAdapter.checkWord(eng);
 
                 if (words == null) {
                     alert.showAlertDialog(getApplicationContext(), "Error", "Database query error", false);
-                    Log.d(TAG, "Өгөгдлийн сангийн query алдаатай байна");
+                    Log.e(TAG, "Өгөгдлийн сангийн query алдаатай байна");
                 } else {
                     startManagingCursor(words);
                     if (words.getCount() > 0) {
                         alert.showAlertDialog(getApplicationContext(), "Алдаа", "Бүртгэлтэй үг байна", false);
-                        Log.d(TAG, "Бүртгэлтэй үг байна");
+                        Log.e(TAG, "Бүртгэлтэй үг байна");
                         stopManagingCursor(words);
                         words.close();
                     } else {
-                        databaseHelper.addWord(new Word(eng, type, mon));
+                        wordsAdapter.addWord(new Word(eng, type, mon));
                         Toast.makeText(getApplicationContext(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
                         Snackbar.make(v, "Шинэ үг амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)

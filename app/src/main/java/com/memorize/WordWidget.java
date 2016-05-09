@@ -1,7 +1,7 @@
 package com.memorize;
 
 /**
- * Created by Byambaa on 11/15/2015.
+ * Created by Tortuvshin on 11/15/2015.
  */
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;

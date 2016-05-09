@@ -20,12 +20,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.memorize.Database.DatabaseHelper;
+import com.memorize.Database.RememberWordsAdapter;
 import com.memorize.Model.RememberWord;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
     private static final String TAG = "MainActivity";
-    DatabaseHelper databaseHelper;
+    RememberWordsAdapter rememberWordsAdapter;
     private ShakeEventManager shakeEventManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        databaseHelper = new DatabaseHelper(getApplicationContext());
+        rememberWordsAdapter = new RememberWordsAdapter(getApplicationContext());
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -148,7 +149,7 @@ public class MainActivity extends AppCompatActivity
         Log.d(TAG,"Shake shake shake shake shake");
         List<String> remember = new ArrayList<String>();
         //qList.add("");
-        List<RememberWord> rememberWords = databaseHelper.getAllRememberWords();
+        List<RememberWord> rememberWords = rememberWordsAdapter.getAllRememberWords();
         for (RememberWord rememberWord : rememberWords){
             String listWord = "\n"+rememberWord.getRememberEnglish() +
                     " - "+rememberWord.getRememberType()+

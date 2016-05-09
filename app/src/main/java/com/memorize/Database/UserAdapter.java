@@ -15,20 +15,20 @@ import java.util.List;
  */
 public class UserAdapter extends DatabaseHelper {
 
+    private static final String TAG = "UserAdapter : ";
+
     public static final String TABLE_USERS   = "users";
     public static final String USER_ID       = "id";
     public static final String USER_NAME     = "name";
     public static final String USER_EMAIL    = "email";
     public static final String USER_PASSWORD = "password";
 
-
     private static final int USER_ID_INDEX       = 0;
     private static final int USER_NAME_INDEX     = 1;
     private static final int USER_EMAIL_INDEX    = 2;
     private static final int USER_PASSWORD_INDEX = 3;
 
-
-    static final String[] PROJECTIONS_USERS = {USER_ID, USER_NAME, USER_EMAIL, USER_PASSWORD};
+    private static final String[] PROJECTIONS_USERS = {USER_ID, USER_NAME, USER_EMAIL, USER_PASSWORD};
 
     public UserAdapter(Context context) {
         super(context);
@@ -50,7 +50,6 @@ public class UserAdapter extends DatabaseHelper {
         db.insert(TABLE_USERS, null, cv);
         db.close();
     }
-
 
     public User getUser(int id) {
         SQLiteDatabase db = getReadableDatabase();
@@ -140,5 +139,4 @@ public class UserAdapter extends DatabaseHelper {
         cursor.close();
         return count;
     }
-
 }

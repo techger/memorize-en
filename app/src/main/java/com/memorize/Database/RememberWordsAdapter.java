@@ -19,20 +19,19 @@ public class RememberWordsAdapter extends DatabaseHelper{
     private static final String TAG = "RememberWordsAdapter : ";
 
     public static final String TABLE_REMEMBER_WORDS = "remember_words";
-    public static final String REMEMBER_WORD_ENG = "remember_word_english";
-    public static final String REMEMBER_WORD_TYPE = "remember_word_type";
-    public static final String REMEMBER_WORD_MON = "remember_word_mongolia";
+    public static final String REMEMBER_WORD_ENG    = "remember_word_english";
+    public static final String REMEMBER_WORD_TYPE   = "remember_word_type";
+    public static final String REMEMBER_WORD_MON    = "remember_word_mongolia";
 
-    private static final String[] PROJECTIONS_REMEMBER_WORDS = {REMEMBER_WORD_ENG, REMEMBER_WORD_TYPE, REMEMBER_WORD_MON};
+    private static final String[] PROJECTIONS_REMEMBER_WORDS = { REMEMBER_WORD_ENG, REMEMBER_WORD_TYPE, REMEMBER_WORD_MON };
 
-    private static final int REMEMBER_WORD_ENG_INDEX = 0;
+    private static final int REMEMBER_WORD_ENG_INDEX  = 0;
     private static final int REMEMBER_WORD_TYPE_INDEX = 1;
-    private static final int REMEMBER_WORD_MON_INDEX= 2;
+    private static final int REMEMBER_WORD_MON_INDEX  = 2;
 
     public RememberWordsAdapter(Context context) {
         super(context);
     }
-
 
     public void addRememberWord(RememberWord rememberWord) {
         if (rememberWord == null) {
@@ -49,7 +48,6 @@ public class RememberWordsAdapter extends DatabaseHelper{
         db.insert(TABLE_REMEMBER_WORDS, null, cv);
         db.close();
     }
-
 
     public RememberWord getRememberWord(String id) {
         SQLiteDatabase db = getReadableDatabase();
@@ -68,7 +66,6 @@ public class RememberWordsAdapter extends DatabaseHelper{
         return rememberWord;
     }
 
-
     public Cursor checkRememberWord(String english){
 
         SQLiteDatabase db = getReadableDatabase();
@@ -80,7 +77,6 @@ public class RememberWordsAdapter extends DatabaseHelper{
         }
         return cursor;
     }
-
 
     public List<RememberWord> getAllRememberWords() {
         List<RememberWord> rwords = new ArrayList<>();

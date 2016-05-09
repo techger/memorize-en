@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class WordsAdapter extends DatabaseHelper{
 
-    private static final String TAG = "===WordsAdapter===";
+    private static final String TAG = "WordsAdapter : ";
 
     public static final String TABLE_WORDS = "words";
     public static final String WORD_ENG    = "english";

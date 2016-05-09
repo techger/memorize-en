@@ -1,24 +1,15 @@
 package com.memorize.Database;
 import android.content.ContentValues;
 import android.content.Context;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
 import android.util.Log;
-
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
-
-import com.memorize.Model.RememberWord;
-
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import com.memorize.Model.Word;
 import com.memorize.R;
 
 /**
@@ -28,7 +19,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     private Context myContext;
 
-    private static final String TAG = "===DatabaseHandler===";
+    private static final String TAG = "DatabaseHandler : ";
     private static final int    DATABASE_VERSION = 1;
     private static final String DATABASE_NAME    = "mydictionary.db";
 
@@ -66,12 +57,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         XmlResourceParser _xml = resources.getXml(R.xml.word_list);
         try
         {
-            //Check for end of document
             int eventType = _xml.getEventType();
             while (eventType != XmlPullParser.END_DOCUMENT) {
-                //Search for record tags
                 if ((eventType == XmlPullParser.START_TAG) &&(_xml.getName().equals("word"))){
-                    //Record tag found, now get values and insert record
                     String word_eng = _xml.getAttributeValue(null, WordsAdapter.WORD_ENG);
                     String word_type =  _xml.getAttributeValue(null, WordsAdapter.WORD_TYPE);
                     String word_mon = _xml.getAttributeValue(null, WordsAdapter.WORD_MON);
@@ -84,22 +72,20 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 eventType = _xml.next();
             }
         }
-        //Catch errors
         catch (XmlPullParserException e)
         {
-            Log.d(TAG, e.getMessage(), e);
+            Log.e(TAG, e.getMessage(), e);
         }
         catch (IOException e)
         {
-            Log.d(TAG, e.getMessage(), e);
-
+            Log.e(TAG, e.getMessage(), e);
         }
         finally
         {
-            //Close the xml file
             _xml.close();
         }
     }
+
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         dropTable(UserAdapter.TABLE_USERS);

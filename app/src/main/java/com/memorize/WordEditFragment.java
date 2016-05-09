@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.memorize.Database.DatabaseHelper;
+import com.memorize.Database.WordsAdapter;
 import com.memorize.Model.Word;
 
 
@@ -23,7 +24,7 @@ public class WordEditFragment extends Fragment {
     EditText wordTypeInput;
     EditText mongolianWordInput;
     FloatingActionButton saveButton;
-    DatabaseHelper databaseHelper;
+    WordsAdapter wordsAdapter;
     AlertDialogManager alert;
 
     @Override
@@ -42,7 +43,7 @@ public class WordEditFragment extends Fragment {
 
     public void init(){
         alert = new AlertDialogManager();
-        databaseHelper = new DatabaseHelper(getActivity());
+        wordsAdapter = new WordsAdapter(getActivity());
         englishWordInput = (EditText)rootView.findViewById(R.id.englishWordInputE);
         wordTypeInput = (EditText)rootView.findViewById(R.id.wordTypeInputE);
         mongolianWordInput = (EditText)rootView.findViewById(R.id.mongolianWordInputE);
@@ -73,7 +74,7 @@ public class WordEditFragment extends Fragment {
                                 String eng = englishWordInput.getText().toString();
                                 String type = wordTypeInput.getText().toString();
                                 String mon = mongolianWordInput.getText().toString();
-                                databaseHelper.updateWord(new Word(eng, type, mon));
+                                wordsAdapter.updateWord(new Word(eng, type, mon));
                                 Log.d(TAG, "Амжилттай заслаа " + eng + ", " + type + ", " + mon);
                                 getActivity().getFragmentManager().popBackStack();
                                 Toast.makeText(getActivity(), "Амжилттай заслаа", Toast.LENGTH_SHORT).show();

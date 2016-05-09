@@ -17,25 +17,26 @@ import java.util.List;
 import java.util.Random;
 
 import com.memorize.Database.DatabaseHelper;
+import com.memorize.Database.RememberWordsAdapter;
 import com.memorize.Model.RememberWord;
 
 public class LockScreen extends AppCompatActivity{
 
     private static final String TAG = "===LockScreenAc===";
     ScrollView background;
-    DatabaseHelper databaseHelper;
+    RememberWordsAdapter rememberWordsAdapter;
     private TextView words;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lock_screen);
 
-        databaseHelper = new DatabaseHelper(this);
+        rememberWordsAdapter = new RememberWordsAdapter(this);
         words = (TextView)findViewById(R.id.lockScreenWord);
         background = (ScrollView)findViewById(R.id.lockScreenView);
         List<String> remember = new ArrayList<String>();
         //qList.add("");
         Random random = new Random();
-        List<RememberWord> rememberWords = databaseHelper.getAllRememberWords();
+        List<RememberWord> rememberWords = rememberWordsAdapter.getAllRememberWords();
         for (RememberWord rememberWord : rememberWords){
             String listWord = "\n"+rememberWord.getRememberEnglish() +
                     " - "+rememberWord.getRememberType()+
