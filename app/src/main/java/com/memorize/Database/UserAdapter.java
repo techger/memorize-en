@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.memorize.Model.User;
-import com.memorize.Model.Word;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +13,7 @@ import java.util.List;
 /**
  * Created by Tortuvshin on 5/10/2016.
  */
-public class UserAdapter extends MyDbHandler{
+public class UserAdapter extends DatabaseHelper {
 
     public static final String TABLE_USERS   = "users";
     public static final String USER_ID       = "id";
@@ -28,10 +27,12 @@ public class UserAdapter extends MyDbHandler{
     private static final int USER_EMAIL_INDEX    = 2;
     private static final int USER_PASSWORD_INDEX = 3;
 
+
+    static final String[] PROJECTIONS_USERS = {USER_ID, USER_NAME, USER_EMAIL, USER_PASSWORD};
+
     public UserAdapter(Context context) {
         super(context);
     }
-
 
     public void addUser(User user) {
         if (user == null) {
@@ -56,7 +57,7 @@ public class UserAdapter extends MyDbHandler{
         if (db == null) {
             return null;
         }
-        Cursor cursor = db.query(TABLE_USERS, MyDbHandler.PROJECTIONS_USERS, USER_ID + "=?",
+        Cursor cursor = db.query(TABLE_USERS, PROJECTIONS_USERS, USER_ID + "=?",
                 new String[]{String.valueOf(id)}, null, null, null, null);
         if (!cursor.moveToFirst()) {
             return null;
