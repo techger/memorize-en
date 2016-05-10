@@ -232,7 +232,7 @@ public class LockScreenViewService extends Service {
 
 
     private void changeBackGroundLockView(float forgroundX) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (forgroundX < mDeviceWidth) {
                 mBackgroundLockImageView.setBackground(getResources().getDrawable(R.drawable.lock));
             } else {
