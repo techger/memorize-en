@@ -1,4 +1,4 @@
-package com.memorize.Service;
+package com.memorize.service;
 
 import android.app.Activity;
 import android.app.KeyguardManager;
@@ -10,7 +10,7 @@ import android.content.IntentFilter;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import com.memorize.Activity.LockScreen;
+import com.memorize.activity.LockScreen;
 
 /**
  * Created by Tortuvshin on 11/19/2015.

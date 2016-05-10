@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.database.Cursor;
 import android.support.design.widget.FloatingActionButton;
@@ -12,9 +12,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.memorize.Component.MyAlertDialog;
-import com.memorize.Database.WordsAdapter;
-import com.memorize.Model.Word;
+import com.memorize.component.MyAlertDialog;
+import com.memorize.database.WordsAdapter;
+import com.memorize.model.Word;
 import com.memorize.R;
 
 public class WordAdd extends AppCompatActivity {

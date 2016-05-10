@@ -1,4 +1,4 @@
-package com.memorize.Database;
+package com.memorize.database;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

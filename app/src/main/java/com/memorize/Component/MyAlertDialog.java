@@ -1,10 +1,9 @@
-package com.memorize.Component;
+package com.memorize.component;
 
 /**
  * Created by Tortuvshin on 10/18/2015.
  */
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 

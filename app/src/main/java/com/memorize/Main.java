@@ -1,7 +1,4 @@
 package com.memorize;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.app.SearchManager;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -26,16 +23,16 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.memorize.Activity.Settings;
-import com.memorize.Activity.Web;
-import com.memorize.Activity.WordAdd;
-import com.memorize.Activity.WordDetail;
-import com.memorize.Activity.WordRemember;
-import com.memorize.Database.RememberWordsAdapter;
-import com.memorize.Database.WordsAdapter;
-import com.memorize.Model.RememberWord;
-import com.memorize.Model.Word;
-import com.memorize.Sensor.ShakeEventManager;
+import com.memorize.activity.Settings;
+import com.memorize.activity.Web;
+import com.memorize.activity.WordAdd;
+import com.memorize.activity.WordDetail;
+import com.memorize.activity.WordRemember;
+import com.memorize.database.RememberWordsAdapter;
+import com.memorize.database.WordsAdapter;
+import com.memorize.model.RememberWord;
+import com.memorize.model.Word;
+import com.memorize.sensor.ShakeEventManager;
 
 public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {

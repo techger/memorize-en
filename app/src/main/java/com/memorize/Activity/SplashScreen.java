@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;

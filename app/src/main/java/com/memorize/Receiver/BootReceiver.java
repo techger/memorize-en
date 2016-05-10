@@ -1,13 +1,12 @@
-package com.memorize.Receiver;
+package com.memorize.receiver;
 
-import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
-import com.memorize.Activity.Settings;
-import com.memorize.Service.DesktopButtonService;
+import com.memorize.activity.Settings;
+import com.memorize.service.DesktopButtonService;
 
 /**
  * Created by Tortuvshin on 11/21/2015.

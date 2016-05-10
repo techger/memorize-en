@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="com.memorize.Activity.Web">
+    tools:context="com.memorize.activity.Web">
 
     <WebView
         android:layout_width="fill_parent"

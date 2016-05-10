@@ -1,4 +1,4 @@
-package com.memorize.Database;
+package com.memorize.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.memorize.Model.Word;
+import com.memorize.model.Word;
 
 import java.util.ArrayList;
 import java.util.List;

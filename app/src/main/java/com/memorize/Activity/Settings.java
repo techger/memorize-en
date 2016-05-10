@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.app.Activity;
 import android.app.admin.DevicePolicyManager;
@@ -6,21 +6,22 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.SwitchCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import com.memorize.R;
-import com.memorize.Receiver.Admin;
-import com.memorize.Service.DesktopButtonService;
-import com.memorize.Service.LockService;
+import com.memorize.lockscreen.*;
+import com.memorize.lockscreen.LockScreen;
+import com.memorize.receiver.Admin;
+import com.memorize.service.DesktopButtonService;
+import com.memorize.service.LockService;
 
 public class Settings extends AppCompatActivity {
 
@@ -39,10 +40,44 @@ public class Settings extends AppCompatActivity {
     private TextView displayButton;
     private TextView lockScreen;
     private SharedPreferences preferences;
+
+    private SwitchCompat mSwitchd = null;
+    private Context mContext = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
+        mContext = this;
+
+        SharedPreferencesUtil.init(mContext);
+
+        mSwitchd = (SwitchCompat) this.findViewById(R.id.switch_locksetting);
+        mSwitchd.setTextOn("yes");
+        mSwitchd.setTextOff("no");
+        boolean lockState = SharedPreferencesUtil.get(com.memorize.lockscreen.LockScreen.ISLOCK);
+        if (lockState) {
+            mSwitchd.setChecked(true);
+
+        } else {
+            mSwitchd.setChecked(false);
+
+        }
+
+        mSwitchd.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    SharedPreferencesUtil.setBoolean(LockScreen.ISLOCK, true);
+                    LockScreen.getInstance(mContext).startLockscreenService();
+                } else {
+                    SharedPreferencesUtil.setBoolean(LockScreen.ISLOCK, false);
+                    LockScreen.getInstance(mContext).stopLockscreenService();
+                }
+
+            }
+        });
+
         preferences = getSharedPreferences(PREF, Context.MODE_PRIVATE);
         enableAdminText = (TextView)findViewById(R.id.admin_enabled_label);
         TextView adminEnabledLabel = (TextView)findViewById(R.id.admin_enabled_label);
@@ -99,6 +134,12 @@ public class Settings extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
     }
 
 

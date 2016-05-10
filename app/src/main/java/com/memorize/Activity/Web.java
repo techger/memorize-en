@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
@@ -11,9 +11,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.memorize.Component.MyAlertDialog;
+import com.memorize.component.MyAlertDialog;
 import com.memorize.R;
-import com.memorize.Service.ConnectionDetector;
+import com.memorize.service.ConnectionDetector;
 
 public class Web extends AppCompatActivity {
 

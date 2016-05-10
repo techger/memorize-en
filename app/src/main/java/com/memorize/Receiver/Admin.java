@@ -1,4 +1,4 @@
-package com.memorize.Receiver;
+package com.memorize.receiver;
 
 import android.app.admin.DeviceAdminReceiver;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
@@ -19,9 +19,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
-import com.memorize.Component.MyAlertDialog;
-import com.memorize.Database.UserAdapter;
-import com.memorize.Model.User;
+import com.memorize.component.MyAlertDialog;
+import com.memorize.database.UserAdapter;
+import com.memorize.model.User;
 import com.memorize.R;
 
 

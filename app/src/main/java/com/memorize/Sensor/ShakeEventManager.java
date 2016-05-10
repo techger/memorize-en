@@ -1,4 +1,4 @@
-package com.memorize.Sensor;
+package com.memorize.sensor;
 
 /**
  * Created by Toroo programmer on 11/8/2015.

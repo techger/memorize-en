@@ -7,7 +7,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.memorize.Activity.WordDetail">
+        tools:context="com.memorize.activity.WordDetail">
         <android.support.design.widget.NavigationView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">

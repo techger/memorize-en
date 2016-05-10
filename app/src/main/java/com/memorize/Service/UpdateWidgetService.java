@@ -1,4 +1,4 @@
-package com.memorize.Service;
+package com.memorize.service;
 /**
  * Created by Tortuvshin on 11/15/2015.
  */
@@ -13,9 +13,8 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.RemoteViews;
 
-import com.memorize.Database.DatabaseHelper;
-import com.memorize.Database.RememberWordsAdapter;
-import com.memorize.Model.RememberWord;
+import com.memorize.database.RememberWordsAdapter;
+import com.memorize.model.RememberWord;
 import com.memorize.R;
 
 public class UpdateWidgetService extends Service {

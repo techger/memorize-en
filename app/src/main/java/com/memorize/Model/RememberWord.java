@@ -1,4 +1,4 @@
-package com.memorize.Model;
+package com.memorize.model;
 
 /**
  * Created by Tortuvshin on 11/15/2015.

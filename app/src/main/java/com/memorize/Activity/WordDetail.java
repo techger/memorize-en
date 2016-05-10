@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -17,11 +17,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.memorize.Database.RememberWordsAdapter;
-import com.memorize.Database.WordsAdapter;
+import com.memorize.database.RememberWordsAdapter;
+import com.memorize.database.WordsAdapter;
 import com.memorize.Main;
-import com.memorize.Model.RememberWord;
-import com.memorize.Model.Word;
+import com.memorize.model.RememberWord;
+import com.memorize.model.Word;
 import com.memorize.R;
 
 public class WordDetail extends AppCompatActivity {

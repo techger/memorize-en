@@ -1,4 +1,4 @@
-package com.memorize.Service;
+package com.memorize.service;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -16,8 +16,8 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
-import com.memorize.Activity.Settings;
-import com.memorize.Database.DatabaseHelper;
+import com.memorize.activity.Settings;
+import com.memorize.database.DatabaseHelper;
 import com.memorize.R;
 
 /**

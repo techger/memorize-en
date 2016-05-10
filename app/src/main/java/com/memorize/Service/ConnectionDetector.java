@@ -1,4 +1,4 @@
-package com.memorize.Service;
+package com.memorize.service;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

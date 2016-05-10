@@ -1,11 +1,11 @@
-package com.memorize.Database;
+package com.memorize.database;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.memorize.Model.User;
+import com.memorize.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

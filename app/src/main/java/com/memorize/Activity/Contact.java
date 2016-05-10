@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

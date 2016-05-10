@@ -1,4 +1,4 @@
-package com.memorize.Activity;
+package com.memorize.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.memorize.Component.MyAlertDialog;
-import com.memorize.Database.RememberWordsAdapter;
+import com.memorize.component.MyAlertDialog;
+import com.memorize.database.RememberWordsAdapter;
 import com.memorize.R;
 
 import java.util.ArrayList;
@@ -37,9 +37,9 @@ public class WordRemember extends AppCompatActivity {
         final ArrayAdapter<String> myArrayAdapter;
         myArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,wordListItems);
         wordList.setAdapter(myArrayAdapter);
-        List<com.memorize.Model.RememberWord> words = rememberWordsAdapter.getAllRememberWords();
+        List<com.memorize.model.RememberWord> words = rememberWordsAdapter.getAllRememberWords();
         try {
-            for (com.memorize.Model.RememberWord rememberWord : words){
+            for (com.memorize.model.RememberWord rememberWord : words){
                 String wordAdd = "\n"+rememberWord.getRememberEnglish() +" - "+rememberWord.getRememberType()+
                         " ,"+rememberWord.getRememberMongolia();
                 Log.d(TAG, wordAdd);
