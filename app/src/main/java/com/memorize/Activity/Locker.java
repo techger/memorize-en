@@ -20,7 +20,7 @@ import com.memorize.database.RememberWordsAdapter;
 import com.memorize.model.RememberWord;
 import com.memorize.R;
 
-public class LockScreen extends AppCompatActivity{
+public class Locker extends AppCompatActivity{
 
     private static final String TAG = "===LockScreenAc===";
     ScrollView background;

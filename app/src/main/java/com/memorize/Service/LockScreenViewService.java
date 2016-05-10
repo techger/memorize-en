@@ -22,6 +22,8 @@ import com.memorize.R;
 import com.memorize.lockscreen.LockScreen;
 import com.memorize.lockscreen.LockScreenUtil;
 import com.memorize.lockscreen.SharedPreferencesUtil;
+import com.romainpiel.shimmer.Shimmer;
+import com.romainpiel.shimmer.ShimmerTextView;
 
 /**
  * Created by Tortuvshin on 5/10/2016.
@@ -39,7 +41,7 @@ public class LockScreenViewService extends Service {
     private RelativeLayout mForgroundLayout = null;
     private RelativeLayout mStatusBackgruondDummyView = null;
     private RelativeLayout mStatusForgruondDummyView = null;
-//    private ShimmerTextView mShimmerTextView = null;
+    private ShimmerTextView mShimmerTextView = null;
     private boolean mIsLockEnable = false;
     private boolean mIsSoftkeyEnable = false;
     private int mDeviceWidth = 0;
@@ -188,8 +190,8 @@ public class LockScreenViewService extends Service {
         mBackgroundInLayout = (RelativeLayout) mLockscreenView.findViewById(R.id.lockscreen_background_in_layout);
         mBackgroundLockImageView = (ImageView) mLockscreenView.findViewById(R.id.lockscreen_background_image);
         mForgroundLayout = (RelativeLayout) mLockscreenView.findViewById(R.id.lockscreen_forground_layout);
-//        mShimmerTextView = (ShimmerTextView) mLockscreenView.findViewById(R.id.shimmer_tv);
-//        (new Shimmer()).start(mShimmerTextView);
+        mShimmerTextView = (ShimmerTextView) mLockscreenView.findViewById(R.id.shimmer_tv);
+        (new Shimmer()).start(mShimmerTextView);
         mForgroundLayout.setOnTouchListener(mViewTouchListener);
 
         mStatusBackgruondDummyView = (RelativeLayout) mLockscreenView.findViewById(R.id.lockscreen_background_status_dummy);

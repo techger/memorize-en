@@ -10,7 +10,7 @@ import android.content.IntentFilter;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import com.memorize.activity.LockScreen;
+import com.memorize.activity.Locker;
 
 /**
  * Created by Tortuvshin on 11/19/2015.
@@ -26,7 +26,7 @@ public class LockService extends Service {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if(action.equals("android.intent.action.SCREEN_OFF")){
-                Intent i = new Intent(context, LockScreen.class);
+                Intent i = new Intent(context, Locker.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(i);
             }

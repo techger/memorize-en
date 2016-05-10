@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.memorize" >
-
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -20,11 +22,12 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
-    <uses-permission-sdk-m android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.PHONE_STATE_STATE" />
+    <uses-permission-sdk-m android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:allowBackup="true"
@@ -32,56 +35,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name=".Main"
-            android:theme="@style/AppTheme.Dark" >
-        </activity>
-        <activity
-            android:name=".activity.SplashScreen"
-            android:label="@string/title_activity_splash_screen"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Splash" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".activity.LockScreen"
-            android:label="@string/title_activity_lock_screen"
-            android:showOnLockScreen="true"
-            android:theme="@style/AppTheme.FullScreen" >
-        </activity>
-        <activity
-            android:name=".activity.WordAdd"
-            android:label="@string/title_activity_word_add" >
-        </activity>
-        <activity
-            android:name=".activity.Web"
-            android:label="@string/title_activity_web" >
-        </activity>
-        <activity
-            android:name=".activity.Contact"
-            android:label="@string/title_activity_contact" >
-        </activity>
-        <activity
-            android:name=".activity.Login"
-            android:theme="@style/AppTheme.NoActionBar"
-             >
-        </activity>
-        <activity
-            android:name=".activity.SignUp"
-            android:theme="@style/AppTheme.NoActionBar"
-             >
-        </activity>
 
         <service android:name=".service.LockService" />
         <service android:name=".service.UpdateWidgetService" />
         <service
             android:name=".service.DesktopButtonService"
             android:icon="@drawable/ic_notification_icon" />
-
+        <service android:name=".service.LockScreenService" >
+        </service>
+        <service android:name=".service.LockScreenViewService" >
+        </service>
         <receiver
             android:name=".receiver.Admin"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
@@ -112,7 +75,50 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_word_info" />
         </receiver>
+        <activity
+            android:name="com.memorize.lockscreen.LockScreenActivity" >
+        </activity>
+        <activity
+            android:name=".Main"
+            android:theme="@style/AppTheme.Dark" >
+        </activity>
+        <activity
+            android:name=".activity.SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Locker"
+            android:label="@string/title_activity_lock_screen"
+            android:showOnLockScreen="true"
+            android:theme="@style/AppTheme.FullScreen" >
+        </activity>
+        <activity
+            android:name=".activity.WordAdd"
+            android:label="@string/title_activity_word_add" >
+        </activity>
+        <activity
+            android:name=".activity.Web"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name=".activity.Contact"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name=".activity.Login"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".activity.SignUp"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity
             android:name=".activity.WordDetail"
             android:label="@string/title_activity_word_detail" >

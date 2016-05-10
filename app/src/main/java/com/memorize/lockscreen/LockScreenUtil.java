@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 
 /**
- * Created by Programmer on 5/10/2016.
+ * Created by Tortuvshin on 5/10/2016.
  */
 public class LockScreenUtil {
     private Context mContext = null;

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.view.MotionEvent;
@@ -13,11 +14,12 @@ import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
 import com.memorize.R;
+import com.memorize.service.LockScreenViewService;
 
 /**
  * Created by Tortuvshin on 5/10/2016.
  */
-public class LockScreenActivity extends Activity{
+public class LockScreenActivity extends AppCompatActivity{
     private final String TAG = "LockscreenActivity";
     private static Context sLockscreenActivityContext = null;
     ;
@@ -97,17 +99,17 @@ public class LockScreenActivity extends Activity{
 
     private void setLockGuard() {
         boolean isLockEnable = false;
-        if (!LockscreenUtil.getInstance(sLockscreenActivityContext).isStandardKeyguardState()) {
+        if (!LockScreenUtil.getInstance(sLockscreenActivityContext).isStandardKeyguardState()) {
             isLockEnable = false;
         } else {
             isLockEnable = true;
         }
 
-        Intent startLockscreenIntent = new Intent(this, LockscreenViewService.class);
+        Intent startLockscreenIntent = new Intent(this, LockScreenViewService.class);
         startService(startLockscreenIntent);
 
-        boolean isSoftkeyEnable = LockscreenUtil.getInstance(sLockscreenActivityContext).isSoftKeyAvail(this);
-        SharedPreferencesUtil.setBoolean(Lockscreen.ISSOFTKEY, isSoftkeyEnable);
+        boolean isSoftkeyEnable = LockScreenUtil.getInstance(sLockscreenActivityContext).isSoftKeyAvail(this);
+        SharedPreferencesUtil.setBoolean(LockScreen.ISSOFTKEY, isSoftkeyEnable);
         if (!isSoftkeyEnable) {
             mMainHandler.sendEmptyMessage(0);
         } else if (isSoftkeyEnable) {
