@@ -2,7 +2,7 @@ language: android
 android:
   components:
     - platform-tools
-    - build-tools-23.0.1
+    - build-tools-23.0.0
     - android-23
 before_install:
  - chmod +x gradlew
