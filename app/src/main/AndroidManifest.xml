@@ -47,7 +47,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LockScreen"
             android:label="@string/title_activity_lock_screen"
@@ -68,12 +67,11 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_main">
+            android:label="@string/title_activity_main" >
         </activity>
-
         <activity
             android:name=".SignUpActivity"
-            android:label="@string/title_activity_main">
+            android:label="@string/title_activity_main" >
         </activity>
 
         <service android:name=".Service.LockService" />
@@ -113,6 +111,14 @@
                 android:resource="@xml/widget_word_info" />
         </receiver>
 
+        <activity
+            android:name=".WordDetailActivity"
+            android:label="@string/title_activity_word_detail" >
+        </activity>
+        <activity
+            android:name=".WordEditActivity"
+            android:label="@string/title_activity_word_edit" >
+        </activity>
     </application>
 
 </manifest>

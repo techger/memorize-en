@@ -42,11 +42,10 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
     private static final String TAG = "MainActivity";
 
-    public static final String PREFER_NAME = "SearchedWord";
+    public static final String PREFER_NAME = "Memorize";
     private SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
     ListView wordList;
-    SearchView searchView;
     WordsAdapter wordsAdapter;
     RememberWordsAdapter rememberWordsAdapter;
     private ShakeEventManager shakeEventManager;
@@ -112,11 +111,8 @@ public class MainActivity extends AppCompatActivity
                 Log.d(TAG, "Дарагдсан лист дээрх үг : " + english);
                 editor.putString("SearchedWord", english);
                 editor.commit();
-                Fragment wordLookFragment = new WordLookFragment();
-                FragmentManager fm = getFragmentManager();
-                FragmentTransaction fragmentTransaction = fm.beginTransaction();
-                fragmentTransaction.replace(R.id.container, wordLookFragment);
-                fragmentTransaction.addToBackStack("Word view").commit();
+                Intent intent = new Intent(MainActivity.this, WordDetailActivity.class);
+                startActivity(intent);
             }
         });
         myArrayAdapter.notifyDataSetChanged();
@@ -171,12 +167,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.search) {
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
-            Fragment MainFragment = new MainFragment();
-            FragmentManager fm = getFragmentManager();
-            FragmentTransaction fragmentTransaction= fm.beginTransaction();
-            fragmentTransaction.replace(R.id.container, MainFragment);
-            fragmentTransaction.commit();
+
         } else if (id == R.id.add) {
             Intent intent = new Intent(MainActivity.this, WordAddActivity.class);
             startActivity(intent);

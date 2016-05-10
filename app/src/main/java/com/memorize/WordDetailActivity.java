@@ -5,30 +5,30 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
-import android.os.Bundle;
-import android.app.Fragment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.memorize.Database.DatabaseHelper;
 import com.memorize.Database.RememberWordsAdapter;
 import com.memorize.Database.WordsAdapter;
 import com.memorize.Model.RememberWord;
 import com.memorize.Model.Word;
 
+public class WordDetailActivity extends AppCompatActivity {
 
-public class WordLookFragment extends Fragment {
+    private static final String TAG = "WordDetails";
 
-    private static final String TAG = "===WordLookFragment===";
-    public static View rootView;
+    SharedPreferences.Editor editor;
     public TextView english;
     public TextView wordtype;
     public TextView mongolia;
@@ -40,27 +40,24 @@ public class WordLookFragment extends Fragment {
     String eng = "";
     String type = "";
     String mon = "";
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
 
-    }
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        rootView =  inflater.inflate(R.layout.fragment_word_look, container, false);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_word_detail);
         init();
-        return rootView;
     }
+
     public void init(){
-        english = (TextView)rootView.findViewById(R.id.englishText);
-        wordtype = (TextView)rootView.findViewById(R.id.typeText);
-        mongolia= (TextView)rootView.findViewById(R.id.mongolianText);
-        wordsAdapter = new WordsAdapter(getActivity());
-        rememberWordsAdapter = new RememberWordsAdapter(getActivity());
-        SharedPreferences prefs = getActivity().getSharedPreferences(MainFragment.PREFER_NAME, 0);
+        english = (TextView)findViewById(R.id.englishText);
+        wordtype = (TextView)findViewById(R.id.typeText);
+        mongolia= (TextView)findViewById(R.id.mongolianText);
+        wordsAdapter = new WordsAdapter(this);
+        rememberWordsAdapter = new RememberWordsAdapter(this);
+        SharedPreferences prefs = getSharedPreferences(MainActivity.PREFER_NAME, 0);
         String searchedWord = prefs.getString("SearchedWord", "");
+        editor = prefs.edit();
+
         Word word = wordsAdapter.getWord(searchedWord);
         eng = word.getEnglish();
         type = word.getType();
@@ -69,24 +66,21 @@ public class WordLookFragment extends Fragment {
         wordtype.setText(type);
         mongolia.setText(mon);
 
-        editFButton = (FloatingActionButton) rootView.findViewById(R.id.editFButton);
-        deleteFButton = (FloatingActionButton) rootView.findViewById(R.id.deleteFButton);
-        wordListFButton = (FloatingActionButton) rootView.findViewById(R.id.listWordButton);
+        editFButton = (FloatingActionButton)findViewById(R.id.editFButton);
+        deleteFButton = (FloatingActionButton)findViewById(R.id.deleteFButton);
+        wordListFButton = (FloatingActionButton)findViewById(R.id.listWordButton);
 
         editFButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Bundle bundle = new Bundle();
-                bundle.putString("english",english.getText().toString());
-                bundle.putString("type", wordtype.getText().toString());
-                bundle.putString("mongolia", mongolia.getText().toString());
-                WordEditFragment editFragment = new WordEditFragment();
-                Log.d(TAG, english.getText().toString()+""+wordtype.getText().toString()+""+mongolia.getText().toString());
-                editFragment.setArguments(bundle);
-                FragmentManager fm = getFragmentManager();
-                FragmentTransaction fragmentTransaction= fm.beginTransaction();
-                fragmentTransaction.replace(R.id.container, editFragment);
-                fragmentTransaction.addToBackStack("Edit").commit();
+                editor.putString("denglish", english.getText().toString());
+                editor.putString("dtype", wordtype.getText().toString());
+                editor.putString("dmongolia", mongolia.getText().toString());
+                editor.commit();
+                Intent intent = new Intent(WordDetailActivity.this, WordEditActivity.class);
+                startActivity(intent);
+                Log.d(TAG, english.getText().toString() + "" + wordtype.getText().toString() + "" + mongolia.getText().toString());
+
                 Snackbar.make(v, "Үг засах хэсэг", Snackbar.LENGTH_LONG)
                         .setAction("Action", null)
                         .show();
@@ -96,7 +90,7 @@ public class WordLookFragment extends Fragment {
         deleteFButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new AlertDialog.Builder(getActivity())
+                new AlertDialog.Builder(WordDetailActivity.this)
                         .setIcon(R.drawable.exit)
                         .setTitle("Устгах")
                         .setMessage("Энэхүү үгийг устгах уу?")
@@ -105,7 +99,7 @@ public class WordLookFragment extends Fragment {
                             public void onClick(DialogInterface dialog, int which) {
 
 
-                                final ProgressDialog progressDialog = new ProgressDialog(getActivity(),
+                                final ProgressDialog progressDialog = new ProgressDialog(getApplicationContext(),
                                         R.style.AppTheme_Dark_Dialog);
                                 progressDialog.setIndeterminate(true);
                                 progressDialog.setMessage("Устгаж байна...");
@@ -116,8 +110,8 @@ public class WordLookFragment extends Fragment {
                                             public void run() {
                                                 wordsAdapter.deleteWord(new Word(eng, type, mon));
                                                 Log.d(TAG, "Амжилттай устгалаа..." + eng);
-                                                getActivity().getFragmentManager().popBackStack();
                                                 progressDialog.dismiss();
+                                                finish();
                                             }
                                         }, 1000);
                             }
@@ -138,16 +132,16 @@ public class WordLookFragment extends Fragment {
                             .setAction("Action", null).show();
                     Log.d(TAG,"Өгөгдлийн сангийн query алдаатай байна");
                 } else {
-                    getActivity().startManagingCursor(words);
+                    startManagingCursor(words);
                     if (words.getCount() > 0) {
                         Snackbar.make(v, "Бүртгэлтэй үг байна...", Snackbar.LENGTH_LONG)
                                 .setAction("Action", null).show();
                         Log.d(TAG,"Бүртгэлтэй үг байна");
-                        getActivity().stopManagingCursor(words);
+                        stopManagingCursor(words);
                         words.close();
                     } else {
                         rememberWordsAdapter.addRememberWord(new RememberWord(eng, type, mon));
-                        Toast.makeText(getActivity(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
                         Snackbar.make(v, "Цээжлэх үгийн жагсаалтанд амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)
                                 .setAction("Action", null).show();
@@ -155,5 +149,26 @@ public class WordLookFragment extends Fragment {
                 }
             }
         });
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_word_detail, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
