@@ -2,6 +2,7 @@ package com.memorize.activity;
 
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +10,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -27,6 +30,8 @@ public class WordEdit extends AppCompatActivity {
     FloatingActionButton saveButton;
     WordsAdapter wordsAdapter;
     MyAlertDialog alert;
+    Animation shake;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +47,7 @@ public class WordEdit extends AppCompatActivity {
         mongolianWordInput = (EditText)findViewById(R.id.mongolianWordInputE);
         saveButton = (FloatingActionButton)findViewById(R.id.editedWordSave);
 
+        shake = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.shake);
         SharedPreferences prefs = getSharedPreferences(Main.PREFER_NAME, 0);
         String english = prefs.getString("denglish","error");
         String wordtype = prefs.getString("dtype","error");
@@ -54,27 +60,68 @@ public class WordEdit extends AppCompatActivity {
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                final ProgressDialog progressDialog = new ProgressDialog(WordEdit.this);
-                progressDialog.setIndeterminate(true);
-                progressDialog.setMessage("Шинэчилж байна...");
-                progressDialog.show();
-                // TODO: Implement your own authentication logic here.
-                new android.os.Handler().postDelayed(
-                        new Runnable() {
-                            public void run() {
-                                String eng = englishWordInput.getText().toString();
-                                String type = wordTypeInput.getText().toString();
-                                String mon = mongolianWordInput.getText().toString();
-                                wordsAdapter.updateWord(new Word(eng, type, mon));
-                                Log.d(TAG, "Амжилттай заслаа " + eng + ", " + type + ", " + mon);
-                                finish();
-                                Toast.makeText(getApplicationContext(), "Амжилттай заслаа", Toast.LENGTH_SHORT).show();
-                                progressDialog.dismiss();
-                            }
-                        }, 1000);
+                editedWord();
             }
         });
+    }
+
+
+    public void editedWord(){
+        if (!validate()){
+            Toast.makeText(getBaseContext(), "Үг засхад алдаа гарлаа", Toast.LENGTH_LONG).show();
+            return;
+        }
+
+
+        final ProgressDialog progressDialog = new ProgressDialog(WordEdit.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Шинэчилж байна...");
+        progressDialog.show();
+        // TODO: Implement your own word edit logic here.
+        new android.os.Handler().postDelayed(
+                new Runnable() {
+                    public void run() {
+                        alert.showAlertDialog(WordEdit.this, "    Амжилттай шинэчиллээ.", "Амжилттай шинэчиллээ....", true);
+                        new android.os.Handler().postDelayed(
+                                new Runnable() {
+                                    public void run() {
+                                        finish();
+                                    }
+                                }, 1000);
+                        String eng = englishWordInput.getText().toString();
+                        String type = wordTypeInput.getText().toString();
+                        String mon = mongolianWordInput.getText().toString();
+                        wordsAdapter.updateWord(new Word(eng, type, mon));
+                        Log.d(TAG, "Амжилттай заслаа " + eng + ", " + type + ", " + mon);
+                        Toast.makeText(getApplicationContext(), "Амжилттай заслаа", Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                    }
+                }, 1000);
+
+    }
+
+    public boolean validate(){
+        boolean valid = true;
+
+        String english = englishWordInput.getText().toString();
+        String type = wordTypeInput.getText().toString();
+        String mongolia = mongolianWordInput.getText().toString();
+
+        if (english.isEmpty() || type.isEmpty() || mongolia.isEmpty()) {
+            englishWordInput.startAnimation(shake);
+            wordTypeInput.startAnimation(shake);
+            mongolianWordInput.startAnimation(shake);
+            englishWordInput.setError("талбар хоосон байна");
+            wordTypeInput.setError("талбар хоосон байна");
+            mongolianWordInput.setError("талбар хоосон байна");
+            valid = false;
+        } else {
+            englishWordInput.setError(null);
+            wordTypeInput.setError(null);
+            mongolianWordInput.setError(null);
+        }
+
+        return valid;
     }
 
     @Override
