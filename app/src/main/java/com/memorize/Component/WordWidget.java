@@ -1,4 +1,4 @@
-package com.memorize;
+package com.memorize.Component;
 
 /**
  * Created by Tortuvshin on 11/15/2015.
@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
 
+import com.memorize.R;
 import com.memorize.Service.UpdateWidgetService;
 
 public class WordWidget extends AppWidgetProvider {

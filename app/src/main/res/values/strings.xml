@@ -22,4 +22,5 @@
     <string name="title_activity_contact">ContactActivity</string>
     <string name="title_activity_word_detail">WordDetailActivity</string>
     <string name="title_activity_word_edit">WordEditActivity</string>
+    <string name="title_activity_remember_word">RememberWord</string>
 </resources>

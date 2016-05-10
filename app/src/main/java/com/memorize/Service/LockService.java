@@ -10,7 +10,7 @@ import android.content.IntentFilter;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import com.memorize.LockScreen;
+import com.memorize.Activity.LockScreen;
 
 /**
  * Created by Tortuvshin on 11/19/2015.

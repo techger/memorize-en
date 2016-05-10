@@ -1,6 +1,5 @@
-package com.memorize;
+package com.memorize.Activity;
 
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -22,16 +21,19 @@ import android.widget.Toast;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+import com.memorize.Component.MyAlertDialog;
 import com.memorize.Database.UserAdapter;
+import com.memorize.Main;
+import com.memorize.R;
 
-public class LoginActivity extends ActionBarActivity {
+public class Login extends ActionBarActivity {
 
-    private static final String TAG = "LoginActivity";
+    private static final String TAG = "Login";
 
     private static final int REQUEST_SIGNUP = 0;
     public static final String PREFER_NAME = "UserInfo";
 
-    AlertDialogManager alert = new AlertDialogManager();
+    MyAlertDialog alert = new MyAlertDialog();
 
     private SharedPreferences sharedPreferences;
 
@@ -69,7 +71,7 @@ public class LoginActivity extends ActionBarActivity {
         signUpLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
+                Intent intent = new Intent(Login.this, SignUp.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_top_to_bottom, R.anim.exit_slide_down);
 
@@ -99,7 +101,7 @@ public class LoginActivity extends ActionBarActivity {
         }
         loginButton.setEnabled(false);
 
-        final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this,
+        final ProgressDialog progressDialog = new ProgressDialog(Login.this,
                 R.style.AppTheme_Dark_Dialog);
         progressDialog.setIndeterminate(true);
         progressDialog.setMessage("Authenticating...");
@@ -129,7 +131,7 @@ public class LoginActivity extends ActionBarActivity {
 
     @Override
     public void onBackPressed() {
-        new AlertDialog.Builder(this,R.style.AlertDialog)
+        new android.app.AlertDialog.Builder(this,R.style.AlertDialog)
                 .setIcon(R.drawable.exit)
                 .setTitle("Толь бичиг")
                 .setMessage("Та програмаас гарах уу?")
@@ -192,7 +194,7 @@ public class LoginActivity extends ActionBarActivity {
                     saveLoggedInUser(checkeduser.getLong(checkeduser.getColumnIndex(userAdapter.USER_ID)), username, password);
                     stopManagingCursor(checkeduser);
                     checkeduser.close();
-                    final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this,
+                    final ProgressDialog progressDialog = new ProgressDialog(Login.this,
                             R.style.AppTheme_Dark_Dialog);
                     progressDialog.setIndeterminate(true);
                     progressDialog.setMessage("Authenticating...");
@@ -201,7 +203,7 @@ public class LoginActivity extends ActionBarActivity {
                     new android.os.Handler().postDelayed(
                             new Runnable() {
                                 public void run() {
-                                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                                    Intent i = new Intent(getApplicationContext(), Main.class);
                                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                     i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                     startActivity(i);
@@ -229,7 +231,7 @@ public class LoginActivity extends ActionBarActivity {
                 valid = false;
             }
         } else {
-            Toast.makeText(LoginActivity.this,"Хэрэглэгчийн нэр нууц үгээ оруулна уу",Toast.LENGTH_SHORT).show();
+            Toast.makeText(Login.this,"Хэрэглэгчийн нэр нууц үгээ оруулна уу",Toast.LENGTH_SHORT).show();
             valid = false;
         }
     return valid;

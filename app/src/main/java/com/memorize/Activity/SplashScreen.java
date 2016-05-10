@@ -1,11 +1,12 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.ImageView;
+
+import com.memorize.R;
 
 public class SplashScreen extends AppCompatActivity {
     ImageView imageView;
@@ -22,7 +23,7 @@ public class SplashScreen extends AppCompatActivity {
                     }catch(InterruptedException e){
                         e.printStackTrace();
                     }finally{
-                        Intent intent = new Intent(SplashScreen.this,LoginActivity.class);
+                        Intent intent = new Intent(SplashScreen.this,Login.class);
                         startActivity(intent);
                         finish();
                     }

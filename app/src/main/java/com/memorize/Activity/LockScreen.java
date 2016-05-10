@@ -1,4 +1,4 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.content.BroadcastReceiver;
 import android.content.Intent;
@@ -19,6 +19,7 @@ import java.util.Random;
 import com.memorize.Database.DatabaseHelper;
 import com.memorize.Database.RememberWordsAdapter;
 import com.memorize.Model.RememberWord;
+import com.memorize.R;
 
 public class LockScreen extends AppCompatActivity{
 

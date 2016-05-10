@@ -33,11 +33,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".Main"
             android:theme="@style/AppTheme.Dark" >
         </activity>
         <activity
-            android:name=".SplashScreen"
+            android:name=".Activity.SplashScreen"
             android:label="@string/title_activity_splash_screen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Splash" >
@@ -48,29 +48,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LockScreen"
+            android:name=".Activity.LockScreen"
             android:label="@string/title_activity_lock_screen"
             android:showOnLockScreen="true"
             android:theme="@style/AppTheme.FullScreen" >
         </activity>
         <activity
-            android:name=".WordAddActivity"
+            android:name=".Activity.WordAdd"
             android:label="@string/title_activity_word_add" >
         </activity>
         <activity
-            android:name=".WebActivity"
+            android:name=".Activity.Web"
             android:label="@string/title_activity_web" >
         </activity>
         <activity
-            android:name=".ContactActivity"
+            android:name=".Activity.Contact"
             android:label="@string/title_activity_contact" >
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".Activity.Login"
             android:label="@string/title_activity_main" >
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name=".Activity.SignUp"
             android:label="@string/title_activity_main" >
         </activity>
 
@@ -100,7 +100,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".WordWidget"
+            android:name=".Component.WordWidget"
             android:label="word widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -112,12 +112,20 @@
         </receiver>
 
         <activity
-            android:name=".WordDetailActivity"
+            android:name=".Activity.WordDetail"
             android:label="@string/title_activity_word_detail" >
         </activity>
         <activity
-            android:name=".WordEditActivity"
+            android:name=".Activity.WordEdit"
             android:label="@string/title_activity_word_edit" >
+        </activity>
+        <activity
+            android:name=".Activity.WordRemember"
+            android:label="@string/title_activity_remember_word" >
+        </activity>
+        <activity
+            android:name=".Activity.Settings"
+            android:label="@string/title_activity_settings" >
         </activity>
     </application>
 

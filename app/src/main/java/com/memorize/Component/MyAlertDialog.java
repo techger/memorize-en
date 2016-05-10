@@ -1,4 +1,4 @@
-package com.memorize;
+package com.memorize.Component;
 
 /**
  * Created by Tortuvshin on 10/18/2015.
@@ -8,10 +8,12 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 
-public class AlertDialogManager {
+import com.memorize.R;
+
+public class MyAlertDialog {
     public void showAlertDialog(Context context, String title, String message,
                                 Boolean status) {
-        AlertDialog alertDialog = new AlertDialog.Builder(context).create();
+        android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(context).create();
         alertDialog.setTitle(title);
         alertDialog.setMessage(message);
         if(status != null)

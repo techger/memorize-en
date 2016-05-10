@@ -16,9 +16,9 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
+import com.memorize.Activity.Settings;
 import com.memorize.Database.DatabaseHelper;
 import com.memorize.R;
-import com.memorize.SettingsFragment;
 
 /**
  * Created by Tortuvshin on 11/21/2015.
@@ -50,7 +50,7 @@ public class DesktopButtonService extends Service {
 
         registerReceiver(receiver, new IntentFilter("LOCK"));
 
-        Intent i = new Intent(this, SettingsFragment.class);
+        Intent i = new Intent(this, Settings.class);
         PendingIntent pIntent = PendingIntent.getActivity(this, 0, i, 0);
 
         Intent b = new Intent("Цээжлэх үгээ харах");

@@ -1,4 +1,4 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
@@ -19,14 +19,16 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
+import com.memorize.Component.MyAlertDialog;
 import com.memorize.Database.UserAdapter;
 import com.memorize.Model.User;
+import com.memorize.R;
 
 
-public class SignUpActivity extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
 
-    private static final String TAG = "SignUpActivity";
-    AlertDialogManager alert = new AlertDialogManager();
+    private static final String TAG = "SignUp";
+    MyAlertDialog alert = new MyAlertDialog();
     UserAdapter userAdapter;
     public SharedPreferences sharedPreferences;
     Editor editor;
@@ -73,7 +75,7 @@ public class SignUpActivity extends AppCompatActivity {
             return;
         }
         signUpButton.setEnabled(false);
-        final ProgressDialog progressDialog = new ProgressDialog(SignUpActivity.this,
+        final ProgressDialog progressDialog = new ProgressDialog(SignUp.this,
                 R.style.AppTheme_Dark_Dialog);
         progressDialog.setIndeterminate(true);
         progressDialog.setMessage("Бүртгэл үүсгэж байна...");
@@ -92,7 +94,7 @@ public class SignUpActivity extends AppCompatActivity {
     public void onSignupSuccess() {
         signUpButton.setEnabled(true);
         setResult(RESULT_OK, null);
-        alert.showAlertDialog(SignUpActivity.this, "    Амжилттай бүртгэгдлээ.", "Таны бүртгэл амжилттай боллоо...", true);
+        alert.showAlertDialog(SignUp.this, "    Амжилттай бүртгэгдлээ.", "Таны бүртгэл амжилттай боллоо...", true);
         new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
@@ -123,7 +125,7 @@ public class SignUpActivity extends AppCompatActivity {
 
     public boolean validate() {
         boolean valid = true;
-        sharedPreferences = getSharedPreferences(LoginActivity.PREFER_NAME, 0);
+        sharedPreferences = getSharedPreferences(Login.PREFER_NAME, 0);
         editor = sharedPreferences.edit();
         editor.putLong("UserId",0);
         editor.commit();
@@ -169,14 +171,14 @@ public class SignUpActivity extends AppCompatActivity {
         Cursor user = userAdapter.checkUser(name,password);
 
         if(user == null){
-            alert.showAlertDialog(SignUpActivity.this,"Error","Database query error",false);
+            alert.showAlertDialog(SignUp.this,"Error","Database query error",false);
             valid = false;
         }
         else{
             startManagingCursor(user);
 
             if (user.getCount() > 0){
-                alert.showAlertDialog(SignUpActivity.this,"Алдаа","Бүртгэлтэй хэрэглэгч байна",false);
+                alert.showAlertDialog(SignUp.this,"Алдаа","Бүртгэлтэй хэрэглэгч байна",false);
                 stopManagingCursor(user);
                 user.close();
                 valid = false;
@@ -187,7 +189,7 @@ public class SignUpActivity extends AppCompatActivity {
         return valid;
     }
     private void saveLoggedInUser(long id, String username, String password) {
-        sharedPreferences = getSharedPreferences(LoginActivity.PREFER_NAME, 0);
+        sharedPreferences = getSharedPreferences(Login.PREFER_NAME, 0);
         editor = sharedPreferences.edit();
         editor.putLong("UserId", id);
         editor.putString("Username", username);

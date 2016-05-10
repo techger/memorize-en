@@ -1,4 +1,4 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.database.Cursor;
 import android.support.design.widget.FloatingActionButton;
@@ -12,11 +12,12 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.memorize.Database.DatabaseHelper;
+import com.memorize.Component.MyAlertDialog;
 import com.memorize.Database.WordsAdapter;
 import com.memorize.Model.Word;
+import com.memorize.R;
 
-public class WordAddActivity extends AppCompatActivity {
+public class WordAdd extends AppCompatActivity {
 
     private static final String TAG = "===AddWordActivity===";
     TextView englishWordInput;
@@ -24,7 +25,7 @@ public class WordAddActivity extends AppCompatActivity {
     TextView mongolianWordInput;
     FloatingActionButton saveButton;
     WordsAdapter wordsAdapter;
-    AlertDialogManager alert;
+    MyAlertDialog alert;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,7 @@ public class WordAddActivity extends AppCompatActivity {
     }
 
     public void init(){
-        alert = new AlertDialogManager();
+        alert = new MyAlertDialog();
         wordsAdapter = new WordsAdapter(this);
         englishWordInput = (TextView)findViewById(R.id.englishWordInput);
         wordTypeInput = (TextView)findViewById(R.id.wordTypeInput);

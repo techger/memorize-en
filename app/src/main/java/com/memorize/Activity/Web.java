@@ -1,6 +1,5 @@
-package com.memorize;
+package com.memorize.Activity;
 
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,12 +11,14 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.memorize.Component.MyAlertDialog;
+import com.memorize.R;
 import com.memorize.Service.ConnectionDetector;
 
-public class WebActivity extends AppCompatActivity {
+public class Web extends AppCompatActivity {
 
     Boolean isInternetPresent = false;
-    AlertDialogManager alert = new AlertDialogManager();
+    MyAlertDialog alert = new MyAlertDialog();
     ConnectionDetector cd;
     private WebView myBlogWeb;
 
@@ -57,7 +58,7 @@ public class WebActivity extends AppCompatActivity {
             myBlogWeb.loadUrl("http://tortuvshin.github.io");
 
         } else {
-            new AlertDialog.Builder(this,R.style.AlertDialog)
+            new android.app.AlertDialog.Builder(this,R.style.AlertDialog)
                     .setIcon(R.drawable.fail)
                     .setTitle("Интернэт холболтоо шалгана уу !!!")
                     .setMessage("Интернэтэд холбогдоогүй байна !!!")

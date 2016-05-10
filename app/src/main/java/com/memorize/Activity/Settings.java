@@ -1,4 +1,4 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.app.Activity;
 import android.app.admin.DevicePolicyManager;
@@ -6,22 +6,23 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.app.Fragment;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
+import com.memorize.R;
 import com.memorize.Receiver.Admin;
 import com.memorize.Service.DesktopButtonService;
 import com.memorize.Service.LockService;
 
-public class SettingsFragment extends Fragment {
+public class Settings extends AppCompatActivity {
 
     private static final String TAG = "===Settings===";
     static final int RESULT_ENABLE = 1;
@@ -29,7 +30,6 @@ public class SettingsFragment extends Fragment {
     public static final String ADMIN_ENABLED = "admin_enabled";
     public static final String BUTTON_DISPLAYED = "button_displayed";
     public static final String LOCKSCREEN_ENABLE = "lock_screen_enable";
-    View rootView;
 
     private ComponentName componentName;
     private ToggleButton enableAdmin;
@@ -40,35 +40,28 @@ public class SettingsFragment extends Fragment {
     private TextView lockScreen;
     private SharedPreferences preferences;
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-    }
+        setContentView(R.layout.activity_settings);
+        preferences = getSharedPreferences(PREF, Context.MODE_PRIVATE);
+        enableAdminText = (TextView)findViewById(R.id.admin_enabled_label);
+        TextView adminEnabledLabel = (TextView)findViewById(R.id.admin_enabled_label);
+        TextView displayLockLabel = (TextView)findViewById(R.id.display_lock_label);
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_settings, container, false);
-        preferences = getActivity().getSharedPreferences(PREF, Context.MODE_PRIVATE);
-        enableAdminText = (TextView) rootView.findViewById(R.id.admin_enabled_label);
-        TextView adminEnabledLabel = (TextView) rootView.findViewById(R.id.admin_enabled_label);
-        TextView displayLockLabel = (TextView) rootView.findViewById(R.id.display_lock_label);
+        componentName = new ComponentName(this, Admin.class);
 
-        componentName = new ComponentName(getActivity(), Admin.class);
-
-        enableAdmin = (ToggleButton) rootView.findViewById(R.id.admin_enabled);
+        enableAdmin = (ToggleButton)findViewById(R.id.admin_enabled);
         enableAdmin.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     startEnableAdminIntent();
                     displaySwitch.setEnabled(true);
-                    Snackbar.make(rootView, "Админ эрх зөвшөөрлөө...", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
                 } else {
                     displaySwitch.setEnabled(false);
                     if (displaySwitch != null && displaySwitch.isChecked()) {
                         displaySwitch.setChecked(false);
-                        getActivity().stopService(new Intent(getActivity(), DesktopButtonService.class));
+                        stopService(new Intent(Settings.this, DesktopButtonService.class));
                         preferences.edit().putBoolean(BUTTON_DISPLAYED, false).commit();
                     }
                     preferences.edit().putBoolean(ADMIN_ENABLED, false).commit();
@@ -77,37 +70,37 @@ public class SettingsFragment extends Fragment {
             }
         });
 
-        displaySwitch = (ToggleButton) rootView.findViewById(R.id.display_lock);
+        displaySwitch = (ToggleButton)findViewById(R.id.display_lock);
         displaySwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     if (enableAdmin != null && enableAdmin.isChecked()) {
-                        getActivity().startService(new Intent(getActivity(), DesktopButtonService.class));
+                        startService(new Intent(Settings.this, DesktopButtonService.class));
                         preferences.edit().putBoolean(BUTTON_DISPLAYED, true).commit();
                     }
                 } else {
-                    getActivity().stopService(new Intent(getActivity(), DesktopButtonService.class));
+                    stopService(new Intent(Settings.this, DesktopButtonService.class));
                     preferences.edit().putBoolean(BUTTON_DISPLAYED, false).commit();
                 }
             }
         });
-        lockScreenEnable = (ToggleButton) rootView.findViewById(R.id.lockScreenEnable);
+        lockScreenEnable = (ToggleButton)findViewById(R.id.lockScreenEnable);
         lockScreenEnable.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    getActivity().startService(new Intent(getActivity(), LockService.class));
+                    startService(new Intent(Settings.this, LockService.class));
                     preferences.edit().putBoolean(LOCKSCREEN_ENABLE, true).commit();
                 } else {
-                    getActivity().stopService(new Intent(getActivity(), LockService.class));
+                    stopService(new Intent(Settings.this, LockService.class));
                     preferences.edit().putBoolean(LOCKSCREEN_ENABLE, false).commit();
                 }
 
             }
         });
-        return rootView;
     }
+
 
     private void startEnableAdminIntent() {
         Intent intent = new Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN);
@@ -130,5 +123,27 @@ public class SettingsFragment extends Fragment {
                 return;
         }
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_settings, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

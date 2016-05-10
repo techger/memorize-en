@@ -1,4 +1,4 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
@@ -12,10 +12,13 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.memorize.Component.MyAlertDialog;
 import com.memorize.Database.WordsAdapter;
+import com.memorize.Main;
 import com.memorize.Model.Word;
+import com.memorize.R;
 
-public class WordEditActivity extends AppCompatActivity {
+public class WordEdit extends AppCompatActivity {
 
     private static final String TAG = "===EditWord===";
     EditText englishWordInput;
@@ -23,7 +26,7 @@ public class WordEditActivity extends AppCompatActivity {
     EditText mongolianWordInput;
     FloatingActionButton saveButton;
     WordsAdapter wordsAdapter;
-    AlertDialogManager alert;
+    MyAlertDialog alert;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,14 +35,14 @@ public class WordEditActivity extends AppCompatActivity {
     }
 
     public void init(){
-        alert = new AlertDialogManager();
+        alert = new MyAlertDialog();
         wordsAdapter = new WordsAdapter(this);
         englishWordInput = (EditText)findViewById(R.id.englishWordInputE);
         wordTypeInput = (EditText)findViewById(R.id.wordTypeInputE);
         mongolianWordInput = (EditText)findViewById(R.id.mongolianWordInputE);
         saveButton = (FloatingActionButton)findViewById(R.id.editedWordSave);
 
-        SharedPreferences prefs = getSharedPreferences(MainActivity.PREFER_NAME, 0);
+        SharedPreferences prefs = getSharedPreferences(Main.PREFER_NAME, 0);
         String english = prefs.getString("denglish","error");
         String wordtype = prefs.getString("dtype","error");
         String mongolia = prefs.getString("dmongolia","error");
@@ -52,7 +55,7 @@ public class WordEditActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final ProgressDialog progressDialog = new ProgressDialog(WordEditActivity.this);
+                final ProgressDialog progressDialog = new ProgressDialog(WordEdit.this);
                 progressDialog.setIndeterminate(true);
                 progressDialog.setMessage("Шинэчилж байна...");
                 progressDialog.show();

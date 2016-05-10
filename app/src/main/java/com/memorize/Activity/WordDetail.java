@@ -1,8 +1,6 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.app.AlertDialog;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -21,10 +19,12 @@ import android.widget.Toast;
 
 import com.memorize.Database.RememberWordsAdapter;
 import com.memorize.Database.WordsAdapter;
+import com.memorize.Main;
 import com.memorize.Model.RememberWord;
 import com.memorize.Model.Word;
+import com.memorize.R;
 
-public class WordDetailActivity extends AppCompatActivity {
+public class WordDetail extends AppCompatActivity {
 
     private static final String TAG = "WordDetails";
 
@@ -54,7 +54,7 @@ public class WordDetailActivity extends AppCompatActivity {
         mongolia= (TextView)findViewById(R.id.mongolianText);
         wordsAdapter = new WordsAdapter(this);
         rememberWordsAdapter = new RememberWordsAdapter(this);
-        SharedPreferences prefs = getSharedPreferences(MainActivity.PREFER_NAME, 0);
+        SharedPreferences prefs = getSharedPreferences(Main.PREFER_NAME, 0);
         String searchedWord = prefs.getString("SearchedWord", "");
         editor = prefs.edit();
 
@@ -77,7 +77,7 @@ public class WordDetailActivity extends AppCompatActivity {
                 editor.putString("dtype", wordtype.getText().toString());
                 editor.putString("dmongolia", mongolia.getText().toString());
                 editor.commit();
-                Intent intent = new Intent(WordDetailActivity.this, WordEditActivity.class);
+                Intent intent = new Intent(WordDetail.this, WordEdit.class);
                 startActivity(intent);
                 Log.d(TAG, english.getText().toString() + "" + wordtype.getText().toString() + "" + mongolia.getText().toString());
 
@@ -90,7 +90,7 @@ public class WordDetailActivity extends AppCompatActivity {
         deleteFButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new AlertDialog.Builder(WordDetailActivity.this)
+                new AlertDialog.Builder(WordDetail.this)
                         .setIcon(R.drawable.exit)
                         .setTitle("Устгах")
                         .setMessage("Энэхүү үгийг устгах уу?")
@@ -99,7 +99,7 @@ public class WordDetailActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int which) {
 
 
-                                final ProgressDialog progressDialog = new ProgressDialog(getApplicationContext(),
+                                final ProgressDialog progressDialog = new ProgressDialog(WordDetail.this,
                                         R.style.AppTheme_Dark_Dialog);
                                 progressDialog.setIndeterminate(true);
                                 progressDialog.setMessage("Устгаж байна...");

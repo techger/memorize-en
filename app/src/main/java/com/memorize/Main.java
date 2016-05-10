@@ -3,44 +3,43 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.SearchManager;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.memorize.Database.DatabaseHelper;
+import com.memorize.Activity.Settings;
+import com.memorize.Activity.Web;
+import com.memorize.Activity.WordAdd;
+import com.memorize.Activity.WordDetail;
+import com.memorize.Activity.WordRemember;
 import com.memorize.Database.RememberWordsAdapter;
 import com.memorize.Database.WordsAdapter;
 import com.memorize.Model.RememberWord;
 import com.memorize.Model.Word;
+import com.memorize.Sensor.ShakeEventManager;
 
-public class MainActivity extends AppCompatActivity
+public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "Main";
 
     public static final String PREFER_NAME = "Memorize";
     private SharedPreferences sharedPreferences;
@@ -111,7 +110,7 @@ public class MainActivity extends AppCompatActivity
                 Log.d(TAG, "Дарагдсан лист дээрх үг : " + english);
                 editor.putString("SearchedWord", english);
                 editor.commit();
-                Intent intent = new Intent(MainActivity.this, WordDetailActivity.class);
+                Intent intent = new Intent(Main.this, WordDetail.class);
                 startActivity(intent);
             }
         });
@@ -169,31 +168,19 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.search) {
 
         } else if (id == R.id.add) {
-            Intent intent = new Intent(MainActivity.this, WordAddActivity.class);
+            Intent intent = new Intent(Main.this, WordAdd.class);
             startActivity(intent);
 
         } else if (id == R.id.rememberWord){
+            Intent intent = new Intent(Main.this, WordRemember.class);
+            startActivity(intent);
 
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
-            Fragment rememberWordFragment = new RememberWordFragment();
-            FragmentManager fm = getFragmentManager();
-            fm.popBackStack("test", 0);
-            FragmentTransaction fragmentTransaction= fm.beginTransaction();
-            fragmentTransaction.replace(R.id.container, rememberWordFragment);
-            fragmentTransaction.addToBackStack("Text");
-            fragmentTransaction.commit();
         } else if (id == R.id.settings) {
-            getFragmentManager().popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
-            Fragment settingsFragment = new SettingsFragment();
-            FragmentManager fm = getFragmentManager();
-            fm.popBackStack("bla", 0);
-            FragmentTransaction fragmentTransaction = fm.beginTransaction();
-            fragmentTransaction.replace(R.id.container, settingsFragment);
-            fragmentTransaction.addToBackStack("Text");
-            fragmentTransaction.commit();
+            Intent intent = new Intent(Main.this, Settings.class);
+            startActivity(intent);
 
         } else if (id == R.id.github) {
-            Intent intent = new Intent(MainActivity.this, WebActivity.class);
+            Intent intent = new Intent(Main.this, Web.class);
             startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -235,7 +222,7 @@ public class MainActivity extends AppCompatActivity
                     " "+rememberWord.getRememberMongolia()+"";
             remember.add(listWord);
         }
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(Main.this);
         builder.setTitle("Цээжлэх үгийн жагсаалт");
         builder.setIcon(R.drawable.task);
         builder.setMessage(remember.toString());

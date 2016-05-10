@@ -1,11 +1,13 @@
-package com.memorize;
+package com.memorize.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class ContactActivity extends AppCompatActivity {
+import com.memorize.R;
+
+public class Contact extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
