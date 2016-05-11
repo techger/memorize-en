@@ -20,7 +20,7 @@ public class ShakeEventManager implements SensorEventListener {
     private static final int MOV_COUNTS = 5;
     private static final int MOV_THRESHOLD = 8;
     private static final float ALPHA = 0.8F;
-    private static final int SHAKE_WINDOW_TIME_INTERVAL = 999; // milliseconds
+    private static final int SHAKE_WINDOW_TIME_INTERVAL = 500; // milliseconds
 
     // Gravity force on x,y,z axis
     private float gravity[] = new float[3];
@@ -49,12 +49,10 @@ public class ShakeEventManager implements SensorEventListener {
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         float maxAcc = calcMaxAcceleration(sensorEvent);
-        //Log.d(TAG, "Max ["+maxAcc+"]");
         if (maxAcc >= MOV_THRESHOLD) {
             if (counter == 0) {
                 counter++;
                 firstMovTime = System.currentTimeMillis();
-                Log.d(TAG, "Эхний..");
             } else {
                 long now = System.currentTimeMillis();
                 if ((now - firstMovTime) < SHAKE_WINDOW_TIME_INTERVAL)
@@ -64,8 +62,6 @@ public class ShakeEventManager implements SensorEventListener {
                     counter++;
                     return;
                 }
-                Log.d(TAG, "Стандарт ["+counter+"]");
-
                 if (counter >= MOV_COUNTS)
                     if (listener != null)
                         listener.onShake();
@@ -99,7 +95,6 @@ public class ShakeEventManager implements SensorEventListener {
         return  ALPHA * gravity[index] + (1 - ALPHA) * currentVal;
     }
     private void resetAllData() {
-        Log.d(TAG, "Reset all data");
         counter = 0;
         firstMovTime = System.currentTimeMillis();
     }
