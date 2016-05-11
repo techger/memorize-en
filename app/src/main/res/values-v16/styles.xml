@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="lollipop">
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
         <item name="android:windowAllowReturnTransitionOverlap">true</item>
         <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
@@ -40,7 +41,5 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:background">@android:color/transparent</item>
     </style>
-
-
 
 </resources>
