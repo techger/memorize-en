@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.memorize" >
+
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="22" />
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -27,6 +29,7 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
     <uses-permission android:name="android.permission.PHONE_STATE_STATE" />
+
     <uses-permission-sdk-m android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
@@ -35,7 +38,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-
         <service android:name=".service.LockService" />
         <service android:name=".service.UpdateWidgetService" />
         <service
@@ -45,6 +47,7 @@
         </service>
         <service android:name=".service.LockScreenViewService" >
         </service>
+
         <receiver
             android:name=".receiver.Admin"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
@@ -75,8 +78,8 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_word_info" />
         </receiver>
-        <activity
-            android:name="com.memorize.lockscreen.LockScreenActivity" >
+
+        <activity android:name=".lockscreen.LockScreenActivity" >
         </activity>
         <activity
             android:name=".Main"
@@ -113,11 +116,11 @@
         </activity>
         <activity
             android:name=".activity.Login"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".activity.SignUp"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".activity.WordDetail"
@@ -134,6 +137,10 @@
         <activity
             android:name=".activity.Settings"
             android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".TestMain"
+            android:label="@string/title_activity_test_main" >
         </activity>
     </application>
 
