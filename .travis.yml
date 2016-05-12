@@ -1,10 +1,14 @@
+sudo: false
 language: android
 android:
   components:
     - platform-tools
+    - tools
     - build-tools-23.0.0
     - android-23
-before_install:
- - chmod +x gradlew
+    - android-22
+    - android-19
+    - extra-android-m2repository
 script:
-   - ./gradlew build connectedCheck
+  - ./gradlew clean
+  - ./gradlew build
