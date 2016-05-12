@@ -21,7 +21,7 @@
                     android:id="@+id/editFButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/save" />
+                    android:src="@drawable/edit" />
 
                 <android.support.design.widget.FloatingActionButton
                     android:id="@+id/deleteFButton"

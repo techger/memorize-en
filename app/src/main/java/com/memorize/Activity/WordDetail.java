@@ -91,7 +91,7 @@ public class WordDetail extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new AlertDialog.Builder(WordDetail.this)
-                        .setIcon(R.drawable.exit)
+                        .setIcon(R.drawable.fail)
                         .setTitle("Устгах")
                         .setMessage("Энэхүү үгийг устгах уу?")
                         .setPositiveButton("Тийм", new DialogInterface.OnClickListener() {

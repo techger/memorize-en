@@ -7,7 +7,7 @@ import com.memorize.service.LockScreenService;
 import com.memorize.service.LockScreenViewService;
 
 /**
- * Created by Programmer on 5/10/2016.
+ * Created by Tortuvshin on 5/10/2016.
  */
 public class LockScreen {
     private Context mContext = null;

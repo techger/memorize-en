@@ -6,11 +6,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
+import com.memorize.Main;
 import com.memorize.R;
 
 public class SplashScreen extends AppCompatActivity {
-    ImageView imageView;
-    AnimationDrawable animationDrawable;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,11 +19,11 @@ public class SplashScreen extends AppCompatActivity {
             Thread timerThread = new Thread(){
                 public void run(){
                     try{
-                        sleep(1500);
+                        sleep(2000);
                     }catch(InterruptedException e){
                         e.printStackTrace();
                     }finally{
-                        Intent intent = new Intent(SplashScreen.this,Login.class);
+                        Intent intent = new Intent(SplashScreen.this,Main.class);
                         startActivity(intent);
                         finish();
                     }
