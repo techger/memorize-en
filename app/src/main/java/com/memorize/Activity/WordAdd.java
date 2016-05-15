@@ -10,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
@@ -137,33 +136,4 @@ public class WordAdd extends AppCompatActivity {
 
         return valid;
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_word_add, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-
-        int id = item.getItemId();
-
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                Toast.makeText(WordAdd.this, "Help Clicked", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_refresh:
-                Toast.makeText(WordAdd.this, "Refresh Clicked", Toast.LENGTH_SHORT).show();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
-
 }
