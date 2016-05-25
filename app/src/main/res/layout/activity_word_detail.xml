@@ -24,12 +24,6 @@
                     android:src="@drawable/edit" />
 
                 <android.support.design.widget.FloatingActionButton
-                    android:id="@+id/deleteFButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/delete" />
-
-                <android.support.design.widget.FloatingActionButton
                     android:id="@+id/listWordButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
