@@ -33,7 +33,6 @@ public class WordDetail extends AppCompatActivity {
     public TextView wordtype;
     public TextView mongolia;
     FloatingActionButton editFButton;
-    FloatingActionButton deleteFButton;
     FloatingActionButton wordListFButton;
     WordsAdapter wordsAdapter;
     RememberWordsAdapter rememberWordsAdapter;
@@ -67,7 +66,6 @@ public class WordDetail extends AppCompatActivity {
         mongolia.setText(mon);
 
         editFButton = (FloatingActionButton)findViewById(R.id.editFButton);
-        deleteFButton = (FloatingActionButton)findViewById(R.id.deleteFButton);
         wordListFButton = (FloatingActionButton)findViewById(R.id.listWordButton);
 
         editFButton.setOnClickListener(new View.OnClickListener() {
@@ -87,39 +85,7 @@ public class WordDetail extends AppCompatActivity {
             }
         });
 
-        deleteFButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                new AlertDialog.Builder(WordDetail.this)
-                        .setIcon(R.drawable.fail)
-                        .setTitle("Устгах")
-                        .setMessage("Энэхүү үгийг устгах уу?")
-                        .setPositiveButton("Тийм", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-
-
-                                final ProgressDialog progressDialog = new ProgressDialog(WordDetail.this,
-                                        R.style.AppTheme_Dark_Dialog);
-                                progressDialog.setIndeterminate(true);
-                                progressDialog.setMessage("Устгаж байна...");
-                                progressDialog.show();
-                                // TODO: Implement your own authentication logic here.
-                                new android.os.Handler().postDelayed(
-                                        new Runnable() {
-                                            public void run() {
-                                                wordsAdapter.deleteWord(new Word(eng, type, mon));
-                                                Log.d(TAG, "Амжилттай устгалаа..." + eng);
-                                                progressDialog.dismiss();
-                                                finish();
-                                            }
-                                        }, 1000);
-                            }
-                        })
-                        .setNegativeButton("Үгүй", null)
-                        .show();
-            }
-        });
+        
         wordListFButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
