@@ -24,7 +24,7 @@ Before we're able to merge your code into the Memorize app for Android, you need
 
 ### 1. Fork and download android/master repository:
 
-* Please follow [SETUP.md](https://github.com/tortuvshin/memorize/blob/master/SETUP.md) to setup Memorize Android app work environment.
+* Please follow [SETUP.md](https://github.com/tortuvshin/memorize/blob/master/doc/SETUP.md) to setup Memorize Android app work environment.
 
 
 ### 2. Create pull request:

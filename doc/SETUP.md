@@ -30,7 +30,7 @@ You will need [git][1] to access to the different versions of the Memorize's sou
 
 Next steps will assume you have a Github account and that you will get the code from your own fork. 
 
-* In a web browser, go to https://github.com/owncloud/android, and click the 'Fork' button near the top right corner.
+* In a web browser, go to https://github.com/tortuvshin/memorize, and click the 'Fork' button near the top right corner.
 * Open a terminal and go on with the next steps in it.
 * Clone your forked repository: ```git clone --recursive git@github.com:YOURGITHUBNAME/android.git```.
 * Move to the project folder with ```cd android```.
