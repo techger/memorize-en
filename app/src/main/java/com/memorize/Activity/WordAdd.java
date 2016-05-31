@@ -1,27 +1,30 @@
 package com.memorize.activity;
 
 import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.memorize.Main;
+import com.memorize.R;
 import com.memorize.component.MyAlertDialog;
 import com.memorize.database.WordsAdapter;
 import com.memorize.model.Word;
-import com.memorize.R;
+import com.memorize.service.ServerRequest;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class WordAdd extends AppCompatActivity {
 
@@ -34,6 +37,8 @@ public class WordAdd extends AppCompatActivity {
     MyAlertDialog alert;
     Animation shake;
     Animation myshake;
+
+    List<NameValuePair> params;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +71,31 @@ public class WordAdd extends AppCompatActivity {
             Toast.makeText(getBaseContext(), "Үг нэмхэд алдаа гарлаа", Toast.LENGTH_LONG).show();
             return;
         }
+
+        String english = englishWordInput.getText().toString();
+        String type = wordTypeInput.getText().toString();
+        String mongolia = mongolianWordInput.getText().toString();
+
+        params = new ArrayList<NameValuePair>();
+        params.add(new BasicNameValuePair("eng", english));
+        params.add(new BasicNameValuePair("type", type));
+        params.add(new BasicNameValuePair("mon", mongolia));
+
+        ServerRequest sr = new ServerRequest();
+        JSONObject json = sr.getJSON("https://memorize-server-tortuvshin.c9users.io/addword",params);
+
+        if(json != null){
+            try{
+                String jsonstr = json.getString("response");
+
+                Toast.makeText(getApplication(),jsonstr,Toast.LENGTH_LONG).show();
+
+                Log.d("Hello", jsonstr);
+            }catch (JSONException e) {
+                e.printStackTrace();
+                Log.e("Алдаа"," алдаа"+e);
+            }
+        }
         final ProgressDialog progressDialog = new ProgressDialog(WordAdd.this,
                 R.style.AppTheme_Dark_Dialog);
         progressDialog.setIndeterminate(true);
@@ -88,6 +118,8 @@ public class WordAdd extends AppCompatActivity {
                         String type = wordTypeInput.getText().toString();
                         String mongolia = mongolianWordInput.getText().toString();
                         wordsAdapter.addWord(new Word(english, type, mongolia));
+
+
                         Toast.makeText(getApplicationContext(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
                         progressDialog.dismiss();
