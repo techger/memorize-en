@@ -22,7 +22,6 @@ import com.memorize.service.LockScreenViewService;
 public class LockScreenActivity extends AppCompatActivity{
     private final String TAG = "LockscreenActivity";
     private static Context sLockscreenActivityContext = null;
-    ;
     private RelativeLayout mLockscreenMainLayout = null;
 
     public static SendMassgeHandler mMainHandler = null;
@@ -40,7 +39,6 @@ public class LockScreenActivity extends AppCompatActivity{
             }
         }
 
-        ;
     };
 
 
@@ -99,11 +97,7 @@ public class LockScreenActivity extends AppCompatActivity{
 
     private void setLockGuard() {
         boolean isLockEnable = false;
-        if (!LockScreenUtil.getInstance(sLockscreenActivityContext).isStandardKeyguardState()) {
-            isLockEnable = false;
-        } else {
-            isLockEnable = true;
-        }
+        isLockEnable = LockScreenUtil.getInstance(sLockscreenActivityContext).isStandardKeyguardState();
 
         Intent startLockscreenIntent = new Intent(this, LockScreenViewService.class);
         startService(startLockscreenIntent);

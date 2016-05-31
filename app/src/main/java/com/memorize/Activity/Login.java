@@ -191,7 +191,7 @@ public class Login extends ActionBarActivity {
             if(checkeduser != null){
                 startManagingCursor(checkeduser);
                 if (checkeduser.getCount() > 0){
-                    saveLoggedInUser(checkeduser.getLong(checkeduser.getColumnIndex(userAdapter.USER_ID)), username, password);
+                    saveLoggedInUser(checkeduser.getLong(checkeduser.getColumnIndex(UserAdapter.USER_ID)), username, password);
                     stopManagingCursor(checkeduser);
                     checkeduser.close();
                     final ProgressDialog progressDialog = new ProgressDialog(Login.this,

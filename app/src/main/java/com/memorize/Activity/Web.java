@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -30,8 +31,8 @@ public class Web extends AppCompatActivity {
         WebSettings settings = myBlogWeb.getSettings();
         CookieSyncManager.createInstance(this);
         settings.setJavaScriptEnabled(true);
-        myBlogWeb.setScrollBarStyle(myBlogWeb.SCROLLBARS_OUTSIDE_OVERLAY);
-        myBlogWeb.setScrollBarStyle(myBlogWeb.SCROLLBARS_OUTSIDE_OVERLAY);
+        myBlogWeb.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_OVERLAY);
+        myBlogWeb.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_OVERLAY);
         myBlogWeb.getSettings().setJavaScriptEnabled(true);
         cd = new ConnectionDetector(this);
         isInternetPresent = cd.isConnectingToInternet();

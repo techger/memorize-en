@@ -33,7 +33,7 @@ public class LockScreenUtil {
     }
     public boolean isStandardKeyguardState() {
         boolean isStandardKeyguqrd = false;
-        KeyguardManager keyManager =(KeyguardManager) mContext.getSystemService(mContext.KEYGUARD_SERVICE);
+        KeyguardManager keyManager =(KeyguardManager) mContext.getSystemService(Context.KEYGUARD_SERVICE);
         if (null != keyManager) {
             isStandardKeyguqrd = keyManager.isKeyguardSecure();
         }

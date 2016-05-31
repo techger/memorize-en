@@ -147,11 +147,7 @@ public class LockScreenViewService extends Service {
 
     private boolean isLockScreenAble() {
         boolean isLock = SharedPreferencesUtil.get(LockScreen.ISLOCK);
-        if (isLock) {
-            isLock = true;
-        } else {
-            isLock = false;
-        }
+        isLock = isLock;
         return isLock;
     }
 
@@ -201,7 +197,7 @@ public class LockScreenViewService extends Service {
         DisplayMetrics displayMetrics = mContext.getResources().getDisplayMetrics();
         mDeviceWidth = displayMetrics.widthPixels;
         mDevideDeviceWidth = (mDeviceWidth / 2);
-        mBackgroundLockImageView.setX((int) (((mDevideDeviceWidth) * -1)));
+        mBackgroundLockImageView.setX(((mDevideDeviceWidth) * -1));
 
         //kitkat
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {

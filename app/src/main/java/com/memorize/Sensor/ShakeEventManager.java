@@ -98,7 +98,7 @@ public class ShakeEventManager implements SensorEventListener {
         counter = 0;
         firstMovTime = System.currentTimeMillis();
     }
-    public static interface ShakeListener {
-        public void onShake();
+    public interface ShakeListener {
+        void onShake();
     }
 }

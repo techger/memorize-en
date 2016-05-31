@@ -15,7 +15,7 @@ public class SharedPreferencesUtil {
 
         private String mDefault;
 
-        private Cmd(String def) {
+        Cmd(String def) {
             this.mDefault = def;
         }
 

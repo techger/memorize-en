@@ -91,12 +91,12 @@ public class LockScreenService extends Service{
         if (null != mKeyManager) {
             mKeyManager = null;
         }
-        mKeyManager =(KeyguardManager)getSystemService(mContext.KEYGUARD_SERVICE);
+        mKeyManager =(KeyguardManager)getSystemService(KEYGUARD_SERVICE);
         if (null != mKeyManager) {
             if (null != mKeyLock) {
                 mKeyLock = null;
             }
-            mKeyLock = mKeyManager.newKeyguardLock(mContext.KEYGUARD_SERVICE);
+            mKeyLock = mKeyManager.newKeyguardLock(KEYGUARD_SERVICE);
         }
     }
 
