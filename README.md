@@ -16,10 +16,11 @@ The android application will help you abroad word memorize
 ## Development
 
 ### Project Setup
-Make sure you read [SETUP.md][1] when you start working on this project.
-
-[1]: https://github.com/tortuvshin/memorize/blob/master/SETUP.md
+Make sure you read [SETUP.md][SETUP] when you start working on this project.
 
 ### Contributing
-Please see [Contribution Guidelines](https://github.com/tortuvshin/memorize/blob/master/doc/CONTRIBUTING.md). Fork this repository and contribute back using
+Please see [Contribution Guidelines][CONTRIBUTION]. Fork this repository and contribute back using
 [pull requests](https://github.com/tortuvshin/memorize/pulls). All pull requests should be based on, and targeted to, the ['master'](https://github.com/tortuvshin/memorize/master) branch.
+
+[SETUP]: https://github.com/tortuvshin/memorize/blob/master/doc/SETUP.md
+[CONTRIBUTION]: https://github.com/tortuvshin/memorize/blob/master/doc/CONTRIBUTING.md
