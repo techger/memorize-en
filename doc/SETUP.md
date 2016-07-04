@@ -69,7 +69,7 @@ The first time the Gradle wrapper is called, the correct Gradle version will be 
 The generated APK file is saved in android/build/outputs/apk as android-debug.apk
 
 
-[0]: https://github.com/tortuvshin/memorize/blob/master/CONTRIBUTING.md
+[0]: https://github.com/tortuvshin/memorize/blob/master/doc/CONTRIBUTING.md
 [1]: https://git-scm.com/
 [2]: https://git-scm.com/downloads
 [3]: https://developer.android.com/sdk/index.html
