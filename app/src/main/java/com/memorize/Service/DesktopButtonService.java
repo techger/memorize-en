@@ -1,5 +1,7 @@
 package com.memorize.service;
 
+import android.annotation.TargetApi;
+import android.app.Activity;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -7,6 +9,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.PixelFormat;
+import android.net.Uri;
+import android.os.Build;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.view.Gravity;
@@ -15,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.memorize.activity.Settings;
 import com.memorize.database.DatabaseHelper;
@@ -87,7 +92,13 @@ public class DesktopButtonService extends Service {
         params.x = 0;
         params.y = 100;
 
-        windowManager.addView(floatingButton, params);
+        if(Build.VERSION.SDK_INT >= 23) {
+            Toast.makeText(getBaseContext(), "API 23 аас их байна", Toast.LENGTH_LONG).show();
+        }
+        else
+        {
+            windowManager.addView(floatingButton, params);
+        }
 
         floatingButton.setOnTouchListener(new View.OnTouchListener() {
             private int initialX;
