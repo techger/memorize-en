@@ -91,7 +91,7 @@ public class WordAdd extends AppCompatActivity {
                 Toast.makeText(getApplication(),jsonstr,Toast.LENGTH_LONG).show();
 
                 Log.d("Hello", jsonstr);
-                
+
             }catch (JSONException e) {
                 e.printStackTrace();
                 Log.e("Алдаа"," алдаа"+e);
