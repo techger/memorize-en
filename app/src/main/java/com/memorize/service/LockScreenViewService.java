@@ -17,6 +17,7 @@ import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.memorize.R;
 import com.memorize.lockscreen.LockScreen;
@@ -134,6 +135,7 @@ public class LockScreenViewService extends Service {
         }
     }
 
+
     private void initView() {
         if (null == mInflater) {
             mInflater = (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -161,12 +163,18 @@ public class LockScreenViewService extends Service {
                     return false;
                 }
             });
-            mWindowManager.addView(mLockscreenView, mParams);
+
+            if(Build.VERSION.SDK_INT >= 23) {
+                Toast.makeText(getBaseContext(), "API 23 аас их байна", Toast.LENGTH_LONG).show();
+            }
+            else
+            {
+                mWindowManager.addView(mLockscreenView, mParams);
+            }
             settingLockView();
         }
 
     }
-
 
     private boolean dettachLockScreenView() {
         if (null != mWindowManager && null != mLockscreenView) {
