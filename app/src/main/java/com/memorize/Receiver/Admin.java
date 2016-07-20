@@ -18,12 +18,12 @@ public class Admin extends DeviceAdminReceiver {
 
     @Override
     public void onEnabled(Context context, Intent intent) {
-        showToast(context, "Floating Lock Button: enabled");
+        showToast(context, "Admin: enabled");
     }
 
     @Override
     public void onDisabled(Context context, Intent intent) {
-        showToast(context, "Floating Lock Button: disabled");
+        showToast(context, "Admin: disabled");
     }
 }
 
