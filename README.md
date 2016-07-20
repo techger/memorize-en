@@ -4,7 +4,7 @@
 [![Programmer](
 https://img.shields.io/badge/programmer-toroo-green.svg)](https://tortuvshin.github.io)
 
-The android application will help you abroad word memorize
+The android application will help you abroad word memorize.
 
 ### License
 [![GitHub license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://raw.githubusercontent.com/tortuvshin/memorize/master/LICENSE)
