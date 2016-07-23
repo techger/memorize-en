@@ -1,5 +1,7 @@
 package com.memorize;
+import android.app.Dialog;
 import android.app.SearchManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,12 +16,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -52,6 +58,9 @@ public class Main extends AppCompatActivity
     NavigationView navigationView;
     final ArrayList<String> wordListItems = new ArrayList<String>();
     ArrayAdapter<String> myArrayAdapter;
+
+
+    final Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,6 +128,18 @@ public class Main extends AppCompatActivity
 
     }
 
+    public void onCreateDialog() {
+
+        final Dialog dialog = new Dialog(context);
+        dialog.setContentView(R.layout.word_add);
+        dialog.setTitle("Title...");
+
+        TextView wordMon = (TextView) dialog.findViewById(R.id.mongolianInput);
+        TextView wordtype = (TextView) dialog.findViewById(R.id.typeInput);
+        TextView wordEng = (TextView) dialog.findViewById(R.id.englishInput);
+
+        dialog.show();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -169,8 +190,9 @@ public class Main extends AppCompatActivity
         if (id == R.id.search) {
 
         } else if (id == R.id.add) {
-            Intent intent = new Intent(Main.this, WordAdd.class);
-            startActivity(intent);
+//            Intent intent = new Intent(Main.this, WordAdd.class);
+//            startActivity(intent);
+            onCreateDialog();
 
         } else if (id == R.id.rememberWord){
             Intent intent = new Intent(Main.this, WordRemember.class);

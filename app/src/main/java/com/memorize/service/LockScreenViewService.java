@@ -166,6 +166,8 @@ public class LockScreenViewService extends Service {
 
             if(Build.VERSION.SDK_INT >= 23) {
                 Toast.makeText(getBaseContext(), "API 23 аас их байна", Toast.LENGTH_LONG).show();
+
+                mWindowManager.addView(mLockscreenView, mParams);
             }
             else
             {
