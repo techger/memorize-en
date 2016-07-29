@@ -87,7 +87,7 @@ public class Main extends AppCompatActivity
         List<Word> words = wordsAdapter.getAllWords();
 
         try {
-            Log.d(TAG, "Inserting words...");
+            Log.d(TAG, "Үг нэмж байна...");
             for (Word word : words){
                 String wordAdd = word.getEnglish();
                 //  Log.d(TAG,wordAdd);
