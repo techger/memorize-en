@@ -1,9 +1,12 @@
 package com.memorize;
+import android.app.Dialog;
 import android.app.SearchManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,12 +16,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +46,8 @@ public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
     private static final String TAG = "Main";
 
+    boolean doubleBackToExitPressedOnce = false;
+
     public static final String PREFER_NAME = "Memorize";
     private SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
@@ -48,6 +58,9 @@ public class Main extends AppCompatActivity
     NavigationView navigationView;
     final ArrayList<String> wordListItems = new ArrayList<String>();
     ArrayAdapter<String> myArrayAdapter;
+
+
+    final Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,6 +128,18 @@ public class Main extends AppCompatActivity
 
     }
 
+    public void onCreateDialog() {
+
+        final Dialog dialog = new Dialog(context);
+        dialog.setContentView(R.layout.word_add);
+        dialog.setTitle("Title...");
+
+        TextView wordMon = (TextView) dialog.findViewById(R.id.mongolianInput);
+        TextView wordtype = (TextView) dialog.findViewById(R.id.typeInput);
+        TextView wordEng = (TextView) dialog.findViewById(R.id.englishInput);
+
+        dialog.show();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -165,8 +190,9 @@ public class Main extends AppCompatActivity
         if (id == R.id.search) {
 
         } else if (id == R.id.add) {
-            Intent intent = new Intent(Main.this, WordAdd.class);
-            startActivity(intent);
+//            Intent intent = new Intent(Main.this, WordAdd.class);
+//            startActivity(intent);
+            onCreateDialog();
 
         } else if (id == R.id.rememberWord){
             Intent intent = new Intent(Main.this, WordRemember.class);
@@ -184,28 +210,24 @@ public class Main extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
     @Override
     public void onBackPressed() {
-        if(getFragmentManager().getBackStackEntryCount() > 0){
-            getFragmentManager().popBackStack();
-            Log.d(TAG,"Back pressed");
-        }
-        else{
-            new AlertDialog.Builder(this)
-                    .setIcon(R.drawable.exit)
-                    .setTitle("Толь бичиг")
-                    .setMessage("Та програмаас гарах уу?")
-                    .setPositiveButton("Тийм", new DialogInterface.OnClickListener()
-                    {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            finish();
-                        }
-                    })
-                    .setNegativeButton("Үгүй", null)
-                    .show();
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            return;
         }
 
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Гарах бол дахин дарна уу.", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
     @Override
     public void onShake() {
