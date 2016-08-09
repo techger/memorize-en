@@ -20,6 +20,7 @@ import com.memorize.database.RememberWordsAdapter;
 import com.memorize.model.RememberWord;
 import com.memorize.R;
 
+@Deprecated
 public class Locker extends AppCompatActivity{
 
     private static final String TAG = "===LockScreenAc===";
