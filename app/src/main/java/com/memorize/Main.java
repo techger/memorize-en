@@ -59,7 +59,6 @@ public class Main extends AppCompatActivity
     final ArrayList<String> wordListItems = new ArrayList<String>();
     ArrayAdapter<String> myArrayAdapter;
 
-
     final Context context = this;
 
     @Override
@@ -130,7 +129,7 @@ public class Main extends AppCompatActivity
 
     public void onCreateDialog() {
 
-        final Dialog dialog = new Dialog(context);
+        final Dialog dialog = new Dialog(this,R.style.AlertDialog);
         dialog.setContentView(R.layout.word_add);
         dialog.setTitle("Title...");
 

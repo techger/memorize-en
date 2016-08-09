@@ -9,6 +9,7 @@ import android.content.DialogInterface;
 
 import com.memorize.R;
 
+
 public class MyAlertDialog {
     public void showAlertDialog(Context context, String title, String message,
                                 Boolean status) {
