@@ -1,4 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/tortuvshin/memorize.svg)](https://github.com/tortuvshin/memorize/issues)
+[![GitHub issues](https://img.shields.io/github/issues-closed/badges/shields.svg)](https://github.com/tortuvshin/memorize/issues?q=is%3Aissue+is%3Aclosed)
+
 [![GitHub license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://raw.githubusercontent.com/tortuvshin/memorize/master/LICENSE)
 [![Join the chat at https://gitter.im/tortuvshin/memorize](https://badges.gitter.im/tortuvshin/memorize.svg)](https://gitter.im/tortuvshin/memorize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Programmer](
