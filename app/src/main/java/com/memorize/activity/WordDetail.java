@@ -47,6 +47,7 @@ public class WordDetail extends AppCompatActivity {
         init();
     }
 
+
     public void init(){
         english = (TextView)findViewById(R.id.englishText);
         wordtype = (TextView)findViewById(R.id.typeText);
@@ -85,7 +86,7 @@ public class WordDetail extends AppCompatActivity {
             }
         });
 
-        
+
         wordListFButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -21,4 +21,11 @@
     <string name="title_activity_word_detail"></string>
     <string name="title_activity_word_edit">Үг засах</string>
     <string name="title_activity_remember_word">Цээжлэх үг</string>
+
+
+    <string name="mongolian_word">Монгол үг</string>
+    <string name="negative_word">Negative</string>
+    <string name="english_word">Англи үг</string>
+    <string name="edit_word">Засах</string>
+    <string name="save_word">Хадгалах</string>
 </resources>
