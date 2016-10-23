@@ -25,7 +25,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Deprecated
 public class WordAdd extends AppCompatActivity {
 
     private static final String TAG = "===AddWordActivity===";

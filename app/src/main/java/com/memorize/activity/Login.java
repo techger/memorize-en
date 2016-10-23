@@ -26,6 +26,7 @@ import com.memorize.database.UserAdapter;
 import com.memorize.Main;
 import com.memorize.R;
 
+@Deprecated
 public class Login extends ActionBarActivity {
 
     private static final String TAG = "Login";

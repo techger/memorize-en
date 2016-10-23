@@ -24,7 +24,7 @@ import com.memorize.database.UserAdapter;
 import com.memorize.model.User;
 import com.memorize.R;
 
-
+@Deprecated
 public class SignUp extends AppCompatActivity {
 
     private static final String TAG = "SignUp";
