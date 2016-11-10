@@ -9181,7 +9181,7 @@
     <word id="9172" english="bracer" mongolia="бэхлэлт, холболт, хаалт"/>
     <word id="9173" english="bracero" mongolia="тусгай ажилчнаар ажиллах хууль ёсны түр зуурын гэр"/>
     <word id="9174" english="brace up" mongolia="сэргээх, зориг оруулах, хүч оруулах, тэнхээ тамир "/>
-    <word id="9175" english="brach" mongolia="эм нохой" жингэр" модноос модонд"/>
+    <word id="9175" english="brach" mongolia="эм нохой"/>
     <word id="9176" english="brachial" mongolia="мөрний"/>
     <word id="9177" english="brachiate" mongolia="мөчиртэй, салаа мөчиртэй, мөчирлөсөн"/>
     <word id="9178" english="brachiation" mongolia="мөчрөөс мөчирт савлан дамжин явах хөдөлгөөн"/>
@@ -10983,7 +10983,7 @@
     <word id="10971" english="brain-damaged" mongolia="тархины гэмтэлтэй"/>
     <word id="10972" english="brain-dead" mongolia="тархины үйл ажиллагаа зогссон, тархи үхжсэн"/>
     <word id="10973" english="brain death" mongolia="тархины бор гадаргын ажиллагаа зогсох, ажиллахаа б"/>
-    <word id="10974" english="brain drain" mongolia=" " тархины урсгал", эрдэмтэд, уран бүтээлчид гадаа"/>
+    <word id="10974" english="brain drain" mongolia="тархины урсгал эрдэмтэд, уран бүтээлчид гадаа"/>
     <word id="10975" english="brained" mongolia="тархины мэдрэмжтэй, оюун ухаантай"/>
     <word id="10976" english="brainfag" mongolia="мэдрэлийн ядаргаа, хэт ядрал"/>
     <word id="10977" english="brain fever" mongolia="тархины үрэвсэл, тархины үйл ажиллагаатай холбоото"/>
@@ -14717,7 +14717,7 @@
     <word id="14699" english="centigrade" mongolia="зуун хэмийн, зуун хэмийн хэмжээ"/>
     <word id="14700" english="centigram" mongolia="сантиграм"/>
     <word id="14701" english="centilitre" mongolia="сантилитр"/>
-    <word id="14702" english="centime" mongolia="сантим <word id="0"01франк)"/>
+    <word id="14702" english="centime" mongolia="сантим"/>
     <word id="14703" english="centimeter" mongolia="сантиметр"/>
     <word id="14704" english="centinormal" mongolia="сантинормал <word id=уусмал)"/>
     <word id="14705" english="centipedal" mongolia="зуун фут"/>
@@ -28593,7 +28593,7 @@
     <word id="28555" english="mustang" mongolia="мустанг <word id=зэрлэг адуу)"/>
     <word id="28556" english="mustard" mongolia="гич"/>
     <word id="28557" english="muster" mongolia="үзлэг, шалгалт, цугларалт, цуглах, цугларах, <word id=зори"/>
-    <word id="28558" english="mustn't" mongolia="must not"/>
+    <word id="28558" english="mustn" mongolia="must not"/>
     <word id="28559" english="musty" mongolia="хөгцөрсөн, хуучирсан"/>
     <word id="28560" english="mutable" mongolia="өөрчлөгддөг, xyвирамтгай"/>
     <word id="28561" english="mutation" mongolia="өөрчлөлт, мутаци"/>
@@ -30640,7 +30640,7 @@
     <word id="30600" english="poultice" mongolia="халуун жин"/>
     <word id="30601" english="poultry" mongolia=" гэрийн тэжээвэр шувуу, тахиа шувуу, тахиа шувууны"/>
     <word id="30602" english="pounce" mongolia="дайрах, довтлох, шүүрэх"/>
-    <word id="30603" english="pound" mongolia="фунт стерлинг <word id=Английн мөнгөний нэгж/> фунт <word id="0"454"/>
+    <word id="30603" english="pound" mongolia="фунт стерлинг <word id=Английн мөнгөний нэгж/> фунт <word id="/>
     <word id="30604" english="poundage" mongolia="фунтээр хэмжих"/>
     <word id="30605" english="pounder" mongolia="фунт жинтэй юм"/>
     <word id="30606" english="pounding" mongolia="хүчтэй цохих, балбах, бут цохигдох, ялагдах"/>
