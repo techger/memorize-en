@@ -30,8 +30,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             UserAdapter.USER_PASSWORD + " TEXT)";
 
     private static final String CREATE_TABLE_WORDS = "CREATE TABLE words (" +
-            WordsAdapter.WORD_ENG + " TEXT PRIMARY KEY," +
-            WordsAdapter.WORD_TYPE + " TEXT," +
+            WordsAdapter.WORD_ID + " TEXT PRIMARY KEY," +
+            WordsAdapter.WORD_ENG + " TEXT," +
             WordsAdapter.WORD_MON + " TEXT)";
 
     private static final String CREATE_TABLE_REMEMBER_WORDS = "CREATE TABLE remember_words ("+
@@ -60,11 +60,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             int eventType = _xml.getEventType();
             while (eventType != XmlPullParser.END_DOCUMENT) {
                 if ((eventType == XmlPullParser.START_TAG) &&(_xml.getName().equals("word"))){
-                    String word_eng = _xml.getAttributeValue(null, WordsAdapter.WORD_ENG);
-                    String word_type =  _xml.getAttributeValue(null, WordsAdapter.WORD_TYPE);
+                    String word_id = _xml.getAttributeValue(null, WordsAdapter.WORD_ID);
+                    String word_eng =  _xml.getAttributeValue(null, WordsAdapter.WORD_ENG);
                     String word_mon = _xml.getAttributeValue(null, WordsAdapter.WORD_MON);
+                    contentValues.put(WordsAdapter.WORD_ID, word_id);
                     contentValues.put(WordsAdapter.WORD_ENG, word_eng);
-                    contentValues.put(WordsAdapter.WORD_TYPE, word_type);
                     contentValues.put(WordsAdapter.WORD_MON, word_mon);
                     db.insert(WordsAdapter.TABLE_WORDS, null, contentValues);
                     Log.d(TAG,"XML-ээс амжилттай уншлаа...");
