@@ -27986,8 +27986,8 @@
 	<word id="27949" english="menstrual" mongolia="сарын тэмдэгтэй хамаарах"/>
 	<word id="27950" english="menstruation" mongolia="биеийн юм ирэх"/>
 	<word id="27951" english="menswear" mongolia="эрэгтэй хувцас"/>
-	<word id="27952" english="-ment" mongolia='/>
-	<word id="27953" english="-mental" mongolia='/>
+	<word id="27952" english="-ment" mongolia=""/>
+	<word id="27953" english="-mental" mongolia=""/>
 	<word id="27954" english="mental" mongolia="оюуны, оюун yxaaны, сэтгэцийн, сэтгэл мэдрэлийн, г"/>
 	<word id="27955" english="mentally" mongolia="оюун ухаандаа, санаандаа, толгойдоо, сэтгэх чадвар"/>
 	<word id="27956" english="mentality" mongolia="сэтгэлгээ, сэтгэц"/>
@@ -28181,7 +28181,7 @@
 	<word id="28144" english="minster" mongolia="хийд"/>
 	<word id="28145" english="mint" mongolia="гаа, зоосны үйлдвэр, их хэмжээний мөнгө, зоос цутг"/>
 	<word id="28146" english="minty" mongolia="гаатай"/>
-	<word id="28147" english="minus" mongolia="xacax, тэгээс доош, -гүй, <word id=-) xacax тэмдэг, дутагд"/>
+	<word id="28147" english="minus" mongolia="xacax, тэгээс доош,  xacax тэмдэг, дутагд"/>
 	<word id="28148" english="minuscule" mongolia="жижигхэн, өчүүхэн"/>
 	<word id="28149" english="minute" mongolia="минут, 60 секунд, агшин, протокол"/>
 	<word id="28150" english="minutely" mongolia="нарийн, нарийвчлан"/>
@@ -28420,7 +28420,7 @@
 	<word id="28383" english="moreover" mongolia="үүнээс гадна, дээр нь"/>
 	<word id="28384" english="morgue" mongolia="хүүр түр хадгалах газар"/>
 	<word id="28385" english="moribund" mongolia="мөхөж буй"/>
-	<word id="28386" english="Mormon" mongolia='Хожмын үеийн хутагт нар" сүмийн сүсэглэгч"/>
+	<word id="28386" english="Mormon" mongolia="Хожмын үеийн хутагт нар, сүмийн сүсэглэгч"/>
 	<word id="28387" english="morning" mongolia="өглөө"/>
 	<word id="28388" english="morning sickness" mongolia="жирэмсний хордлого"/>
 	<word id="28389" english="morning after pill" mongolia="жирэмслэхээс сэргийлэх эм"/>
@@ -28756,7 +28756,7 @@
 	<word id="28718" english="nervous system" mongolia="төв мэдрэлийн систем"/>
 	<word id="28719" english="nervously" mongolia="цухалдуу, бухимдуу"/>
 	<word id="28720" english="nervy" mongolia="бухимдсан, ууртай"/>
-	<word id="28721" english="-ness" mongolia='/>
+	<word id="28721" english="-ness" mongolia= ""/>
 	<word id="28722" english="nest" mongolia="үүр, үүрлэх"/>
 	<word id="28723" english="nestling" mongolia="ангаахай, шувуухай"/>
 	<word id="28724" english="net" mongolia="тор, тор хаяж барих, торлох, тор татах,  бөмбөг ор"/>
@@ -29414,7 +29414,7 @@
 	<word id="29375" english="ounce" mongolia="унци = 28,3 г, барс, өчүүхэн төдий"/>
 	<word id="29376" english="ours" mongolia="биднийх, манайх"/>
 	<word id="29377" english="ourself, ourselves" mongolia="бид өөрсдөө, бид өөрсдийгөө"/>
-	<word id="29378" english="-ous" mongolia='/>
+	<word id="29378" english="-ous" mongolia=""/>
 	<word id="29379" english="oust" mongolia="хөөж гаргах, хэн нэгний байрыг эзэгнэх"/>
 	<word id="29380" english="out" mongolia="-аас, -өөс, -оос, -ээс, тусдаа, салангид, гадагш, "/>
 	<word id="29381" english="outbid" mongolia="мөнгөөр зодох"/>
@@ -30422,7 +30422,7 @@
 	<word id="30382" english="pluralism" mongolia="плюрализм"/>
 	<word id="30383" english="pluralist" mongolia="плюрализмыг дэмжигч"/>
 	<word id="30384" english="plurality" mongolia="харьцангуй олонхи, олон тоо"/>
-	<word id="30385" english="plus" mongolia="нэмэх тэмдэг <word id=+/> давуу тал"/>
+	<word id="30385" english="plus" mongolia="нэмэх тэмдэг, давуу тал"/>
 	<word id="30386" english="plush" mongolia="ямаан хилэн, тансаг"/>
 	<word id="30387" english="plutocracy" mongolia="их баячуудын ноёрхол"/>
 	<word id="30388" english="plutocrat" mongolia="их баян хүн"/>
@@ -30640,7 +30640,7 @@
 	<word id="30600" english="poultice" mongolia="халуун жин"/>
 	<word id="30601" english="poultry" mongolia=" гэрийн тэжээвэр шувуу, тахиа шувуу, тахиа шувууны"/>
 	<word id="30602" english="pounce" mongolia="дайрах, довтлох, шүүрэх"/>
-	<word id="30603" english="pound" mongolia="фунт стерлинг /> фунт <word id="0"454"/>
+	<word id="30603" english="pound" mongolia="фунт стерлинг /> фунт  "/>
 	<word id="30604" english="poundage" mongolia="фунтээр хэмжих"/>
 	<word id="30605" english="pounder" mongolia="фунт жинтэй юм"/>
 	<word id="30606" english="pounding" mongolia="хүчтэй цохих, балбах, бут цохигдох, ялагдах"/>
@@ -36898,4 +36898,4 @@
 	<word id="36849" english="Wednesday" mongolia="лхагва гариг, гурав дахь өдөр"/>
 	<word id="36850" english="wedding" mongolia="хурим"/>
 	<word id="36851" english="wedge" mongolia="шаантаг"/>
-</words>H
+</words>
