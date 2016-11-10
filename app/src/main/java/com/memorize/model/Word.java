@@ -4,14 +4,22 @@ package com.memorize.model;
  * Created by Tortuvshin on 10/26/2015.
  */
 public class Word {
+    private String id;
     private String english;
-    private String type;
     private String mongolia;
 
-    public Word(String english, String type, String mongolia) {
+    public Word(String id, String english, String mongolia) {
+        this.id = id;
         this.english = english;
-        this.type = type;
         this.mongolia = mongolia;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getEnglish() {
@@ -20,14 +28,6 @@ public class Word {
 
     public void setEnglish(String english) {
         this.english = english;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public String getMongolia() {

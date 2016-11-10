@@ -19,14 +19,14 @@ public class WordsAdapter extends DatabaseHelper{
     private static final String TAG = "WordsAdapter : ";
 
     public static final String TABLE_WORDS = "words";
+    public static final String WORD_ID     = "wordId";
     public static final String WORD_ENG    = "english";
-    public static final String WORD_TYPE   = "type";
     public static final String WORD_MON    = "mongolia";
 
-    private static final String[] PROJECTIONS_WORDS = {WORD_ENG, WORD_TYPE, WORD_MON};
+    private static final String[] PROJECTIONS_WORDS = {WORD_ID, WORD_ENG, WORD_MON};
 
-    private static final int WORD_ENG_INDEX     = 0;
-    private static final int WORD_TYPE_INDEX    = 1;
+    private static final int WORD_ID_INDEX      = 0;
+    private static final int WORD_ENG_INDEX     = 1;
     private static final int WORD_MON_INDEX     = 2;
 
     public WordsAdapter(Context context) {
@@ -42,10 +42,10 @@ public class WordsAdapter extends DatabaseHelper{
             return;
         }
         ContentValues cv = new ContentValues();
+        cv.put(WORD_ID, word.getEnglish());
         cv.put(WORD_ENG, word.getEnglish());
-        cv.put(WORD_TYPE, word.getType());
         cv.put(WORD_MON, word.getMongolia());
-        // Inserting Row
+
         db.insert(TABLE_WORDS, null, cv);
         db.close();
     }
@@ -60,8 +60,8 @@ public class WordsAdapter extends DatabaseHelper{
         if (!cursor.moveToFirst()) {
             return null;
         }
-        Word word = new Word(cursor.getString(WORD_ENG_INDEX),
-                cursor.getString(WORD_TYPE_INDEX),
+        Word word = new Word(cursor.getString(WORD_ID_INDEX),
+                cursor.getString(WORD_ENG_INDEX),
                 cursor.getString(WORD_MON_INDEX));
         cursor.close();
         return word;
@@ -71,7 +71,7 @@ public class WordsAdapter extends DatabaseHelper{
 
         SQLiteDatabase db = getReadableDatabase();
 
-        Cursor cursor = db.query(TABLE_WORDS,new String[]{WORD_ENG,WORD_TYPE,WORD_MON},
+        Cursor cursor = db.query(TABLE_WORDS,new String[]{WORD_ID, WORD_ENG,WORD_MON},
                 WORD_ENG +    "='" +english +"'",null,null,null,null);
         if (cursor != null){
             cursor.moveToFirst();
@@ -86,10 +86,10 @@ public class WordsAdapter extends DatabaseHelper{
         Cursor cursor = db.rawQuery(selectQuery, null);
         if (cursor.moveToFirst()) {
             do {
+                String id = cursor.getString(WORD_ID_INDEX);
                 String eng = cursor.getString(WORD_ENG_INDEX);
-                String type = cursor.getString(WORD_TYPE_INDEX);
                 String mon = cursor.getString(WORD_MON_INDEX);
-                Word word1 = new Word(eng,type,mon);
+                Word word1 = new Word(id,eng,mon);
                 words.add(word1);
             } while (cursor.moveToNext());
         }
@@ -108,11 +108,10 @@ public class WordsAdapter extends DatabaseHelper{
             return -1;
         }
         ContentValues cv = new ContentValues();
+        cv.put(WORD_ID, word.getId());
         cv.put(WORD_ENG, word.getEnglish());
-        cv.put(WORD_TYPE, word.getType());
         cv.put(WORD_MON, word.getMongolia());
 
-        // Upating the row
         int rowCount = db.update(TABLE_WORDS, cv, WORD_ENG + "=?",
                 new String[]{String.valueOf(word.getEnglish())});
         db.close();

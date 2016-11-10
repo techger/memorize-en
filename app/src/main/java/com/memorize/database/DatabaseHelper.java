@@ -13,7 +13,7 @@ import java.io.IOException;
 import com.memorize.R;
 
 /**
- * Created by Tortuvshin on 10/25/2015.
+ * @author Tortuvshin Byambaa
  */
 public class DatabaseHelper extends SQLiteOpenHelper {
 
