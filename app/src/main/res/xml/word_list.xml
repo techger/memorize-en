@@ -164,7 +164,6 @@
 	<word id="162" english="absurdity" mongolia="утгагүй явдал. тэнэглэл. мүнхаглал, тэнэг явдал, у"/>
 	<word id="163" english="absurdly" mongolia="утгагүй, тэнэг, инээд хүрмээр, хөгийн"/>
 	<word id="164" english="absurdness" mongolia="тэнэг, утгагүй байдал, тэнэглэл"/>
-	<word id="165" english="АВТА Association of British Travel Agents" mongolia="Британийн жуулчлалын байгууллагын холбоо"/>
 	<word id="166" english="abubble" mongolia="буцалж байгаа"/>
 	<word id="167" english="abuilding" mongolia="баригдаж байгаа"/>
 	<word id="168" english="abulia" mongolia="абули, эмгэг арчаагүй байлал. доройтол, cyлрал. ши"/>
@@ -204,7 +203,6 @@
 	<word id="202" english="academic year" mongolia="хичээлийн жил"/>
 	<word id="203" english="academize" mongolia="академи болгох"/>
 	<word id="204" english="academy" mongolia="академи, хүрээлэн"/>
-	<word id="205" english="Academy Award" mongolia="кино бүтээлийн шилдэг шагнал, Оскарын шагнал"/>
 	<word id="206" english="acantha" mongolia="өргөс"/>
 	<word id="207" english="acanthocephalan" mongolia="сээр нуруу толгой бүхий өт, шавьж"/>
 	<word id="208" english="acanthus" mongolia="өргөст ургамал"/>
@@ -515,7 +513,7 @@
 	<word id="513" english="acidy" mongolia="хүчиллэг, гашуун, эхүүн, хурц"/>
 	<word id="514" english="acierage" mongolia="acieration"/>
 	<word id="515" english="acieration" mongolia="төмрийг ган болгон хувиргах"/>
-	<word id="516" english=" acierate" mongolia="төмрийг ган болгон хувиргах"/>
+	<word id="516" english="acierate" mongolia="төмрийг ган болгон хувиргах"/>
 	<word id="517" english="aciform" mongolia="зүү шиг хэлбэртэй"/>
 	<word id="518" english="acinaceous" mongolia="яс болон үр жимстэй байх"/>
 	<word id="519" english="acinose" mongolia="ширхэгтэй, мөхлөгтэй, багц маягийн"/>
@@ -525,7 +523,6 @@
 	<word id="523" english="acknowledgement" mongolia="хүлээх, хүлээн зөвшөөрөх, хариу, хариу барих, хари"/>
 	<word id="524" english="aclinic" mongolia="хэвтээ, ташуу бус"/>
 	<word id="525" english="aclinic line" mongolia="ташуу зураас"/>
-	<word id="526" english="ACLU American Civil Liberties Union" mongolia="Америкийн иргэний эрх чөлөөний Холбоо"/>
 	<word id="527" english="acme" mongolia="оргил, дээд цэг, туйл, "/>
 	<word id="528" english="acne" mongolia="батга, нүүр"/>
 	<word id="529" english="acneform" mongolia="батга маягийн, багга хэлбэртэй, овгор товгор"/>
@@ -705,7 +702,6 @@
 	<word id="703" english="adamantly" mongolia="тууштай, гуйвалтгүй"/>
 	<word id="704" english="adamantine" mongolia=" адамантнн. алмаазын гялттануур"/>
 	<word id="705" english="adamantine" mongolia="алмаазын шинжтэй, маш их хатуу, эвдэршгүй, бутаршг"/>
-	<word id="706" english="Adam's apple" mongolia=" төвөнх"/>
 	<word id="707" english="adangle" mongolia=" унжсан, савласан"/>
 	<word id="708" english="adapt" mongolia="тааруулах, тохируулах, шинэчлэн өөрчлөх, зохиол, ж"/>
 	<word id="709" english="adaptability" mongolia=" тааруулж болох, тохируулж болох байдал"/>
@@ -720,7 +716,6 @@
 	<word id="718" english="adaptiveness" mongolia="таарамж, тохирох байдал"/>
 	<word id="719" english="adaxial" mongolia="эрхтэн, ургамал, бие махбодын нэг хэсэгт нь байгаа"/>
 	<word id="720" english="adazzle" mongolia="гялалзах, гялтганах"/>
-	<word id="721" english="ADB Asian Development Bank" mongolia="Азийн хөгжлийн банк"/>
 	<word id="722" english="add" mongolia="нэмэх, нэмэлт оруулах, нэмж хэлэх, "/>
 	<word id="723" english="addabffity" mongolia="нэмэгдэх боломж"/>
 	<word id="724" english="addable" mongolia="нэмэгдэх боломжтой"/>
@@ -802,7 +797,6 @@
 	<word id="800" english="a deux" mongolia="хоёулхнаа"/>
 	<word id="801" english="ad extra" mongolia="гадна талд, гадна"/>
 	<word id="802" english="ad extremum" mongolia="эцэст нь"/>
-	<word id="803" english="ADF Asian Development Fund" mongolia="Азийн хөгжлийн сан"/>
 	<word id="804" english="adhere" mongolia="баримтлах, дагах, мөрдөх, сахих, наалдах, салахгүй"/>
 	<word id="805" english="adherence" mongolia="үнэнч байх, дагах, мөрдөх,чанд сахих, баримтлал, д"/>
 	<word id="806" english="adherent" mongolia="мөрдөгч, баримтлагч, дагагч, нааддамхай, унжралдса"/>
@@ -811,13 +805,13 @@
 	<word id="809" english="adhesive" mongolia="наалдамхай зүйл, цавуу"/>
 	<word id="810" english="adhesive" mongolia="наалдамхай, цавуурхуу зүйл. наалддаг тууз"/>
 	<word id="811" english="adhesive bandage" mongolia="наалддаг боолт"/>
-	<word id="812" english=" adhesively" mongolia=" нааддах маягаар, барьцалдах байдлаар"/>
+	<word id="812" english="adhesively" mongolia=" нааддах маягаар, барьцалдах байдлаар"/>
 	<word id="813" english="adhesive plaster" mongolia="наалддаг тууз "/>
 	<word id="814" english="adhesive tape" mongolia="наалддаг тууз"/>
-	<word id="815" english=" adhesiveness" mongolia="наалдах чадвар, барьцалдах чанар"/>
+	<word id="815" english="adhesiveness" mongolia="наалдах чадвар, барьцалдах чанар"/>
 	<word id="816" english="adhibit" mongolia="тавих, дарах, тамга дарах"/>
 	<word id="817" english="adhibition" mongolia="тамгалах"/>
-	<word id="818" english=" ad hoc" mongolia="тухайн тохиолдолд, тусгай, тусгайлсан уулзалт"/>
+	<word id="818" english="ad hoc" mongolia="тухайн тохиолдолд, тусгай, тусгайлсан уулзалт"/>
 	<word id="819" english="ad hockery" mongolia="тухайн тохиолдолд гаргасан шийдвэр, тогтоол"/>
 	<word id="820" english="adiabat" mongolia="адиабат"/>
 	<word id="821" english="adiabatic" mongolia="адиабат"/>
@@ -1002,11 +996,11 @@
 	<word id="1000" english="adscititious" mongolia="нэмэлт, нэмж оруулсан"/>
 	<word id="1001" english="adscript" mongolia="тодорхой эдлэн газарт хамаарах хамжлагад ард"/>
 	<word id="1002" english="adsorb" mongolia=" шингээх"/>
-	<word id="1003" english=".absorbability" mongolia="шингээх чадвар, шингзэх байлал"/>
-	<word id="1004" english=" adsorbable" mongolia="шингээх чадвартай, шингээдэг"/>
+	<word id="1003" english="absorbability" mongolia="шингээх чадвар, шингзэх байлал"/>
+	<word id="1004" english="adsorbable" mongolia="шингээх чадвартай, шингээдэг"/>
 	<word id="1005" english="adsorbate" mongolia="шингэгч"/>
 	<word id="1006" english="adsorbent" mongolia="шингээгч"/>
-	<word id="1007" english=" adsorbent" mongolia="шингэсэн"/>
+	<word id="1007" english="adsorbent" mongolia="шингэсэн"/>
 	<word id="1008" english="adsorption" mongolia="шингээлт"/>
 	<word id="1009" english="absorptive" mongolia="шингээдэг. шингээх чапвартай"/>
 	<word id="1010" english="adsorptivity" mongolia="шингээх чадвар"/>
@@ -1018,7 +1012,7 @@
 	<word id="1016" english="adulatory" mongolia=" зусардсан, бялдуучилсан"/>
 	<word id="1017" english="aduh" mongolia=" насанд хүрэгч, насанд хүрсэн хүн"/>
 	<word id="1018" english="adult education" mongolia="насанд хүрэгчдийн оройн сургууль, курс"/>
-	<word id="1019" english=" adulterant" mongolia="хольц, чанарыг мууттагч хольц, хуурамч болгогч"/>
+	<word id="1019" english="adulterant" mongolia="хольц, чанарыг мууттагч хольц, хуурамч болгогч"/>
 	<word id="1020" english="adulterant" mongolia="хуурамч болгосон"/>
 	<word id="1021" english="adulterate" mongolia="юм холих, дээрэзс нь юм нэмэх, чанарыг нь мууттах,"/>
 	<word id="1022" english="adulterate" mongolia="хольцтой, хуурамч "/>
@@ -1280,7 +1274,7 @@
 	<word id="1278" english="aerugo" mongolia=" зэсийн исэл, зэсийн ногоон өнгө, зэв"/>
 	<word id="1279" english="aery" mongolia="агаарын, сансрын"/>
 	<word id="1280" english="Aeschylean" mongolia="Эсхилийн, шууд. шулуун, илэн далангүй, жаахан бүдү"/>
-	<word id="1281" english=" aesculapian" mongolia=" эмч, оточ"/>
+	<word id="1281" english="aesculapian" mongolia=" эмч, оточ"/>
 	<word id="1282" english="aesculapian" mongolia=" эмнэлгийн. анагаахын, эмнэхтэй холбоотой"/>
 	<word id="1283" english="aeschulapius" mongolia="эмч, оточ"/>
 	<word id="1284" english="Aesop" mongolia=" Эзоп"/>
@@ -1331,10 +1325,10 @@
 	<word id="1329" english="affectioned" mongolia=" сэтгал татагдсан, дурласан, сэтгэл алдсан"/>
 	<word id="1330" english="affectionless" mongolia="хайргүй, сэтгэлгүй, энхрийлэх сэтгэлгүй"/>
 	<word id="1331" english="affective" mongolia="сэтгэлийн тайван бус байдалд оруулсан"/>
-	<word id="1332" english=" affectively" mongolia="сэтгэл түгшээн, сэтгэл хөдөлгөн"/>
+	<word id="1332" english="affectively" mongolia="сэтгэл түгшээн, сэтгэл хөдөлгөн"/>
 	<word id="1333" english="affectivity" mongolia="сэтгзлийн хөдөлгөөн"/>
 	<word id="1334" english="effectless" mongolia="мэдрэмжгүй, сэтгэлийн хөдөлгөөнгүй"/>
-	<word id="1335" english=" affectlessly" mongolia=" ямар ч мэдрэмжгүй байдлаар"/>
+	<word id="1335" english="affectlessly" mongolia=" ямар ч мэдрэмжгүй байдлаар"/>
 	<word id="1336" english="affectlessness" mongolia="хөлдүү хөшингө байдал, сэтгэлийн хөдөлгөөнгүй байд"/>
 	<word id="1337" english="affenpinscher" mongolia=" аффенпинчер, сармагчны төрлийн"/>
 	<word id="1338" english="afferent" mongolia="төвд тэмүүлэх"/>
@@ -1343,8 +1337,8 @@
 	<word id="1341" english="affianced" mongolia="сүй тавьсан, сүйт"/>
 	<word id="1342" english="affiant" mongolia="тангараг тавьж бичгээр мэдүүлэг өгсөн гэрч"/>
 	<word id="1343" english="affiche" mongolia="плакат, зарлал, зурагт хуудас"/>
-	<word id="1344" english=" affidavit" mongolia="бичгээр өгсөн гэрчийн мэдүүлэг"/>
-	<word id="1345" english=" affiliable" mongolia="мөрдөж болох, дагаж болох, нэгдэж байгаа"/>
+	<word id="1344" english="affidavit" mongolia="бичгээр өгсөн гэрчийн мэдүүлэг"/>
+	<word id="1345" english="affiliable" mongolia="мөрдөж болох, дагаж болох, нэгдэж байгаа"/>
 	<word id="1346" english="affiliate" mongolia="салбар "/>
 	<word id="1347" english="affiliate" mongolia="нэгтгэх, нийлүүлэх, нэгдэх, гишүүн болон салбар бо"/>
 	<word id="1348" english="affiliated" mongolia="харьяа, харилцан хамааралтай, холбоотой, салбар"/>
@@ -1419,7 +1413,7 @@
 	<word id="1417" english="afifi cotton" mongolia="афифи "/>
 	<word id="1418" english="afire" mongolia=" хүслийн гал ассан. үнэн сэтгэлээсээ хүссэн, мөрөө"/>
 	<word id="1419" english="AFL American Labour Federation" mongolia="америкийн хөдөлмөрийн холбоо"/>
-	<word id="1420" english=" A.F.L. American Footbal League" mongolia="америкийн хатбөмбөгийн лиг"/>
+	<word id="1420" english="A.F.L. American Footbal League" mongolia="америкийн хатбөмбөгийн лиг"/>
 	<word id="1421" english="aflame" mongolia="галд орсон, дүрэлзсэн"/>
 	<word id="1422" english="aflare" mongolia="ийш тийш савласан, санжганасан"/>
 	<word id="1423" english="afloat" mongolia=" усны гадаргуу дээр хөвж байгаа"/>
@@ -1443,7 +1437,7 @@
 	<word id="1441" english="afreet" mongolia="савдаг, буг"/>
 	<word id="1442" english="afresh" mongolia="цоо шинээр, дахин"/>
 	<word id="1443" english="Afric" mongolia="африкийн"/>
-	<word id="1444" english=" African" mongolia="африк хүн, африк гаралтай хүмүүс"/>
+	<word id="1444" english="African" mongolia="африк хүн, африк гаралтай хүмүүс"/>
 	<word id="1445" english="Africana" mongolia="африкийн соёлын зүйлс, африкийн урчуудын хийсэн"/>
 	<word id="1446" english="African drum" mongolia="тумба, африкийн бөмбөр"/>
 	<word id="1447" english="Africanism" mongolia="африк тивийн ард түмнүүдийн соёл, ёс заншил"/>
@@ -1467,7 +1461,7 @@
 	<word id="1465" english="aft" mongolia="онгоцны хитгийн хэсэгт, хитэг дээр"/>
 	<word id="1466" english="AFT American Federation of Teachers" mongolia="америкийн багш нарын холбоо"/>
 	<word id="1467" english="after" mongolia="хожим, ард, хойно, дараа, дараагаар,  дараалан ява"/>
-	<word id="1468" english=" afterbirth" mongolia="эцгийнхээ нас барсны дараа төрсөн хүүхэд"/>
+	<word id="1468" english="afterbirth" mongolia="эцгийнхээ нас барсны дараа төрсөн хүүхэд"/>
 	<word id="1469" english="afterbrain" mongolia="уртавтар тархи"/>
 	<word id="1470" english="afterburner" mongolia="онгоцны бензинийг гүйцээж шатаагч"/>
 	<word id="1471" english="aftercare" mongolia="эдгээх, сэргээх эмчилгээ"/>
@@ -1543,10 +1537,10 @@
 	<word id="1541" english="agamid" mongolia=" = аgаmа"/>
 	<word id="1542" english="agamic" mongolia=" хүйсгүй"/>
 	<word id="1543" english="agamically" mongolia="хүйсгүй байдлаар"/>
-	<word id="1544" english=" agamogenesis" mongolia="бэлгийн бус үржил"/>
+	<word id="1544" english="agamogenesis" mongolia="бэлгийн бус үржил"/>
 	<word id="1545" english="agamogenetic" mongolia="бэлгийн бус үржилтэй"/>
 	<word id="1546" english="agamous" mongolia="хүйсгүй"/>
-	<word id="1547" english=" agamy" mongolia="үл гэрлэлт, бэлгийн бус үржил"/>
+	<word id="1547" english="agamy" mongolia="үл гэрлэлт, бэлгийн бус үржил"/>
 	<word id="1548" english="agapanthus" mongolia="африкийн лиш цэцэг"/>
 	<word id="1549" english="аgаре" mongolia="амаа ангайн, дэлгэн"/>
 	<word id="1550" english="agaphite" mongolia="оюу чулууны төрөл"/>
@@ -1555,7 +1549,7 @@
 	<word id="1553" english="agaricaceous" mongolia="салбант"/>
 	<word id="1554" english="agaric mineral" mongolia="уулын сүү, хөвсгөр кальцит"/>
 	<word id="1555" english="agastric" mongolia="хоол боловсруулах эрхтэнгүй"/>
-	<word id="1556" english=" agate" mongolia="гартаам"/>
+	<word id="1556" english="agate" mongolia="гартаам"/>
 	<word id="1557" english="agatelike" mongolia="гартаам чулуутай адилхан"/>
 	<word id="1558" english="agateware" mongolia="паалантай сав суулга, ус цацах сав"/>
 	<word id="1559" english="agathodemon" mongolia="сайн санаат буг"/>
@@ -1565,10 +1559,10 @@
 	<word id="1563" english="agave" mongolia="алоэ. зуун наст"/>
 	<word id="1564" english="agaze" mongolia="бүлтийсэн нүдээр ширтсэн, гөлөрсөн"/>
 	<word id="1565" english="age class" mongolia="насны бүлэг"/>
-	<word id="1566" english=" aged" mongolia="настай, хөгшин, ахимаг"/>
+	<word id="1566" english="aged" mongolia="настай, хөгшин, ахимаг"/>
 	<word id="1567" english="age-date" mongolia="насыг тодорхойлох"/>
 	<word id="1568" english="agedly" mongolia="хөгширсөн байдлаар. нас ахисан маягаар"/>
-	<word id="1569" english=" agedness" mongolia="нас ахисан байдал. хөгшрөлт"/>
+	<word id="1569" english="agedness" mongolia="нас ахисан байдал. хөгшрөлт"/>
 	<word id="1570" english="age gap" mongolia="насны ялгаа, бие биеэ ойлгохгүй байх"/>
 	<word id="1571" english="age-group" mongolia="насны бүлэг, чацуу хүмүүсийн булаг"/>
 	<word id="1572" english="age-hardened" mongolia="удаан хадгалагдсанаас хатуурсан, бөх бат болсон"/>
@@ -1669,7 +1663,7 @@
 	<word id="1667" english="agrobiologist" mongolia="хөдөө аж ахуйн биологич"/>
 	<word id="1668" english="agrobiology" mongolia=" агробиологи"/>
 	<word id="1669" english="agrobiz" mongolia="хөдөө аж ахуйн үйпдвэрлэл"/>
-	<word id="1670" english=" agrobusiness" mongolia="агробизнес, хөдөө аж ахуйн бизнес, үйддвэрлэл"/>
+	<word id="1670" english="agrobusiness" mongolia="агробизнес, хөдөө аж ахуйн бизнес, үйддвэрлэл"/>
 	<word id="1671" english="agrobusinessman" mongolia="агробизнесмен, фермер - капиталист"/>
 	<word id="1672" english="agrochemical" mongolia="агрохимийн"/>
 	<word id="1673" english="agrochemicals" mongolia="хөдөө аж ахуйн химийн бодис"/>
@@ -1700,7 +1694,7 @@
 	<word id="1698" english="agro-politics" mongolia="хөдөө аж ахуйн бодлого"/>
 	<word id="1699" english="agrostologic" mongolia="амуу тариа судлалын"/>
 	<word id="1700" english="agrostological" mongolia="- agrostologic"/>
-	<word id="1701" english=" agrostologist" mongolia=" амуу тариа судлаач"/>
+	<word id="1701" english="agrostologist" mongolia=" амуу тариа судлаач"/>
 	<word id="1702" english="agrostology" mongolia="амуу тарианы судлал"/>
 	<word id="1703" english="agrotechnician" mongolia="хөдөө аж ахуйн техникийн мэргэжилтэн"/>
 	<word id="1704" english="agrotechnologist" mongolia=" хөдөө аж ахуйн технологич"/>
@@ -1717,7 +1711,7 @@
 	<word id="1715" english="ahead-of-schedule" mongolia="хугацаанаас өмнө"/>
 	<word id="1716" english="ahimsa" mongolia="үзэн ядалтын зарчим"/>
 	<word id="1717" english="ahistoric" mongolia="түүхийн биш, түүхийн эсрэг"/>
-	<word id="1718" english=" ahistorical" mongolia="= ahistoric"/>
+	<word id="1718" english="ahistorical" mongolia="= ahistoric"/>
 	<word id="1719" english="ahold" mongolia="барьж авах, барих, эзлэх"/>
 	<word id="1720" english="ahorse" mongolia="мориор, морин дээр"/>
 	<word id="1721" english="a huis clos" mongolia=" хаалганы цаана, нууцаар"/>
@@ -1726,7 +1720,7 @@
 	<word id="1724" english="aidance" mongolia="туслалцаа үзүүлэх, дэмжлэг үзүүлэх"/>
 	<word id="1725" english="aidant" mongolia="туслах, туслагч, нэмэлт туслах хэрэгсзл"/>
 	<word id="1726" english="aidant" mongolia="туслах, нэмэлт"/>
-	<word id="1727" english=" aide" mongolia="шадар туслагч, хиа, зөвлөх, референт, хариуцлагата"/>
+	<word id="1727" english="aide" mongolia="шадар туслагч, хиа, зөвлөх, референт, хариуцлагата"/>
 	<word id="1728" english="aide-de-camp" mongolia=" цэргийн шадар туслагч, бие хамгаалагч"/>
 	<word id="1729" english="aide-memoire" mongolia="санамж бичиг, тэмдэглэл"/>
 	<word id="1730" english="aider" mongolia=" туслах, туслагч"/>
@@ -1742,13 +1736,13 @@
 	<word id="1740" english="aircraft observer" mongolia="ажиглалт хийдэг нисэгч"/>
 	<word id="1741" english="aircraftsman" mongolia="нисэгч"/>
 	<word id="1742" english="aircrafi spotter" mongolia="aгаарын  ажиглагч"/>
-	<word id="1743" english=" aircraftswoman" mongolia="нисэх хүчний ажилтан эмэггэй"/>
+	<word id="1743" english="aircraftswoman" mongolia="нисэх хүчний ажилтан эмэггэй"/>
 	<word id="1744" english="aircrew" mongolia="нисэх онгоцны баг"/>
 	<word id="1745" english="aircrewman" mongolia="нисэх багийн гишүүн"/>
 	<word id="1746" english="air-cure" mongolia="агаарын эмчилгээ"/>
 	<word id="1747" english="air-cured" mongolia="гадаа агаарт хатаасан"/>
 	<word id="1748" english="air door" mongolia="агаарын хөшиг"/>
-	<word id="1749" english=" air drag" mongolia="аэродинамик эсэргүүцэл"/>
+	<word id="1749" english="air drag" mongolia="аэродинамик эсэргүүцэл"/>
 	<word id="1750" english="air-drain" mongolia="агаар татах нүх, агаар оруулах цоорхой"/>
 	<word id="1751" english="air-dried" mongolia="агаарт хатсан"/>
 	<word id="1752" english="air-drill" mongolia="пневматик өрөм, цоолтуур"/>
@@ -1777,7 +1771,7 @@
 	<word id="1775" english="air force" mongolia=" агаарын цэргийн хучин, нисэх хүчин"/>
 	<word id="1776" english="airframe" mongolia="онгоцны их бие, нисэх хэрэгспийн их бие"/>
 	<word id="1777" english="airfree" mongolia="агааргүй, хоосон"/>
-	<word id="1778" english=" airfreight" mongolia="ачааг агаараар тээвэрлэх, онгоцны ачаа, агаарын хө"/>
+	<word id="1778" english="airfreight" mongolia="ачааг агаараар тээвэрлэх, онгоцны ачаа, агаарын хө"/>
 	<word id="1779" english="airfreighter" mongolia="ачааны онгоц. ачаа тээврийн агаарьш хөлгийн компан"/>
 	<word id="1780" english="air-freshener" mongolia="агаар цэвэршүүлэгч"/>
 	<word id="1781" english="air-gap" mongolia="зурвас, гэгээ, туяа, агаарын зай завсар"/>
@@ -1857,10 +1851,10 @@
 	<word id="1855" english="air war" mongolia=" агаарын тулаан"/>
 	<word id="1856" english="airwards" mongolia=" дээшээ, агаарт"/>
 	<word id="1857" english="airwash" mongolia="агаарын урсгалаар цэвэрлэх"/>
-	<word id="1858" english=" airwasher" mongolia="агаар цэвэрлэгч, агаарын усан шүүлтүүр"/>
+	<word id="1858" english="airwasher" mongolia="агаар цэвэрлэгч, агаарын усан шүүлтүүр"/>
 	<word id="1859" english="airway" mongolia=" амьсгалын зам"/>
 	<word id="1860" english="airwoman" mongolia="нисэгч эмэгтэй"/>
-	<word id="1861" english=" airwood" mongolia="гадаа агаарт хатаасан мод"/>
+	<word id="1861" english="airwood" mongolia="гадаа агаарт хатаасан мод"/>
 	<word id="1862" english="air worthiness" mongolia="нислэгт гарч болох, хэрэглэж болох, нислэгийн ажил"/>
 	<word id="1863" english="airworthy" mongolia="нислэгт таарах, тохирох, нисэх чадвар сайтай, нисэ"/>
 	<word id="1864" english="airy" mongolia="хүрэлцэхүйц агаартай, дүүрэн агаартай"/>
@@ -1868,10 +1862,10 @@
 	<word id="1866" english="aisled" mongolia="хажуу жигүүртэй,хоорондын зайтай "/>
 	<word id="1867" english="aisle-sitter" mongolia=" эгнээний захад суугч"/>
 	<word id="1868" english="ait" mongolia="жижиг арал , нуурын/> овьёос"/>
-	<word id="1869" english=" aitch-bone" mongolia="ууцны яс"/>
+	<word id="1869" english="aitch-bone" mongolia="ууцны яс"/>
 	<word id="1870" english="aitchless" mongolia="бүдүүлэг, хэл ярианы соёлгүй"/>
 	<word id="1871" english="ajangle" mongolia="чанга татсан "/>
-	<word id="1872" english=" ajar" mongolia=" ялигүй онгорхой, дутуу хаагдсан, муудалцсан, хэрэ"/>
+	<word id="1872" english="ajar" mongolia=" ялигүй онгорхой, дутуу хаагдсан, муудалцсан, хэрэ"/>
 	<word id="1873" english="ajingle" mongolia="жингэнэсэн, харшилдан дуугарсан, харжигнасан"/>
 	<word id="1874" english="ajog" mongolia="үсэрч харайн. цовхрон, ирмэг дээр, нугасан дээр"/>
 	<word id="1875" english="akin" mongolia="адил, ижил, төсөөтэй"/>
@@ -2113,7 +2107,7 @@
 	<word id="2111" english="altitude" mongolia="өвдөр, далайн түвшнээс дээшхи өндөр"/>
 	<word id="2112" english="attitude chamber" mongolia="барокамер"/>
 	<word id="2113" english="altitude dial" mongolia="нарны цаг"/>
-	<word id="2114" english=" altitude sickness" mongolia="өндрийн өвчин, өндөр ууланд бие тавгүйрхэх"/>
+	<word id="2114" english="altitude sickness" mongolia="өндрийн өвчин, өндөр ууланд бие тавгүйрхэх"/>
 	<word id="2115" english="altitudinal" mongolia="өргөргийн"/>
 	<word id="2116" english="alto" mongolia="контральт англи цуур, эвэр бүрээ"/>
 	<word id="2117" english="altocumulus" mongolia="өндөрт хуралдсан үүлс"/>
@@ -2230,7 +2224,7 @@
 	<word id="2228" english="amputate" mongolia="тайрах. авах"/>
 	<word id="2229" english="amputation" mongolia="тайрах, тайрч авах, хасах, танах, багасгах, товчло"/>
 	<word id="2230" english="amputee" mongolia="хөл гараа тайруулсан хүн, тахир татуу хүн"/>
-	<word id="2231" english=" amrita" mongolia="мөнхийн рашаан"/>
+	<word id="2231" english="amrita" mongolia="мөнхийн рашаан"/>
 	<word id="2232" english="amtrack" mongolia="хөвөгч гинжит тээврийн хэрэгсэл"/>
 	<word id="2233" english="amulet" mongolia="сахиус"/>
 	<word id="2234" english="amuse" mongolia="гайхуулах, хөгжөөх, цагийг зугаатай өнгөрөөх"/>
@@ -2531,7 +2525,7 @@
 	<word id="2529" english="antiform" mongolia=" урлагт уламжлалт материал хэлбэрээс зайлсхийсэн"/>
 	<word id="2530" english="antifouling" mongolia="гадаргуу дээр гадны юмс давхарга үүсгэхэзс сэргийл"/>
 	<word id="2531" english="antifreeze" mongolia="үл хөддөөгч шингэн"/>
-	<word id="2532" english=" antifriction" mongolia="үрэлтийн эсрэг материал"/>
+	<word id="2532" english="antifriction" mongolia="үрэлтийн эсрэг материал"/>
 	<word id="2533" english="anti-gas" mongolia="химийн зэвсгийн эсрэг"/>
 	<word id="2534" english="antigen" mongolia="антиген"/>
 	<word id="2535" english="antigorite" mongolia="их хэмжээгээр бүрэлдсэн хад чулуунд давхарга хэлбэ"/>
@@ -2563,7 +2557,7 @@
 	<word id="2561" english="antimetabolite" mongolia=" урвалд байгаа бодисын нэгтэй нийлж биохимийн урва"/>
 	<word id="2562" english="antimicrobial" mongolia="нянгийн эсрэг бэлдмэл"/>
 	<word id="2563" english="antimissile" mongolia="пуужин эсэргүүцэгч, пуужингийн эсрэг, пуужин эсэрг"/>
-	<word id="2564" english=" antimode" mongolia="антимод"/>
+	<word id="2564" english="antimode" mongolia="антимод"/>
 	<word id="2565" english="antimonate" mongolia="антимонат, сурьмагийн хүчлийн давс"/>
 	<word id="2566" english="antimony" mongolia=" сурьма"/>
 	<word id="2567" english="antimony glance" mongolia="антимонит, сурьмагийн гялалзсан өнгө"/>
@@ -2574,7 +2568,7 @@
 	<word id="2572" english="antineoplastic" mongolia="хавдрын эсрэг, хорт хавдрын эсрэг"/>
 	<word id="2573" english="antineutron" mongolia="аитинейтрон"/>
 	<word id="2574" english="anting" mongolia="шоргоолж идэх "/>
-	<word id="2575" english=" antinode" mongolia="бөөгнөрөл "/>
+	<word id="2575" english="antinode" mongolia="бөөгнөрөл "/>
 	<word id="2576" english="antinoise" mongolia="шуугианы эсрэг, дуу чимээний эсрэг"/>
 	<word id="2577" english="antinomian" mongolia="нийтийн ёс суртахууныг эсэргүүцэгч"/>
 	<word id="2578" english="antinomic" mongolia="зөрчилдөөнтэй"/>
@@ -2606,7 +2600,7 @@
 	<word id="2604" english="Anti-Semitic" mongolia="семитийн эсрэг"/>
 	<word id="2605" english="anti-Semitism" mongolia="семитийн эсрэг үзэл"/>
 	<word id="2606" english="antisepalous" mongolia="дохиуртай"/>
-	<word id="2607" english=" antisepsis" mongolia=" халдваргүйжүүлэлт, үжлийн эсрэг бодис"/>
+	<word id="2607" english="antisepsis" mongolia=" халдваргүйжүүлэлт, үжлийн эсрэг бодис"/>
 	<word id="2608" english="antiseptic" mongolia="үжлийн эсрэг бэлдмэл, халдварын эсрэг бодис"/>
 	<word id="2609" english="antiseptic" mongolia=" үжлийн эсрэг, идээлж буглахын эсрэг"/>
 	<word id="2610" english="antisexist" mongolia="эмэгтэй хүнийг ялгаварлахын эсрэг тэмцэгч"/>
@@ -2659,7 +2653,7 @@
 	<word id="2657" english="antiwar" mongolia="дайны эсрэг"/>
 	<word id="2658" english="antiwear" mongolia="элэгдлийн эсрэг"/>
 	<word id="2659" english="antiwhite" mongolia="цагаан арьстны эсрэг, цагаан арьстныг эсэргүүцсэн"/>
-	<word id="2660" english=" antiworld" mongolia="ертөнцын эсрэг хүн"/>
+	<word id="2660" english="antiworld" mongolia="ертөнцын эсрэг хүн"/>
 	<word id="2661" english="antizymic" mongolia="исэлтийн эсрэг, исэлтийг зогсоох"/>
 	<word id="2662" english="antlered" mongolia="саглагар эвэртэй, эвэртэй "/>
 	<word id="2663" english="antlers" mongolia="бугын эвэр"/>
@@ -2921,7 +2915,7 @@
 	<word id="2919" english="arrear" mongolia="өр, төлбөрийн хугацааг хойшлуулах, төлөгдөөгүй мөн"/>
 	<word id="2920" english="arrearage" mongolia="хойшлуулсан, төлөгдөөгүй өр, номын сангийн өр "/>
 	<word id="2921" english="arrect" mongolia="соотойсон, дэлдийсэн "/>
-	<word id="2922" english=" arrest" mongolia="баривчилгаа, саатуулалт, битүүмжлэх, хоцролт, удаа"/>
+	<word id="2922" english="arrest" mongolia="баривчилгаа, саатуулалт, битүүмжлэх, хоцролт, удаа"/>
 	<word id="2923" english="arrestee" mongolia="баривчлагдсан хүн, саатуулагдсан этгэзд"/>
 	<word id="2924" english="arrester" mongolia="баривчлагч, эд хөрөнгийг битүүмжлэгч, аянга,  зайл"/>
 	<word id="2925" english="arresting" mongolia="анхаарал татсан, сэттэлийг ззэмдсэн, зогсоогч, тог"/>
@@ -3138,20 +3132,20 @@
 	<word id="3136" english="atrophied" mongolia=" хатангир болсон, тамир тэнхээгүй"/>
 	<word id="3137" english="atrophy" mongolia="эрхтэний хатангиршил, турж эцэх, оюуны хоосрол"/>
 	<word id="3138" english="atry" mongolia="далайн шуурганы дарвуултайгаа"/>
-	<word id="3139" english=" attaboy" mongolia="сайшаан дэмжиж бишрзн уулга алдах"/>
+	<word id="3139" english="attaboy" mongolia="сайшаан дэмжиж бишрзн уулга алдах"/>
 	<word id="3140" english="attach" mongolia="хавсаргах, нэмж оруулах, наах, нэгдэх, томилон ажи"/>
 	<word id="3141" english="attachable" mongolia="тогтоож болох, хадаж болохь. баривчилж, хурааж бол"/>
 	<word id="3142" english="attache" mongolia="атташе"/>
 	<word id="3143" english="attached" mongolia="хадсан, хавсаргасан. командалсан, нэг ерөнхий хана"/>
 	<word id="3144" english="attachedly" mongolia="үнэнчээ илэрхийлсэн "/>
-	<word id="3145" english=" attachement" mongolia="нийлүүлэх, хавсаргах, дассан байдал, командлах "/>
+	<word id="3145" english="attachement" mongolia="нийлүүлэх, хавсаргах, дассан байдал, командлах "/>
 	<word id="3146" english="attack" mongolia=" дайралт, довтлолт. ухаан алдалт, түгэх, тархах , "/>
 	<word id="3147" english="attackable" mongolia="дайралтадил, эмзэг. устгагдсан"/>
 	<word id="3148" english="attack aviation" mongolia="довтлогч онгоцууд"/>
 	<word id="3149" english="attack boat" mongolia="довтлогч хөлөг онгоц"/>
 	<word id="3150" english="attack bomber" mongolia="бөмбөгдөгч"/>
 	<word id="3151" english="attack dog" mongolia="хамгаалалт, эргүүлийн сургуультай нохой"/>
-	<word id="3152" english=" attackman" mongolia="довтлогч"/>
+	<word id="3152" english="attackman" mongolia="довтлогч"/>
 	<word id="3153" english="attack missile" mongolia="цохилт өгөх пуужин"/>
 	<word id="3154" english="attack plane" mongolia="довтлогч онгоц"/>
 	<word id="3155" english="attack submarine" mongolia="довтлогч шумбагч хөлөг"/>
@@ -3311,7 +3305,7 @@
 	<word id="3309" english="autophyte" mongolia="өөрийн хоол тэжээлийг энгийн нэгдлээс гарган авдаг"/>
 	<word id="3310" english="autoplasty" mongolia="өвчтөний өөрийнх нь арьсыг шилжүүлэн суулгах"/>
 	<word id="3311" english="autopollution" mongolia=" тээврийн хэрэгсэл орчин тойрныг бохирдуулах"/>
-	<word id="3312" english=" autopsist" mongolia="эмгэг анатомийн эмч, мэргэжилтэн"/>
+	<word id="3312" english="autopsist" mongolia="эмгэг анатомийн эмч, мэргэжилтэн"/>
 	<word id="3313" english="autopsy" mongolia="цогцсонд задлан хийх, хүүрийг нээх"/>
 	<word id="3314" english="auto-racing" mongolia="автомашины уралдаан"/>
 	<word id="3315" english="autoradiograph" mongolia=" радиограмм"/>
@@ -3504,7 +3498,7 @@
 	<word id="3502" english="bearing-rein" mongolia="морины тоноглолын хэрэгсэл"/>
 	<word id="3503" english="bearish" mongolia=" бүдүулэг, юм үзээгүй, ирээдүйдээ итгэх итгэлгүй"/>
 	<word id="3504" english="bear-led" mongolia="ардаасаа чирэх"/>
-	<word id="3505" english=" bear-leader" mongolia="баавгайн сургийн тэргүүн, баавгай хөтлөгч. салдагг"/>
+	<word id="3505" english="bear-leader" mongolia="баавгайн сургийн тэргүүн, баавгай хөтлөгч. салдагг"/>
 	<word id="3506" english="bear market" mongolia="үнэт цаасны ханш буурах хандлагатай зах зээл"/>
 	<word id="3507" english="bear oak" mongolia="бага оврын царс"/>
 	<word id="3508" english="bear off" mongolia="авч одох, зайлсхийх,холдуулах"/>
@@ -3606,7 +3600,7 @@
 	<word id="3604" english="aimless" mongolia="зорилгогүй, чиглэлгүй, агаар, агаар мандал, маяг, "/>
 	<word id="3605" english="air" mongolia="агааын, агаараар дүүрсэн, агаарын, пневматик, агаа"/>
 	<word id="3606" english="air attache" mongolia="цэрэг - агаарын атташе"/>
-	<word id="3607" english=" air arm" mongolia="агаарын цэргийн хүч"/>
+	<word id="3607" english="air arm" mongolia="агаарын цэргийн хүч"/>
 	<word id="3608" english="air alert" mongolia="агаарын түгшүүрийн дохио"/>
 	<word id="3609" english="air attck" mongolia="агаарын дайралт"/>
 	<word id="3610" english="air-bag" mongolia="үлэээдэг хэрэгсэл, хийлсэн завь"/>
@@ -3642,7 +3636,7 @@
 	<word id="3640" english="air-chamber" mongolia="агаарын камер"/>
 	<word id="3641" english="air-channel" mongolia="агаар оруулагч хоолой, салхивч"/>
 	<word id="3642" english="air-chute" mongolia="шүхэр"/>
-	<word id="3643" english=" air-cleaner" mongolia="агаар шүүгч, агаар цэвэрлэгч"/>
+	<word id="3643" english="air-cleaner" mongolia="агаар шүүгч, агаар цэвэрлэгч"/>
 	<word id="3644" english="air coach" mongolia="зорчигч тээврийн хоёрдугаар зэргийн онгоц "/>
 	<word id="3645" english="air-cock" mongolia="үлээх кран"/>
 	<word id="3646" english="ah compressor" mongolia="хийн компрессор, агаар шахагч"/>
@@ -3722,7 +3716,7 @@
 	<word id="3720" english="air-root" mongolia="ил үндэс"/>
 	<word id="3721" english="air-route" mongolia="агаарын шугам, зам"/>
 	<word id="3722" english="air sampling" mongolia="агаараас дээж авах"/>
-	<word id="3723" english=" airscape" mongolia="шувуу нисэх өндрөөс харах үзэгдэл, байдал"/>
+	<word id="3723" english="airscape" mongolia="шувуу нисэх өндрөөс харах үзэгдэл, байдал"/>
 	<word id="3724" english="airscoop" mongolia="агаар дүүргэгч, агаар хураагч"/>
 	<word id="3725" english="airscout" mongolia="тагнуулын нислэг үйлдэх онгоц, агаараас ажиглалт х"/>
 	<word id="3726" english="airscrew" mongolia="агаарын сэнс"/>
@@ -3779,7 +3773,7 @@
 	<word id="3777" english="alborada" mongolia="өглөөний дуу"/>
 	<word id="3778" english="albugo" mongolia="лейком, нүдний үүл, цагаа"/>
 	<word id="3779" english="album" mongolia="цомог, пянзны цомог"/>
-	<word id="3780" english=" albumen-free" mongolia="уураггүй"/>
+	<word id="3780" english="albumen-free" mongolia="уураггүй"/>
 	<word id="3781" english="albumenization" mongolia="уургаар баяжуулах"/>
 	<word id="3782" english="albumenize" mongolia="уураг нэмэх, уургаар баяжуулах"/>
 	<word id="3783" english="albuminate" mongolia="альбуминат"/>
@@ -4118,7 +4112,7 @@
 	<word id="4116" english="basket" mongolia="caгс, агаарын бөмбөрцгийн сагс"/>
 	<word id="4117" english="basket-willow" mongolia="сагсны уд мод"/>
 	<word id="4118" english="basket weave" mongolia="сагсны сүлжээс. торон сүлжээ"/>
-	<word id="4119" english=" basket-work" mongolia="сүлжмэл, сагсны эдлэл"/>
+	<word id="4119" english="basket-work" mongolia="сүлжмэл, сагсны эдлэл"/>
 	<word id="4120" english="basking-shark" mongolia="аварга том хадарган загас"/>
 	<word id="4121" english="basque" mongolia="эмэгтэй хүний палааж, бариу цамц, цээживч"/>
 	<word id="4122" english="bas-relief" mongolia="барелъеф, товойлгосон дүрс, хөөмөл"/>
@@ -5134,7 +5128,7 @@
 	<word id="5131" english="bongo" mongolia="жижиг бөмбөр"/>
 	<word id="5132" english="bonkers" mongolia="ухаан нь муудсан, мэдрэлээ алдсан"/>
 	<word id="5133" english="bon mot" mongolia="цэцэн үг, оновчтой зүйрлэл"/>
-	<word id="5134" english=" bonnet" mongolia="эмэгтэй хүний хүрээгүй малгай, хүүхдийн малгай "/>
+	<word id="5134" english="bonnet" mongolia="эмэгтэй хүний хүрээгүй малгай, хүүхдийн малгай "/>
 	<word id="5135" english="bonnet" mongolia="малгай өмсөх, малгай доош нь дарж нүдийг халхлах"/>
 	<word id="5136" english="bonnet-piece" mongolia="шотландын алтан зоос"/>
 	<word id="5137" english="bonny" mongolia="гоё сайхан, царайлаг, хөөрхөн"/>
@@ -5434,7 +5428,7 @@
 	<word id="5430" english="amatorial" mongolia="хайр дурлалын, эротик"/>
 	<word id="5431" english="amatory" mongolia="хайр дурлалын"/>
 	<word id="5432" english="amaurosis" mongolia="таг сохор байх, огт хараагүй байх"/>
-	<word id="5433" english=" amaze" mongolia="гайхал, гайхах, гайхаш төрүүлэх, гайхалд оруулах"/>
+	<word id="5433" english="amaze" mongolia="гайхал, гайхах, гайхаш төрүүлэх, гайхалд оруулах"/>
 	<word id="5434" english="amazed" mongolia="үхтлээ гайхсан, амаа ангайсан, мэл гайхаж цэл хөхө"/>
 	<word id="5435" english="amazement" mongolia="гайхал, гайхаш барагдах"/>
 	<word id="5436" english="amazing" mongolia=" гайхалтай, үнэхээр гайхмаар, мэл гайхмаар"/>
@@ -6272,7 +6266,7 @@
 	<word id="6267" english="architecturally" mongolia="уран барилгын аргаар, уран барилгын үүднээс"/>
 	<word id="6268" english="architecture" mongolia="уран барилга, уран барилгын хэв маяг, барилгын ура"/>
 	<word id="6269" english="archival" mongolia="архивын"/>
-	<word id="6270" english=" archive" mongolia="архив, хадгалах газар"/>
+	<word id="6270" english="archive" mongolia="архив, хадгалах газар"/>
 	<word id="6271" english="archivist" mongolia="архивч, архив судлаач"/>
 	<word id="6272" english="archivistics" mongolia="архив судлал"/>
 	<word id="6273" english="archivolt" mongolia="нуман хаалганы"/>
@@ -6627,7 +6621,7 @@
 	<word id="6621" english="attenuant" mongolia="цус шингэрүүлдэг"/>
 	<word id="6622" english="attenuate" mongolia="ядраах, эцээх, тураах, турж эцэх"/>
 	<word id="6623" english="attenuated" mongolia="ядарсан, зүдэрсэн, эцэжцуцсан"/>
-	<word id="6624" english=" attenuator" mongolia="сулруулагч"/>
+	<word id="6624" english="attenuator" mongolia="сулруулагч"/>
 	<word id="6625" english="attest" mongolia=" нотолгоо, гзрчийн мэдүүлэг"/>
 	<word id="6626" english="attestant" mongolia="баталгаажуулсан хүн "/>
 	<word id="6627" english="atticize" mongolia="эртний грек хэлний үг хэллэгийг хэрэглэх"/>
@@ -6886,11 +6880,11 @@
 	<word id="6880" english="bachelor girl" mongolia="нөхөргүй залуу эмэгтэй"/>
 	<word id="6881" english="bachelorism" mongolia="бакалаврын зэрэг, ганц биеэр амьдрах амьдралд даса"/>
 	<word id="6882" english="bachelor's" mongolia="бакалаврын зэрэг"/>
-	<word id="6883" english=" bachelor's button" mongolia="холтсон цэцэг"/>
+	<word id="6883" english="bachelor's button" mongolia="холтсон цэцэг"/>
 	<word id="6884" english="bachelorship" mongolia="гоонь хүний амьдрал"/>
 	<word id="6885" english="bacillaemia" mongolia="цусанд микроб байхгуй байх"/>
 	<word id="6886" english="bacillar" mongolia="= bacillary"/>
-	<word id="6887" english=" bacillary" mongolia="савхан хэлбэрийн, савханцар маягийн, савханцар үүс"/>
+	<word id="6887" english="bacillary" mongolia="савхан хэлбэрийн, савханцар маягийн, савханцар үүс"/>
 	<word id="6888" english="bacillary dysentery" mongolia="савханцраар үүссэн цусан суулга"/>
 	<word id="6889" english="bacilli" mongolia="= bacillus"/>
 	<word id="6890" english="bacilli-carrier" mongolia="савханцар тээгч"/>
@@ -6947,14 +6941,14 @@
 	<word id="6941" english="back-rope" mongolia=" сойлт"/>
 	<word id="6942" english="back run" mongolia="буцах гарц, эргэх гарц"/>
 	<word id="6943" english="backsaw" mongolia="гap хөрөө"/>
-	<word id="6944" english=" backscatter" mongolia="буцан сарнилт, эргэн тархах."/>
+	<word id="6944" english="backscatter" mongolia="буцан сарнилт, эргэн тархах."/>
 	<word id="6945" english="back-scratch" mongolia="долигонох, бялдуучлах, улыг нь долоох шахах"/>
 	<word id="6946" english="back-stracher" mongolia="нуруу маажих саваа мод "/>
 	<word id="6947" english="back seat" mongolia="ap талын суудал"/>
 	<word id="6948" english="back-seat driver" mongolia="жолоочид зааварлагч зорчигч"/>
 	<word id="6949" english="backset" mongolia="саад тотгор, саатал, бүтэлгүйтэл, эсрэг үйлдэл"/>
 	<word id="6950" english="baskset" mongolia="саад тотгор, саатал, бүтэлгүйтэл, эсрэг үйлдэл"/>
-	<word id="6951" english=" back-settler" mongolia="бөглүү газрsy оршин суугч, жижиг колоничлогч"/>
+	<word id="6951" english="back-settler" mongolia="бөглүү газрsy оршин суугч, жижиг колоничлогч"/>
 	<word id="6952" english="backshaft" mongolia="арын дугуйны хигээсний гол"/>
 	<word id="6953" english="back-shift" mongolia="хоёр дахь ээлж, бэлттэл ээлж"/>
 	<word id="6954" english="back shop" mongolia="туслах засварын газар"/>
@@ -7019,7 +7013,7 @@
 	<word id="7013" english="baddish" mongolia="чухал биш, ач холбогдолгүй"/>
 	<word id="7014" english="bad faith" mongolia="итгэл эвдэх, урвах"/>
 	<word id="7015" english="bad form" mongolia="нийгмийн хэв журмыг зөрчих"/>
-	<word id="7016" english="  badge" mongolia="тэмдэг, цэргийн ялгах тэмдэг"/>
+	<word id="7016" english=" badge" mongolia="тэмдэг, цэргийн ялгах тэмдэг"/>
 	<word id="7017" english="badged" mongolia=" тэмдэгтэй, сэтэртэй"/>
 	<word id="7018" english="badgeless" mongolia="ямар нэг таних тэмдэггүй, тэмдэглэгдээгүй"/>
 	<word id="7019" english="badgeman" mongolia="гуйлга гуйгч"/>
@@ -7067,7 +7061,7 @@
 	<word id="7061" english="bairn-team" mongolia="хүүхдүүд, олон жаалууд"/>
 	<word id="7062" english="bait" mongolia="өгөөшийн дэгээ"/>
 	<word id="7063" english="baiter" mongolia="өгөөшөөр загас баригч"/>
-	<word id="7064" english=" baiting" mongolia="хөөлт, мөшгилт, элдэлт"/>
+	<word id="7064" english="baiting" mongolia="хөөлт, мөшгилт, элдэлт"/>
 	<word id="7065" english="baiza" mongolia="Оманы мөнгөний нэгж"/>
 	<word id="7066" english="baize" mongolia="бүдүүн ширхэгтэй цэмбэ "/>
 	<word id="7067" english="bajree" mongolia="хар будаа"/>
@@ -7085,7 +7079,7 @@
 	<word id="7079" english="bakery" mongolia="талхны газар"/>
 	<word id="7080" english="bake sale" mongolia=" гэрийн аргаар барьсан жигнэмэг. талхыг худалдаала"/>
 	<word id="7081" english="bake-shop" mongolia="талхны дэлгүүр, мухлаг"/>
-	<word id="7082" english=" bakestone" mongolia="жигнэх зориулалттай хавтгай чулуу"/>
+	<word id="7082" english="bakestone" mongolia="жигнэх зориулалттай хавтгай чулуу"/>
 	<word id="7083" english="bakeware" mongolia="халуунд тзсвэртэй сав суулга"/>
 	<word id="7084" english="baking" mongolia="жигнэлт, жигнэн болгох"/>
 	<word id="7085" english="baking coal" mongolia="жигнэлтийн нүүрс"/>
@@ -7144,7 +7138,7 @@
 	<word id="7138" english="ballism" mongolia="чичрэлт, чичрэх саа"/>
 	<word id="7139" english="ballista" mongolia="дээр үеийн дайны үед хэрэглэдэг зэвсэг, чулуу шидэ"/>
 	<word id="7140" english="ballistic" mongolia="баллистик"/>
-	<word id="7141" english=" ballistic missile" mongolia="баллистик пуужин"/>
+	<word id="7141" english="ballistic missile" mongolia="баллистик пуужин"/>
 	<word id="7142" english="ballistics" mongolia="баллистик"/>
 	<word id="7143" english="ballistite" mongolia=" утаатүй дарь"/>
 	<word id="7144" english="ball-jasper" mongolia="бөмбөлөг хэлбэртэй хас"/>
@@ -7445,7 +7439,7 @@
 	<word id="7438" english="Basic English" mongolia="Чарльз Огдений бүтээсэн анхан шатны англи хэлний с"/>
 	<word id="7439" english="basicity" mongolia="суурьтай байх, валентат чанар"/>
 	<word id="7440" english="basic pay" mongolia="= base pay"/>
-	<word id="7441" english=" basic process" mongolia="металлын анхан шатны боловсруулалт"/>
+	<word id="7441" english="basic process" mongolia="металлын анхан шатны боловсруулалт"/>
 	<word id="7442" english="basic record" mongolia="хувийн хэрэг"/>
 	<word id="7443" english="basic research" mongolia=" суурь судалгаа"/>
 	<word id="7444" english="basics" mongolia="бoлoвсролын суурь, үндэс"/>
@@ -7818,12 +7812,12 @@
 	<word id="7811" english="benchboard" mongolia="удирдлагын ширээ, тавиур"/>
 	<word id="7812" english="bench clamp" mongolia="вандантай хавчлага, зуултуур хавчигч "/>
 	<word id="7813" english="bench dog" mongolia="үзэсгэлэнгийн нохой"/>
-	<word id="7814" english=" bencher" mongolia="өмгөөлөгчийн корпорацийн удирдлагын гишүүн"/>
+	<word id="7814" english="bencher" mongolia="өмгөөлөгчийн корпорацийн удирдлагын гишүүн"/>
 	<word id="7815" english="benching" mongolia="шатлалтай болгох"/>
 	<word id="7816" english="bench jockey" mongolia="өрсөлдөгч багийнхнаа доромжилдог нөөц тоглогч "/>
 	<word id="7817" english="benchland" mongolia="өндөрлөг хавтгай газар"/>
 	<word id="7818" english="bench-lathe" mongolia="ширээтэй зорох суурь маппш"/>
-	<word id="7819" english=" bench-legged" mongolia="TOM TOM алхаатай"/>
+	<word id="7819" english="bench-legged" mongolia="TOM TOM алхаатай"/>
 	<word id="7820" english="benchmark" mongolia="түвшинг тэмдэглэх"/>
 	<word id="7821" english="benchmark" mongolia="үр дүнг тооцох, жишгээр туршиж үзэх"/>
 	<word id="7822" english="bench scientist" mongolia="лабораторийн эрдэмтэн"/>
@@ -8248,7 +8242,7 @@
 	<word id="8240" english="bird of passage" mongolia="нүүдлийн шувуу"/>
 	<word id="8241" english="bird of peace" mongolia="тагтаа"/>
 	<word id="8242" english="bird of prey" mongolia="махчин шувуу"/>
-	<word id="8243" english=" bird ring" mongolia="шувууг бөгжлөх цагариг"/>
+	<word id="8243" english="bird ring" mongolia="шувууг бөгжлөх цагариг"/>
 	<word id="8244" english="birdscarer" mongolia="шувуу үргээгч"/>
 	<word id="8245" english="birdseed" mongolia="шувууны тэжээл"/>
 	<word id="8246" english="bird's eye" mongolia="яргуй, навчны судал, холоос харагдах"/>
@@ -8391,7 +8385,7 @@
 	<word id="8383" english="black economy" mongolia="сүүдрийн эдийн засаг, далд эдийн засаг"/>
 	<word id="8384" english="blacken" mongolia="харлах, xap болгох, гүтгэх, гүжирдэх"/>
 	<word id="8385" english="black English" mongolia="негрүүдийн ярьдаг англи хэлний янз бүрийн аялга"/>
-	<word id="8386" english=" blakening" mongolia=" харлуулах"/>
+	<word id="8386" english="blakening" mongolia=" харлуулах"/>
 	<word id="8387" english="black eye" mongolia="цохиулсан нүд. ичгүүр. шившиг"/>
 	<word id="8388" english="black-eyed" mongolia="xap нүдтэй, хөхөрсөн нүдтэй"/>
 	<word id="8389" english="blackeyed pea" mongolia="үхрийн вандуй"/>
@@ -8443,13 +8437,13 @@
 	<word id="8435" english="blank" mongolia="хоосон зай, маягт"/>
 	<word id="8436" english="blank book" mongolia="тооцоо бүртгэл хийх хоосон хуудастай ном"/>
 	<word id="8437" english="blank cartridge" mongolia="сумгүй хоосон хонгио"/>
-	<word id="8438" english=" blank check" mongolia="мөнгөний тоог бичих гарын үсэгтэй чек"/>
+	<word id="8438" english="blank check" mongolia="мөнгөний тоог бичих гарын үсэгтэй чек"/>
 	<word id="8439" english="blank endorsement" mongolia="гарын үсэг зурснаар чекээр төлбөр хийх боломжтой б"/>
 	<word id="8440" english="blanket" mongolia="ноосон хөнжил, бүтээлэг, хучлага, өтгөн шүүс,халим"/>
 	<word id="8441" english="blanket bam" mongolia="чийгтэй зүйлээр ороох, ороолт хийх"/>
 	<word id="8442" english="blanket coat" mongolia="хөнжил маягийн нөмрөг"/>
 	<word id="8443" english="blanket cover" mongolia="дарах, булах "/>
-	<word id="8444" english=" blanketed" mongolia="хөнжил нөмөрсөн, хөнжилд ороосон, хучаастай"/>
+	<word id="8444" english="blanketed" mongolia="хөнжил нөмөрсөн, хөнжилд ороосон, хучаастай"/>
 	<word id="8445" english="blanketing" mongolia="хөнжлийн материал"/>
 	<word id="8446" english="blaze" mongolia="гал дөл, түймэр,  хурц тод өнгө"/>
 	<word id="8447" english="blaze away" mongolia="гал нээх, зоригтойгоор ярих, санааадаа орсныг бүгд"/>
@@ -8493,7 +8487,7 @@
 	<word id="8485" english="blende" mongolia="цинкийн андуурга"/>
 	<word id="8486" english="blended" mongolia="хольсон, нийлүүлсэн"/>
 	<word id="8487" english="blended family" mongolia="дагавар хүүхдүүдтэй гэр бүл"/>
-	<word id="8488" english=" blended-whiskey" mongolia="хольцтой виски"/>
+	<word id="8488" english="blended-whiskey" mongolia="хольцтой виски"/>
 	<word id="8489" english="blender" mongolia="холигч, нийтэч хүн"/>
 	<word id="8490" english="blend in" mongolia=" өнгө хослох, өнгө таарах, зохицолдох"/>
 	<word id="8491" english="blending" mongolia="хольц бэлтгэх /> нэмэлт оруулах"/>
@@ -8869,7 +8863,7 @@
 	<word id="8860" english="bombast" mongolia="хэт их гоёмсог байх"/>
 	<word id="8861" english="bombastic" mongolia="хэт ёсорхуу, гоёмсог, хоосон хээнцэрлэлт"/>
 	<word id="8862" english="bomb bay" mongolia="бөмбөгдөгч онгоцны их бие дэх бөмбөгийг тээж яваад"/>
-	<word id="8863" english=" bomb disposal" mongolia="дэлбэрээгүй бөмбөгийг аюулгүй болгох"/>
+	<word id="8863" english="bomb disposal" mongolia="дэлбэрээгүй бөмбөгийг аюулгүй болгох"/>
 	<word id="8864" english="bomb door" mongolia="бөмбөг хаях хаалга, онгорхой"/>
 	<word id="8865" english="bomb-dropper" mongolia="бөмбөг хаягч"/>
 	<word id="8866" english="bombdropping" mongolia="бөмбөг хаялт"/>
@@ -8894,7 +8888,7 @@
 	<word id="8885" english="bombshelter" mongolia="бөмбөгнөөс хоргодох байр"/>
 	<word id="8886" english="bombsight" mongolia=" бөмбөгдөлтийн бай"/>
 	<word id="8887" english="bombsite" mongolia="бөмбөг унасан газар, бөмбөгдөлтөд өртсөн талбай, б"/>
-	<word id="8888" english=" bomb-thrower" mongolia="бөмбөг хаягч, гранат шидэгч"/>
+	<word id="8888" english="bomb-thrower" mongolia="бөмбөг хаягч, гранат шидэгч"/>
 	<word id="8889" english="bomb up" mongolia="бөмбөг ачих, тээвэрлэх, бөмбөгөөр дүүргэх"/>
 	<word id="8890" english="bomoh" mongolia="Малайзын эмч"/>
 	<word id="8891" english="bona" mongolia=" хөдлөх, үл хөдлөх хөрөнгө"/>
@@ -9224,9 +9218,9 @@
 	<word id="9215" english="brake" mongolia="тоормослох"/>
 	<word id="9216" english="brake band" mongolia="тоормосны тууз"/>
 	<word id="9217" english="brake disk" mongolia="тоормосны эсрэг үрэлт үүсгэхээр ороодог бултай хам"/>
-	<word id="9218" english=" brake drum" mongolia="хөдөлгөөнийг хязгаарлахад зайлшгүй үрэлтийг үүсгэх"/>
-	<word id="9219" english=" brake fade" mongolia="тоормосыг байнга хэрэглэснээс метал цлиндрийн тэлэ"/>
-	<word id="9220" english=" brake fluid" mongolia=" шингэн тоормосонд хэрэглэдэг шингэн"/>
+	<word id="9218" english="brake drum" mongolia="хөдөлгөөнийг хязгаарлахад зайлшгүй үрэлтийг үүсгэх"/>
+	<word id="9219" english="brake fade" mongolia="тоормосыг байнга хэрэглэснээс метал цлиндрийн тэлэ"/>
+	<word id="9220" english="brake fluid" mongolia=" шингэн тоормосонд хэрэглэдэг шингэн"/>
 	<word id="9221" english="brake-gear" mongolia="тоормосны систем"/>
 	<word id="9222" english="brake horsepower" mongolia="тоормосны хүч чадал "/>
 	<word id="9223" english="brakelight" mongolia="зогсох дохио, тоормосны дохионы гэрэл"/>
@@ -9323,7 +9317,7 @@
 	<word id="9314" english="bread-crust bomb" mongolia="галт уулын нягт боловч голдоо зөөлөн гаднах давхар"/>
 	<word id="9315" english="bread fruit" mongolia="номхон далайн арлууд дээр ургадаг том бөөрөнхий ца"/>
 	<word id="9316" english="bread grain" mongolia="хүнсний хэрэгцээний үр тариа, талхны тариа"/>
-	<word id="9317" english=" breadknifе" mongolia=" талх зүсдэг хутга"/>
+	<word id="9317" english="breadknifе" mongolia=" талх зүсдэг хутга"/>
 	<word id="9318" english=".breadless" mongolia="хоол хүнсгүй"/>
 	<word id="9319" english="breadline" mongolia="үнэгүй хоол идэхээр дугаарлан зогсох "/>
 	<word id="9320" english="breadmaking" mongolia="талх барих"/>
@@ -9411,7 +9405,7 @@
 	<word id="9402" english="brickmason" mongolia="өрлөгчин"/>
 	<word id="9403" english="brick red" mongolia="шардуу, хүрэндүү улаан өнгө"/>
 	<word id="9404" english="brick tea" mongolia="шахмал цай"/>
-	<word id="9405" english="  brick up" mongolia="тоосгоор өрөх"/>
+	<word id="9405" english=" brick up" mongolia="тоосгоор өрөх"/>
 	<word id="9406" english="brickwork" mongolia="тоосгон өрлөг"/>
 
 	<word id="9407" english="bricky" mongolia="тоосго өрөгч, тоосгоор хийсэн, тоосгоны өнгөтэй"/>
@@ -9453,7 +9447,7 @@
 	<word id="9443" english="bridging" mongolia=" хаах, халхлах, гүүр тавих"/>
 	<word id="9444" english="bridging loan" mongolia=" түр хугацааны зээл"/>
 	<word id="9445" english="bridging shot" mongolia="кино зургийн аажим шилжилт, монтаж"/>
-	<word id="9446" english=" bridging title" mongolia="холбогч бичээс"/>
+	<word id="9446" english="bridging title" mongolia="холбогч бичээс"/>
 	<word id="9447" english="bridle" mongolia="хазаар. барих хэрэгсэл, тогтоогч хэрэгсэл, татлага"/>
 	<word id="9448" english="bridle hand" mongolia=" морьтой хүний зүүн rap"/>
 	<word id="9449" english="bridlepath" mongolia="морь тэмээний жим, хөсгийн жим, зөрөг"/>
@@ -9507,7 +9501,7 @@
 	<word id="9497" english="bristly" mongolia="үс хялгастай, өргөстэй. хатуу ширүүн"/>
 	<word id="9498" english="Bristol blue" mongolia=" гүн хөх өнгө"/>
 	<word id="9499" english="Bristol board" mongolia="заримдаа пааландсан. хөзрийн гэх мэт тавцан самбар"/>
-	<word id="9500" english=" Bristol fashion" mongolia=" сайн эмх цэгцтэй"/>
+	<word id="9500" english="Bristol fashion" mongolia=" сайн эмх цэгцтэй"/>
 	<word id="9501" english="brit" mongolia="май загасны жараахай"/>
 	<word id="9502" english="Britannia metal" mongolia=" хоолны хэрэгсэл хийдэг зэс, сурьма гэх мэт цагаан"/>
 	<word id="9503" english="Britannia ware" mongolia=" ийм цагаан хайлшаар хийсэн эдлэл"/>
@@ -9542,13 +9536,13 @@
 	<word id="9532" english="broken-bellied" mongolia="ивэрхийтэй"/>
 	<word id="9533" english="broken case" mongolia="дэлбэрсэн хонгио"/>
 	<word id="9534" english="broken circuit" mongolia="  тасарсан хэлхээ"/>
-	<word id="9535" english=" broken colour" mongolia="холилдсон өнгө"/>
+	<word id="9535" english="broken colour" mongolia="холилдсон өнгө"/>
 	<word id="9536" english="broken-down" mongolia="өвчинд нэрвэгдсэн, хойд хөл дээрээ суусан /> "/>
 	<word id="9537" english="broken-hearted" mongolia="уй гашууд автсан, сэтгэлийн шархтай"/>
 	<word id="9538" english="broken home" mongolia=" салсан сарнисан гэр бүл"/>
 	<word id="9539" english="broken iron" mongolia=" хаягдал төмөр"/>
 	<word id="9540" english="brokenly" mongolia="татвалзан,  үе үе, зүрх нь үхсэн, гомдсон"/>
-	<word id="9541" english=" broken number" mongolia="бутархай. бутархай тоо"/>
+	<word id="9541" english="broken number" mongolia="бутархай. бутархай тоо"/>
 	<word id="9542" english="broken wind" mongolia=" амьсгаадалт, бөглөрөлт"/>
 	<word id="9543" english="broken-winded" mongolia="амьсгаадсан, бөглөрсөн"/>
 	<word id="9544" english="broker" mongolia="зуучлагч, брокер. биржийн зуучлагч, хураагдсан бар"/>
@@ -9787,7 +9781,7 @@
 	<word id="9777" english="bulk" mongolia="хэмжээ. жин. эзлэхүүн, том хэмжээ,  үндсэн жин,  л"/>
 	<word id="9778" english="bulk buying" mongolia=" барааг бөөнөөр нь худалдан авах"/>
 	<word id="9779" english="bulk-carrier" mongolia="хуурай ачаа зөөгч"/>
-	<word id="9780" english=" bulker" mongolia="хөлгийн ачааны багтаамжийг тодорхойлогч мэргэжилтэ"/>
+	<word id="9780" english="bulker" mongolia="хөлгийн ачааны багтаамжийг тодорхойлогч мэргэжилтэ"/>
 	<word id="9781" english="bulk grain tank" mongolia=" үр тарианы агуулах, сав"/>
 	<word id="9782" english="bulkhead" mongolia=" хөлгийн дээд талын тавцангайн хэсэг"/>
 	<word id="9783" english="bulkheaded" mongolia=" хэсэг хэсэгт хуваагдсан бүтэцтэй"/>
@@ -10134,7 +10128,7 @@
 	<word id="10123" english="cake flour" mongolia="талхны хөрөнгө"/>
 	<word id="10124" english="cakehole" mongolia="хүний ам"/>
 	<word id="10125" english="cake mix" mongolia="кексийн нунтаг, шахмал"/>
-	<word id="10126" english=" cake-shop" mongolia=" талх чихрийн дэлгүүр"/>
+	<word id="10126" english="cake-shop" mongolia=" талх чихрийн дэлгүүр"/>
 	<word id="10127" english="cake together" mongolia="өсөх, хөөх"/>
 	<word id="10128" english="Cakewalk" mongolia=" амархан хэрэг"/>
 	<word id="10129" english="caking" mongolia="түлэгдэх, харлах"/>
@@ -10843,7 +10837,7 @@
 	<word id="10831" english="casserole cookery" mongolia=" хоолыг шавар саванд бэлтгэх, түүнтэй нь өгөх"/>
 	<word id="10832" english="cassette" mongolia="хайрцаг, хуурцаг"/>
 	<word id="10833" english="cassette deck" mongolia="хуурцаг тоглуулагч хэрэгсэл"/>
-	<word id="10834" english=" cassete player" mongolia="магнитофон"/>
+	<word id="10834" english="cassete player" mongolia="магнитофон"/>
 	<word id="10835" english="cassette recorder" mongolia="хуурцгийн магнитофон, хуурцаг тоглуулагч"/>
 	<word id="10836" english="cassete tape" mongolia="дуу бичлэгийн хуурцаг"/>
 	<word id="10837" english="cassia" mongolia="шанц "/>
@@ -10878,7 +10872,7 @@
 	<word id="10866" english="bowl over" mongolia="маш их гайхуулах, балмагдуулах"/>
 	<word id="10867" english="bowman" mongolia="нум харваач"/>
 	<word id="10868" english="bow net" mongolia="сүлжмэл гувчуур, загасны тор, сагс"/>
-	<word id="10869" english=" bow oar" mongolia="завины урьд хэсэгт хамгийн ойр сэлүүр"/>
+	<word id="10869" english="bow oar" mongolia="завины урьд хэсэгт хамгийн ойр сэлүүр"/>
 	<word id="10870" english="bow out" mongolia="салах, бүрмөсөн болих"/>
 	<word id="10871" english="bow pen" mongolia="нэг үзүүртээ үзэгтэй гортиг"/>
 	<word id="10872" english="bow pencil" mongolia="нэг үзүүртээ харандаатай гортиг"/>
@@ -10939,7 +10933,7 @@
 	<word id="10927" english="bouzouki" mongolia="мандолинтай адил утсан хөгжим"/>
 	<word id="10928" english="bovarism" mongolia="амьдралыг хийсвэрээр харах, ойлгох"/>
 	<word id="10929" english="bow chaser" mongolia="араасаа мөрдөж буй хөлгийг буудахаар хөлгийн хошуу"/>
-	<word id="10930" english=" bow compass" mongolia="жижиг тойрог нум зурахад хэрэглэдэг гортиг"/>
+	<word id="10930" english="bow compass" mongolia="жижиг тойрог нум зурахад хэрэглэдэг гортиг"/>
 	<word id="10931" english="Bowditch" mongolia="хөлөг жолоодох гарын авлага"/>
 	<word id="10932" english="box seat" mongolia="лоожинд суух суудал"/>
 	<word id="10933" english="box set" mongolia="павильон "/>
@@ -11266,7 +11260,7 @@
 	<word id="11254" english="brine" mongolia="давсалсан ус "/>
 	<word id="11255" english="brinell hardness" mongolia="сорилтод байгаа бодисод өгөгдсөн даралтан доор ган"/>
 	<word id="11256" english="brinell number" mongolia="төмрийн хатуу чанарыг илтгэдэг дугаар"/>
-	<word id="11257" english=" brinell test" mongolia="төмрийн хатуу чанарыг илтгэсэн дугаарыг тодорхойлд"/>
+	<word id="11257" english="brinell test" mongolia="төмрийн хатуу чанарыг илтгэсэн дугаарыг тодорхойлд"/>
 	<word id="11258" english="brinepaan" mongolia="ууршуулах аргаар давс гаргаж авдаг сав"/>
 	<word id="11259" english="brine shrimp" mongolia="давст нуур цөөрөмд байдаг хавч, хясаа"/>
 	<word id="11260" english="brine-spring" mongolia=" давстай булаг"/>
@@ -11304,7 +11298,7 @@
 	<word id="11292" english="broad irrigation" mongolia="өнгөн хөрсний усжуулалт"/>
 	<word id="11293" english="broad jump" mongolia="уртын харайлт, уртын харайлтын тэмцээн"/>
 	<word id="11294" english="broad leaf" mongolia="өргөн навчтай тамхи"/>
-	<word id="11295" english=" broad-leaved" mongolia="өргөн навчтай"/>
+	<word id="11295" english="broad-leaved" mongolia="өргөн навчтай"/>
 	<word id="11296" english="broadloom" mongolia="өргөн нэхээсний машин дээр нэхсэн"/>
 	<word id="11297" english="broadly" mongolia="өргөнөөр"/>
 	<word id="11298" english="broad-minded" mongolia="өргөн мэдлэгтэй"/>
@@ -11346,12 +11340,12 @@
 	<word id="11334" english="breech" mongolia="өгзөг, бөгс"/>
 	<word id="11335" english="breechblock" mongolia=" замаг. түгжээ "/>
 	<word id="11336" english="breech delivery" mongolia="бөгсөөрөө түрүүлж гарах "/>
-	<word id="11337" english=" breeches" mongolia="өмд"/>
+	<word id="11337" english="breeches" mongolia="өмд"/>
 	<word id="11338" english="breeches buyo" mongolia="аврах яриа хэлцээ "/>
 	<word id="11339" english="breeching" mongolia="албаны хэсэг"/>
 	<word id="11340" english="breechless" mongolia="өмдгүй"/>
 	<word id="11341" english="breech-loader" mongolia="санхүүгийн хэсэгт цэнэглэсэн зэвсэг, буу"/>
-	<word id="11342" english=" breech-mechanism" mongolia="түгжээ, бууны замаг"/>
+	<word id="11342" english="breech-mechanism" mongolia="түгжээ, бууны замаг"/>
 	<word id="11343" english="breech-sight" mongolia="бай"/>
 	<word id="11344" english="breed" mongolia="үүлдэр"/>
 	<word id="11345" english="breeder" mongolia="үржүүлэгч, өсгөгч"/>
@@ -11563,12 +11557,12 @@
 	<word id="11550" english="buffalo-bug" mongolia="хивсний хив хорхой"/>
 	<word id="11551" english="buffalo chips" mongolia="одос, бизоны аргал"/>
 	<word id="11552" english="buffalo grass" mongolia="бизоны өвс"/>
-	<word id="11553" english=" buff-coat" mongolia="хамтаалалтын арьсан хантааз"/>
+	<word id="11553" english="buff-coat" mongolia="хамтаалалтын арьсан хантааз"/>
 	<word id="11554" english="buffer" mongolia=" зүлгэгч, өнгөлөгч"/>
 	<word id="11555" english="buffer solution" mongolia="буферийн уусмал"/>
 	<word id="11556" english="buffer state" mongolia=" бамбай улс, гүрэн"/>
 	<word id="11557" english="buffer stock" mongolia="зөвшөөрөгдсөн хэмжээнд үнэ нь байнга өөрчлөгдөж ба"/>
-	<word id="11558" english=" buffer zone" mongolia="бамбай бүс"/>
+	<word id="11558" english="buffer zone" mongolia="бамбай бүс"/>
 	<word id="11559" english="buffet" mongolia="цохилт"/>
 	<word id="11560" english="buffet-car" mongolia="вагон буфет"/>
 	<word id="11561" english="buffing" mongolia="өнгөлгөө"/>
@@ -11763,10 +11757,10 @@
 	<word id="11750" english="burtonize" mongolia="шар айраг эсгэх усыг хатууруулах"/>
 	<word id="11751" english="bury" mongolia="оршуулах"/>
 	<word id="11752" english="burying ground" mongolia="оршуулах газар"/>
-	<word id="11753" english="   burying place" mongolia="оршуулгын газар, шарил"/>
+	<word id="11753" english="  burying place" mongolia="оршуулгын газар, шарил"/>
 	<word id="11754" english="bus" mongolia="автобус"/>
 	<word id="11755" english="bus bar" mongolia="хэд хэдэн орчилт холболт хийхэд хэрэглэдэг цахилга"/>
-	<word id="11756" english=" bus boy" mongolia="зөөгчийн туслах"/>
+	<word id="11756" english="bus boy" mongolia="зөөгчийн туслах"/>
 	<word id="11757" english="busby" mongolia="баруун тал руугаа унжсан ууттай өндөр үстэй малгай"/>
 	<word id="11758" english="bus girl" mongolia=" зөөгчийн туслах эмэгтэй"/>
 	<word id="11759" english="bush" mongolia="сарнай цэцгийн бут"/>
@@ -11847,7 +11841,7 @@
 	<word id="11834" english="butterfly chair" mongolia="эвхдэг сандал "/>
 	<word id="11835" english="butterfly fish" mongolia=" эрвээхэй загас"/>
 	<word id="11836" english="butterfly knife" mongolia="өргөн том хутга, кунг фу зодоонд ашигладаг хутга"/>
-	<word id="11837" english=" butterfly net" mongolia="эрвээхэй барих тор"/>
+	<word id="11837" english="butterfly net" mongolia="эрвээхэй барих тор"/>
 	<word id="11838" english="butterfly nut" mongolia="эрвээхэй эрэг"/>
 	<word id="11839" english="butterfly orchid" mongolia="шөнийн нил цэцэг"/>
 	<word id="11840" english="butterfly screw" mongolia="эрвээхэй шураг"/>
@@ -11863,14 +11857,14 @@
 	<word id="11850" english="buzz" mongolia="дүнгэнээн, жунгинаан, нүргээн, нүргэлэх, шуугаан"/>
 	<word id="11851" english="buzzard" mongolia="нүүдэлчин cap "/>
 	<word id="11852" english="buzz away" mongolia="зайлах, зугтах, бултах, алга болох"/>
-	<word id="11853" english=" buzz bomb" mongolia="бөмбөгдөгч онгоц"/>
+	<word id="11853" english="buzz bomb" mongolia="бөмбөгдөгч онгоц"/>
 	<word id="11854" english="buzz-bug" mongolia="салахгүй бодол"/>
 	<word id="11855" english="buzzer" mongolia="дүнгэнэсэн чимээ гаргагч, дохионы чимээ"/>
 	<word id="11856" english="buzz off" mongolia="алга болох, зайлах, зугтах, далд орох"/>
 	<word id="11857" english="buzz-saw" mongolia="дугуй хүрээ"/>
 	<word id="11858" english="buzz session" mongolia="албан бус зөвлөлгөөн, уулзалт яриа"/>
 	<word id="11859" english="buzzwig" mongolia="өтгөн хиймэл үс"/>
-	<word id="11860" english=" buzz word" mongolia="ухаантай үг, хүний толгой эргүүлэх үг, мэдэхгүй хү"/>
+	<word id="11860" english="buzz word" mongolia="ухаантай үг, хүний толгой эргүүлэх үг, мэдэхгүй хү"/>
 	<word id="11861" english="bwana" mongolia="ноёнтон, эзэнтэн"/>
 	<word id="11862" english="by-and-by" mongolia="ирээдүй"/>
 	<word id="11863" english="by-blow" mongolia="хажуугийн, гэнэтийн цохилт "/>
@@ -12593,9 +12587,9 @@
 	<word id="12579" english="carpeting" mongolia="хивсний утас"/>
 	<word id="12580" english="carpet-knight" mongolia="ард талд үлдсэн цэрэг"/>
 	<word id="12581" english="carpet-moth" mongolia="хивсний цагаан эрвээхэй"/>
-	<word id="12582" english=" carpet-rod" mongolia="шатан дээр хивс дэвсэхэд бэхэлдэг урт саваа төмөр"/>
+	<word id="12582" english="carpet-rod" mongolia="шатан дээр хивс дэвсэхэд бэхэлдэг урт саваа төмөр"/>
 	<word id="12583" english="carpet-slippers" mongolia="гэрийн шаахай"/>
-	<word id="12584" english=" carpet snake" mongolia=" австралийн өнгө нь хувирдаг арьстай могой"/>
+	<word id="12584" english="carpet snake" mongolia=" австралийн өнгө нь хувирдаг арьстай могой"/>
 	<word id="12585" english="carpet-sweeper" mongolia="хивс цэвэрлэдэг сойз"/>
 	<word id="12586" english="carphology" mongolia="унтлаганы хувцаснаас өө сэв хайх гоочлох"/>
 	<word id="12587" english="car-phone" mongolia="машины утас"/>
@@ -12620,9 +12614,9 @@
 	<word id="12606" english="carriage" mongolia="сүйх тэрэг"/>
 	<word id="12607" english="carriageable" mongolia="тохилог"/>
 	<word id="12608" english="carriage and pair" mongolia="xoc морь хөллөсөн сүйх тэрэг"/>
-	<word id="12609" english=" carriage body" mongolia="ачааны тэвш"/>
-	<word id="12610" english=" carriage clock" mongolia="аян замд авч явдаг гурвалжин гэртэй цаг"/>
-	<word id="12611" english=" carriage-forward" mongolia="хүлээн авагч нь хүргүүлэх төлбөр хийсэн"/>
+	<word id="12609" english="carriage body" mongolia="ачааны тэвш"/>
+	<word id="12610" english="carriage clock" mongolia="аян замд авч явдаг гурвалжин гэртэй цаг"/>
+	<word id="12611" english="carriage-forward" mongolia="хүлээн авагч нь хүргүүлэх төлбөр хийсэн"/>
 	<word id="12612" english="carriage-free" mongolia="хүргэх газарт нь үнэгүй хүргэх"/>
 	<word id="12613" english="carriage-paid" mongolia="тээвэрлэлтийн хөлсийг төлсөн"/>
 	<word id="12614" english="carriage road" mongolia="ердийн зам"/>
@@ -12698,7 +12692,7 @@
 	<word id="12684" english="caseic" mongolia="бяслагнаас үүссэн"/>
 	<word id="12685" english="caseidin" mongolia="хөхтөн амьтны сүүнд байдаг тодорхой өвчний эсрэг н"/>
 	<word id="12686" english="casein" mongolia="казейн цавуу"/>
-	<word id="12687" english=" case-knife" mongolia="хуйтай хутга "/>
+	<word id="12687" english="case-knife" mongolia="хуйтай хутга "/>
 	<word id="12688" english="case-law" mongolia="хэмжээт эрх"/>
 	<word id="12689" english="case load" mongolia="эмч, хууль нараар үйлчлүүлсэн хүмүүсийн тоо "/>
 	<word id="12690" english="case-maker" mongolia="хавтаслагч"/>
@@ -12769,8 +12763,8 @@
 
 	<word id="12755" english="castle-guard" mongolia="шилтгээний манаач "/>
 	<word id="12756" english="castle in the air" mongolia="үл биелэх мөрөөдөл"/>
-	<word id="12757" english=" castle net" mongolia="загасны тор"/>
-	<word id="12758" english=" castle-nut" mongolia="бүрээстэй эрэг"/>
+	<word id="12757" english="castle net" mongolia="загасны тор"/>
+	<word id="12758" english="castle-nut" mongolia="бүрээстэй эрэг"/>
 	<word id="12759" english="castle town" mongolia="шилтгээний ойролцоох суурин"/>
 	<word id="12760" english="casting" mongolia="шатрын ноён, тэрэг хоёрыг солбиулан тавих"/>
 	<word id="12761" english="cast off" mongolia=" хаях, шидэх, татгалзах, орхих"/>
@@ -12802,7 +12796,7 @@
 	<word id="12787" english="catbird seat" mongolia="ашигтай байрлал"/>
 	<word id="12788" english="cat block" mongolia="зангууг дээш өргөдөг том дэгээтэй хүнд хавтан"/>
 	<word id="12789" english="cat-burglar" mongolia="салхивчаар ордог орон байрны хулгайч"/>
-	<word id="12790" english=" catcall" mongolia="шүгэлдэх, шүгэлдэлт, эсэргүүцэх"/>
+	<word id="12790" english="catcall" mongolia="шүгэлдэх, шүгэлдэлт, эсэргүүцэх"/>
 	<word id="12791" english="catch" mongolia="барих, барьж авах"/>
 	<word id="12792" english="catch-all" mongolia=" янз бүрийн юм агуулсан сав"/>
 	<word id="12793" english="catch-as-catch-can" mongolia="ямарч саадгүй, хязгаарлагдаагүй"/>
@@ -12858,7 +12852,7 @@
 	<word id="12843" english="catered" mongolia="ресторанаар үйлчлүүлж байгаа"/>
 	<word id="12844" english="caterpillar" mongolia="үст хорхой "/>
 	<word id="12845" english="caterwaul" mongolia="муур орилох"/>
-	<word id="12846" english=" cat-eyed" mongolia=" харанхуйд хардаг, муур шиг нүдтэй"/>
+	<word id="12846" english="cat-eyed" mongolia=" харанхуйд хардаг, муур шиг нүдтэй"/>
 	<word id="12847" english="cautionary" mongolia="өөр хэн нэгэн хүнд баталгаа гаргаж өгөх акт"/>
 	<word id="12848" english="caution board" mongolia="аюулын тухай анхааруулах хуудас"/>
 	<word id="12849" english="cautioner" mongolia="хариуцагч этгээд, батлан даагч"/>
@@ -13012,7 +13006,7 @@
 	<word id="12997" english="cattle feeder" mongolia="мал тэжээх сав, зөөгч"/>
 	<word id="12998" english="cattle-grid" mongolia="малын торон хашаа"/>
 	<word id="12999" english="cattle husbandry" mongolia="мал аж ахуй"/>
-	<word id="13000" english=" cattle-leader" mongolia=" үхэр малын дөр"/>
+	<word id="13000" english="cattle-leader" mongolia=" үхэр малын дөр"/>
 	<word id="13001" english="cattle-lifter" mongolia="малчин, мал хариулагч"/>
 	<word id="13002" english="cattle-lifting" mongolia="мал хариулах"/>
 	<word id="13003" english="cattleman" mongolia="малчин"/>
@@ -13147,7 +13141,7 @@
 	<word id="13132" english="cerebral accident" mongolia="тархины цусан хангамж багадсанаас бодож сэтгэх мэд"/>
 	<word id="13133" english="cerebral cortex" mongolia="тархины бор давхарга"/>
 	<word id="13134" english="cerebral dominance" mongolia="тархи хүний үйл ажиллагааг удирдах хэвийн үйл явц"/>
-	<word id="13135" english=" cerebral hemorrhage" mongolia="тархинд цус харвах"/>
+	<word id="13135" english="cerebral hemorrhage" mongolia="тархинд цус харвах"/>
 	<word id="13136" english="cerebralism" mongolia="ухамсар бол тархины бүтээгдэхүүн гэсэн онол "/>
 	<word id="13137" english="cerebral palsy" mongolia="тархи гэмтсэнээс болж ямарч чадваргүй болох байдал"/>
 	<word id="13138" english="cerebral thrombosis" mongolia="тархины судасны нэгэнд нөжрөлт үүсэх"/>
@@ -13285,7 +13279,7 @@
 	<word id="13270" english="change" mongolia="өөрчлөлт, хувирал, хэмнэлийн хувирал, агаарын соли"/>
 	<word id="13271" english="character" mongolia="гол дүрийн, гол баатрын"/>
 	<word id="13272" english="character assassination" mongolia="хүний нэрийг санаатайгаар гутаан доромжлох"/>
-	<word id="13273" english=" character code" mongolia="үсгийн код"/>
+	<word id="13273" english="character code" mongolia="үсгийн код"/>
 	<word id="13274" english="characterful" mongolia="зоригтой, зүрхтэй, аймшиггүй"/>
 	<word id="13275" english="characteristic" mongolia="онцлог шинж, өвөрмөц шинж төрх"/>
 	<word id="13276" english="characteristically" mongolia="өвөрмөц байдлаар, онцлогтойгоор"/>
@@ -13856,7 +13850,7 @@
 	<word id="13840" english="cinnamomic" mongolia=" халуун орны модны холтсон, шанцайн"/>
 	<word id="13841" english="cinnamon" mongolia="халуун орны модны холтос, халуун амттан, шанцай"/>
 	<word id="13842" english="cinnamon bear" mongolia="хойд америкийн хар баавгайн төрөл"/>
-	<word id="13843" english=" cinnamon-oil" mongolia="шанцайн тос"/>
+	<word id="13843" english="cinnamon-oil" mongolia="шанцайн тос"/>
 	<word id="13844" english="cinnamon stone" mongolia="кальцийн алюмогранат"/>
 	<word id="13845" english="cinquain" mongolia="таван мөрт бадаг"/>
 	<word id="13846" english="cinque" mongolia="тав, таван оноо"/>
@@ -14448,11 +14442,11 @@
 	<word id="14431" english="cocksure" mongolia="итгэлтэй, итгэсэн"/>
 	<word id="14432" english="cocktail" mongolia="коктейль, жимсний коктейль"/>
 	<word id="14433" english="cocktail bar" mongolia="коктейль бар"/>
-	<word id="14434" english=" cocktail belt" mongolia="чинээлэг хүмүүсийн амьдардаг орчин, ногоон бүс"/>
+	<word id="14434" english="cocktail belt" mongolia="чинээлэг хүмүүсийн амьдардаг орчин, ногоон бүс"/>
 	<word id="14435" english="cocktailed" mongolia="тайрмал сүүлтэй, горзойсон сүүлтэй, годон сүүлтэй"/>
 	<word id="14436" english="cocktailed" mongolia="кокейль их хэмжээгээр уусан, халамцуу, хөлчүү"/>
 	<word id="14437" english="cocktail lounge" mongolia="кокгейль уух өрөө, бар"/>
-	<word id="14438" english=" cocktal party" mongolia=" коктейль уух үдэшлэг"/>
+	<word id="14438" english="cocktal party" mongolia=" коктейль уух үдэшлэг"/>
 	<word id="14439" english="cock up" mongolia="өргөх, босгох, дээш сөхөх"/>
 	<word id="14440" english="cocky" mongolia="тахиахан"/>
 	<word id="14441" english="cocky-leeky" mongolia="сонгиноор амт оруулсан тахианы шөл"/>
@@ -14520,7 +14514,7 @@
 	<word id="14503" english="cold turkey" mongolia=" цэвэр үнэн, хольцоогүй үнэн"/>
 	<word id="14504" english="cold war" mongolia="хүйтэн дайн"/>
 	<word id="14505" english="cold warrior" mongolia="хүйтэн дайныг дэмжигч"/>
-	<word id="14506" english=" cold water" mongolia="эрүүл, согтуу бус, эрүүл байхыг уриалагч"/>
+	<word id="14506" english="cold water" mongolia="эрүүл, согтуу бус, эрүүл байхыг уриалагч"/>
 	<word id="14507" english="cold wave" mongolia="хүйтний урсгал"/>
 	<word id="14508" english="cold weld" mongolia=" хүйтэн гагнуур"/>
 	<word id="14509" english="cold work" mongolia="төмрийг хүйтнээр боловсруулах"/>
@@ -14728,8 +14722,8 @@
 	<word id="14710" english="cento" mongolia="уран зохиолын монтаж"/>
 	<word id="14711" english="central" mongolia="төв телефон станц"/>
 	<word id="14712" english="Central America" mongolia="төв Америк"/>
-	<word id="14713" english=" central bank" mongolia="төвбанк"/>
-	<word id="14714" english=" central casting" mongolia="кино жүжигчдийг сонгон авах хэлтэс, газар"/>
+	<word id="14713" english="central bank" mongolia="төвбанк"/>
+	<word id="14714" english="central casting" mongolia="кино жүжигчдийг сонгон авах хэлтэс, газар"/>
 	<word id="14715" english="central chy" mongolia="гол хот  "/>
 	<word id="14716" english="central command" mongolia="төв командлал"/>
 	<word id="14717" english="Central European Time" mongolia="төв Европын цаг"/>
@@ -14745,9 +14739,9 @@
 	<word id="14727" english="central nervous system" mongolia="төв мэдрэлийн систем"/>
 	<word id="14728" english="central nippers" mongolia="үүдэн шүд"/>
 	<word id="14729" english="central park" mongolia="төв парк"/>
-	<word id="14730" english=" central processing unit" mongolia="боловсруулах төв систем"/>
+	<word id="14730" english="central processing unit" mongolia="боловсруулах төв систем"/>
 	<word id="14731" english="central resevation" mongolia="зам хоорондын зурвас газар"/>
-	<word id="14732" english=" central tendency" mongolia="өгөгдлийн онцгой бүлгийн хэвийн байдлыг хамгийн са"/>
+	<word id="14732" english="central tendency" mongolia="өгөгдлийн онцгой бүлгийн хэвийн байдлыг хамгийн са"/>
 	<word id="14733" english="centration" mongolia="төвийг олох, төвд нь байх"/>
 	<word id="14734" english="centre" mongolia="төв, төв хэсэг, төв цэг"/>
 	<word id="14735" english="center back" mongolia="төвийн тоглогч"/>
@@ -14881,7 +14875,7 @@
 	<word id="14863" english="chalicosis" mongolia="чулууны жижиг хэсэг үртсээр амьсгалснаас өвчилдөг "/>
 	<word id="14864" english="chalk" mongolia="шохой, шохойн өөдөс"/>
 	<word id="14865" english="chalk board" mongolia="ангийн самбар"/>
-	<word id="14866" english=" chalk down" mongolia="шохойгоор бичих"/>
+	<word id="14866" english="chalk down" mongolia="шохойгоор бичих"/>
 	<word id="14867" english="chalkface" mongolia="өдөр тутмын сургалт, хичээл"/>
 	<word id="14868" english="chalkie" mongolia="багш, дунд сургуулийн багш"/>
 	<word id="14869" english="chalking" mongolia="шохойдолт"/>
@@ -14970,7 +14964,7 @@
 	<word id="14952" english="charity boy" mongolia="асрамжийн газрын хүүхэд"/>
 	<word id="14953" english="charity school" mongolia="асрамжийн сургуулъ"/>
 	<word id="14954" english="charity shop" mongolia="энэрлийн санд мөнгийг нь оруулдаг хуучин хувцасны "/>
-	<word id="14955" english=" charity walk" mongolia="буяны зориулалтаар мөнгө олохоор явах"/>
+	<word id="14955" english="charity walk" mongolia="буяны зориулалтаар мөнгө олохоор явах"/>
 	<word id="14956" english="charivari" mongolia="аяга таваг, хоолны хувин гэх мэтийг цохиход гардаг"/>
 	<word id="14957" english="chark" mongolia="модны нүүрс, кокс"/>
 	<word id="14958" english="charlatan" mongolia="луйварчин, хуурагч"/>
@@ -15033,7 +15027,7 @@
 	<word id="15015" english="cheatee" mongolia="хууртагдсан хүн, хууртагдсан хохирогч"/>
 	<word id="15016" english="cheat sheet" mongolia="нууцаар хуулах бичиг, хулгайн зурвас"/>
 	<word id="15017" english="Chechen" mongolia="чечень хүн, чечень хэл"/>
-	<word id="15018" english=" cheat shot" mongolia="нийлмэл кадр"/>
+	<word id="15018" english="cheat shot" mongolia="нийлмэл кадр"/>
 	<word id="15019" english="cheater" mongolia="хуурагч, луйварчин "/>
 	<word id="15020" english="check" mongolia="саад тотгор, зогсолт, саад болох, хожимдол "/>
 	<word id="15021" english="checkable" mongolia="тогтоож болох, барьж болох"/>
@@ -15328,7 +15322,7 @@
 	<word id="15310" english="combining form" mongolia="нийлмал үгийн бүтэц"/>
 	<word id="15311" english="combining power" mongolia=" хослох чадвар"/>
 	<word id="15312" english="combo" mongolia="үерхэл, нөхөрлөл, жижиг эстрадын хамтлаг"/>
-	<word id="15313" english=" comb out" mongolia="самнах, үс самнах, янзлах, цэвэрлэгээ хийх"/>
+	<word id="15313" english="comb out" mongolia="самнах, үс самнах, янзлах, цэвэрлэгээ хийх"/>
 	<word id="15314" english="comb-out" mongolia="үс засалт. самналт, самналт хийх "/>
 	<word id="15315" english="combretaceous" mongolia="арьс шир элдэх болон будах материал"/>
 	<word id="15316" english="combs" mongolia="эмэгтэй хүний дотуур хувцас"/>
@@ -15556,7 +15550,7 @@
 	<word id="15537" english="chrome alum" mongolia="хром квасц"/>
 	<word id="15538" english="chrome green" mongolia="шар ногоон"/>
 	<word id="15539" english="chrome leather" mongolia="хром "/>
-	<word id="15540" english=" chrome plated" mongolia="хромжуулсан,  чимсэн, гоёсон, гоёмсог"/>
+	<word id="15540" english="chrome plated" mongolia="хромжуулсан,  чимсэн, гоёсон, гоёмсог"/>
 	<word id="15541" english="chrome steel" mongolia="хром агуулсан маш хатуу ган"/>
 	<word id="15542" english="chrome tanning" mongolia="хром хүчлийн давсны уусмалаар идээлэн савхийг элдэ"/>
 	<word id="15543" english="chromic" mongolia="хромын"/>
@@ -15714,7 +15708,7 @@
 	<word id="15695" english="city manager" mongolia=" хотын менежер, захирагч"/>
 	<word id="15696" english="city planner" mongolia="хот байгуулагч, хот төлөвлөгч"/>
 	<word id="15697" english="city room" mongolia="хотын мэдээний тасаг "/>
-	<word id="15698" english=" city scape" mongolia="хотын байдал, үзэмж"/>
+	<word id="15698" english="city scape" mongolia="хотын байдал, үзэмж"/>
 	<word id="15699" english="city slicker" mongolia="хөдөөний хүн зальтай зантай гаж тооцдог хотын орши"/>
 	<word id="15700" english="city state" mongolia="хот улс"/>
 	<word id="15701" english="cityward" mongolia="хот руу чиглэсэн"/>
@@ -15819,7 +15813,7 @@
 	<word id="15800" english="clean hands" mongolia="гэм буруу зэмлэл шийтгэлээс салж цагаадах"/>
 	<word id="15801" english="cleaning" mongolia="цэвэрлэгээ, сортлох"/>
 	<word id="15802" english="cleaning woman" mongolia="цэвэрлэгч эмэгтэй"/>
-	<word id="15803" english=" clean-limbed" mongolia="аятайхан биетэй, гоолиг, тэгш биетэй"/>
+	<word id="15803" english="clean-limbed" mongolia="аятайхан биетэй, гоолиг, тэгш биетэй"/>
 	<word id="15804" english="cleanliness" mongolia="цэвэрч байдал, нямбай зан, цэвэрч зан"/>
 	<word id="15805" english="clean-living" mongolia="шударга, шулуун, журамтай, дэгтэй, үнэнч"/>
 	<word id="15806" english="cleanly" mongolia="цэвэр ариун, цэвэрч"/>
@@ -15850,7 +15844,7 @@
 	<word id="15831" english="clerk" mongolia=".конторын албан хаагч"/>
 	<word id="15832" english="clerkish" mongolia="конторын албан хаагч байх нөхцөл байдал"/>
 	<word id="15833" english="clerkly" mongolia="сайхан бичигтэй"/>
-	<word id="15834" english=" clerkship" mongolia="нарийн бичгийн даргын "/>
+	<word id="15834" english="clerkship" mongolia="нарийн бичгийн даргын "/>
 	<word id="15835" english="cleromancy" mongolia="зоос шидэж мэрэглэх"/>
 	<word id="15836" english="clethra" mongolia="дэлбээт цагаан цэцэгтэй америкийн бут"/>
 	<word id="15837" english="clever" mongolia=" ухаантай, авьяастай, азтай, хийморьтой"/>
@@ -16233,7 +16227,7 @@
 	<word id="16213" english="compliment" mongolia="магтаал, сайшаал, магтах, сайшаах, хариу магтах"/>
 	<word id="16214" english="complimentary" mongolia="мэндчилгээний, баяр хүргэлтийн"/>
 	<word id="16215" english="complimentary close" mongolia="захиаг төгсгөхдөө хэрэглэдэг эелдэг үг хэллэг"/>
-	<word id="16216" english=" compliment slip" mongolia="бэлэг дурсгалын зурвас, бичиг"/>
+	<word id="16216" english="compliment slip" mongolia="бэлэг дурсгалын зурвас, бичиг"/>
 	<word id="16217" english="complot" mongolia="нууц хэлцээ, тохиролцоо, нууц явуулга, хуйвалдаан"/>
 	<word id="16218" english="comply" mongolia="хэрэгжүүлэх, биелүүлэх"/>
 	<word id="16219" english="component" mongolia="бүрэлдэхүүн хэсэг, орц, хольц"/>
@@ -16818,7 +16812,7 @@
 	<word id="16797" english="conventional    loan" mongolia="засгийн    газрын    агентлагаар баталгааждаггүй б"/>
 	<word id="16798" english="conventionally-armed" mongolia="цөмийн биш зэвсгээр зэвсэглэсэн"/>
 	<word id="16799" english="conventional wisdom" mongolia="нийтээр хүлээн зөвшөөрсөн хандлага үзэл бодол"/>
-	<word id="16800" english=" conventional war" mongolia=" энгийн зэвсэг хэрэглэсэн дайн"/>
+	<word id="16800" english="conventional war" mongolia=" энгийн зэвсэг хэрэглэсэн дайн"/>
 	<word id="16801" english="conventionary" mongolia="түрээс, түрээслэгч"/>
 	<word id="16802" english="conventioneer" mongolia="их хурлын төлөөлөгч, оролцогч"/>
 	<word id="16803" english="convention hall" mongolia="хурлын танхим"/>
@@ -16928,18 +16922,18 @@
 	<word id="16907" english="corn juke" mongolia="эрдэнэ шишийн виски"/>
 	<word id="16908" english="corn law" mongolia="үр тариаг худалдах, худалдан авах тухай хууль"/>
 	<word id="16909" english="cornloft" mongolia="үр тарианы агуулах"/>
-	<word id="16910" english=" corn meal" mongolia="эрдэнэ шишийн гурил"/>
+	<word id="16910" english="corn meal" mongolia="эрдэнэ шишийн гурил"/>
 	<word id="16911" english="corn mule" mongolia="эрдэнэ шишийн дарс"/>
 	<word id="16912" english="corn oil" mongolia="эрдэнэ шишийн тос"/>
 	<word id="16913" english="corn picker" mongolia="үр тариа хураагч"/>
-	<word id="16914" english=" corn pit" mongolia="үр тарианы бирж"/>
+	<word id="16914" english="corn pit" mongolia="үр тарианы бирж"/>
 	<word id="16915" english="corn-plaster" mongolia="шархны лент"/>
 	<word id="16916" english="corn pone" mongolia="өмнөд нутгийн"/>
 	<word id="16917" english="corn popper" mongolia="эрдэнэ шишийн үрийг хуурах тор"/>
-	<word id="16918" english=" corn poppy" mongolia="намуу цэцэг"/>
+	<word id="16918" english="corn poppy" mongolia="намуу цэцэг"/>
 	<word id="16919" english="corncrow" mongolia=" үс сүлжих"/>
 	<word id="16920" english="corn salad" mongolia="ногооны салат"/>
-	<word id="16921" english=" corn sawfly" mongolia="үp тарианы шавьж"/>
+	<word id="16921" english="corn sawfly" mongolia="үp тарианы шавьж"/>
 	<word id="16922" english="corn-rent" mongolia="үр тариагаар түрээсийн төлбөр хийх"/>
 	<word id="16923" english="cornstalk" mongolia="эрдэнэшишийн иш"/>
 	<word id="16924" english="cornstarch" mongolia="эрдэнэ шишийн цардуул"/>
@@ -17047,7 +17041,7 @@
 	<word id="17026" english="cose" mongolia="аятайхан тохитой тухлан суух"/>
 	<word id="17027" english="cosecant" mongolia="косеканс"/>
 	<word id="17028" english="cosh" mongolia="богино бүдүүн бороохой, тугалган голтой, бороохойг"/>
-	<word id="17029" english=" cosh-boy" mongolia=" гудамжны дээрэмчин"/>
+	<word id="17029" english="cosh-boy" mongolia=" гудамжны дээрэмчин"/>
 	<word id="17030" english="cosher" mongolia="хүний юмаар туйлах, найрлах, эрхлүүлэх, энхрийлэх,"/>
 	<word id="17031" english="co-sign" mongolia="хамтран гарын үсэг зурах "/>
 	<word id="17032" english="cosignatory" mongolia="хамтран гарын үсэг зурсан улс гүрэн"/>
@@ -17063,7 +17057,7 @@
 	<word id="17042" english="Cosmian work" mongolia="шигтгэмэл хэрэглэснээр тодорхойлогддог уран барилг"/>
 	<word id="17043" english="cosmic" mongolia="сансрын, бүхнийг хамарсан, асар том, дэг журамтай,"/>
 	<word id="17044" english="cosmic speed" mongolia="сансрын хурд"/>
-	<word id="17045" english=" cosmic year" mongolia=" сансрын жил"/>
+	<word id="17045" english="cosmic year" mongolia=" сансрын жил"/>
 	<word id="17046" english="cosmochemistry" mongolia="огторгуйн биет, орон зайн хими"/>
 	<word id="17047" english="cosmodrome" mongolia="космодром, огторгуйн хөлгийн буудал"/>
 	<word id="17048" english="cosmogenic" mongolia="космоген"/>
@@ -17279,10 +17273,10 @@
 	<word id="17257" english="coloured" mongolia=" хар арьстан, өнгөт арьстан, эрлийз"/>
 	<word id="17258" english="colour-fast" mongolia="өнгө нь арилдаггүй, өнгө нь угаагддаггүй"/>
 	<word id="17259" english="colour film" mongolia="өнгөт зургийн хальс"/>
-	<word id="17260" english=" colour filming" mongolia=" өнгөт кино зураг авах"/>
+	<word id="17260" english="colour filming" mongolia=" өнгөт кино зураг авах"/>
 	<word id="17261" english="colour-filter" mongolia="өнгө шүүгч"/>
 	<word id="17262" english="colour-force" mongolia="кваркийн харилцан үйлчлэл"/>
-	<word id="17263" english=" colour-free" mongolia=" өнгөгүй"/>
+	<word id="17263" english="colour-free" mongolia=" өнгөгүй"/>
 	<word id="17264" english="colourful" mongolia="өнгөтэй, тод, эрээн, мяраан"/>
 	<word id="17265" english="colour-grade" mongolia="өнгөний аажим хувирал"/>
 	<word id="17266" english="colour index" mongolia="өнгө заагч"/>
@@ -17395,7 +17389,7 @@
 	<word id="17373" english="commercial agency" mongolia="бизнест оролцох хувь хүмүүс пүүс компанийн нэр хүн"/>
 	<word id="17374" english="commercial art" mongolia=" хавсарга урлаг"/>
 	<word id="17375" english="commercial bank" mongolia="арилжааны банк"/>
-	<word id="17376" english=" commercial break" mongolia="зар сурталчилгааны завсарлага "/>
+	<word id="17376" english="commercial break" mongolia="зар сурталчилгааны завсарлага "/>
 	<word id="17377" english="commercial college" mongolia="худалдаа, үйлдвэрийн сургууль"/>
 	<word id="17378" english="commercial driver" mongolia="автобус, ачааны тэрэгний жолооч"/>
 	<word id="17379" english="commercialese" mongolia="бизнес захидлын хэв маяг, найруулга"/>
@@ -17548,12 +17542,12 @@
 	<word id="17526" english="corruptive" mongolia="муудаж, ялзарч байгаа, ёс суртахууны доройтолд орс"/>
 	<word id="17527" english="corsac" mongolia="хярс "/>
 	<word id="17528" english="cotton on" mongolia="ойлгох, эзэмших, мэдэж авах"/>
-	<word id="17529" english=" cotton-picker" mongolia="хөвөн хураагч, хөвөн хураагч машин"/>
+	<word id="17529" english="cotton-picker" mongolia="хөвөн хураагч, хөвөн хураагч машин"/>
 	<word id="17530" english="cotton-picking" mongolia="хөвөн хураах"/>
 	<word id="17531" english="cotton-plant" mongolia="хөвөнгийн ургамал"/>
 	<word id="17532" english="cotton press" mongolia=" хөвөнг шахагч"/>
 	<word id="17533" english="cotton print" mongolia="хээтэй даавуу"/>
-	<word id="17534" english=" cotton-seed" mongolia="хөвөнгийн ургамлын ур"/>
+	<word id="17534" english="cotton-seed" mongolia="хөвөнгийн ургамлын ур"/>
 	<word id="17535" english="cotton-spinner" mongolia="хөвөнгийн утас ээрэгч, хөвөн даавууны үйлдвэрийн э"/>
 	<word id="17536" english="cottontail" mongolia="америк туулай "/>
 	<word id="17537" english="cotton up" mongolia="наалдах, долигонох, тоглоом хийх, найзлах, дотносо"/>
@@ -17677,7 +17671,7 @@
 	<word id="17655" english="counting" mongolia="тоололт, тооллого, тооцоо гаргах, тооцоолох"/>
 	<word id="17656" english="counting board" mongolia="тооллогын комисс"/>
 	<word id="17657" english="counting frame" mongolia="сампин"/>
-	<word id="17658" english=" counting house" mongolia="нягтлан бүртгэлийн газар, өрөө"/>
+	<word id="17658" english="counting house" mongolia="нягтлан бүртгэлийн газар, өрөө"/>
 	<word id="17659" english="counting number" mongolia=" бүхэл тоо"/>
 	<word id="17660" english="countless" mongolia="тоо томшгүй, маш олон, тоолохын аргагүй"/>
 	<word id="17661" english="count noun" mongolia="тоолж болох юмсыг заасан нэр үг"/>
@@ -17864,7 +17858,7 @@
 	<word id="17841" english="crashed" mongolia="ухаан мэдрэлээ алдталаа уусан"/>
 	<word id="17842" english="crasher" mongolia="тас хийсэн чимээ, нижигнэн дуугарах"/>
 	<word id="17843" english="crash-helmet" mongolia="хамгаалалтын төмөр малгай"/>
-	<word id="17844" english=" crash in" mongolia="нэвтрэн орох, эвдлэн орох "/>
+	<word id="17844" english="crash in" mongolia="нэвтрэн орох, эвдлэн орох "/>
 	<word id="17845" english="crashing" mongolia="ер бусын, гайхмаар, маш ховор"/>
 	<word id="17846" english="crash-land" mongolia="өөрийн эрхгүй газардах, газардахдаа сүйрэх"/>
 	<word id="17847" english="crash-landing" mongolia="ослын газардалт, буулт "/>
@@ -17986,7 +17980,7 @@
 	<word id="17963" english="criminally" mongolia="эрүүгийн хуулийн дагуу"/>
 	<word id="17964" english="criminalogy" mongolia="криминалоги"/>
 	<word id="17965" english="criminaloid" mongolia="гэмт хэргийн үйлдэлд өртөж болох хүн"/>
-	<word id="17966" english=" criminal record" mongolia="гэмт хэрэгт холбогдож байсан тухай мэдээ"/>
+	<word id="17966" english="criminal record" mongolia="гэмт хэрэгт холбогдож байсан тухай мэдээ"/>
 	<word id="17967" english="criminate" mongolia="гэмт хэргийн үйлдэлд яллах"/>
 	<word id="17968" english="crimination" mongolia="гэмт хэрэгт яллах,  хатуу зэмлэх"/>
 	<word id="17969" english="criminative" mongolia="ялласан, илчилсэн"/>
@@ -18171,7 +18165,7 @@
 	<word id="18148" english="cruzado" mongolia="бразилийн мөнгөний нэгж"/>
 	<word id="18149" english="cry" mongolia="хашгараан, бархираан, уйлаан, уйлан гуйх, уйлах"/>
 	<word id="18150" english="cry-baby" mongolia="уйланхай хүүхэд орилоо жаал"/>
-	<word id="18151" english=" cry down" mongolia="доромжлох, дорд үзэх, муушаах, загнах, хашгичих, ч"/>
+	<word id="18151" english="cry down" mongolia="доромжлох, дорд үзэх, муушаах, загнах, хашгичих, ч"/>
 	<word id="18152" english="crying" mongolia=" хашгирч, орилж байгаа, зэвүү хүрмээр, арай хэтэрс"/>
 	<word id="18153" english="cry off" mongolia=" татгалзах, буцах"/>
 	<word id="18154" english="cry out" mongolia="дуу алдах, хашгирах, бархирах"/>
@@ -18200,7 +18194,7 @@
 	<word id="18177" english="cubit" mongolia="тохойны яс, тохой"/>
 	<word id="18178" english="cuboid" mongolia="кубоид, куб хэлбэртэй яс"/>
 	<word id="18179" english="cub reporter" mongolia="шинэхэн сурвалжлагч, мэдээч"/>
-	<word id="18180" english=" cub scout" mongolia="бага бүлгийн скаут хөвгүүд"/>
+	<word id="18180" english="cub scout" mongolia="бага бүлгийн скаут хөвгүүд"/>
 	<word id="18181" english="cuckold" mongolia="хууртагдсан нөхөр,  нөхрөө хуурах"/>
 	<word id="18182" english="cucking-stool" mongolia="ёс бус үйлдэл гаргасан эмэгтэйчүүд, хүмүүсийг хуур"/>
 	<word id="18183" english="cuckoldry" mongolia=" хууртагдсан нөхрийн байдал"/>
@@ -19350,7 +19344,7 @@
 	<word id="19325" english="cowbird" mongolia="үхэр шувуу"/>
 	<word id="19326" english="cow camp" mongolia="үхэр бзлчээх газар"/>
 	<word id="19327" english="cowcatcher" mongolia="галт тэрэгний зүтгүүр, гудамж талбайн машины урьд "/>
-	<word id="19328" english=" cow-cocky" mongolia="сүү цагаан идээний жижиг ферм"/>
+	<word id="19328" english="cow-cocky" mongolia="сүү цагаан идээний жижиг ферм"/>
 	<word id="19329" english="cow college" mongolia=" хөдөө аж ахуйн коллеж"/>
 	<word id="19330" english="cower" mongolia="дагжих, бэгцийх, бээцийх"/>
 	<word id="19331" english="cow-eyed" mongolia="том нүдтэй, бүлтгэр"/>
@@ -19522,7 +19516,7 @@
 	<word id="19497" english="сrераnсе" mongolia="морины хөлөө өшиглөсөн шарх"/>
 	<word id="19498" english="crepe de chine" mongolia="крепдешин"/>
 	<word id="19499" english="crepe hair" mongolia="жүжгэнд хэрэглэдэг ноос, өвс ногоогоор сүлжсэн үс "/>
-	<word id="19500" english=" crepe paper" mongolia=" гоёл чимэглэлд хэрэглэдэг нугалаатай"/>
+	<word id="19500" english="crepe paper" mongolia=" гоёл чимэглэлд хэрэглэдэг нугалаатай"/>
 	<word id="19501" english="crepe rubber" mongolia=" гутлын уланд хэрэглэдэг иржгэр гадаргуутай резин"/>
 	<word id="19502" english="crepe suzette" mongolia="шарвин"/>
 	<word id="19503" english="crepe" mongolia="нимгэн даавуу, байгалийн каучук, нугалаа гаргасан "/>
@@ -19691,7 +19685,7 @@
 	<word id="19665" english="cross-holdings" mongolia="хэдэн компанийн хувьцааг хамтран эзэмших"/>
 	<word id="19666" english="cross-immunity" mongolia="өвчтэй организмын зсрэг үүсдэг дархлаа"/>
 	<word id="19667" english="cross-immunization" mongolia="ийм дархлаатай байх нөхцөл"/>
-	<word id="19668" english=" cross-impact" mongolia="хүчин зүйлүүдийн харилцан нөлөөлөл"/>
+	<word id="19668" english="cross-impact" mongolia="хүчин зүйлүүдийн харилцан нөлөөлөл"/>
 	<word id="19669" english="cross-index" mongolia="солбицон иш татах"/>
 	<word id="19670" english="crossing guard" mongolia="сургуулийн дэргэдэх тээврийн хөдөлгөөнийг зохицуул"/>
 	<word id="19671" english="crossing over" mongolia="эрлийзжүүлэлт"/>
@@ -21330,7 +21324,7 @@
 	<word id="21302" english="done" mongolia="дууссан, бэлэн болсон, сайтар болгосон, чанасан"/>
 	<word id="21303" english="done in" mongolia=" их ядарсан"/>
 	<word id="21304" english="done for" mongolia=" үхсэн, үхлүүт"/>
-	<word id="21305" english=" not done" mongolia="ёсонд нийцэхгүй"/>
+	<word id="21305" english="not done" mongolia="ёсонд нийцэхгүй"/>
 	<word id="21306" english="donkey" mongolia="илжиг"/>
 	<word id="21307" english="donkey's years" mongolia="олон жил"/>
 	<word id="21308" english="donor" mongolia="туслагч, хандивлагч, донор"/>
@@ -21433,7 +21427,7 @@
 	<word id="21405" english="downy" mongolia="зөөлхөн, өдөрхөг"/>
 	<word id="21406" english="dowry" mongolia="инж"/>
 	<word id="21407" english="doze" mongolia="зүүрмэглэх, дуг хийх, үүрэглэх"/>
-	<word id="21408" english=" doze off" mongolia="зүйрмэглээд авах"/>
+	<word id="21408" english="doze off" mongolia="зүйрмэглээд авах"/>
 	<word id="21409" english="dozen" mongolia="арван хоёр ширхэг"/>
 	<word id="21410" english="dozy" mongolia="нойрмог"/>
 	<word id="21411" english="drab" mongolia="хужrap, нэг хэвийн, уйтгартай"/>
@@ -21587,7 +21581,7 @@
 	<word id="21559" english="dutiful" mongolia="дуулгавартай"/>
 	<word id="21560" english="dutifully" mongolia="дуулгавартай, үнэнч"/>
 	<word id="21561" english="duty" mongolia="үүрэг, албан үүрэг, татвар, хураамж"/>
-	<word id="21562" english=" duty-bound" mongolia="үүрэгтэй, үүрэг хүлээсэн"/>
+	<word id="21562" english="duty-bound" mongolia="үүрэгтэй, үүрэг хүлээсэн"/>
 	<word id="21563" english="duty-free" mongolia="татваргүй"/>
 	<word id="21564" english="dwarf" mongolia="одой хүн, тарваган хүн, давжаа мал, ургамал"/>
 	<word id="21565" english="dwell" mongolia="орших, байрлах, суух"/>
@@ -21880,7 +21874,7 @@
 	<word id="21851" english="earwig" mongolia="чихүүр хорхой"/>
 	<word id="21852" english="ease" mongolia="амархан, хялбархан, өлхөн, амар амгалан, тайван"/>
 	<word id="21853" english="ease off" mongolia="зөөлрөх, намсах"/>
-	<word id="21854" english=" ease up" mongolia="хурд хасах / сойх"/>
+	<word id="21854" english="ease up" mongolia="хурд хасах / сойх"/>
 	<word id="21855" english="easel" mongolia="зургийн тавиур, мольберт"/>
 	<word id="21856" english="easily" mongolia="амархан, хялбархан, өлхөн, гарцаагүй, эргэлзээгүй"/>
 	<word id="21857" english="east" mongolia="зүүн зүг,  зүүн, дорнод"/>
@@ -21927,7 +21921,7 @@
 	<word id="21898" english="encyclopedic" mongolia="өргөн мэдлэгтэй"/>
 	<word id="21899" english="end" mongolia="үзүүр, эцэс, төгсгөл, үлдэгдэл"/>
 	<word id="21900" english="end of the stick" mongolia=" буруу ойлгох"/>
-	<word id="21901" english=" in the end" mongolia=" үр дүнд, эцэст нь"/>
+	<word id="21901" english="in the end" mongolia=" үр дүнд, эцэст нь"/>
 	<word id="21902" english="days on end" mongolia="олон хоног, олон өдөр үргэлжилсэн / болсон"/>
 	<word id="21903" english="endanger" mongolia="аюул / xop хөнөөл учруулах"/>
 	<word id="21904" english="endangered species" mongolia="улаан номонд орсон амьтад"/>
@@ -22534,7 +22528,7 @@
 	<word id="22505" english="fall off" mongolia="багасах"/>
 	<word id="22506" english="fall out" mongolia="унах, ойчих"/>
 	<word id="22507" english="fall over" mongolia="газар ойчих, унах"/>
-	<word id="22508" english=" fall through" mongolia="нурах, бүтэлгүйтэх"/>
+	<word id="22508" english="fall through" mongolia="нурах, бүтэлгүйтэх"/>
 	<word id="22509" english="the fallen" mongolia=" дайнд амь үрэгсдэд"/>
 	<word id="22510" english="fallacy" mongolia="төерөгдөл, эндүүрэл"/>
 	<word id="22511" english="fallacious" mongolia="эндүү ташаа, төөрөгдүүлсэн"/>
@@ -22574,7 +22568,7 @@
 	<word id="22545" english="fancier" mongolia="амьтан / ургамал сонирхогч"/>
 	<word id="22546" english="fanciful" mongolia="этгээд, маягтай, чамин, хачин, уран зөгнөлт, хийсв"/>
 	<word id="22547" english="fancy" mongolia="хоосон маяг, олон ааш"/>
-	<word id="22548" english=" fancy oneself" mongolia="биеэ тоох, өөрийгөө хэт үнэлэх"/>
+	<word id="22548" english="fancy oneself" mongolia="биеэ тоох, өөрийгөө хэт үнэлэх"/>
 	<word id="22549" english="fancy dress" mongolia="багт наадмын хувцас"/>
 	<word id="22550" english="fancyfree" mongolia=" сул челөөтэй"/>
 	<word id="22551" english="fancywork" mongolia="уран хатгамал"/>
@@ -22586,7 +22580,7 @@
 	<word id="22557" english="fantasy" mongolia="уран зөгнөл"/>
 	<word id="22558" english="far" mongolia="хол, их, маш, тун"/>
 	<word id="22559" english="far-fetched" mongolia="итгэмээргүй, үнэмшилгүй"/>
-	<word id="22560" english=" far-flung" mongolia="өргөн тархсан, холын"/>
+	<word id="22560" english="far-flung" mongolia="өргөн тархсан, холын"/>
 	<word id="22561" english="faraway" mongolia="холын, алсын"/>
 	<word id="22562" english="farce" mongolia="шог хошин жүжиг, шог гараа, хоосон сүржигнэл"/>
 	<word id="22563" english="farcical" mongolia="утгагүй, хоосон, сүржин"/>
@@ -22633,7 +22627,7 @@
 	<word id="22604" english="fatherhood" mongolia="эцэг болох, эцэг байх"/>
 	<word id="22605" english="fatherless" mongolia="эцэггүй"/>
 	<word id="22606" english="fatherly" mongolia="эцгийн, эцэг ёсны"/>
-	<word id="22607" english=" father-in-law" mongolia=" хадам эцэг"/>
+	<word id="22607" english="father-in-law" mongolia=" хадам эцэг"/>
 	<word id="22608" english="fatherland" mongolia="эх орон, эх нутаг"/>
 	<word id="22609" english="fathom" mongolia="алд"/>
 	<word id="22610" english="half a fathom" mongolia="дэлэм"/>
@@ -22699,7 +22693,7 @@
 	<word id="22669" english="feel free" mongolia="  за, тэг ээ тэг"/>
 	<word id="22670" english="feel good" mongolia="баярлах, сэтгэл ханамжтай байх"/>
 	<word id="22671" english="feelingly" mongolia="сэтгэл нь догдолсон / хөдөлсөн"/>
-	<word id="22672" english=" feel one's way" mongolia="хараихуйд тэмтэрч замаа олох"/>
+	<word id="22672" english="feel one's way" mongolia="хараихуйд тэмтэрч замаа олох"/>
 	<word id="22673" english="feeler" mongolia="тэмтрүүл"/>
 	<word id="22674" english="feelers" mongolia=" бусдын санаа бодлыг тандаж мэдэх"/>
 	<word id="22675" english="feeling" mongolia="мэдрэмж, мэдрэхүй, мэдрэх чадвар, зөн"/>
@@ -22711,7 +22705,7 @@
 	<word id="22681" english="fell" mongolia="дов толгодтой газар, аюултай, осолтой, аймшигтай"/>
 	<word id="22682" english="fell" mongolia="fall"/>
 	<word id="22683" english="fellow" mongolia="хархүү, залуу, түнш, нөхөр, хам, амраг хүү"/>
-	<word id="22684" english=" fellow-feeling" mongolia="зовлонгоо хуваалцах"/>
+	<word id="22684" english="fellow-feeling" mongolia="зовлонгоо хуваалцах"/>
 	<word id="22685" english="fellowship" mongolia="нөхөрлөл, үерхэл, нийгэмлэг,  нийгэмлэгийн гишүүн "/>
 	<word id="22686" english="felony" mongolia="ноцтой гэмт хэрэг"/>
 	<word id="22687" english="felon" mongolia="ноцтой гэмт хэрэгтэн"/>
@@ -22826,7 +22820,7 @@
 	<word id="22796" english="filly" mongolia="байдсан гүү"/>
 	<word id="22797" english="film" mongolia="нимгэн хальс, нарийн бүрхүүл, гэрэл зургийн хальс,"/>
 	<word id="22798" english="film over" mongolia="өрөмтөх, өрөм татах, бүрхэх"/>
-	<word id="22799" english=" film star" mongolia="киноны од"/>
+	<word id="22799" english="film star" mongolia="киноны од"/>
 	<word id="22800" english="filter" mongolia="шүүлтүүр, шүүх, тунгаах, "/>
 	<word id="22801" english="filter tip" mongolia="шүүлтүүртэй янжуур"/>
 	<word id="22802" english="filth" mongolia="хир буртаг, садар самуун явдал, завхай яриа"/>
@@ -22869,10 +22863,10 @@
 	<word id="22839" english="finite" mongolia="хязгаарлагдмал, биеийн"/>
 	<word id="22840" english="fir" mongolia="жодоо, гацуур, цөөрс, боргоцой"/>
 	<word id="22841" english="fire" mongolia="гал, гал түймэр, буугаар буудах, халаагуур"/>
-	<word id="22842" english=" fire away" mongolia="ярьж / асууж эхлэх"/>
-	<word id="22843" english=" fire-alarm" mongolia="түймрийн түгшүүр"/>
+	<word id="22842" english="fire away" mongolia="ярьж / асууж эхлэх"/>
+	<word id="22843" english="fire-alarm" mongolia="түймрийн түгшүүр"/>
 	<word id="22844" english="fire-bomb" mongolia="галт бөмбөг"/>
-	<word id="22845" english=" fire brigade" mongolia="гал команд"/>
+	<word id="22845" english="fire brigade" mongolia="гал команд"/>
 	<word id="22846" english="fire door" mongolia="аврах гарц"/>
 	<word id="22847" english="fire-engine" mongolia="гал унтраах машин"/>
 	<word id="22848" english="fire extinguisher" mongolia="гaл унтраагуур"/>
@@ -22891,7 +22885,7 @@
 	<word id="22861" english="firmness" mongolia=" бат бөх, бат бэх, хатуу, чанга"/>
 	<word id="22862" english="first" mongolia="нэгдүгээр, нэг дэх, анхны, эхний, түрүүчийн, шилдэ"/>
 	<word id="22863" english="firstly" mongolia="нэгд, нэгдүгээрт"/>
-	<word id="22864" english=" first aid" mongolia="анхны тусламж"/>
+	<word id="22864" english="first aid" mongolia="анхны тусламж"/>
 	<word id="22865" english="first-born" mongolia="анхны хүүхэд, ууган хүү / охин"/>
 	<word id="22866" english="first class" mongolia="дээд зэргийн"/>
 	<word id="22867" english="first degree" mongolia="нэгдүгээр зэргийн түлэгдэлт, ноцтой хүн амины хэрэ"/>
@@ -22900,7 +22894,7 @@
 	<word id="22870" english="first-fruit" mongolia="шинэ ургац, анхны үр дүн"/>
 	<word id="22871" english="first gear" mongolia=" хамгийн доод араа"/>
 	<word id="22872" english="first lady" mongolia=" тэргүүн хатагтай"/>
-	<word id="22873" english=" first-rate" mongolia="дээд зэргийн, маш сайн, гойд сайхан"/>
+	<word id="22873" english="first-rate" mongolia="дээд зэргийн, маш сайн, гойд сайхан"/>
 	<word id="22874" english="first school" mongolia="бага сургууль"/>
 	<word id="22875" english="firsthand" mongolia="эх сурвалжаас авсан "/>
 	<word id="22876" english="fiscal" mongolia="санхүүгийн, мөнгөний"/>
@@ -22960,7 +22954,7 @@
 	<word id="22930" english="flap" mongolia="сөхүүр, сүр пар хийх."/>
 	<word id="22931" english="flare" mongolia="гэрэл цацрах, гялалзах, улалзах"/>
 	<word id="22932" english="flare up" mongolia="гал дүрсхийх"/>
-	<word id="22933" english=" flare-path" mongolia="онгоцны нисэх буух гэрэлтэй зам."/>
+	<word id="22933" english="flare-path" mongolia="онгоцны нисэх буух гэрэлтэй зам."/>
 	<word id="22934" english="flash" mongolia="гялсхийх, цахилгаан цахих, очлуур"/>
 	<word id="22935" english="flashy" mongolia="гял цал, гаднаа гяланцаг"/>
 	<word id="22936" english="flashily" mongolia="гял цал"/>
@@ -23063,7 +23057,7 @@
 	<word id="23033" english="flock" mongolia="сүрэг, бөөн хүн, цугларах, беөгнөрөх"/>
 	<word id="23034" english="flog" mongolia="ташуурдах, ороолгох, шавхуурдах, банздах"/>
 	<word id="23035" english="flog a dead horse" mongolia="хайран цагаа дэмий юманд үрэх"/>
-	<word id="23036" english=" flogging" mongolia="ташуурдах, банздах"/>
+	<word id="23036" english="flogging" mongolia="ташуурдах, банздах"/>
 	<word id="23037" english="flood" mongolia="үер, их ус, бөөн юм, үерлэх, дарах, үй олноор ирэх"/>
 	<word id="23038" english="floodlight" mongolia="прожектор, том гэрэл, прожектор тусгах"/>
 	<word id="23039" english="floor" mongolia="шал, давхар, ёроол"/>
@@ -23071,7 +23065,7 @@
 	<word id="23041" english="floorboard" mongolia="шалны банз"/>
 	<word id="23042" english="flop" mongolia="падхийтэл унах / ойчих, пид пад хийх, паадганах, б"/>
 	<word id="23043" english="floppy" mongolia="зөөлөн, уян, хатуу биш"/>
-	<word id="23044" english=" floppy disk" mongolia="уян диск"/>
+	<word id="23044" english="floppy disk" mongolia="уян диск"/>
 	<word id="23045" english="flora" mongolia="ургамлын аймаг, ургамал"/>
 	<word id="23046" english="floral" mongolia="цэцгийн, цэцгэн хээтэй"/>
 	<word id="23047" english="florid" mongolia=" уран, гoё үгтэй, чимэг ихтэй, улаан нүүртэй"/>
@@ -23093,7 +23087,7 @@
 	<word id="23063" english="fly away" mongolia="намирсан, зөөлхөн "/>
 	<word id="23064" english="flyer" mongolia="нисэгч, онгоцоор зорчигч, хурдан машин/ морь, энд "/>
 	<word id="23065" english="flying" mongolia="нисдэг"/>
-	<word id="23066" english=" flying jump" mongolia="том харайх"/>
+	<word id="23066" english="flying jump" mongolia="том харайх"/>
 	<word id="23067" english="flying visit" mongolia="ороод гарах"/>
 	<word id="23068" english="flyweight" mongolia="хөнгөн жингийн бөх / боксчин"/>
 	<word id="23069" english="foal" mongolia="унага"/>
@@ -23383,7 +23377,7 @@
 	<word id="23353" english="free agent" mongolia="үүрэг хариуцлага хүлээгээгүй эрх чөлөөтэй хүн"/>
 	<word id="23354" english="free enterprise" mongolia="чөлөөт өрсөлдөөнтэй эдийн засгийн тогтолцоо"/>
 	<word id="23355" english="free-for-all" mongolia="хэрүүл, тулаан, ямар ч хяналтгүй чөлөөтэй байдап"/>
-	<word id="23356" english=" free house" mongolia="шар айрагны мухлаг"/>
+	<word id="23356" english="free house" mongolia="шар айрагны мухлаг"/>
 	<word id="23357" english="free kick" mongolia="торгуулийн бөмбөг өшиглөх"/>
 	<word id="23358" english="free love" mongolia="албан ёсоор гэрлэхгүйгээр чөлөөтэй явалдах"/>
 	<word id="23359" english="free market" mongolia=" чөлөөт эах эээл"/>
@@ -23500,7 +23494,7 @@
 	<word id="23469" english="frustratingly" mongolia="гомдонгуй"/>
 	<word id="23470" english="frustration" mongolia="гонсгор байдал"/>
 	<word id="23471" english="fry" mongolia="шарах, хайрах"/>
-	<word id="23472" english=" fried chicken" mongolia="шарсан тахиа"/>
+	<word id="23472" english="fried chicken" mongolia="шарсан тахиа"/>
 	<word id="23473" english="frying-pan" mongolia="хайруулын таваг"/>
 	<word id="23474" english="fryer" mongolia="хайруулын том таваг"/>
 	<word id="23475" english="fuck" mongolia="хурьцал үйлдэх"/>
@@ -23517,19 +23511,19 @@
 	<word id="23486" english="fulcrum" mongolia="тупах цэг, эргэлтийн төв"/>
 	<word id="23487" english="fulfil" mongolia="зорьсондоо хүрэх, хүслээ биелүүлэх"/>
 	<word id="23488" english="full" mongolia="дүүрэн, бүрэн, бүтэн, бүхэл, бүрэн дүүрэн, хангалт"/>
-	<word id="23489" english=" full stretch" mongolia="хамаг чадлаараа, бүх л бололцоогоороо"/>
+	<word id="23489" english="full stretch" mongolia="хамаг чадлаараа, бүх л бололцоогоороо"/>
 	<word id="23490" english="full blast" mongolia=" хамаг чангаараа"/>
 	<word id="23491" english="full-blooded" mongolia="хүчтэй, дайчин, идэвхтэй"/>
 	<word id="23492" english="full board" mongolia="зочид буудлын байр, хоолоор хангах"/>
 	<word id="23493" english="full colour" mongolia="өнгөт"/>
 	<word id="23494" english="full-dress" mongolia="чухал ач холбогдолтой"/>
-	<word id="23495" english=" full-grown" mongolia=" боловсорч гүйцсэн. болсон, насанд хүрсэн"/>
+	<word id="23495" english="full-grown" mongolia=" боловсорч гүйцсэн. болсон, насанд хүрсэн"/>
 	<word id="23496" english="full-length" mongolia=" урт, бүрэн хэмжээний"/>
 	<word id="23497" english="full moon" mongolia="арван тавны cap"/>
 	<word id="23498" english="full-scale" mongolia="өргөн хэмжээний, бүгдийг хамарсан, яг хэмжээгээр н"/>
-	<word id="23499" english=" full stop" mongolia="цэг,  асуудлыг цэглэх"/>
+	<word id="23499" english="full stop" mongolia="цэг,  асуудлыг цэглэх"/>
 	<word id="23500" english="fully" mongolia="бүрэн, гүйцэд, бүхэлдээ"/>
-	<word id="23501" english=" full-time" mongolia="бүтэн өдрийн /> бүтэн өдөр ажиллах"/>
+	<word id="23501" english="full-time" mongolia="бүтэн өдрийн /> бүтэн өдөр ажиллах"/>
 	<word id="23502" english="fulminate" mongolia="хүчтэй эсэргүүцэх, -ний эсрэг бат зогсох"/>
 	<word id="23503" english="fulmination" mongolia="хүчтэй эсэргүүцэл"/>
 	<word id="23504" english="fulsome" mongolia="хэтэрхий, дэндүү"/>
@@ -23741,7 +23735,7 @@
 	<word id="23710" english="gazette" mongolia="албан хэрэгцээний сэтгүүл"/>
 	<word id="23711" english="gazetteer" mongolia="газар зүйн нэрийн лавлах"/>
 	<word id="23712" english="gear" mongolia="хувцас, хэрэгсэл, тоноглол, багаж, төхөөрөмж"/>
-	<word id="23713" english=" gear-change" mongolia="apaa солих"/>
+	<word id="23713" english="gear-change" mongolia="apaa солих"/>
 	<word id="23714" english="gear lever" mongolia="apaa солих хөшүүрэг"/>
 	<word id="23715" english="gearing" mongolia="механизм, apaa"/>
 	<word id="23716" english="gearbox" mongolia=" хурдны хайрцаг"/>
@@ -23763,7 +23757,7 @@
 	<word id="23732" english="genealogist" mongolia="yг гарлын судлаач"/>
 	<word id="23733" english="general" mongolia="нийтийн, бүх нийтийн, ерөнхий, ердийн, гол, төв, е"/>
 	<word id="23734" english="General Assembly" mongolia="Ерөнхий чуулган"/>
-	<word id="23735" english=" general-purpose" mongolia="олон талын зориулалттай"/>
+	<word id="23735" english="general-purpose" mongolia="олон талын зориулалттай"/>
 	<word id="23736" english="generalship" mongolia="жанжны ур чадвар"/>
 	<word id="23737" english="generality" mongolia="ерөнхий юм / байдал"/>
 	<word id="23738" english="the generality" mongolia="дийлэнх, олонхи"/>
@@ -23843,7 +23837,7 @@
 	<word id="23812" english="get ahead" mongolia="ажилдаа амжилт / ахиц гаргах, бусдаас илүү сайн бо"/>
 	<word id="23813" english="get along" mongolia="явах,  ахих, давших, амжилт гapгax"/>
 	<word id="23814" english="get away" mongolia="амралтаар явах"/>
-	<word id="23815" english=" get back" mongolia="гэртээ буцаж ирэх, харих"/>
+	<word id="23815" english="get back" mongolia="гэртээ буцаж ирэх, харих"/>
 	<word id="23816" english="get behind" mongolia="хугацаанд нь амжуулахгүй / хүчрэхгүй байх"/>
 	<word id="23817" english="get through" mongolia=" их хэмжээгээр үрэх / зарцуулах, хэрэглэх, хийх, д"/>
 	<word id="23818" english="get together" mongolia="нийлэх, цуглах, цугларах"/>
@@ -23935,7 +23929,7 @@
 	<word id="23904" english="glass" mongolia="шил, шилэн сав суулга, шилэн аяга, хундага ундаа"/>
 	<word id="23905" english="glasses" mongolia="нүдний шил"/>
 	<word id="23906" english="glassful" mongolia="шилэн аяга / хундага"/>
-	<word id="23907" english=" glass blower" mongolia="шил үлээгч"/>
+	<word id="23907" english="glass blower" mongolia="шил үлээгч"/>
 	<word id="23908" english="glasshouse" mongolia="шилэн хүлэмж"/>
 	<word id="23909" english="glassware" mongolia="шилэн сав суулга"/>
 	<word id="23910" english="glassy" mongolia="шилэн, шил шиг, толигор, гөлөргөн, гөлийсөн"/>
@@ -24177,7 +24171,7 @@
 	<word id="24145" english="granny" mongolia="эмээ"/>
 	<word id="24146" english="grant" mongolia="зөвшөөрөх, зөвшөөрөл өгөх, болгоох, өгөх, олгох, х"/>
 	<word id="24147" english="granted" mongolia="үнэхээр, ёстой"/>
-	<word id="24148" english=" grant in aid" mongolia="татаас"/>
+	<word id="24148" english="grant in aid" mongolia="татаас"/>
 	<word id="24149" english="grant maintained" mongolia="төсвөөс санхүүждэг"/>
 	<word id="24150" english="granular" mongolia="мөхлөгт, үйрмэг, арсгар, барсгар"/>
 	<word id="24151" english="granule" mongolia="мөхлөг"/>
@@ -24275,7 +24269,7 @@
 	<word id="24243" english="grew" mongolia="grow"/>
 	<word id="24244" english="grey" mongolia="саарал, бор, буурал /> бүрхэг"/>
 	<word id="24245" english="greyish" mongolia="сааралдуу, бууралдуу"/>
-	<word id="24246" english=" grey area" mongolia="цоорхой, цагаан толбо"/>
+	<word id="24246" english="grey area" mongolia="цоорхой, цагаан толбо"/>
 	<word id="24247" english="grey-haired" mongolia="настай, буурал"/>
 	<word id="24248" english="grey matter" mongolia="ухаан, тархи"/>
 	<word id="24249" english="greyhound" mongolia="анч нохойны нэгэн төрөл"/>
@@ -24458,7 +24452,7 @@
 	<word id="24426" english="guzzle" mongolia="ховдоглон идэх, уух"/>
 	<word id="24427" english="guzzler" mongolia="шатахуун их иддэг машин, ховдог хүн"/>
 	<word id="24428" english="gym" mongolia="гимнастик, гимнастикийн танхим"/>
-	<word id="24429" english=" gym master, mistress" mongolia="гимнастикийи эрэгтэй, эмэгтэй багш"/>
+	<word id="24429" english="gym master, mistress" mongolia="гимнастикийи эрэгтэй, эмэгтэй багш"/>
 	<word id="24430" english="gym shoe" mongolia=" гимнастикийн шаахай"/>
 	<word id="24431" english="gymkhana" mongolia="морин спортын тэмцээн"/>
 	<word id="24432" english="gymnasium" mongolia="гимнастикийн өрөө, танхим"/>
@@ -24539,7 +24533,7 @@
 	<word id="24507" english="half mast" mongolia="туг бөхийлгөх"/>
 	<word id="24508" english="half moon" mongolia="xaвирган cap"/>
 	<word id="24509" english="half price" mongolia="хямд, тал үнээр"/>
-	<word id="24510" english=" half sister" mongolia=" эх юмуу эцэг нэгтэй эгч, дүү"/>
+	<word id="24510" english="half sister" mongolia=" эх юмуу эцэг нэгтэй эгч, дүү"/>
 	<word id="24511" english="half yearly" mongolia="xarac жилийн, хагас жилд нэг удаа"/>
 	<word id="24512" english="half baked" mongolia="дутуу дулимаг, хагас дутуу, шүүрхий"/>
 	<word id="24513" english="half back" mongolia="хагас хамгаалагч"/>
@@ -24612,14 +24606,14 @@
 	<word id="24580" english="come in handy" mongolia="хэрэг болох"/>
 	<word id="24581" english="handyman" mongolia="гaрын уртай хүн"/>
 	<word id="24582" english="hang" mongolia="зүүх, дүүжлэх, унжих, дамнах,   хананд хада"/>
-	<word id="24583" english=" hang fire" mongolia="хойшлуулах"/>
+	<word id="24583" english="hang fire" mongolia="хойшлуулах"/>
 	<word id="24584" english="hang back" mongolia="үлдэх"/>
 	<word id="24585" english="hang on" mongolia="барих, зуурч авах, түр хүлээх, үргэлжлүүлэн хийх, "/>
 	<word id="24586" english="hang out" mongolia="нэг газар удаан суух"/>
 	<word id="24587" english="hang together" mongolia="бие биедээ туслах, хамжилцах, хоорондоо нийцэх, та"/>
 	<word id="24588" english="hanging" mongolia="дүүжлэн алах, хөшиг, хананд өлгөсөн юм"/>
 	<word id="24589" english="hang gliding" mongolia="дельтапланы спорт"/>
-	<word id="24590" english=" hang glider" mongolia="дельтапланы тамирчин, дельтаплан"/>
+	<word id="24590" english="hang glider" mongolia="дельтапланы тамирчин, дельтаплан"/>
 	<word id="24591" english="hangar" mongolia="нисэх онгоцны байр"/>
 	<word id="24592" english="hangdog" mongolia="гэмшингүй, гөлөлзсөн"/>
 	<word id="24593" english="hanger" mongolia=" хувцасны өлгүүр"/>
@@ -24648,7 +24642,7 @@
 	<word id="24616" english="hard going" mongolia="хэцүү, ойлгоход бэрх, уйтгартай,  давшгүй, хүнд"/>
 	<word id="24617" english="hard of hearing" mongolia="чих хатуу"/>
 	<word id="24618" english="hard feelings" mongolia=" xap буруу санахгүй"/>
-	<word id="24619" english=" hard earned" mongolia="хүч хөдөлмөрөө шавхан байж олсон"/>
+	<word id="24619" english="hard earned" mongolia="хүч хөдөлмөрөө шавхан байж олсон"/>
 	<word id="24620" english="hard faced" mongolia="гөлийсөн, хатуу сэтгэлтэй"/>
 	<word id="24621" english="hard fought" mongolia="ширүүн, шаргуу, хүчтэй тэмцэл, тулалдаан)"/>
 	<word id="24622" english="hard headed" mongolia="хэрсүү, эрүүл ухаантай"/>
@@ -24730,7 +24724,7 @@
 	<word id="24698" english="bury the hatchet" mongolia="эвлэрэх, дайсагналцахаа болих"/>
 	<word id="24699" english="hatchet faced" mongolia="унжгар царай"/>
 	<word id="24700" english="hatchet job" mongolia="бусдын нэр хүндийг гутаах үйл ажиллагаа"/>
-	<word id="24701" english=" hatchet man" mongolia="дээрхи ажлыг үйлдэх хөлсний хүн"/>
+	<word id="24701" english="hatchet man" mongolia="дээрхи ажлыг үйлдэх хөлсний хүн"/>
 	<word id="24702" english="hate" mongolia="занал, хорсол, xopcox, үзэн ядах, занах"/>
 	<word id="24703" english="hater" mongolia="өстөн"/>
 	<word id="24704" english="hateful" mongolia="заналт, xopсолтой"/>
@@ -24802,7 +24796,7 @@
 	<word id="24770" english="heal" mongolia="эмчлэх, анагаах, эдгээх, эдгэх, илаарьших"/>
 	<word id="24771" english="health" mongolia="эрүүл саруул байх, эрүүл мэнд"/>
 	<word id="24772" english="healthful" mongolia="эрүүл мэндэд тустай"/>
-	<word id="24773" english=" health centre" mongolia="эрүүл мэндийн төв"/>
+	<word id="24773" english="health centre" mongolia="эрүүл мэндийн төв"/>
 	<word id="24774" english="health farm" mongolia="амралт сувиллын газар"/>
 	<word id="24775" english="health food" mongolia="химийн бодисгүй, аминдэм ихтэй хоол хүнс"/>
 	<word id="24776" english="health visitor" mongolia="өрхийн эмч"/>
@@ -24849,7 +24843,7 @@
 	<word id="24817" english="heave" mongolia="өргөх, татах, чангаах, шидэх, чулуудах,  оволзох, "/>
 	<word id="24818" english="heaven" mongolia="тэнгэр, амар жаргал, тэнгэрийн бошиг, хувь тавилан"/>
 	<word id="24819" english="heavenwards" mongolia="тэнгэр өөд, дээшээ"/>
-	<word id="24820" english=" heaven sent" mongolia="тун азтай"/>
+	<word id="24820" english="heaven sent" mongolia="тун азтай"/>
 	<word id="24821" english="heavenly" mongolia="тэнгэрийн, тэнгэрлэг, их сайхан"/>
 	<word id="24822" english="heavy" mongolia="хүнд, хүчтэй, ширүүн, арвин"/>
 	<word id="24823" english="heavy going" mongolia="хүнд, хэцүү, уйтгартай"/>
@@ -24860,11 +24854,11 @@
 	<word id="24828" english="heavy duty" mongolia="эдэлгээ сайтай, бат бөх"/>
 	<word id="24829" english="heavy handed" mongolia="хүйтэн, хэрцгий, балмад"/>
 	<word id="24830" english="heavy hearted" mongolia="уйтгартай, гунигтай"/>
-	<word id="24831" english=" heavy metal" mongolia="хүнд металл хөгжим"/>
+	<word id="24831" english="heavy metal" mongolia="хүнд металл хөгжим"/>
 	<word id="24832" english="heavyweight" mongolia="хүнд жингийн боксчин .5 кг-аас дээш/> бүдүүн хү"/>
 	<word id="24833" english="Hebrew" mongolia=" жүд хүн"/>
 	<word id="24834" english="heck" mongolia="чөтгөр аваг, хараал идмэр"/>
-	<word id="24835" english=" heckle" mongolia="элдвийг шалгаах, үгийг нь таслах"/>
+	<word id="24835" english="heckle" mongolia="элдвийг шалгаах, үгийг нь таслах"/>
 	<word id="24836" english="hectare" mongolia="гектар, га"/>
 	<word id="24837" english="hectic" mongolia="цаг завгүй, амсхийх завгүй"/>
 	<word id="24838" english="hect" mongolia="зуу, зуун"/>
@@ -25045,7 +25039,7 @@
 	<word id="25012" english="high explosive" mongolia="задран дэлбэрэх тэсрэх бодис"/>
 	<word id="25013" english="high-flying" mongolia="дээгүүр жаалах, дээгүүрсанаа гаргах"/>
 	<word id="25014" english="high-grade" mongolia="сайн чанартай"/>
-	<word id="25015" english=" high-handed" mongolia="зоргоороо ааштай, дураараа аашладаг хүн"/>
+	<word id="25015" english="high-handed" mongolia="зоргоороо ааштай, дураараа аашладаг хүн"/>
 	<word id="25016" english="high jump" mongolia="өндрийн харайлт"/>
 	<word id="25017" english="high-level" mongolia="өндөр түвшний, дээд хэмжээний"/>
 	<word id="25018" english="high-minded" mongolia="сайхан сэтгэлтэй"/>
@@ -25078,7 +25072,7 @@
 	<word id="25045" english="him" mongolia="түүнд, түүнийг"/>
 	<word id="25046" english="himself" mongolia="өөрөө, өөрийгөө "/>
 	<word id="25047" english="hind" mongolia="марал, арын, хойд"/>
-	<word id="25048" english=" hind legs" mongolia="хойд хоёр хөл"/>
+	<word id="25048" english="hind legs" mongolia="хойд хоёр хөл"/>
 	<word id="25049" english="hinder" mongolia="арын, хойд"/>
 	<word id="25050" english="hindmost" mongolia="хамгийн арын, их холын"/>
 	<word id="25051" english="hindquarters" mongolia="амьтны бөгсөн бие"/>
@@ -25105,7 +25099,7 @@
 	<word id="25072" english="hit" mongolia="цохилт, амжилтад хүрсэн бүтээл"/>
 	<word id="25073" english="hit parade" mongolia="шилдэг дууны жагсаалт"/>
 	<word id="25074" english="hit out" mongolia="дайрах, довтлох, өдөх"/>
-	<word id="25075" english=" hit back" mongolia="хариу зэмлэх, хариу шүүмжлэх, хариу барих"/>
+	<word id="25075" english="hit back" mongolia="хариу зэмлэх, хариу шүүмжлэх, хариу барих"/>
 	<word id="25076" english="hit the road" mongolia=" аян замдаа гарах, аяллаа эхлэх"/>
 	<word id="25077" english="hitch" mongolia="саад тотгор, зангилаа, хүргуүлэх, дэгээдэх, гогцоо"/>
 	<word id="25078" english="hitchhike" mongolia="замын унаагаар явах"/>
@@ -26510,7 +26504,7 @@
 	<word id="26475" english="intransigent" mongolia="мятаршгүй, цуцашгүй, тууштай"/>
 	<word id="26476" english="intrepid" mongolia="аймшиггүй"/>
 	<word id="26477" english="intricate" mongolia="будилсан, хэцүү, төвөгтэй"/>
-	<word id="26478" english=" intricacy" mongolia="будлиан"/>
+	<word id="26478" english="intricacy" mongolia="будлиан"/>
 	<word id="26479" english="intrigue" mongolia="сонирхлы нь хөдөлгөх, аазгайтуулах, хуйвалдах, нам"/>
 	<word id="26480" english="introduce" mongolia="шинээр нэвтрүүлэх / үйлдвэрлэх / гаргах, оруулах, "/>
 	<word id="26481" english="introduction" mongolia="шинэлэг зүйл гаргах / нэвтрүүлэх, танилцуулах, өмн"/>
@@ -26678,7 +26672,7 @@
 	<word id="26643" english="jet" mongolia="тийрэлтэт нисэх онгоц, ."/>
 	<word id="26644" english="jet black" mongolia="тас хар"/>
 	<word id="26645" english="jetty" mongolia="усан онгоцны зогсоол"/>
-	<word id="26646" english=" jet set" mongolia="баячууд"/>
+	<word id="26646" english="jet set" mongolia="баячууд"/>
 	<word id="26647" english="Jew" mongolia="еврей хүн"/>
 	<word id="26648" english="jewel" mongolia="үнэт чулуу, үнэт эдлэл, эрдэнэ болсон хүн"/>
 	<word id="26649" english="jewelled" mongolia="үнэт чулуутай"/>
@@ -26857,7 +26851,7 @@
 	<word id="26822" english="kick back" mongolia="буу тийрэх, хариулах"/>
 	<word id="26823" english="kick off" mongolia="өшигчин хаях,  уулзалт, тоглолт эхлүүлэх"/>
 	<word id="26824" english="kick out" mongolia="хөөж гаргах"/>
-	<word id="26825" english=" kick up" mongolia="хэл ам удах"/>
+	<word id="26825" english="kick up" mongolia="хэл ам удах"/>
 	<word id="26826" english="kick the habit" mongolia="муу зуршлаа хаях"/>
 	<word id="26827" english="kick the bucket" mongolia="нас барах"/>
 	<word id="26828" english="kicker" mongolia="хэл ам удагч, тангардаг морь, бөмбөг дамжуулагч"/>
@@ -27190,8 +27184,8 @@
 	<word id="27154" english="lees" mongolia=" үлдэгдэл, тундас. шаар, шавхруу"/>
 	<word id="27155" english="leeward" mongolia="нөмөр газар"/>
 	<word id="27156" english="left" mongolia="leave, зүүн, зүүн тийш / талын / гарын"/>
-	<word id="27157" english=" left-handed" mongolia="солгой, солгой гарын"/>
-	<word id="27158" english=" left-hander" mongolia=" солгой хүн, солгой гарын цохилт"/>
+	<word id="27157" english="left-handed" mongolia="солгой, солгой гарын"/>
+	<word id="27158" english="left-hander" mongolia=" солгой хүн, солгой гарын цохилт"/>
 	<word id="27159" english="leftovers" mongolia="хоолны шавхруу / үлдэгдэл"/>
 	<word id="27160" english="leftward" mongolia="зүүн rap тийш "/>
 	<word id="27161" english="leftwards" mongolia="зүүн талд буй, зүүн талын"/>
@@ -27306,7 +27300,7 @@
 	<word id="27270" english="lifeless" mongolia="амьгүй, амьсгалгүй, үхмэл, үхсэн, уйтгартай"/>
 	<word id="27271" english="lifer" mongolia="насаараа гянданд хоригдох ялтан"/>
 	<word id="27272" english="life expectancy" mongolia="амьдрах хугацаа, нас"/>
-	<word id="27273" english=" life giving" mongolia="амьдрал тэтгэх"/>
+	<word id="27273" english="life giving" mongolia="амьдрал тэтгэх"/>
 	<word id="27274" english="life imprisonment" mongolia="бүх насаараа шоронд суух"/>
 	<word id="27275" english="life insurance" mongolia="амь даатгал"/>
 	<word id="27276" english="life threatening" mongolia="амь насанд аюултай"/>
@@ -27422,7 +27416,7 @@
 	<word id="27386" english="livable" mongolia="амьдарч болмоор, боломжтой, гайгүй, нийцэрхэг, хүн"/>
 	<word id="27387" english="live" mongolia="амьд, халуун , нурам/> шууд, чухал, сонирхол"/>
 	<word id="27388" english="livelihood" mongolia="амь зуулга, орлого"/>
-	<word id="27389" english=" live together" mongolia="нэг дор амьдрах"/>
+	<word id="27389" english="live together" mongolia="нэг дор амьдрах"/>
 	<word id="27390" english="lively" mongolia="сэргэлэн, цовоо, золбоотой, хөл хөгжөөнтэй, түргэн"/>
 	<word id="27391" english="liven" mongolia="сэргээх, хөгжөөх, хөөр болох"/>
 	<word id="27392" english="liver" mongolia="элэг"/>
@@ -27442,7 +27436,7 @@
 	<word id="27406" english="loath" mongolia="дургүй, хүсэхгүй"/>
 	<word id="27407" english="loathe" mongolia="дургүйцэх, зэвүүцэх, жигших, үзэн ядах"/>
 	<word id="27408" english="loathing" mongolia="жигшил, зэвүүцэл"/>
-	<word id="27409" english=" loathsome" mongolia="зэвүүн, муухай"/>
+	<word id="27409" english="loathsome" mongolia="зэвүүн, муухай"/>
 	<word id="27410" english="loaves" mongolia="loaf"/>
 	<word id="27411" english="lob" mongolia="бөмбөг дээш нь цохих"/>
 	<word id="27412" english="lobby" mongolia="үүдний өрөө, лобби, улс төрчийг хууль дэмжихийг / "/>
@@ -27481,7 +27475,7 @@
 	<word id="27445" english="logician" mongolia="логикоор мэргэшсэн хүн"/>
 	<word id="27446" english="logical" mongolia="учир зүйн, логикийн, зүй тогтоолтой, эрэмбэ дараат"/>
 	<word id="27447" english="-logy" mongolia="-зүй, ... судлал, -логи"/>
-	<word id="27448" english=" -legist" mongolia="-ч, лч"/>
+	<word id="27448" english="-legist" mongolia="-ч, лч"/>
 	<word id="27449" english="loiter" mongolia="гиюүрэн зогсох"/>
 	<word id="27450" english="loll" mongolia="халхайн cyyx, залхуурсан байдалтай суух, унжих"/>
 	<word id="27451" english="lone" mongolia="ганц биө, ганцаардмал, зожиг"/>
@@ -27535,7 +27529,7 @@
 	<word id="27499" english="lovesick" mongolia="дурлалдаа шаналсан"/>
 	<word id="27500" english="loving" mongolia="хайртай, энхрий, үнэнч"/>
 	<word id="27501" english="low" mongolia="намхан, доод, дорд, бага, доогуур, муу, тааруухан,"/>
-	<word id="27502" english=" low lying" mongolia="нам, дор байдаг"/>
+	<word id="27502" english="low lying" mongolia="нам, дор байдаг"/>
 	<word id="27503" english="lowbrow" mongolia="мөхөс, боловсрол муутай"/>
 	<word id="27504" english="low down" mongolia="өөдгүй, олиггүй"/>
 	<word id="27505" english="lower" mongolia="доошлуулах, доош нь болгох, багасгах, бууруулах, б"/>
@@ -30545,7 +30539,7 @@
 	<word id="30505" english="popularize" mongolia="дэлгэрүүлэх, хялбарчлан дэлгэрүүлэх"/>
 	<word id="30506" english="populate" mongolia="суурьших, нутагших, суурьшуулах"/>
 	<word id="30507" english="population" mongolia="хүн ам"/>
-	<word id="30508" english=" population explosion" mongolia="хүн амын гэнэтийн өсөлт"/>
+	<word id="30508" english="population explosion" mongolia="хүн амын гэнэтийн өсөлт"/>
 	<word id="30509" english="populous" mongolia=" хүн ам шигүү суурьшсан, хүн ам ихтэй"/>
 	<word id="30510" english="porcelain" mongolia="шаазан"/>
 	<word id="30511" english="porch" mongolia=" үүдний пин, сэрүүн тавцан, жигүүрийн асар"/>
@@ -30591,7 +30585,7 @@
 	<word id="30551" english="possible" mongolia=" боломжтой, болмоор, болох, болохуйц"/>
 	<word id="30552" english="possibly" mongolia="бололцоогоор, боломжоор, магадгүй"/>
 	<word id="30553" english="post" mongolia="шон, багана, тулгуур, шуудан"/>
-	<word id="30554" english=" post-office box" mongolia="шуудангийн хайрцаг"/>
+	<word id="30554" english="post-office box" mongolia="шуудангийн хайрцаг"/>
 	<word id="30555" english="postage" mongolia="шуудангийн төлбөр / зардал"/>
 	<word id="30556" english="postal" mongolia="шуудангийн, шуудангаар явуулсан"/>
 	<word id="30557" english="postbag" mongolia="шуудан зөөгчийн богц, уншигчид, үзэгчдээс ирсэн за"/>
@@ -30874,7 +30868,7 @@
 	<word id="30833" english="primary" mongolia="эхний, анхдагч, чухал, тэргүүн, гол, үндсэн"/>
 	<word id="30834" english="primarily" mongolia=" гол төлөв, үндсэндээ, давын өмнө"/>
 	<word id="30835" english="primary colour" mongolia="үндсэн гурван өнгийн нэг"/>
-	<word id="30836" english=" primary education" mongolia="бага боловсрол"/>
+	<word id="30836" english="primary education" mongolia="бага боловсрол"/>
 	<word id="30837" english="primary school" mongolia="бага сургууль"/>
 	<word id="30838" english="primate" mongolia="дээд хамба, бич"/>
 	<word id="30839" english="prime" mongolia="гол, чухал, үндсэн, эн тэргүүний, суурь, анхдагч, "/>
@@ -32592,7 +32586,7 @@
 	<word id="32549" english="safety belt" mongolia="аюулгүйн бүс"/>
 	<word id="32550" english="safety match" mongolia=" шүдэнз"/>
 	<word id="32551" english="safety pin" mongolia="сүлбээр зүү"/>
-	<word id="32552" english=" safety razor" mongolia=" хамгаалалттай сахлын хутга"/>
+	<word id="32552" english="safety razor" mongolia=" хамгаалалттай сахлын хутга"/>
 	<word id="32553" english="sag" mongolia="хотойх, хонхойх, дорогш суух, сулрах, буурах"/>
 	<word id="32554" english="saga" mongolia="тууль"/>
 	<word id="32555" english="sagacious" mongolia="хэрсүү, мэргэн, цэцэн"/>
@@ -32612,7 +32606,7 @@
 	<word id="32569" english="sake" mongolia="саки. цагаан будааны архи"/>
 	<word id="32570" english="salacious" mongolia="балиар, ёс суртахуунгүй, жигшүүрт"/>
 	<word id="32571" english="salad" mongolia="шанцай, шанцайн ургамал"/>
-	<word id="32572" english=" salad dressing" mongolia="шанцайн хольц"/>
+	<word id="32572" english="salad dressing" mongolia="шанцайн хольц"/>
 	<word id="32573" english="salamander" mongolia="тожмой луу"/>
 	<word id="32574" english="salary" mongolia="цалин, хөлс"/>
 	<word id="32575" english="salaried" mongolia="цалинтай /> цалин авдаг "/>
@@ -33815,7 +33809,7 @@
 	<word id="33770" english="window-dressing" mongolia="үзмэрийн цонхыг чимэглэх,  нүд хуурах, үнэн байдлы"/>
 	<word id="33771" english="window-pane" mongolia="цонхны шил"/>
 	<word id="33772" english="window-shopping" mongolia="дэлгүүр хэсэж элдвийг сонирхох"/>
-	<word id="33773" english=" window-sill" mongolia="цонхны тавцан"/>
+	<word id="33773" english="window-sill" mongolia="цонхны тавцан"/>
 	<word id="33774" english="windpipe" mongolia="мөгөөрсөн хоолой"/>
 	<word id="33775" english="windscreen" mongolia="урд талын шил"/>
 	<word id="33776" english="windscreen" mongolia="урд талын шил"/>
@@ -33917,7 +33911,7 @@
 	<word id="33872" english="wholesome" mongolia="эрүүл, саруул, ашигтай, тустай"/>
 	<word id="33873" english="whom" mongolia="хэнд, хэнийг"/>
 	<word id="33874" english="whoop" mongolia="гийнгоо, бүгшүүлсэн ханиалга"/>
-	<word id="33875" english=" whooping-cough" mongolia=" зуу хоногийн ханиад"/>
+	<word id="33875" english="whooping-cough" mongolia=" зуу хоногийн ханиад"/>
 	<word id="33876" english="whopper" mongolia="аварга юм, улаан цайм худал хэлэх"/>
 	<word id="33877" english="whopping" mongolia="аварга том, маш их, үлэмж"/>
 	<word id="33878" english="whore" mongolia="биеэ үнэлэгч, янхан, садар эм, завхайрах"/>
@@ -33947,7 +33941,7 @@
 	<word id="33902" english="White House" mongolia=" Цагаан Ордон, АНУ-ын ерөихийлөгч болон туүний зөв"/>
 	<word id="33903" english="white lie" mongolia="гэм хоргүй хуурах"/>
 	<word id="33904" english="white light" mongolia="ердийн гэрэл"/>
-	<word id="33905" english=" white meat" mongolia="шувуу, гахай, тугалын мах"/>
+	<word id="33905" english="white meat" mongolia="шувуу, гахай, тугалын мах"/>
 	<word id="33906" english="white-out" mongolia="шамарга, цасан шамарга тавих"/>
 	<word id="33907" english="white stick" mongolia="цагаан таяг, хараагүй хүний таяг"/>
 	<word id="33908" english="white" mongolia="цагаан өнгө, цагаан өнгөтэй хувцас, цав цагаан хув"/>
@@ -34040,9 +34034,9 @@
 	<word id="33995" english="wellbeing" mongolia="сайн сайхан"/>
 	<word id="33996" english="wellborn" mongolia="сурвалжит, сайн удамтай"/>
 	<word id="33997" english="well-bred" mongolia="хүмүужилтэй, цэвэр угсааны"/>
-	<word id="33998" english=" well-preserved" mongolia="ануухан, залуугаараа, шинээрээ, сайн хадгалагдсан"/>
+	<word id="33998" english="well-preserved" mongolia="ануухан, залуугаараа, шинээрээ, сайн хадгалагдсан"/>
 	<word id="33999" english="well-read" mongolia="өргөн мэдлэгтэй"/>
-	<word id="34000" english=" well-built" mongolia="бие бялдар сайтай"/>
+	<word id="34000" english="well-built" mongolia="бие бялдар сайтай"/>
 	<word id="34001" english="well-chosen" mongolia="сайтар сонгосон, шилдэг"/>
 	<word id="34002" english="well-cut" mongolia="хийц загвар сайн"/>
 	<word id="34003" english="well-defined" mongolia="илэрхий, тодорхой"/>
@@ -34053,7 +34047,7 @@
 	<word id="34008" english="well-educated" mongolia="боловсролтой"/>
 	<word id="34009" english="well-fed" mongolia="тарган цатгалан"/>
 	<word id="34010" english="well-fed" mongolia="тарган цатгалан"/>
-	<word id="34011" english=" well-founded" mongolia="үндэслэлтэй"/>
+	<word id="34011" english="well-founded" mongolia="үндэслэлтэй"/>
 	<word id="34012" english="well-groomed" mongolia="цэвэр цэмцгэр, биөндээ арчаатай"/>
 	<word id="34013" english="well heeled" mongolia="баян, чинээлэг"/>
 	<word id="34014" english="well-informed" mongolia="мэдээлэл сайтай"/>
@@ -34256,12 +34250,12 @@
 	<word id="34210" english="sultriness" mongolia="халуун, бүгчим"/>
 	<word id="34211" english="sum" mongolia="нийт дүн, нийлбэр, дөрвөн аргын TOO"/>
 	<word id="34212" english="sum up" mongolia="дүгнэх"/>
-	<word id="34213" english=" sum total" mongolia=" нийт дүн"/>
+	<word id="34213" english="sum total" mongolia=" нийт дүн"/>
 	<word id="34214" english="summarize" mongolia="дүгнэх"/>
 	<word id="34215" english="summary" mongolia="товч утга, дүгнэлт, товчлол"/>
 	<word id="34216" english="summation" mongolia="цуглуулга, резюме, товч хураангуй"/>
 	<word id="34217" english="summer" mongolia="зун"/>
-	<word id="34218" english=" summer camp" mongolia="хүүхдийн зуслан"/>
+	<word id="34218" english="summer camp" mongolia="хүүхдийн зуслан"/>
 	<word id="34219" english="summer school" mongolia=" зуны сургууль"/>
 	<word id="34220" english="summer time" mongolia=" зуны улирал"/>
 	<word id="34221" english="summery" mongolia="зуны"/>
@@ -34277,7 +34271,7 @@
 	<word id="34231" english="sun-drenched" mongolia="их нартай, нарлаг"/>
 	<word id="34232" english="sun-dress" mongolia="нарны хувцас"/>
 	<word id="34233" english="sun-glasses" mongolia=" нарны шил"/>
-	<word id="34234" english=" sun-hat" mongolia=" нарны малгай"/>
+	<word id="34234" english="sun-hat" mongolia=" нарны малгай"/>
 	<word id="34235" english="sun-lamp" mongolia="шардаг гэрэл"/>
 	<word id="34236" english="sunless" mongolia="наргүй, нар тусдаггүй"/>
 	<word id="34237" english="sunny" mongolia="нартай, нарлаг"/>
@@ -34556,7 +34550,7 @@
 	<word id="34510" english="taillight" mongolia="аливаа хөсгийн хойт гэрэл"/>
 	<word id="34511" english="tailback" mongolia="осол, аваарын улмаас саатсан машин тэрэгний урт цу"/>
 	<word id="34512" english="tailor" mongolia="оёдолчин"/>
-	<word id="34513" english=" tailor-made" mongolia="эгэл загварын, захиалгаар хийсэн"/>
+	<word id="34513" english="tailor-made" mongolia="эгэл загварын, захиалгаар хийсэн"/>
 	<word id="34514" english="tailpiece" mongolia=" төгсгөлийн хэсэг"/>
 	<word id="34515" english="tailspin" mongolia="онгоц агаарт шумбах, балрах, тэвдэх. бажгадах"/>
 	<word id="34516" english="taint" mongolia="толбо, хар толбо, халдвар, халдах, муудах, эвдрэх"/>
@@ -34649,7 +34643,7 @@
 	<word id="34603" english="tea" mongolia="цай"/>
 	<word id="34604" english="tea party" mongolia="цайллага"/>
 	<word id="34605" english="tea caddy" mongolia="цайны хайрцаг"/>
-	<word id="34606" english=" tea break" mongolia="цайны цаг, цай yyx"/>
+	<word id="34606" english="tea break" mongolia="цайны цаг, цай yyx"/>
 	<word id="34607" english="teach" mongolia="заах, cyprax, багшлах, заах, зааж болмоор, юм сура"/>
 	<word id="34608" english="teacher" mongolia="багш"/>
 	<word id="34609" english="teaching" mongolia="багшлах, багш хийх, сургаал, номлол"/>
@@ -34931,7 +34925,7 @@
 	<word id="34885" english="threaten" mongolia="заналхийлэх, сүрдүүлэх, айлгах"/>
 	<word id="34886" english="threatening" mongolia="заналхийлсэн, тулгарсан"/>
 	<word id="34887" english="three" mongolia="гурав"/>
-	<word id="34888" english=" three-line" mongolia=" гурван зураастай зурвас, маш нууц зурвас"/>
+	<word id="34888" english="three-line" mongolia=" гурван зураастай зурвас, маш нууц зурвас"/>
 	<word id="34889" english="threefold" mongolia="гурав дахин"/>
 	<word id="34890" english="threesome" mongolia=" гурвал, гурван хүний"/>
 	<word id="34891" english="thresh" mongolia="тариа цохих"/>
@@ -35083,7 +35077,7 @@
 	<word id="35036" english="toiler" mongolia="хөдөлмөрч хүн"/>
 	<word id="35037" english="toilet" mongolia="жорлон, жорлонгийн өрөө, бие засах газар, усанд ор"/>
 	<word id="35038" english="toiletries" mongolia="ариун цэврийн хэрэглэл , саван, г.м.)"/>
-	<word id="35039" english=" toilet paper" mongolia="жорлонгийн цаас"/>
+	<word id="35039" english="toilet paper" mongolia="жорлонгийн цаас"/>
 	<word id="35040" english="toilet soap" mongolia="нүүр гарын саван"/>
 	<word id="35041" english="toilet train" mongolia="хүүхдийг хөтөвч дээр сууж сургах"/>
 	<word id="35042" english="toils" mongolia=" хавх, тор, урхи"/>
@@ -35239,7 +35233,7 @@
 	<word id="35192" english="traditionally" mongolia="уламжлал ёсоор"/>
 	<word id="35193" english="traduce" mongolia=" гүтгэх, гүжирдэх, муу хэлэх"/>
 	<word id="35194" english="traffic" mongolia="замын хөдөлгөөн, тээвэр"/>
-	<word id="35195" english=" traffic jam" mongolia="замын хөдөлгөөн боогдох"/>
+	<word id="35195" english="traffic jam" mongolia="замын хөдөлгөөн боогдох"/>
 	<word id="35196" english="tragedy" mongolia="эмгэнэлт жүжиг, эмгэнэлт явдал"/>
 	<word id="35197" english="tragic" mongolia="эмгэнэлт"/>
 	<word id="35198" english="tragicomedy" mongolia="эмгэнэлт хошин жүжиг,  инээдтэй ханиадтай явдал"/>
@@ -36712,7 +36706,7 @@
 	<word id="36663" english="war cry" mongolia="цэргийн уухай, уриа"/>
 	<word id="36664" english="war dance" mongolia="дайны бүжиг"/>
 	<word id="36665" english="warmonger" mongolia="дайн өдөөгч"/>
-	<word id="36666" english=" war of nerves" mongolia="сэтгэхүйн дайн, сэтгэл санааны дайн"/>
+	<word id="36666" english="war of nerves" mongolia="сэтгэхүйн дайн, сэтгэл санааны дайн"/>
 	<word id="36667" english="war of words" mongolia="хэл амаараа дайтах"/>
 	<word id="36668" english="war-torn" mongolia="дайнд эвдэж сүйдсэн"/>
 	<word id="36669" english="warble" mongolia="шувуу жиргэх"/>
@@ -36756,7 +36750,7 @@
 	<word id="36707" english="warrior" mongolia="байлдагч, дайчин"/>
 	<word id="36708" english="warship" mongolia=" байлдааны хөлөг онгоц"/>
 	<word id="36709" english="wart" mongolia="үү"/>
-	<word id="36710" english=" warts and all" mongolia="нэмж хасаагүй, байгаа дүрээрээ"/>
+	<word id="36710" english="warts and all" mongolia="нэмж хасаагүй, байгаа дүрээрээ"/>
 	<word id="36711" english="wartime" mongolia="дайны үе, дайн тулаантай цаг"/>
 	<word id="36712" english="wary" mongolia="хашир, болгоомжтой, хянуур"/>
 	<word id="36713" english="was" mongolia="be"/>
@@ -36810,7 +36804,7 @@
 	<word id="36761" english="water-cannon" mongolia="yc шүршигч машин"/>
 	<word id="36762" english="water-closet" mongolia=" бие засах газар"/>
 	<word id="36763" english="water-colour" mongolia=" усан будаг, усан будгийн эураг"/>
-	<word id="36764" english=" water-cooled" mongolia="усаар хөргөдөг"/>
+	<word id="36764" english="water-cooled" mongolia="усаар хөргөдөг"/>
 	<word id="36765" english="water-hole" mongolia="цөөрөм, услуур, худагч"/>
 	<word id="36766" english="water-ice" mongolia="жимс, чихэртэй мөс"/>
 	<word id="36767" english="water-level" mongolia="усны түвшин"/>
@@ -36819,7 +36813,7 @@
 	<word id="36770" english="water-meadow" mongolia="үерт автдаг нуга"/>
 	<word id="36771" english="water-melone" mongolia="тарвас, шийгуа"/>
 	<word id="36772" english="water-mill" mongolia="усан тээрэм"/>
-	<word id="36773" english=" water-pistol" mongolia=" усан гap буу"/>
+	<word id="36773" english="water-pistol" mongolia=" усан гap буу"/>
 	<word id="36774" english="water polo" mongolia="усан бөмбөг"/>
 	<word id="36775" english="water-power" mongolia="усны эрчим хүч"/>
 	<word id="36776" english="water-rat" mongolia="харзны хар оготно"/>
