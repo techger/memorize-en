@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.memorize.activity.WordAdd"
+    tools:context="com.memorize.Main"
     android:weightSum="1"
     android:layout_margin="10dp">
     <android.support.design.widget.TextInputLayout
@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/save"/>
+        android:src="@drawable/save"
+        android:hint="Хадгалах" />
 
 </LinearLayout>

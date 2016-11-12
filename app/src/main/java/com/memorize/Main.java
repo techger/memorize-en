@@ -1,15 +1,21 @@
 package com.memorize;
 
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.ProgressDialog;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,6 +32,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -83,6 +90,9 @@ public class Main extends AppCompatActivity
     final ArrayList<String> wordListItems = new ArrayList<String>();
     private ArrayAdapter<String> myArrayAdapter;
 
+    private int notification_id = 1;
+
+
     private TextView englishWordInput;
     private TextView wordTypeInput;
     private TextView mongolianWordInput;
@@ -114,6 +124,10 @@ public class Main extends AppCompatActivity
         shakeEventManager = new ShakeEventManager();
         shakeEventManager.setListener(this);
         shakeEventManager.init(this);
+    }
+
+    public void test(){
+        alert.showAlertDialog(getApplicationContext(), "Алдаа", "Ажиллаж байна", false);
     }
 
     private void init(){
@@ -178,18 +192,7 @@ public class Main extends AppCompatActivity
         myshake = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.myshake);
 
         saveButton = (Button) findViewById(R.id.newWordSave);
-        saveButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-            }
-        });
-//        saveButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                addNewWord();
-//            }
-//        });
         dialog.show();
 
         dialog.getWindow().setAttributes(layoutParam);
@@ -248,7 +251,6 @@ public class Main extends AppCompatActivity
                         String type = wordTypeInput.getText().toString();
                         String mongolia = mongolianWordInput.getText().toString();
                         wordsAdapter.addWord(new Word(english, type, mongolia));
-
 
                         Toast.makeText(getApplicationContext(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
@@ -325,18 +327,28 @@ public class Main extends AppCompatActivity
         searchView.setOnQueryTextListener(textChangeListener);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        //noinspection SimplifiableIfStatement
+
         if (id == R.id.action_settings) {
             return true;
+        } else if (id == R.id.private_notification) {
+            presentNotification(Notification.VISIBILITY_PRIVATE, R.drawable.done, getRet(), getString(R.string.public_text));
+            return true;
+        } else if (id == R.id.public_notification) {
+            presentNotification(Notification.VISIBILITY_PUBLIC, R.drawable.done, getString(R.string.public_title), getString(R.string.public_text));
+            return true;
+        } else if (id == R.id.heads_up_notification) {
+            presentHeadsUpNotification(Notification.VISIBILITY_PUBLIC, R.drawable.done, getString(R.string.heads_up_title), getString(R.string.heads_up_text));
+            return true;
         }
+        notification_id++;
+
         return super.onOptionsItemSelected(item);
     }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -367,6 +379,57 @@ public class Main extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    private String getRet(){
+        wordsAdapter = new WordsAdapter(this);
+        List<String> remember = new ArrayList<String>();
+        //qList.add("");
+        Random random = new Random();
+        List<Word> rememberWords = wordsAdapter.getAllWords();
+        for (Word rememberWord : rememberWords){
+            String listWord = "\n"+rememberWord.getEnglish() +" - "+
+                    rememberWord.getMongolia();
+            remember.add(listWord);
+        }
+        final String item = remember.get(random.nextInt(remember.size()));
+        return item;
+    }
+    private void presentNotification(int visibility, int icon, String title, String text) {
+
+
+        Notification notification = new NotificationCompat.Builder(this)
+                .setCategory(Notification.CATEGORY_MESSAGE)
+                .setContentTitle(title)
+                .setContentText(text)
+                .setSmallIcon(icon)
+                .setAutoCancel(true)
+                .setVisibility(visibility).build();
+        NotificationManager notificationManager =
+                (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        notificationManager.notify(notification_id, notification);
+    }
+
+    private void presentHeadsUpNotification(int visibility, int icon, String title, String text) {
+        Intent notificationIntent = new Intent(Intent.ACTION_VIEW);
+        notificationIntent.setData(Uri.parse("http://www.github.com/tortuvshin/memorize"));
+        PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
+
+        Notification notification = new NotificationCompat.Builder(this)
+                .setCategory(Notification.CATEGORY_PROMO)
+                .setContentTitle(title)
+                .setContentText(text)
+                .setSmallIcon(icon)
+                .setAutoCancel(true)
+                .setVisibility(visibility)
+                .addAction(android.R.drawable.ic_menu_view, getString(R.string.view_details), contentIntent)
+                .setContentIntent(contentIntent)
+                .setPriority(Notification.PRIORITY_HIGH)
+                .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000}).build();
+        NotificationManager notificationManager =
+                (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        notificationManager.notify(notification_id, notification);
+    }
+
 
     @Override
     public void onBackPressed() {

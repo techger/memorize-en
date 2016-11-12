@@ -41,12 +41,6 @@
             android:id="@+id/englishText"
             android:autoText="false" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
-            android:id="@+id/typeText" />
 
         <TextView
             android:layout_width="wrap_content"
