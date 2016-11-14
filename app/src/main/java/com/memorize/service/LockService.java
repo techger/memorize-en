@@ -2,6 +2,7 @@ package com.memorize.service;
 
 import android.app.Activity;
 import android.app.KeyguardManager;
+import android.app.Notification;
 import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -10,12 +11,16 @@ import android.content.IntentFilter;
 import android.os.IBinder;
 import android.widget.Toast;
 
+import com.memorize.Main;
+import com.memorize.R;
 import com.memorize.activity.Locker;
 
 /**
  * Created by Tortuvshin on 11/19/2015.
  */
 public class LockService extends Service {
+
+    private Main mainAc;
 
     private static final String TAG = "===LockService===";
     private KeyguardManager km = null;
@@ -26,9 +31,8 @@ public class LockService extends Service {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if(action.equals("android.intent.action.SCREEN_OFF")){
-                Intent i = new Intent(context, Locker.class);
-                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                context.startActivity(i);
+                mainAc.presentNotification();
+
             }
         }
     };

@@ -4,6 +4,7 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -92,7 +93,6 @@ public class Main extends AppCompatActivity
 
     private int notification_id = 1;
 
-
     private TextView englishWordInput;
     private TextView wordTypeInput;
     private TextView mongolianWordInput;
@@ -126,10 +126,6 @@ public class Main extends AppCompatActivity
         shakeEventManager.init(this);
     }
 
-    public void test(){
-        alert.showAlertDialog(getApplicationContext(), "Алдаа", "Ажиллаж байна", false);
-    }
-
     private void init(){
 
         wordList = (ListView)findViewById(R.id.wordListView);
@@ -147,7 +143,6 @@ public class Main extends AppCompatActivity
             Log.d(TAG, "Үг нэмж байна...");
             for (Word word : words){
                 String wordAdd = word.getEnglish();
-                //  Log.d(TAG,wordAdd);
                 wordListItems.add(0, wordAdd);
             }
         }catch (NullPointerException npe){
@@ -333,12 +328,8 @@ public class Main extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-            return true;
-        } else if (id == R.id.private_notification) {
-            presentNotification(Notification.VISIBILITY_PRIVATE, R.drawable.done, getRet(), getString(R.string.public_text));
-            return true;
-        } else if (id == R.id.public_notification) {
-            presentNotification(Notification.VISIBILITY_PUBLIC, R.drawable.done, getString(R.string.public_title), getString(R.string.public_text));
+            Intent intent = new Intent(Main.this, Settings.class);
+            startActivity(intent);
             return true;
         } else if (id == R.id.heads_up_notification) {
             presentHeadsUpNotification(Notification.VISIBILITY_PUBLIC, R.drawable.done, getString(R.string.heads_up_title), getString(R.string.heads_up_text));
@@ -348,7 +339,6 @@ public class Main extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
-
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -380,7 +370,7 @@ public class Main extends AppCompatActivity
         return true;
     }
 
-    private String getRet(){
+    public String getRet(){
         wordsAdapter = new WordsAdapter(this);
         List<String> remember = new ArrayList<String>();
         //qList.add("");
@@ -394,16 +384,14 @@ public class Main extends AppCompatActivity
         final String item = remember.get(random.nextInt(remember.size()));
         return item;
     }
-    private void presentNotification(int visibility, int icon, String title, String text) {
-
-
+    public void presentNotification() {
         Notification notification = new NotificationCompat.Builder(this)
                 .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle(title)
-                .setContentText(text)
-                .setSmallIcon(icon)
+                .setContentTitle(getRet())
+                .setContentText(getString(R.string.public_text))
+                .setSmallIcon(R.drawable.done)
                 .setAutoCancel(true)
-                .setVisibility(visibility).build();
+                .setVisibility(Notification.VISIBILITY_PRIVATE).build();
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         notificationManager.notify(notification_id, notification);
