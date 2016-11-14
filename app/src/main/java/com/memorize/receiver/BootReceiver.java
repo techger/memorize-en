@@ -13,7 +13,6 @@ import com.memorize.service.DesktopButtonService;
  */
 public class BootReceiver extends BroadcastReceiver {
 
-    private static final String TAG = "===BootReceiver===";
     private SharedPreferences preferences;
 
     @Override

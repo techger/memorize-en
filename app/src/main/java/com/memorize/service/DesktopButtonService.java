@@ -30,8 +30,6 @@ import com.memorize.R;
  */
 public class DesktopButtonService extends Service {
 
-    private static final String TAG = "=DesktopButtonService=";
-
     WindowManager windowManager;
     ImageButton floatingButton;
     DatabaseHelper databaseHelper;

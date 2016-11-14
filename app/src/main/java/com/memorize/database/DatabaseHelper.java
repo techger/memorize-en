@@ -15,6 +15,7 @@ import com.memorize.R;
 /**
  * @author Tortuvshin Byambaa
  */
+
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private Context myContext;
@@ -60,14 +61,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             int eventType = _xml.getEventType();
             while (eventType != XmlPullParser.END_DOCUMENT) {
                 if ((eventType == XmlPullParser.START_TAG) &&(_xml.getName().equals("word"))){
-                    String word_id = _xml.getAttributeValue(null, WordsAdapter.WORD_ID);
-                    String word_eng =  _xml.getAttributeValue(null, WordsAdapter.WORD_ENG);
+                    String word_id  = _xml.getAttributeValue(null, WordsAdapter.WORD_ID);
+                    String word_eng = _xml.getAttributeValue(null, WordsAdapter.WORD_ENG);
                     String word_mon = _xml.getAttributeValue(null, WordsAdapter.WORD_MON);
                     contentValues.put(WordsAdapter.WORD_ID, word_id);
                     contentValues.put(WordsAdapter.WORD_ENG, word_eng);
                     contentValues.put(WordsAdapter.WORD_MON, word_mon);
                     db.insert(WordsAdapter.TABLE_WORDS, null, contentValues);
-                    Log.d(TAG,"XML-ээс амжилттай уншлаа...");
                 }
                 eventType = _xml.next();
             }

@@ -12,8 +12,6 @@ import android.util.Log;
 
 public class ShakeEventManager implements SensorEventListener {
 
-    private static final String TAG = "ShakeEventManager===";
-
     private SensorManager sManager;
     private Sensor s;
 
@@ -22,7 +20,6 @@ public class ShakeEventManager implements SensorEventListener {
     private static final float ALPHA = 0.8F;
     private static final int SHAKE_WINDOW_TIME_INTERVAL = 500; // milliseconds
 
-    // Gravity force on x,y,z axis
     private float gravity[] = new float[3];
 
     private int counter;
