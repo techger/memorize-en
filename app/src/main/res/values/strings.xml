@@ -28,6 +28,11 @@
     <string name="english_word">Англи үг</string>
     <string name="edit_word">Засах</string>
     <string name="save_word">Хадгалах</string>
+    <string name="admin_enable">Админ эрх идэвхжүүллээ</string>
+    <string name="admin_disable">Админ эрх идэвхгүй болголоо</string>
+    <string name="msg_true">Тийм</string>
+    <string name="msg_false">Үгүй</string>
+
 
 
     <string name="private_notification">Push Private Notification</string>

@@ -57,7 +57,7 @@ public class WordAdd extends AppCompatActivity {
         shake = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.shake);
         myshake = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.myshake);
 
-        saveButton = (FloatingActionButton)findViewById(R.id.newWordSave);
+//        saveButton = (FloatingActionButton)findViewById(R.id.newWordSave);
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -16,7 +16,8 @@ import com.memorize.service.UpdateWidgetService;
 public class WordWidget extends AppWidgetProvider {
 
     @Override
-    public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
+    public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds)
+    {
         super.onUpdate(context, appWidgetManager, appWidgetIds);
 
         RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.word_widget);

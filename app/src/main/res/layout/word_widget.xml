@@ -18,11 +18,4 @@
         android:background="@color/tra"
         android:textColor="@android:color/white"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/widgetSaveButton"
-        android:drawableLeft="@drawable/success"
-        android:text="Цээжилсэн"/>
-
 </LinearLayout>

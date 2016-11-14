@@ -30,14 +30,12 @@ public class WordDetail extends AppCompatActivity {
 
     SharedPreferences.Editor editor;
     public TextView english;
-    public TextView wordtype;
     public TextView mongolia;
     FloatingActionButton editFButton;
     FloatingActionButton wordListFButton;
     WordsAdapter wordsAdapter;
     RememberWordsAdapter rememberWordsAdapter;
     String eng = "";
-    String type = "";
     String mon = "";
 
     @Override
@@ -50,7 +48,7 @@ public class WordDetail extends AppCompatActivity {
 
     public void init(){
         english = (TextView)findViewById(R.id.englishText);
-        wordtype = (TextView)findViewById(R.id.typeText);
+//        wordtype = (TextView)findViewById(R.id.typeText);
         mongolia= (TextView)findViewById(R.id.mongolianText);
         wordsAdapter = new WordsAdapter(this);
         rememberWordsAdapter = new RememberWordsAdapter(this);
@@ -60,10 +58,8 @@ public class WordDetail extends AppCompatActivity {
 
         Word word = wordsAdapter.getWord(searchedWord);
         eng = word.getEnglish();
-        type = word.getType();
         mon = word.getMongolia();
         english.setText(eng);
-        wordtype.setText(type);
         mongolia.setText(mon);
 
         editFButton = (FloatingActionButton)findViewById(R.id.editFButton);
@@ -73,13 +69,10 @@ public class WordDetail extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 editor.putString("denglish", english.getText().toString());
-                editor.putString("dtype", wordtype.getText().toString());
                 editor.putString("dmongolia", mongolia.getText().toString());
                 editor.commit();
                 Intent intent = new Intent(WordDetail.this, WordEdit.class);
                 startActivity(intent);
-                Log.d(TAG, english.getText().toString() + "" + wordtype.getText().toString() + "" + mongolia.getText().toString());
-
                 Snackbar.make(v, "Үг засах хэсэг", Snackbar.LENGTH_LONG)
                         .setAction("Action", null)
                         .show();
@@ -91,23 +84,20 @@ public class WordDetail extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String eng = english.getText().toString();
-                String type = wordtype.getText().toString();
                 String mon = mongolia.getText().toString();
                 Cursor words = rememberWordsAdapter.checkRememberWord(eng);
                 if (words == null) {
                     Snackbar.make(v, "Өгөгдлийн сангийн query алдаатай байна...", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
-                    Log.d(TAG,"Өгөгдлийн сангийн query алдаатай байна");
                 } else {
                     startManagingCursor(words);
                     if (words.getCount() > 0) {
                         Snackbar.make(v, "Бүртгэлтэй үг байна...", Snackbar.LENGTH_LONG)
                                 .setAction("Action", null).show();
-                        Log.d(TAG,"Бүртгэлтэй үг байна");
                         stopManagingCursor(words);
                         words.close();
                     } else {
-                        rememberWordsAdapter.addRememberWord(new RememberWord(eng, type, mon));
+//                        rememberWordsAdapter.addRememberWord(new RememberWord(eng, type, mon));
                         Toast.makeText(getApplicationContext(), "Амжилттай нэмлээ", Toast.LENGTH_SHORT).show();
                         Log.d(TAG, "Амжилттай нэмлээ");
                         Snackbar.make(v, "Цээжлэх үгийн жагсаалтанд амжилттай нэмэгдлээ...", Snackbar.LENGTH_LONG)
