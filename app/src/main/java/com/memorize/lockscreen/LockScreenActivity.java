@@ -82,13 +82,11 @@ public class LockScreenActivity extends AppCompatActivity{
         finish();
     }
 
-
     private void initLockScreenUi() {
         setContentView(R.layout.activity_lockscreen);
         mLockscreenMainLayout = (RelativeLayout) findViewById(R.id.lockscreen_main_layout);
         mLockscreenMainLayout.getBackground().setAlpha(15);
     }
-
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
@@ -116,20 +114,15 @@ public class LockScreenActivity extends AppCompatActivity{
     @Override
     protected void onResume() {
         super.onResume();
-
-
     }
-
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
     }
 
-
     @Override
     protected void onPostResume() {
         super.onPostResume();
     }
-
 }

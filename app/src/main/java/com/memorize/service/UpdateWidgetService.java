@@ -21,6 +21,7 @@ public class UpdateWidgetService extends Service {
 
     private static final String TAG = "===WordWidgetUpdate===";
     RememberWordsAdapter rememberWordsAdapter;
+
     @Override
     public IBinder onBind(Intent arg0) {
         return null;

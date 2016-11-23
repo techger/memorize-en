@@ -7,6 +7,7 @@ import android.graphics.PixelFormat;
 import android.os.Build;
 import android.os.IBinder;
 import android.os.Message;
+import android.provider.Settings;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -21,6 +22,7 @@ import android.widget.Toast;
 
 import com.memorize.R;
 import com.memorize.lockscreen.LockScreen;
+import com.memorize.lockscreen.LockScreenActivity;
 import com.memorize.lockscreen.LockScreenUtil;
 import com.memorize.lockscreen.SharedPreferencesUtil;
 import com.romainpiel.shimmer.Shimmer;
@@ -166,6 +168,9 @@ public class LockScreenViewService extends Service {
 
             if(Build.VERSION.SDK_INT >= 23) {
                 Toast.makeText(getBaseContext(), "API 23 аас их байна", Toast.LENGTH_LONG).show();
+
+                Intent myIntent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION);
+                startActivity(myIntent);
 
                 mWindowManager.addView(mLockscreenView, mParams);
             }

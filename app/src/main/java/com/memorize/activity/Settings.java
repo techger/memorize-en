@@ -142,7 +142,6 @@ public class Settings extends AppCompatActivity {
 
     }
 
-
     private void startEnableAdminIntent() {
         Intent intent = new Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN);
         intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, componentName);
