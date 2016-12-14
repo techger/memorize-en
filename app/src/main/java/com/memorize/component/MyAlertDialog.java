@@ -8,8 +8,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 
 import com.memorize.R;
-
-
+@Deprecated
 public class MyAlertDialog {
     public void showAlertDialog(Context context, String title, String message,
                                 Boolean status) {
