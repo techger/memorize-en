@@ -7,4 +7,7 @@
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="toggle_button_size">24dp</dimen>
+
+    <dimen name="search_icon_padding">12dp</dimen>
+    <dimen name="search_view_text_padding">8dp</dimen>
 </resources>
