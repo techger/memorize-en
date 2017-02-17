@@ -18,11 +18,6 @@ import com.memorize.database.WordsAdapter;
 import com.memorize.model.Word;
 import com.memorize.service.ServerRequest;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.List;
 @Deprecated
@@ -37,8 +32,6 @@ public class WordAdd extends AppCompatActivity {
     MyAlertDialog alert;
     Animation shake;
     Animation myshake;
-
-    List<NameValuePair> params;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,28 +68,6 @@ public class WordAdd extends AppCompatActivity {
         String english = englishWordInput.getText().toString();
         String type = wordTypeInput.getText().toString();
         String mongolia = mongolianWordInput.getText().toString();
-
-        params = new ArrayList<NameValuePair>();
-        params.add(new BasicNameValuePair("eng", english));
-        params.add(new BasicNameValuePair("type", type));
-        params.add(new BasicNameValuePair("mon", mongolia));
-
-        ServerRequest sr = new ServerRequest();
-        JSONObject json = sr.getJSON("https://memorize-server-tortuvshin.c9users.io/addword",params);
-
-        if(json != null){
-            try{
-                String jsonstr = json.getString("response");
-
-                Toast.makeText(getApplication(),jsonstr,Toast.LENGTH_LONG).show();
-
-                Log.d("Hello", jsonstr);
-
-            }catch (JSONException e) {
-                e.printStackTrace();
-                Log.e("Алдаа"," алдаа"+e);
-            }
-        }
         final ProgressDialog progressDialog = new ProgressDialog(WordAdd.this,
                 R.style.AppTheme_Dark_Dialog);
         progressDialog.setIndeterminate(true);

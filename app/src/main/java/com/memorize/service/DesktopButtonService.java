@@ -62,9 +62,9 @@ public class DesktopButtonService extends Service {
         startForeground(android.os.Process.myPid(), new NotificationCompat.Builder(this)
                 .setContentTitle("Англи үг цээжлэх")
                 .setContentText("Англи үг цээжлэх програмд нэвтрэх")
-                .setSmallIcon(R.drawable.programmer)
+                .setSmallIcon(R.drawable.done)
                 .setContentIntent(pIntent)
-                .addAction(R.drawable.programmer, "Lock", bpIntent)
+                .addAction(R.drawable.done, "Lock", bpIntent)
                 .build());
         return START_STICKY;
     }
@@ -79,7 +79,7 @@ public class DesktopButtonService extends Service {
         floatingButton = new ImageButton(this);
         floatingButton.setLayoutParams(new ViewGroup.LayoutParams(48, 48));
         floatingButton.setBackgroundResource(R.drawable.circle_button);
-        floatingButton.setImageResource(R.drawable.programmer);
+        floatingButton.setImageResource(R.drawable.done);
 
         final WindowManager.LayoutParams params = new WindowManager.LayoutParams(
                 100, 100, WindowManager.LayoutParams.TYPE_PHONE,

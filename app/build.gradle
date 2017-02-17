@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.0"
-    useLibrary  'org.apache.http.legacy'
     dexOptions {
         // Skip pre-dexing when running on Travis CI or when disabled via -Dpre-dex=false.
         preDexLibraries = preDexEnabled && !travisBuild
@@ -31,8 +30,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.android.support:design:23.4.0'
     compile 'com.romainpiel.shimmer:library:1.4.0@aar'
-    compile 'org.apache.httpcomponents:httpcore:4.4.1'
-    compile 'org.apache.httpcomponents:httpclient:4.5'
-    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
     androidTestCompile 'org.testng:testng:6.9.6'
 }

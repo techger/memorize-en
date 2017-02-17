@@ -9,7 +9,7 @@
             android:title="Цээжлэх үгс" />
         <item android:id="@+id/settings" android:icon="@drawable/settings"
             android:title="Тохиргоо" />
-        <item android:id="@+id/github" android:icon="@drawable/programmer"
+        <item android:id="@+id/github" android:icon="@mipmap/ic_launcher"
             android:title="github.io" />
 
     </group>
