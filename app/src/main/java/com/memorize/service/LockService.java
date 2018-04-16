@@ -31,8 +31,6 @@ public class LockService extends Service {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if(action.equals("android.intent.action.SCREEN_OFF")){
-                mainAc.presentNotification();
-
             }
         }
     };

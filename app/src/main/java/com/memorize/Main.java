@@ -1,36 +1,5 @@
 package com.memorize;
 
-import android.app.Notification;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.app.ProgressDialog;
-import android.content.BroadcastReceiver;
-import android.database.Cursor;
-import android.net.Uri;
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.NotificationCompat;
-import android.util.Log;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.ScrollView;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.memorize.R;
-import com.memorize.component.MyAlertDialog;
-import com.memorize.database.WordsAdapter;
-import com.memorize.model.Word;
-import com.memorize.service.ServerRequest;
-
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.app.SearchManager;
@@ -41,14 +10,15 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -57,15 +27,25 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.memorize.activity.Settings;
 import com.memorize.activity.Web;
 import com.memorize.activity.WordDetail;
 import com.memorize.activity.WordRemember;
+import com.memorize.component.MyAlertDialog;
 import com.memorize.database.RememberWordsAdapter;
+import com.memorize.database.WordsAdapter;
 import com.memorize.model.RememberWord;
+import com.memorize.model.Word;
 import com.memorize.sensor.ShakeEventManager;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, ShakeEventManager.ShakeListener {
@@ -304,11 +284,7 @@ public class Main extends AppCompatActivity
             Intent intent = new Intent(Main.this, Settings.class);
             startActivity(intent);
             return true;
-        } else if (id == R.id.heads_up_notification) {
-            presentHeadsUpNotification(Notification.VISIBILITY_PUBLIC, R.drawable.done, getString(R.string.heads_up_title), getString(R.string.heads_up_text));
-            return true;
         }
-        notification_id++;
 
         return super.onOptionsItemSelected(item);
     }
@@ -357,41 +333,6 @@ public class Main extends AppCompatActivity
         final String item = remember.get(random.nextInt(remember.size()));
         return item;
     }
-    public void presentNotification() {
-        Notification notification = new NotificationCompat.Builder(this)
-                .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle(getRet())
-                .setContentText(getString(R.string.public_text))
-                .setSmallIcon(R.drawable.done)
-                .setAutoCancel(true)
-                .setVisibility(Notification.VISIBILITY_PRIVATE).build();
-        NotificationManager notificationManager =
-                (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        notificationManager.notify(notification_id, notification);
-    }
-
-    private void presentHeadsUpNotification(int visibility, int icon, String title, String text) {
-        Intent notificationIntent = new Intent(Intent.ACTION_VIEW);
-        notificationIntent.setData(Uri.parse("http://www.github.com/tortuvshin/memorize"));
-        PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
-
-        Notification notification = new NotificationCompat.Builder(this)
-                .setCategory(Notification.CATEGORY_PROMO)
-                .setContentTitle(title)
-                .setContentText(text)
-                .setSmallIcon(icon)
-                .setAutoCancel(true)
-                .setVisibility(visibility)
-                .addAction(android.R.drawable.ic_menu_view, getString(R.string.view_details), contentIntent)
-                .setContentIntent(contentIntent)
-                .setPriority(Notification.PRIORITY_HIGH)
-                .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000}).build();
-        NotificationManager notificationManager =
-                (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        notificationManager.notify(notification_id, notification);
-    }
-
-
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
